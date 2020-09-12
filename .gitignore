@@ -1,4 +1,3 @@
-
 # Created by https://www.toptal.com/developers/gitignore/api/java,code,intellij+all,kotlin,scala,maven,gradle,groovy
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,code,intellij+all,kotlin,scala,maven,gradle,groovy
 
@@ -215,9 +214,6 @@ gradle-app.setting
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-
-.metals/metals.h2.db
-.metals/metals.lock.db
 
 .fake
 .ionide
