@@ -15,7 +15,7 @@ import java.util.Map;
 import java.util.function.BiFunction;
 import java.util.stream.Collectors;
 
-public class Solution {
+class Solution {
     private static final String LINE_END = "\n";
     private static final String TOTAL_CUSTOMERS = "Total customers:" + LINE_END;
     private static final String CUSTOMERS_BY_CITY = "Customers by city:" + LINE_END;
