@@ -1,13 +1,9 @@
 package test001.versions;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.databind.MappingIterator;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectReader;
-
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.function.BiFunction;
@@ -231,14 +227,13 @@ class Solution {
 
             result.setTotalCustomers(dataCollection.size());
             result.setCustomersByCity(dataCollection.stream()
-                            .collect(Collectors.groupingBy((Solution.DataEntry item) -> item.getCity(), // Collectors.counting()))
+                    .sorted(Comparator.comparing((Solution.DataEntry item) -> item.getCity()))
+                            .collect(Collectors.groupingBy((Solution.DataEntry item) -> item.getCity(),
                                     Collectors.summingInt(item -> 1)))
-//                .entrySet()
-//                .stream().sorted()
-//                .collect(Collectors.toMap(item -> item.getKey(), item -> item.getValue()))
             );
             result.setCustomersByCountry(dataCollection.stream()
-                    .collect(Collectors.groupingBy((Solution.DataEntry item) -> item.getCountry(), //Collectors.counting()))
+                    .sorted(Comparator.comparing((Solution.DataEntry item) -> item.getCountry()))
+                    .collect(Collectors.groupingBy((Solution.DataEntry item) -> item.getCountry(),
                             Collectors.summingInt(item -> 1)))
             );
 
@@ -272,14 +267,16 @@ class Solution {
             result += CUSTOMERS_BY_CITY;
             result += report.getCustomersByCity()
                     .entrySet()
-                    .stream().sorted()
-                    .map(item -> CITY_TEMPLATE.apply(item.getKey(), item.getValue()));
+                    .stream()
+                    .map(item -> CITY_TEMPLATE.apply(item.getKey(), item.getValue()))
+                    .collect(Collectors.joining());
 
             result += CUSTOMERS_BY_COUNTRY;
             result += report.getCustomersByCountry()
                     .entrySet()
-                    .stream().sorted()
-                    .map(item -> COUNTRY_TEMPLATE.apply(item.getKey(), item.getValue()));
+                    .stream()
+                    .map(item -> COUNTRY_TEMPLATE.apply(item.getKey(), item.getValue()))
+                    .collect(Collectors.joining());
 
             result += COUNTRY_WITH_LARGEST;
             result += COUNTRY_TOP_TEMPLATE.apply(report.getTopContractNumberByCountry().getKey(), report.getTopContractNumberByCountry().getValue());
