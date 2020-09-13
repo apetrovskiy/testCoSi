@@ -1,4 +1,4 @@
-package test001.starts;
+package test001.stats;
 
 public class Stats {
 }
