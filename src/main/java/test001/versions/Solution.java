@@ -17,9 +17,11 @@ class Solution {
     private static final String LINE_END = "\n";
     private static final String TOTAL_CUSTOMERS = "Total customers:" + LINE_END;
     private static final String CUSTOMERS_BY_CITY = "Customers by city:" + LINE_END;
-    private static final BiFunction<String, Long, String> CITY_TEMPLATE = (city, number) -> String.format("%s: %s" + LINE_END, city, number);
+    private static final BiFunction<String, Integer, String> CITY_TEMPLATE = (city, number) -> String.format("%s: %s" + LINE_END, city, number);
     private static final String CUSTOMERS_BY_COUNTRY = "Customers by country:" + LINE_END;
+    private static final BiFunction<String, Integer, String> COUNTRY_TEMPLATE = (country, number) -> String.format("%s: %s" + LINE_END, country, number);
     private static final String COUNTRY_WITH_LARGEST = "Country with the largest number of customers' contracts:" + LINE_END;
+    private static final BiFunction<String, Integer, String> COUNTRY_TOP_TEMPLATE = (country, number) -> String.format("%s (%s contracts)" + LINE_END, country, number);
     private static final String UNIQUE_CITIES = "Unique cities with at least one customer:" + LINE_END;
 
     public static void main(String[] args) {
@@ -114,10 +116,10 @@ class Solution {
 
     public static class Report {
         private int totalCustomers;
-        private Map<String, Long> customersByCity;
+        private Map<String, Integer> customersByCity;
         private Map<String, Integer> customersByCountry;
-        private Map<String, Integer> topContractNumberByCountry;
-        private int uniqueCitiesForTop;
+        private Map.Entry<String, Integer> topContractNumberByCountry;
+        private Long uniqueCitiesForTop;
 
         public int getTotalCustomers() {
             return totalCustomers;
@@ -127,11 +129,11 @@ class Solution {
             this.totalCustomers = totalCustomers;
         }
 
-        public Map<String, Long> getCustomersByCity() {
+        public Map<String, Integer> getCustomersByCity() {
             return customersByCity;
         }
 
-        public void setCustomersByCity(Map<String, Long> customersByCity) {
+        public void setCustomersByCity(Map<String, Integer> customersByCity) {
             this.customersByCity = customersByCity;
         }
 
@@ -143,19 +145,19 @@ class Solution {
             this.customersByCountry = customersByCountry;
         }
 
-        public Map<String, Integer> getTopContractNumberByCountry() {
+        public Map.Entry<String, Integer> getTopContractNumberByCountry() {
             return topContractNumberByCountry;
         }
 
-        public void setTopContractNumberByCountry(Map<String, Integer> topContractNumberByCountry) {
+        public void setTopContractNumberByCountry(Map.Entry<String, Integer> topContractNumberByCountry) {
             this.topContractNumberByCountry = topContractNumberByCountry;
         }
 
-        public int getUniqueCitiesForTop() {
+        public Long getUniqueCitiesForTop() {
             return uniqueCitiesForTop;
         }
 
-        public void setUniqueCitiesForTop(int uniqueCitiesForTop) {
+        public void setUniqueCitiesForTop(Long uniqueCitiesForTop) {
             this.uniqueCitiesForTop = uniqueCitiesForTop;
         }
     }
@@ -176,14 +178,11 @@ class Solution {
             var resultCollection = new ArrayList<Solution.DataEntry>();
 
             try (var fileReader = new FileReader(csvFilePath)) {
-                // MappingIterator<Solution.DataEntry> mi = oReader.readValues(reader);
-                var bufferedReader = new BufferedReader(fileReader);  //creates a buffering character input stream
-                var stringBuffer = new StringBuffer();    //constructs a string buffer with no characters
+                var bufferedReader = new BufferedReader(fileReader);
+                var stringBuffer = new StringBuffer();
                 String line;
                 bufferedReader.readLine();
                 while ((line = bufferedReader.readLine()) != null) {
-//                    System.out.println(line);
-                    // TODO: to delete
                     final var dataEntry = new Solution.DataEntry();
                     dataEntry.setId(getFirstSection(line));
                     line = getStringAfterTheFirstComma(line);
@@ -232,10 +231,35 @@ class Solution {
 
             result.setTotalCustomers(dataCollection.size());
             result.setCustomersByCity(dataCollection.stream()
-                            .collect(Collectors.groupingBy((Solution.DataEntry item) -> item.getCity(), Collectors.counting()))
+                            .collect(Collectors.groupingBy((Solution.DataEntry item) -> item.getCity(), // Collectors.counting()))
+                                    Collectors.summingInt(item -> 1)))
 //                .entrySet()
 //                .stream().sorted()
 //                .collect(Collectors.toMap(item -> item.getKey(), item -> item.getValue()))
+            );
+            result.setCustomersByCountry(dataCollection.stream()
+                    .collect(Collectors.groupingBy((Solution.DataEntry item) -> item.getCountry(), //Collectors.counting()))
+                            Collectors.summingInt(item -> 1)))
+            );
+
+            result.setTopContractNumberByCountry(
+                    dataCollection.stream()
+                            .collect(Collectors.groupingBy((Solution.DataEntry item) -> item.getCountry(), Collectors.summingInt(i -> i.getContractCount())))
+                    .entrySet()
+                    .stream()
+                            .max(
+                                    (Map.Entry<String, Integer> e1, Map.Entry<String, Integer> e2) -> e1.getValue()
+                                    .compareTo(e2.getValue())
+                            )
+                            .get()
+            );
+
+            result.setUniqueCitiesForTop(
+                    dataCollection.stream()
+                    .filter(item -> 0 < item.getEmployeeCount())
+                    .map(item -> item.getCity())
+                    .distinct()
+                    .count()
             );
 
             return result;
@@ -252,13 +276,17 @@ class Solution {
                     .map(item -> CITY_TEMPLATE.apply(item.getKey(), item.getValue()));
 
             result += CUSTOMERS_BY_COUNTRY;
-
+            result += report.getCustomersByCountry()
+                    .entrySet()
+                    .stream().sorted()
+                    .map(item -> COUNTRY_TEMPLATE.apply(item.getKey(), item.getValue()));
 
             result += COUNTRY_WITH_LARGEST;
-
+            result += COUNTRY_TOP_TEMPLATE.apply(report.getTopContractNumberByCountry().getKey(), report.getTopContractNumberByCountry().getValue());
 
             result += UNIQUE_CITIES;
-
+            result += report.getUniqueCitiesForTop();
+            result += LINE_END;
 
             return result;
         }
