@@ -2,10 +2,7 @@ package test001.versions;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.function.BiFunction;
 import java.util.stream.Collectors;
 
@@ -227,14 +224,23 @@ class Solution {
 
             result.setTotalCustomers(dataCollection.size());
             result.setCustomersByCity(dataCollection.stream()
-                    .sorted(Comparator.comparing((Solution.DataEntry item) -> item.getCity()))
                             .collect(Collectors.groupingBy((Solution.DataEntry item) -> item.getCity(),
                                     Collectors.summingInt(item -> 1)))
+                    .entrySet()
+                    .stream()
+                            .sorted(Map.Entry.comparingByKey())
+                    .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue,
+                            (oldValue, newValue) -> oldValue, LinkedHashMap::new))
             );
             result.setCustomersByCountry(dataCollection.stream()
                     .sorted(Comparator.comparing((Solution.DataEntry item) -> item.getCountry()))
                     .collect(Collectors.groupingBy((Solution.DataEntry item) -> item.getCountry(),
                             Collectors.summingInt(item -> 1)))
+                    .entrySet()
+                    .stream()
+                    .sorted(Map.Entry.comparingByKey())
+                    .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue,
+                            (oldValue, newValue) -> oldValue, LinkedHashMap::new))
             );
 
             result.setTopContractNumberByCountry(
