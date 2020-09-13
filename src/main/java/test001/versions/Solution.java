@@ -23,8 +23,8 @@ class Solution {
     private static final String UNIQUE_CITIES = "Unique cities with at least one customer:" + LINE_END;
 
     public static void main(String[] args) {
-        final var inputFilePath = "C:\\Projects\\Java\\CodeSignTest\\src\\main\\resources\\data.csv";
-//        final var inputFilePath = "/root/customers/data.csv";
+//        final var inputFilePath = "C:\\Projects\\Java\\CodeSignTest\\src\\main\\resources\\data.csv";
+        final var inputFilePath = "/root/customers/data.csv";
         final var actualResult = new Solution.CsvProcessor().processCsvFile(inputFilePath);
 
     }
@@ -167,44 +167,22 @@ class Solution {
             final var dataEntryCollection = readCsvFile(csvFilePath);
             final var report = convertDataCollectionIntoReport(dataEntryCollection);
 
-//            System.out.println(buildTextualReport(report));
+            System.out.println(buildTextualReport(report));
 
             return buildTextualReport(report);
         }
 
         private List<Solution.DataEntry> readCsvFile(String csvFilePath) {
             var resultCollection = new ArrayList<Solution.DataEntry>();
-            /*
-            CsvMapper csvMapper = new CsvMapper();
-            CsvSchema schema = CsvSchema.emptySchema().withHeader();
-
-            ObjectReader oReader = csvMapper.reader(Solution.DataEntry.class).with(schema);
-            try (Reader reader = new FileReader(csvFilePath)) {
-                MappingIterator<Solution.DataEntry> mi = oReader.readValues(reader);
-                while (mi.hasNext()) {
-                    // TODO: to delete
-                    final var dataEntry = mi.nextValue();
-//                System.out.println(dataEntry.getCity());
-                    //
-                    resultCollection.add(dataEntry);
-                }
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            */
 
             try (var fileReader = new FileReader(csvFilePath)) {
                 // MappingIterator<Solution.DataEntry> mi = oReader.readValues(reader);
                 var bufferedReader = new BufferedReader(fileReader);  //creates a buffering character input stream
                 var stringBuffer = new StringBuffer();    //constructs a string buffer with no characters
                 String line;
-                //reader.
-                //reader
                 bufferedReader.readLine();
                 while ((line = bufferedReader.readLine()) != null) {
-                    System.out.println(line);
+//                    System.out.println(line);
                     // TODO: to delete
                     final var dataEntry = new Solution.DataEntry();
                     dataEntry.setId(getFirstSection(line));
@@ -222,8 +200,7 @@ class Solution {
                     dataEntry.setContractCount(Integer.valueOf(getFirstSection(line)));
                     line = getStringAfterTheFirstComma(line);
                     dataEntry.setContractCost(Double.valueOf(getFirstSection(line)));
-//                System.out.println(dataEntry.getCity());
-                    //
+
                     resultCollection.add(dataEntry);
                 }
             } catch (FileNotFoundException e) {
