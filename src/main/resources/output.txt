@@ -1,0 +1,16 @@
+Total customers:
+7
+Customers by city:
+Chicago: 1
+London: 2
+Manchester: 1
+San Francisco: 2
+Sydney: 1
+Customers by country:
+Australia: 1
+UK: 3
+USA: 3
+Country with the largest number of customers' contracts:
+USA (25607 contracts)
+Unique cities with at least one customer:
+5
