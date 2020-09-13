@@ -19,7 +19,7 @@ class Solution {
 
     public static void main(String[] args) {
 //        final var inputFilePath = "C:\\Projects\\Java\\CodeSignTest\\src\\main\\resources\\data.csv";
-        final var inputFilePath = "/root/customers/dat/a.csv";
+        final var inputFilePath = "/root/customers/data.csv";
         final var actualResult = new Solution.CsvProcessor().processCsvFile(inputFilePath);
 
     }
