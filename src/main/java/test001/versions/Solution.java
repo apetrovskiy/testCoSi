@@ -19,7 +19,7 @@ class Solution {
 
     public static void main(String[] args) {
 //        final var inputFilePath = "C:\\Projects\\Java\\CodeSignTest\\src\\main\\resources\\data.csv";
-        final var inputFilePath = "/root/customers/data.csv";
+        final var inputFilePath = "/root/customers/dat/a.csv";
         final var actualResult = new Solution.CsvProcessor().processCsvFile(inputFilePath);
 
     }
@@ -293,23 +293,5 @@ class Solution {
 
             return result;
         }
-    /*
-Total customers:
-7
-Customers by city:
-Chicago: 1
-London: 2
-Manchester: 1
-San Francisco: 2
-Sydney: 1
-Customers by country:
-Australia: 1
-UK: 3
-USA: 3
-Country with the largest number of customers' contracts:
-USA (25607 contracts)
-Unique cities with at least one customer:
-5
-    */
     }
 }
