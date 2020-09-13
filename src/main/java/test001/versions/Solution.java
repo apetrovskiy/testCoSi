@@ -5,8 +5,8 @@ import com.fasterxml.jackson.databind.MappingIterator;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectReader;
-import com.fasterxml.jackson.dataformat.csv.CsvMapper;
-import com.fasterxml.jackson.dataformat.csv.CsvSchema;
+//import com.fasterxml.jackson.dataformat.csv.CsvMapper;
+//import com.fasterxml.jackson.dataformat.csv.CsvSchema;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -113,6 +113,7 @@ class Solution {
             this.contractCost = contractCost;
         }
     }
+
     public static class Report {
         private int totalCustomers;
         private Map<String, Long> customersByCity;
@@ -160,6 +161,7 @@ class Solution {
             this.uniqueCitiesForTop = uniqueCitiesForTop;
         }
     }
+
     public static class CsvProcessor {
 
 
@@ -173,11 +175,12 @@ class Solution {
         }
 
         private List<Solution.DataEntry> readCsvFile(String csvFilePath) {
+            var resultCollection = new ArrayList<Solution.DataEntry>();
+            /*
             CsvMapper csvMapper = new CsvMapper();
             CsvSchema schema = CsvSchema.emptySchema().withHeader();
 
             ObjectReader oReader = csvMapper.reader(Solution.DataEntry.class).with(schema);
-            var resultCollection = new ArrayList<Solution.DataEntry>();
             try (Reader reader = new FileReader(csvFilePath)) {
                 MappingIterator<Solution.DataEntry> mi = oReader.readValues(reader);
                 while (mi.hasNext()) {
@@ -192,7 +195,58 @@ class Solution {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+            */
+
+            try (var fileReader = new FileReader(csvFilePath)) {
+                // MappingIterator<Solution.DataEntry> mi = oReader.readValues(reader);
+                var bufferedReader = new BufferedReader(fileReader);  //creates a buffering character input stream
+                var stringBuffer = new StringBuffer();    //constructs a string buffer with no characters
+                String line;
+                //reader.
+                //reader
+                bufferedReader.readLine();
+                while ((line = bufferedReader.readLine()) != null) {
+                    System.out.println(line);
+                    // TODO: to delete
+                    final var dataEntry = new Solution.DataEntry();
+                    dataEntry.setId(getFirstSection(line));
+                    line = getStringAfterTheFirstComma(line);
+                    dataEntry.setName(getFirstSection(line));
+                    line = getStringAfterTheFirstComma(line);
+                    dataEntry.setCity(getFirstSection(line));
+                    line = getStringAfterTheFirstComma(line);
+                    dataEntry.setCountry(getFirstSection(line));
+                    line = getStringAfterTheFirstComma(line);
+                    dataEntry.setContactPerson(getFirstSection(line));
+                    line = getStringAfterTheFirstComma(line);
+                    dataEntry.setEmployeeCount(Integer.valueOf(getFirstSection(line)));
+                    line = getStringAfterTheFirstComma(line);
+                    dataEntry.setContractCount(Integer.valueOf(getFirstSection(line)));
+                    line = getStringAfterTheFirstComma(line);
+                    dataEntry.setContractCost(Double.valueOf(getFirstSection(line)));
+//                System.out.println(dataEntry.getCity());
+                    //
+                    resultCollection.add(dataEntry);
+                }
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
             return resultCollection;
+        }
+
+        private String getFirstSection(String line) {
+            return line.contains(",")
+                    ? line.substring(0, line.indexOf(","))
+                    : line;
+        }
+
+        private String getStringAfterTheFirstComma(String line) {
+            return null != line && "" != line && line.contains(",")
+                    ? line.substring(line.indexOf(',') + 1)
+                    : "";
         }
 
         private Solution.Report convertDataCollectionIntoReport(List<Solution.DataEntry> dataCollection) {
