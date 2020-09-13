@@ -1,7 +1,6 @@
 package test001.stats;
 
 import org.junit.jupiter.api.Test;
-import test001.versions.CsvProcessor;
 
 public class StatsTest {
     @Test
