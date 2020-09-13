@@ -5,8 +5,6 @@ import com.fasterxml.jackson.databind.MappingIterator;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectReader;
-//import com.fasterxml.jackson.dataformat.csv.CsvMapper;
-//import com.fasterxml.jackson.dataformat.csv.CsvSchema;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -25,8 +23,8 @@ class Solution {
     private static final String UNIQUE_CITIES = "Unique cities with at least one customer:" + LINE_END;
 
     public static void main(String[] args) {
-        System.out.println("Hello, World");
         final var inputFilePath = "C:\\Projects\\Java\\CodeSignTest\\src\\main\\resources\\data.csv";
+//        final var inputFilePath = "/root/customers/data.csv";
         final var actualResult = new Solution.CsvProcessor().processCsvFile(inputFilePath);
 
     }
@@ -169,7 +167,7 @@ class Solution {
             final var dataEntryCollection = readCsvFile(csvFilePath);
             final var report = convertDataCollectionIntoReport(dataEntryCollection);
 
-            System.out.println(buildTextualReport(report));
+//            System.out.println(buildTextualReport(report));
 
             return buildTextualReport(report);
         }
