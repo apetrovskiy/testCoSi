@@ -1,4 +1,4 @@
-function addTwoDigits(n) {
+function addTwoDigits(n: number): number {
     if (10 > n || 99 < n) {
         return 0;
     }

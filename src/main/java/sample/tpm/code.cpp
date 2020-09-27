@@ -1,4 +1,4 @@
-function addTwoDigits(n) {
+int addTwoDigits(int n) {
     if (10 > n || 99 < n) {
         return 0;
     }
