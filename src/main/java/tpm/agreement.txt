@@ -1,0 +1,6 @@
+Please select your preferred language.
+Some tasks may be restricted to specific languages. You can change this later in the code editor.
+Java
+I grant permission to share with Crossover my results and all associated data.
+I will not consult/copy code from any source including a website, book, or friend/colleague to complete the tasks, although I may reference language documentation or use an IDE that has code completion features.
+I will not copy, reproduce, distribute, or publicly display any of the information I come across during this test, including but not limited to the task descriptions copyrighted by CodeSignal.
