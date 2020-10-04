@@ -1,0 +1,44 @@
+Avoid using built-in big integers to solve this challenge. Implement them yourself, since this is what you would be asked to do during a real interview.
+
+Given two binary strings a and b, add them together and return the resulting string.
+
+Example
+
+    For a = "1000" and b = "111", the output should be
+    addBinaryStrings(a, b) = "1111";
+    For a = "1" and b = "1", the output should be
+    addBinaryStrings(a, b) = "10".
+
+Input/Output
+
+    [execution time limit] 3 seconds (java)
+
+    [input] string a
+
+    A string that can contain only 0 and 1.
+
+    Guaranteed constraints:
+    0 ≤ a.length ≤ 105.
+
+    [input] string b
+
+    A string that can contain only 0 and 1.
+
+    Guaranteed constraints:
+    0 ≤ b.length ≤ 105.
+
+    [output] string
+
+    The result of adding strings a and b, without any leading zeros.
+
+[Java] Syntax Tips
+
+// Prints help message to the console
+// Returns a string
+// 
+// Globals declared here will cause a compilation error,
+// declare variables inside the function instead!
+String helloWorld(String name) {
+    System.out.println("This prints to the console when you Run Tests");
+    return "Hello, " + name;
+}
