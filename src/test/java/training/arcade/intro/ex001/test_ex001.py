@@ -1,3 +1,5 @@
-class Ex001Test(unittest.TestCase):
-    def test_ex001():
-        assert(ex001.add(1, 2) = 3)
+from src.main.java.training.arcade.intro.ex001.ex001 import add
+
+
+def test_ex001():
+    assert add(1, 2) == 3
