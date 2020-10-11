@@ -1,7 +1,19 @@
 {
     "java.configuration.updateBuildConfiguration": "interactive",
-    "python.linting.pylintEnabled": true,
+    "python.linting.pylintEnabled": false,
     "files.watcherExclude": {
         "**/target": true
-    }
+    },
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./src",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true
 }
