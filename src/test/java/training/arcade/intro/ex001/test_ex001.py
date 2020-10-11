@@ -1,11 +1,6 @@
-import unittest
-from ex001 import add
+from src.main.java.training.arcade.intro.ex001.ex001 import add
 
 
-class Ex001Test(unittest.TestCase):
-    def test_ex001(self):
-        self.assertEqual(add(1, 2), 3)
+def test_ex001():
+    assert add(1, 2) == 3
 
-
-if __name__ == '__main__':
-    unittest.main()
