@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive",
+		"AREPL.pythonPath": "",
+		"files.watcherExclude": {
+			"**/target": true
+		}
+	}
+}
