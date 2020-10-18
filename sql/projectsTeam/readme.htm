@@ -1,0 +1,133 @@
+<div class="-flex -scroll -padding-16 -space-v-16">
+    <div class="-layout-h -space-h-16">
+        <div class="-layout-h -space-h-4 -center-center">
+            <div class="icon -size-16 -color-green">
+                <div class="-layout-h -center"><svg width="12" height="14" viewBox="0 0 12 14"><path d="M6 2.28S4.02 4.672 0 6.99v2.647s4.5-2.875 6.01-4.764C7.56 6.778 12 9.637 12 9.637V6.991C7.98 4.608 6 2.28 6 2.28z"></path><path d="M6 5.643s-1.98 2.392-6 4.711V13s4.5-2.875 6.01-4.763C7.56 10.142 12 13 12 13v-2.646c-4.02-2.383-6-4.71-6-4.71v-.001z"></path></svg></div>
+            </div>
+            <p class="-bold -font-size-14 -capitalize">medium</p>
+        </div>
+        <div class="-layout-h -space-h-4 -center-center">
+            <div class="icon -size-16 -color-green">
+                <div class="-layout-h -center"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm-1.43-3c-1.642-.344-2.462-1.136-2.462-2.376V9.612c0-.688-.37-1.032-1.108-1.032V7.42c.739 0 1.108-.346 1.108-1.037V5.31c.013-.613.225-1.11.636-1.487.414-.378 1.023-.653 1.825-.823L7 3.9c-.574.163-.873.621-.896 1.374v1.109c0 .763-.421 1.301-1.265 1.615.844.313 1.265.853 1.265 1.62v1.103c.023.753.322 1.211.896 1.374L6.57 13zm2.86 0c1.642-.344 2.462-1.136 2.462-2.376V9.612c0-.688.37-1.032 1.108-1.032V7.42c-.739 0-1.108-.346-1.108-1.037V5.31c-.013-.613-.225-1.11-.636-1.487-.414-.378-1.023-.653-1.825-.823L9 3.9c.574.163.873.621.896 1.374v1.109c0 .763.421 1.301 1.265 1.615-.844.313-1.265.853-1.265 1.62v1.103c-.023.753-.322 1.211-.896 1.374l.43.905z"></path></svg></div>
+            </div>
+            <p class="-bold -font-size-14 -capitalize">codewriting</p>
+        </div>
+        <div class="-layout-h -space-h-4 -center-center">
+            <div class="icon -size-16 -color-green">
+                <div class="-layout-h -center"><svg width="16" height="16" viewBox="0 0 16 16"><path d="M13.33 6.1l-2.8.395-.477 1.58 2.004-.22L11.03 9.6l-1.476.13L8 14.876 6.425 9.73 4.948 9.6 3.923 7.854l2.003.22-.454-1.58-2.8-.396-1.318-2.075 5.53 1.01L8 9.548l1.117-4.51 5.53-1.012L13.33 6.1zM0 8c0 4.418 3.582 8 8 8 4.42 0 8-3.582 8-8 0-4.42-3.58-8-8-8-4.418 0-8 3.58-8 8z" fill-rule="evenodd"></path></svg></div>
+            </div>
+            <p class="-bold -font-size-14 -capitalize">300</p>
+        </div>
+    </div>
+    <div class="markdown -arial">
+        <p>You've been promoted and assigned to a new project. The problem is, you don't know who you are working with and your predecessor has vanished without a trace! Luckily, each project in your company keeps its own activity database, which you are
+            going to use to find out the names of your new colleagues.</p>
+        <p>Information about the project's activity is stored in table <strong>projectLog</strong>, which has the following structure:</p>
+        <ul>
+            <li><code>id</code>: unique action id;</li>
+            <li><code>name</code>: the name of the person who performed the action;</li>
+            <li><code>description</code>: the description of the action;</li>
+            <li><code>timestamp</code>: the timestamp of the action.</li>
+        </ul>
+        <p>You only have access to the project's most recent history, but this should be enough for you. You've decided that finding everyone who interacted with the project in this period is the best way to start.</p>
+        <p>Given the table <strong>projectLog</strong>, build a new results table with a single <code>name</code> column that contains the names of the project's contributors sorted in ascending order.</p>
+        <p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Example</span></p>
+        <p>For the following table <strong>projectLog</strong></p>
+        <table>
+            <tbody>
+                <tr>
+                    <th>id</th>
+                    <th>name</th>
+                    <th>description</th>
+                    <th>timestamp</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>James Smith</td>
+                    <td>add new logo</td>
+                    <td>2015-11-10 15:24:32</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>John Johnson</td>
+                    <td>update license</td>
+                    <td>2015-11-10 15:50:01</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>John Johnson</td>
+                    <td>fix typos</td>
+                    <td>2015-11-10 15:55:01</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>James Smith</td>
+                    <td>update logo</td>
+                    <td>2015-11-10 17:53:04</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>James Smith</td>
+                    <td>delete old logo</td>
+                    <td>2015-11-10 17:54:04</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Michael Williams</td>
+                    <td>fix the build</td>
+                    <td>2015-11-12 13:37:00</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Mary Troppins</td>
+                    <td>add new feature</td>
+                    <td>2015-11-08 17:54:04</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>James Smith</td>
+                    <td>fix fonts</td>
+                    <td>2015-11-14 13:54:04</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Richard Young</td>
+                    <td>remove unneeded files</td>
+                    <td>2015-11-14 00:00:00</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Michael Williams</td>
+                    <td>add tests</td>
+                    <td>2015-11-09 11:53:00</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>the output should be</p>
+        <table>
+            <tbody>
+                <tr>
+                    <th>name</th>
+                </tr>
+                <tr>
+                    <td>James Smith</td>
+                </tr>
+                <tr>
+                    <td>John Johnson</td>
+                </tr>
+                <tr>
+                    <td>Mary Troppins</td>
+                </tr>
+                <tr>
+                    <td>Michael Williams</td>
+                </tr>
+                <tr>
+                    <td>Richard Young</td>
+                </tr>
+            </tbody>
+        </table>
+        <ul>
+            <li><strong>[execution time limit] 10 seconds (mysql)</strong></li>
+        </ul>
+    </div>
+</div>
