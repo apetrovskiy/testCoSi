@@ -218,3 +218,8 @@ hs_err_pid*
 
 .metals/metals.h2.db
 .metals/metals.lock.db
+
+.fake
+.ionide
+.metals/metals.h2.db
+.metals/metals.lock.db
