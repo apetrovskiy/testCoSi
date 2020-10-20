@@ -1,0 +1,1432 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "CodeSignTest-test",
+        "directory": "D:\\Projects\\Java\\CodeSignTest",
+        "workspaceDir": "D:\\Projects\\Java\\CodeSignTest",
+        "sources": [
+            "D:\\Projects\\Java\\CodeSignTest\\src\\test\\java"
+        ],
+        "dependencies": [
+            "CodeSignTest"
+        ],
+        "classpath": [
+            "D:\\Projects\\Java\\CodeSignTest\\target\\test-classes",
+            "D:\\Projects\\Java\\CodeSignTest\\target\\classes",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\plugins\\maven-resources-plugin\\3.1.0\\maven-resources-plugin-3.1.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-plugin-api\\3.0\\maven-plugin-api-3.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\sisu\\sisu-inject-plexus\\1.4.2\\sisu-inject-plexus-1.4.2.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\sisu\\sisu-inject-bean\\1.4.2\\sisu-inject-bean-1.4.2.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\sisu\\sisu-guice\\2.1.7\\sisu-guice-2.1.7-noaop.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-core\\3.0\\maven-core-3.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-settings\\3.0\\maven-settings-3.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-settings-builder\\3.0\\maven-settings-builder-3.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-repository-metadata\\3.0\\maven-repository-metadata-3.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-model-builder\\3.0\\maven-model-builder-3.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-aether-provider\\3.0\\maven-aether-provider-3.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\aether\\aether-impl\\1.7\\aether-impl-1.7.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\aether\\aether-spi\\1.7\\aether-spi-1.7.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\aether\\aether-api\\1.7\\aether-api-1.7.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\aether\\aether-util\\1.7\\aether-util-1.7.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-classworlds\\2.2.3\\plexus-classworlds-2.2.3.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-component-annotations\\1.5.5\\plexus-component-annotations-1.5.5.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\plexus\\plexus-sec-dispatcher\\1.3\\plexus-sec-dispatcher-1.3.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\plexus\\plexus-cipher\\1.4\\plexus-cipher-1.4.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-model\\3.0\\maven-model-3.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-utils\\3.1.0\\plexus-utils-3.1.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\shared\\maven-filtering\\3.1.1\\maven-filtering-3.1.1.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\plexus\\plexus-build-api\\0.0.7\\plexus-build-api-0.0.7.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-interpolation\\1.24\\plexus-interpolation-1.24.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\plugins\\maven-jar-plugin\\3.2.0\\maven-jar-plugin-3.2.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-artifact\\3.0\\maven-artifact-3.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\shared\\file-management\\3.0.0\\file-management-3.0.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\shared\\maven-shared-io\\3.0.0\\maven-shared-io-3.0.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-compat\\3.0\\maven-compat-3.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\wagon\\wagon-provider-api\\2.10\\wagon-provider-api-2.10.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-archiver\\3.5.0\\maven-archiver-3.5.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\shared\\maven-shared-utils\\3.2.1\\maven-shared-utils-3.2.1.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-archiver\\4.2.1\\plexus-archiver-4.2.1.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-io\\3.2.0\\plexus-io-3.2.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\commons\\commons-compress\\1.19\\commons-compress-1.19.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\iq80\\snappy\\snappy\\0.4\\snappy-0.4.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\tukaani\\xz\\1.8\\xz-1.8.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\commons\\commons-text\\1.8\\commons-text-1.8.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\commons\\commons-lang3\\3.10\\commons-lang3-3.10.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\commons-io\\commons-io\\2.7\\commons-io-2.7.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\awaitility\\awaitility\\4.0.3\\awaitility-4.0.3.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\hamcrest\\hamcrest\\2.1\\hamcrest-2.1.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter\\5.6.2\\junit-jupiter-5.6.2.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-api\\5.6.2\\junit-jupiter-api-5.6.2.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-params\\5.6.2\\junit-jupiter-params-5.6.2.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-engine\\5.6.2\\junit-jupiter-engine-5.6.2.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-engine\\1.6.2\\junit-platform-engine-1.6.2.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apiguardian\\apiguardian-api\\1.1.0\\apiguardian-api-1.1.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\opentest4j\\opentest4j\\1.2.0\\opentest4j-1.2.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-launcher\\1.6.2\\junit-platform-launcher-1.6.2.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-runner\\1.6.2\\junit-platform-runner-1.6.2.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\junit\\junit\\4.13\\junit-4.13.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\hamcrest\\hamcrest-core\\1.3\\hamcrest-core-1.3.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-suite-api\\1.6.2\\junit-platform-suite-api-1.6.2.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-commons\\1.6.2\\junit-platform-commons-1.6.2.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-console\\1.6.2\\junit-platform-console-1.6.2.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-console-standalone\\1.6.2\\junit-platform-console-standalone-1.6.2.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-reporting\\1.6.2\\junit-platform-reporting-1.6.2.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\vintage\\junit-vintage-engine\\5.6.2\\junit-vintage-engine-5.6.2.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-junit\\6.4.0\\cucumber-junit-6.4.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-junit-platform-engine\\6.4.0\\cucumber-junit-platform-engine-6.4.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-core\\6.4.0\\cucumber-core-6.4.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-gherkin-messages\\6.4.0\\cucumber-gherkin-messages-6.4.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\messages\\12.4.0\\messages-12.4.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\tag-expressions\\3.0.0\\tag-expressions-3.0.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-expressions\\10.2.2\\cucumber-expressions-10.2.2.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\datatable\\3.3.1\\datatable-3.3.1.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\docstring\\6.4.0\\docstring-6.4.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\html-formatter\\7.2.0\\html-formatter-7.2.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\create-meta\\1.1.0\\create-meta-1.1.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-java\\6.4.0\\cucumber-java-6.4.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-java8\\6.4.0\\cucumber-java8-6.4.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\net\\jodah\\typetools\\0.6.2\\typetools-0.6.2.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-guice\\6.4.0\\cucumber-guice-6.4.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-gherkin\\6.4.0\\cucumber-gherkin-6.4.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-plugin\\6.4.0\\cucumber-plugin-6.4.0.jar",
+            "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-gherkin-vintage\\5.7.0\\cucumber-gherkin-vintage-5.7.0.jar"
+        ],
+        "out": "D:\\Projects\\Java\\CodeSignTest\\target",
+        "classesDir": "D:\\Projects\\Java\\CodeSignTest\\target\\test-classes",
+        "resources": [
+            
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.3",
+            "options": [
+                
+            ],
+            "jars": [
+                
+            ],
+            "setup": {
+                "order": "java->scala",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                "-g",
+                "-target",
+                "13",
+                "-source",
+                "13",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Users\\Alexander Petrovskiy\\scoop\\apps\\openjdk\\14.0.2-12",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.apache.maven",
+                    "name": "maven-model",
+                    "version": "3.0",
+                    "artifacts": [
+                        {
+                            "name": "maven-model",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-model\\3.0\\maven-model-3.0.jar"
+                        },
+                        {
+                            "name": "maven-model",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-model\\3.0\\maven-model-3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven.plugins",
+                    "name": "maven-jar-plugin",
+                    "version": "3.2.0",
+                    "artifacts": [
+                        {
+                            "name": "maven-jar-plugin",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\plugins\\maven-jar-plugin\\3.2.0\\maven-jar-plugin-3.2.0.jar"
+                        },
+                        {
+                            "name": "maven-jar-plugin",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\plugins\\maven-jar-plugin\\3.2.0\\maven-jar-plugin-3.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.codehaus.plexus",
+                    "name": "plexus-component-annotations",
+                    "version": "1.5.5",
+                    "artifacts": [
+                        {
+                            "name": "plexus-component-annotations",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-component-annotations\\1.5.5\\plexus-component-annotations-1.5.5.jar"
+                        },
+                        {
+                            "name": "plexus-component-annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-component-annotations\\1.5.5\\plexus-component-annotations-1.5.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven",
+                    "name": "maven-core",
+                    "version": "3.0",
+                    "artifacts": [
+                        {
+                            "name": "maven-core",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-core\\3.0\\maven-core-3.0.jar"
+                        },
+                        {
+                            "name": "maven-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-core\\3.0\\maven-core-3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apiguardian",
+                    "name": "apiguardian-api",
+                    "version": "1.1.0",
+                    "artifacts": [
+                        {
+                            "name": "apiguardian-api",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apiguardian\\apiguardian-api\\1.1.0\\apiguardian-api-1.1.0.jar"
+                        },
+                        {
+                            "name": "apiguardian-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apiguardian\\apiguardian-api\\1.1.0\\apiguardian-api-1.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-launcher",
+                    "version": "1.6.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-launcher",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-launcher\\1.6.2\\junit-platform-launcher-1.6.2.jar"
+                        },
+                        {
+                            "name": "junit-platform-launcher",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-launcher\\1.6.2\\junit-platform-launcher-1.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven.shared",
+                    "name": "maven-filtering",
+                    "version": "3.1.1",
+                    "artifacts": [
+                        {
+                            "name": "maven-filtering",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\shared\\maven-filtering\\3.1.1\\maven-filtering-3.1.1.jar"
+                        },
+                        {
+                            "name": "maven-filtering",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\shared\\maven-filtering\\3.1.1\\maven-filtering-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "cucumber-junit-platform-engine",
+                    "version": "6.4.0",
+                    "artifacts": [
+                        {
+                            "name": "cucumber-junit-platform-engine",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-junit-platform-engine\\6.4.0\\cucumber-junit-platform-engine-6.4.0.jar"
+                        },
+                        {
+                            "name": "cucumber-junit-platform-engine",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-junit-platform-engine\\6.4.0\\cucumber-junit-platform-engine-6.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "cucumber-gherkin",
+                    "version": "6.4.0",
+                    "artifacts": [
+                        {
+                            "name": "cucumber-gherkin",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-gherkin\\6.4.0\\cucumber-gherkin-6.4.0.jar"
+                        },
+                        {
+                            "name": "cucumber-gherkin",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-gherkin\\6.4.0\\cucumber-gherkin-6.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hamcrest",
+                    "name": "hamcrest",
+                    "version": "2.1",
+                    "artifacts": [
+                        {
+                            "name": "hamcrest",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\hamcrest\\hamcrest\\2.1\\hamcrest-2.1.jar"
+                        },
+                        {
+                            "name": "hamcrest",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\hamcrest\\hamcrest\\2.1\\hamcrest-2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.iq80.snappy",
+                    "name": "snappy",
+                    "version": "0.4",
+                    "artifacts": [
+                        {
+                            "name": "snappy",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\iq80\\snappy\\snappy\\0.4\\snappy-0.4.jar"
+                        },
+                        {
+                            "name": "snappy",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\iq80\\snappy\\snappy\\0.4\\snappy-0.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.tukaani",
+                    "name": "xz",
+                    "version": "1.8",
+                    "artifacts": [
+                        {
+                            "name": "xz",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\tukaani\\xz\\1.8\\xz-1.8.jar"
+                        },
+                        {
+                            "name": "xz",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\tukaani\\xz\\1.8\\xz-1.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.jodah",
+                    "name": "typetools",
+                    "version": "0.6.2",
+                    "artifacts": [
+                        {
+                            "name": "typetools",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\net\\jodah\\typetools\\0.6.2\\typetools-0.6.2.jar"
+                        },
+                        {
+                            "name": "typetools",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\net\\jodah\\typetools\\0.6.2\\typetools-0.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven",
+                    "name": "maven-settings",
+                    "version": "3.0",
+                    "artifacts": [
+                        {
+                            "name": "maven-settings",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-settings\\3.0\\maven-settings-3.0.jar"
+                        },
+                        {
+                            "name": "maven-settings",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-settings\\3.0\\maven-settings-3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-params",
+                    "version": "5.6.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-params",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-params\\5.6.2\\junit-jupiter-params-5.6.2.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-params",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-params\\5.6.2\\junit-jupiter-params-5.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "html-formatter",
+                    "version": "7.2.0",
+                    "artifacts": [
+                        {
+                            "name": "html-formatter",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\html-formatter\\7.2.0\\html-formatter-7.2.0.jar"
+                        },
+                        {
+                            "name": "html-formatter",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\html-formatter\\7.2.0\\html-formatter-7.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "docstring",
+                    "version": "6.4.0",
+                    "artifacts": [
+                        {
+                            "name": "docstring",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\docstring\\6.4.0\\docstring-6.4.0.jar"
+                        },
+                        {
+                            "name": "docstring",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\docstring\\6.4.0\\docstring-6.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-console-standalone",
+                    "version": "1.6.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-console-standalone",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-console-standalone\\1.6.2\\junit-platform-console-standalone-1.6.2.jar"
+                        },
+                        {
+                            "name": "junit-platform-console-standalone",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-console-standalone\\1.6.2\\junit-platform-console-standalone-1.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter",
+                    "version": "5.6.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter\\5.6.2\\junit-jupiter-5.6.2.jar"
+                        },
+                        {
+                            "name": "junit-jupiter",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter\\5.6.2\\junit-jupiter-5.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "cucumber-junit",
+                    "version": "6.4.0",
+                    "artifacts": [
+                        {
+                            "name": "cucumber-junit",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-junit\\6.4.0\\cucumber-junit-6.4.0.jar"
+                        },
+                        {
+                            "name": "cucumber-junit",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-junit\\6.4.0\\cucumber-junit-6.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-io",
+                    "name": "commons-io",
+                    "version": "2.7",
+                    "artifacts": [
+                        {
+                            "name": "commons-io",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\commons-io\\commons-io\\2.7\\commons-io-2.7.jar"
+                        },
+                        {
+                            "name": "commons-io",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\commons-io\\commons-io\\2.7\\commons-io-2.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "cucumber-guice",
+                    "version": "6.4.0",
+                    "artifacts": [
+                        {
+                            "name": "cucumber-guice",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-guice\\6.4.0\\cucumber-guice-6.4.0.jar"
+                        },
+                        {
+                            "name": "cucumber-guice",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-guice\\6.4.0\\cucumber-guice-6.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-engine",
+                    "version": "5.6.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-engine",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-engine\\5.6.2\\junit-jupiter-engine-5.6.2.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-engine",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-engine\\5.6.2\\junit-jupiter-engine-5.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hamcrest",
+                    "name": "hamcrest-core",
+                    "version": "1.3",
+                    "artifacts": [
+                        {
+                            "name": "hamcrest-core",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\hamcrest\\hamcrest-core\\1.3\\hamcrest-core-1.3.jar"
+                        },
+                        {
+                            "name": "hamcrest-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\hamcrest\\hamcrest-core\\1.3\\hamcrest-core-1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven.shared",
+                    "name": "file-management",
+                    "version": "3.0.0",
+                    "artifacts": [
+                        {
+                            "name": "file-management",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\shared\\file-management\\3.0.0\\file-management-3.0.0.jar"
+                        },
+                        {
+                            "name": "file-management",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\shared\\file-management\\3.0.0\\file-management-3.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-text",
+                    "version": "1.8",
+                    "artifacts": [
+                        {
+                            "name": "commons-text",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\commons\\commons-text\\1.8\\commons-text-1.8.jar"
+                        },
+                        {
+                            "name": "commons-text",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\commons\\commons-text\\1.8\\commons-text-1.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "junit",
+                    "name": "junit",
+                    "version": "4.13",
+                    "artifacts": [
+                        {
+                            "name": "junit",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\junit\\junit\\4.13\\junit-4.13.jar"
+                        },
+                        {
+                            "name": "junit",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\junit\\junit\\4.13\\junit-4.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.opentest4j",
+                    "name": "opentest4j",
+                    "version": "1.2.0",
+                    "artifacts": [
+                        {
+                            "name": "opentest4j",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\opentest4j\\opentest4j\\1.2.0\\opentest4j-1.2.0.jar"
+                        },
+                        {
+                            "name": "opentest4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\opentest4j\\opentest4j\\1.2.0\\opentest4j-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-reporting",
+                    "version": "1.6.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-reporting",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-reporting\\1.6.2\\junit-platform-reporting-1.6.2.jar"
+                        },
+                        {
+                            "name": "junit-platform-reporting",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-reporting\\1.6.2\\junit-platform-reporting-1.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "messages",
+                    "version": "12.4.0",
+                    "artifacts": [
+                        {
+                            "name": "messages",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\messages\\12.4.0\\messages-12.4.0.jar"
+                        },
+                        {
+                            "name": "messages",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\messages\\12.4.0\\messages-12.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "tag-expressions",
+                    "version": "3.0.0",
+                    "artifacts": [
+                        {
+                            "name": "tag-expressions",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\tag-expressions\\3.0.0\\tag-expressions-3.0.0.jar"
+                        },
+                        {
+                            "name": "tag-expressions",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\tag-expressions\\3.0.0\\tag-expressions-3.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.sonatype.sisu",
+                    "name": "sisu-inject-plexus",
+                    "version": "1.4.2",
+                    "artifacts": [
+                        {
+                            "name": "sisu-inject-plexus",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\sisu\\sisu-inject-plexus\\1.4.2\\sisu-inject-plexus-1.4.2.jar"
+                        },
+                        {
+                            "name": "sisu-inject-plexus",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\sisu\\sisu-inject-plexus\\1.4.2\\sisu-inject-plexus-1.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "cucumber-gherkin-messages",
+                    "version": "6.4.0",
+                    "artifacts": [
+                        {
+                            "name": "cucumber-gherkin-messages",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-gherkin-messages\\6.4.0\\cucumber-gherkin-messages-6.4.0.jar"
+                        },
+                        {
+                            "name": "cucumber-gherkin-messages",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-gherkin-messages\\6.4.0\\cucumber-gherkin-messages-6.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.codehaus.plexus",
+                    "name": "plexus-archiver",
+                    "version": "4.2.1",
+                    "artifacts": [
+                        {
+                            "name": "plexus-archiver",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-archiver\\4.2.1\\plexus-archiver-4.2.1.jar"
+                        },
+                        {
+                            "name": "plexus-archiver",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-archiver\\4.2.1\\plexus-archiver-4.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.sonatype.aether",
+                    "name": "aether-util",
+                    "version": "1.7",
+                    "artifacts": [
+                        {
+                            "name": "aether-util",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\aether\\aether-util\\1.7\\aether-util-1.7.jar"
+                        },
+                        {
+                            "name": "aether-util",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\aether\\aether-util\\1.7\\aether-util-1.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-engine",
+                    "version": "1.6.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-engine",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-engine\\1.6.2\\junit-platform-engine-1.6.2.jar"
+                        },
+                        {
+                            "name": "junit-platform-engine",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-engine\\1.6.2\\junit-platform-engine-1.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven.shared",
+                    "name": "maven-shared-io",
+                    "version": "3.0.0",
+                    "artifacts": [
+                        {
+                            "name": "maven-shared-io",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\shared\\maven-shared-io\\3.0.0\\maven-shared-io-3.0.0.jar"
+                        },
+                        {
+                            "name": "maven-shared-io",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\shared\\maven-shared-io\\3.0.0\\maven-shared-io-3.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven",
+                    "name": "maven-archiver",
+                    "version": "3.5.0",
+                    "artifacts": [
+                        {
+                            "name": "maven-archiver",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-archiver\\3.5.0\\maven-archiver-3.5.0.jar"
+                        },
+                        {
+                            "name": "maven-archiver",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-archiver\\3.5.0\\maven-archiver-3.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-api",
+                    "version": "5.6.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-api",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-api\\5.6.2\\junit-jupiter-api-5.6.2.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-api\\5.6.2\\junit-jupiter-api-5.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.codehaus.plexus",
+                    "name": "plexus-utils",
+                    "version": "3.1.0",
+                    "artifacts": [
+                        {
+                            "name": "plexus-utils",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-utils\\3.1.0\\plexus-utils-3.1.0.jar"
+                        },
+                        {
+                            "name": "plexus-utils",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-utils\\3.1.0\\plexus-utils-3.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-runner",
+                    "version": "1.6.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-runner",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-runner\\1.6.2\\junit-platform-runner-1.6.2.jar"
+                        },
+                        {
+                            "name": "junit-platform-runner",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-runner\\1.6.2\\junit-platform-runner-1.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.sonatype.aether",
+                    "name": "aether-spi",
+                    "version": "1.7",
+                    "artifacts": [
+                        {
+                            "name": "aether-spi",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\aether\\aether-spi\\1.7\\aether-spi-1.7.jar"
+                        },
+                        {
+                            "name": "aether-spi",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\aether\\aether-spi\\1.7\\aether-spi-1.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven",
+                    "name": "maven-aether-provider",
+                    "version": "3.0",
+                    "artifacts": [
+                        {
+                            "name": "maven-aether-provider",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-aether-provider\\3.0\\maven-aether-provider-3.0.jar"
+                        },
+                        {
+                            "name": "maven-aether-provider",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-aether-provider\\3.0\\maven-aether-provider-3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.sonatype.sisu",
+                    "name": "sisu-guice",
+                    "version": "2.1.7",
+                    "artifacts": [
+                        {
+                            "name": "sisu-guice",
+                            "classifier": "noaop",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\sisu\\sisu-guice\\2.1.7\\sisu-guice-2.1.7-noaop.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven",
+                    "name": "maven-artifact",
+                    "version": "3.0",
+                    "artifacts": [
+                        {
+                            "name": "maven-artifact",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-artifact\\3.0\\maven-artifact-3.0.jar"
+                        },
+                        {
+                            "name": "maven-artifact",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-artifact\\3.0\\maven-artifact-3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven",
+                    "name": "maven-model-builder",
+                    "version": "3.0",
+                    "artifacts": [
+                        {
+                            "name": "maven-model-builder",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-model-builder\\3.0\\maven-model-builder-3.0.jar"
+                        },
+                        {
+                            "name": "maven-model-builder",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-model-builder\\3.0\\maven-model-builder-3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "cucumber-core",
+                    "version": "6.4.0",
+                    "artifacts": [
+                        {
+                            "name": "cucumber-core",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-core\\6.4.0\\cucumber-core-6.4.0.jar"
+                        },
+                        {
+                            "name": "cucumber-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-core\\6.4.0\\cucumber-core-6.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "cucumber-java8",
+                    "version": "6.4.0",
+                    "artifacts": [
+                        {
+                            "name": "cucumber-java8",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-java8\\6.4.0\\cucumber-java8-6.4.0.jar"
+                        },
+                        {
+                            "name": "cucumber-java8",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-java8\\6.4.0\\cucumber-java8-6.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "cucumber-expressions",
+                    "version": "10.2.2",
+                    "artifacts": [
+                        {
+                            "name": "cucumber-expressions",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-expressions\\10.2.2\\cucumber-expressions-10.2.2.jar"
+                        },
+                        {
+                            "name": "cucumber-expressions",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-expressions\\10.2.2\\cucumber-expressions-10.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven",
+                    "name": "maven-settings-builder",
+                    "version": "3.0",
+                    "artifacts": [
+                        {
+                            "name": "maven-settings-builder",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-settings-builder\\3.0\\maven-settings-builder-3.0.jar"
+                        },
+                        {
+                            "name": "maven-settings-builder",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-settings-builder\\3.0\\maven-settings-builder-3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-commons",
+                    "version": "1.6.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-commons",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-commons\\1.6.2\\junit-platform-commons-1.6.2.jar"
+                        },
+                        {
+                            "name": "junit-platform-commons",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-commons\\1.6.2\\junit-platform-commons-1.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.codehaus.plexus",
+                    "name": "plexus-interpolation",
+                    "version": "1.24",
+                    "artifacts": [
+                        {
+                            "name": "plexus-interpolation",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-interpolation\\1.24\\plexus-interpolation-1.24.jar"
+                        },
+                        {
+                            "name": "plexus-interpolation",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-interpolation\\1.24\\plexus-interpolation-1.24-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.sonatype.plexus",
+                    "name": "plexus-cipher",
+                    "version": "1.4",
+                    "artifacts": [
+                        {
+                            "name": "plexus-cipher",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\plexus\\plexus-cipher\\1.4\\plexus-cipher-1.4.jar"
+                        },
+                        {
+                            "name": "plexus-cipher",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\plexus\\plexus-cipher\\1.4\\plexus-cipher-1.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.sonatype.sisu",
+                    "name": "sisu-inject-bean",
+                    "version": "1.4.2",
+                    "artifacts": [
+                        {
+                            "name": "sisu-inject-bean",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\sisu\\sisu-inject-bean\\1.4.2\\sisu-inject-bean-1.4.2.jar"
+                        },
+                        {
+                            "name": "sisu-inject-bean",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\sisu\\sisu-inject-bean\\1.4.2\\sisu-inject-bean-1.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven.wagon",
+                    "name": "wagon-provider-api",
+                    "version": "2.10",
+                    "artifacts": [
+                        {
+                            "name": "wagon-provider-api",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\wagon\\wagon-provider-api\\2.10\\wagon-provider-api-2.10.jar"
+                        },
+                        {
+                            "name": "wagon-provider-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\wagon\\wagon-provider-api\\2.10\\wagon-provider-api-2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-console",
+                    "version": "1.6.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-console",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-console\\1.6.2\\junit-platform-console-1.6.2.jar"
+                        },
+                        {
+                            "name": "junit-platform-console",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-console\\1.6.2\\junit-platform-console-1.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven.shared",
+                    "name": "maven-shared-utils",
+                    "version": "3.2.1",
+                    "artifacts": [
+                        {
+                            "name": "maven-shared-utils",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\shared\\maven-shared-utils\\3.2.1\\maven-shared-utils-3.2.1.jar"
+                        },
+                        {
+                            "name": "maven-shared-utils",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\shared\\maven-shared-utils\\3.2.1\\maven-shared-utils-3.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven",
+                    "name": "maven-compat",
+                    "version": "3.0",
+                    "artifacts": [
+                        {
+                            "name": "maven-compat",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-compat\\3.0\\maven-compat-3.0.jar"
+                        },
+                        {
+                            "name": "maven-compat",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-compat\\3.0\\maven-compat-3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "create-meta",
+                    "version": "1.1.0",
+                    "artifacts": [
+                        {
+                            "name": "create-meta",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\create-meta\\1.1.0\\create-meta-1.1.0.jar"
+                        },
+                        {
+                            "name": "create-meta",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\create-meta\\1.1.0\\create-meta-1.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.codehaus.plexus",
+                    "name": "plexus-classworlds",
+                    "version": "2.2.3",
+                    "artifacts": [
+                        {
+                            "name": "plexus-classworlds",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-classworlds\\2.2.3\\plexus-classworlds-2.2.3.jar"
+                        },
+                        {
+                            "name": "plexus-classworlds",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-classworlds\\2.2.3\\plexus-classworlds-2.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.sonatype.plexus",
+                    "name": "plexus-sec-dispatcher",
+                    "version": "1.3",
+                    "artifacts": [
+                        {
+                            "name": "plexus-sec-dispatcher",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\plexus\\plexus-sec-dispatcher\\1.3\\plexus-sec-dispatcher-1.3.jar"
+                        },
+                        {
+                            "name": "plexus-sec-dispatcher",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\plexus\\plexus-sec-dispatcher\\1.3\\plexus-sec-dispatcher-1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.codehaus.plexus",
+                    "name": "plexus-io",
+                    "version": "3.2.0",
+                    "artifacts": [
+                        {
+                            "name": "plexus-io",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-io\\3.2.0\\plexus-io-3.2.0.jar"
+                        },
+                        {
+                            "name": "plexus-io",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\codehaus\\plexus\\plexus-io\\3.2.0\\plexus-io-3.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven",
+                    "name": "maven-repository-metadata",
+                    "version": "3.0",
+                    "artifacts": [
+                        {
+                            "name": "maven-repository-metadata",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-repository-metadata\\3.0\\maven-repository-metadata-3.0.jar"
+                        },
+                        {
+                            "name": "maven-repository-metadata",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-repository-metadata\\3.0\\maven-repository-metadata-3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-compress",
+                    "version": "1.19",
+                    "artifacts": [
+                        {
+                            "name": "commons-compress",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\commons\\commons-compress\\1.19\\commons-compress-1.19.jar"
+                        },
+                        {
+                            "name": "commons-compress",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\commons\\commons-compress\\1.19\\commons-compress-1.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "datatable",
+                    "version": "3.3.1",
+                    "artifacts": [
+                        {
+                            "name": "datatable",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\datatable\\3.3.1\\datatable-3.3.1.jar"
+                        },
+                        {
+                            "name": "datatable",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\datatable\\3.3.1\\datatable-3.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "cucumber-plugin",
+                    "version": "6.4.0",
+                    "artifacts": [
+                        {
+                            "name": "cucumber-plugin",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-plugin\\6.4.0\\cucumber-plugin-6.4.0.jar"
+                        },
+                        {
+                            "name": "cucumber-plugin",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-plugin\\6.4.0\\cucumber-plugin-6.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "cucumber-java",
+                    "version": "6.4.0",
+                    "artifacts": [
+                        {
+                            "name": "cucumber-java",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-java\\6.4.0\\cucumber-java-6.4.0.jar"
+                        },
+                        {
+                            "name": "cucumber-java",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-java\\6.4.0\\cucumber-java-6.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven.plugins",
+                    "name": "maven-resources-plugin",
+                    "version": "3.1.0",
+                    "artifacts": [
+                        {
+                            "name": "maven-resources-plugin",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\plugins\\maven-resources-plugin\\3.1.0\\maven-resources-plugin-3.1.0.jar"
+                        },
+                        {
+                            "name": "maven-resources-plugin",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\plugins\\maven-resources-plugin\\3.1.0\\maven-resources-plugin-3.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.awaitility",
+                    "name": "awaitility",
+                    "version": "4.0.3",
+                    "artifacts": [
+                        {
+                            "name": "awaitility",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\awaitility\\awaitility\\4.0.3\\awaitility-4.0.3.jar"
+                        },
+                        {
+                            "name": "awaitility",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\awaitility\\awaitility\\4.0.3\\awaitility-4.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "cucumber-gherkin-vintage",
+                    "version": "5.7.0",
+                    "artifacts": [
+                        {
+                            "name": "cucumber-gherkin-vintage",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-gherkin-vintage\\5.7.0\\cucumber-gherkin-vintage-5.7.0.jar"
+                        },
+                        {
+                            "name": "cucumber-gherkin-vintage",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-gherkin-vintage\\5.7.0\\cucumber-gherkin-vintage-5.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.sonatype.aether",
+                    "name": "aether-impl",
+                    "version": "1.7",
+                    "artifacts": [
+                        {
+                            "name": "aether-impl",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\aether\\aether-impl\\1.7\\aether-impl-1.7.jar"
+                        },
+                        {
+                            "name": "aether-impl",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\aether\\aether-impl\\1.7\\aether-impl-1.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.vintage",
+                    "name": "junit-vintage-engine",
+                    "version": "5.6.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-vintage-engine",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\vintage\\junit-vintage-engine\\5.6.2\\junit-vintage-engine-5.6.2.jar"
+                        },
+                        {
+                            "name": "junit-vintage-engine",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\vintage\\junit-vintage-engine\\5.6.2\\junit-vintage-engine-5.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-suite-api",
+                    "version": "1.6.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-suite-api",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-suite-api\\1.6.2\\junit-platform-suite-api-1.6.2.jar"
+                        },
+                        {
+                            "name": "junit-platform-suite-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\junit\\platform\\junit-platform-suite-api\\1.6.2\\junit-platform-suite-api-1.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.maven",
+                    "name": "maven-plugin-api",
+                    "version": "3.0",
+                    "artifacts": [
+                        {
+                            "name": "maven-plugin-api",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-plugin-api\\3.0\\maven-plugin-api-3.0.jar"
+                        },
+                        {
+                            "name": "maven-plugin-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-plugin-api\\3.0\\maven-plugin-api-3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.sonatype.plexus",
+                    "name": "plexus-build-api",
+                    "version": "0.0.7",
+                    "artifacts": [
+                        {
+                            "name": "plexus-build-api",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\plexus\\plexus-build-api\\0.0.7\\plexus-build-api-0.0.7.jar"
+                        },
+                        {
+                            "name": "plexus-build-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\plexus\\plexus-build-api\\0.0.7\\plexus-build-api-0.0.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-lang3",
+                    "version": "3.10",
+                    "artifacts": [
+                        {
+                            "name": "commons-lang3",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\commons\\commons-lang3\\3.10\\commons-lang3-3.10.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\commons\\commons-lang3\\3.10\\commons-lang3-3.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.sonatype.aether",
+                    "name": "aether-api",
+                    "version": "1.7",
+                    "artifacts": [
+                        {
+                            "name": "aether-api",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\aether\\aether-api\\1.7\\aether-api-1.7.jar"
+                        },
+                        {
+                            "name": "aether-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\aether\\aether-api\\1.7\\aether-api-1.7-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
