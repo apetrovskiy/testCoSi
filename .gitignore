@@ -1184,3 +1184,4 @@ DerivedData/
 # Ionide (cross platform F# VS Code tools) working folder
 
 # End of https://www.toptal.com/developers/gitignore/api/java,kotlin,scala,groovy,csharp,fsharp,python,ruby,go,code,visualstudio,visualstudiocode,openframeworks+visualstudio,intellij+all,pycharm+all,xcode,dart,flutter,database,powershell
+.metals/metals.lock.db
