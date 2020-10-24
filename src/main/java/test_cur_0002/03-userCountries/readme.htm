@@ -1,0 +1,142 @@
+<div class="-flex -scroll -padding-16 -space-v-16">
+    <div class="-layout-h -space-h-16">
+        <div class="-layout-h -space-h-4 -center-center">
+            <div class="icon -size-16 -color-green">
+                <div class="-layout-h -center"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm-1.43-3c-1.642-.344-2.462-1.136-2.462-2.376V9.612c0-.688-.37-1.032-1.108-1.032V7.42c.739 0 1.108-.346 1.108-1.037V5.31c.013-.613.225-1.11.636-1.487.414-.378 1.023-.653 1.825-.823L7 3.9c-.574.163-.873.621-.896 1.374v1.109c0 .763-.421 1.301-1.265 1.615.844.313 1.265.853 1.265 1.62v1.103c.023.753.322 1.211.896 1.374L6.57 13zm2.86 0c1.642-.344 2.462-1.136 2.462-2.376V9.612c0-.688.37-1.032 1.108-1.032V7.42c-.739 0-1.108-.346-1.108-1.037V5.31c-.013-.613-.225-1.11-.636-1.487-.414-.378-1.023-.653-1.825-.823L9 3.9c.574.163.873.621.896 1.374v1.109c0 .763.421 1.301 1.265 1.615-.844.313-1.265.853-1.265 1.62v1.103c-.023.753-.322 1.211-.896 1.374l.43.905z"></path></svg></div>
+            </div>
+            <p class="-bold -font-size-14 -capitalize">codewriting</p>
+        </div>
+    </div>
+    <div class="markdown -arial">
+        <p>You are really interested in statistics, and your new project is to gather some information about the users of a big social network. More specifically, you want to know which countries these users are from. Using the social network's API, you
+            managed to collect enough data to compose two tables <strong>users</strong> and <strong>cities</strong>, which have the following structures:</p>
+        <ul>
+            <li><strong>users</strong>:
+                <ul>
+                    <li><code>id</code>: the unique user ID;</li>
+                    <li><code>city</code>: the name of the city where this user lives;</li>
+                </ul>
+            </li>
+            <li><strong>cities</strong>:
+                <ul>
+                    <li><code>city</code>: a unique city name;</li>
+                    <li><code>country</code>: the name of the country where this city is located.</li>
+                </ul>
+            </li>
+        </ul>
+        <p>Given the tables <strong>users</strong> and <strong>cities</strong>, write a select statement that returns two columns <code>id</code> and <code>country</code> consisting of user <code>id</code>s and the countries where they live respectively.
+            If a user's city is missing from the <strong>cities</strong> table, the <code>country</code> column should contain <code>"unknown"</code> instead.</p>
+        <p>Return the table sorted by users' <code>id</code>s.</p>
+        <p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Example</span></p>
+        <p>For the following table <strong>users</strong></p>
+        <table>
+            <tbody>
+                <tr>
+                    <th>id</th>
+                    <th>city</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>San Francisco</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Moscow</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>London</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Washington</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Saint Petersburg</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Helsinki</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>and the following table <strong>cities</strong></p>
+        <table>
+            <tbody>
+                <tr>
+                    <th>city</th>
+                    <th>country</th>
+                </tr>
+                <tr>
+                    <td>Moscow</td>
+                    <td>Russia</td>
+                </tr>
+                <tr>
+                    <td>Saint Petersburg</td>
+                    <td>Russia</td>
+                </tr>
+                <tr>
+                    <td>San Francisco</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>Washington</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>New York</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>London</td>
+                    <td>England</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>the output should be</p>
+        <table>
+            <tbody>
+                <tr>
+                    <th>id</th>
+                    <th>country</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Russia</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>England</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Russia</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>unknown</td>
+                </tr>
+            </tbody>
+        </table>
+        <ul>
+            <li><strong>[execution time limit] 10 seconds (mysql)</strong></li>
+        </ul>
+    </div>
+</div>
