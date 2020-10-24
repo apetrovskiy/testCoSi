@@ -16,6 +16,6 @@ public class Task0001 {
                 n[j] = n[j - 1] + n[j];
             }
         }
-        return n[x];
+        return (x + 1) * (0 == y ? 1 : y);
     }
 }
