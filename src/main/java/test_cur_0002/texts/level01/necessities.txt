@@ -1,0 +1,4 @@
+Kindly provide us with sbs.log and sbs.out logs the reside on the web app servers.
+
+Customer's question:
+If you could tell me where the org chart information is kept and maybe some background on the chart process it would be helpful in my understanding.
