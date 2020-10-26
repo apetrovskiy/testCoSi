@@ -56,7 +56,7 @@ hs_err_pid*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-*.code-workspace
+# *.code-workspace
 
 ### Csharp ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -1190,3 +1190,4 @@ DerivedData/
 
 # Ignore Gradle build output directory
 build
+.metals/metals.h2.db
