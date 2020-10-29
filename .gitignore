@@ -1190,4 +1190,12 @@ DerivedData/
 
 # Ignore Gradle build output directory
 build
+
+.fake
+.ionide
 .metals/metals.h2.db
+.metals/metals.lock.db
+.bloop/CodeSignTest.json
+.bloop/CodeSignTest-test.json
+
+
