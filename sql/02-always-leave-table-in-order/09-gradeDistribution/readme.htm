@@ -1,0 +1,122 @@
+<div class="-flex -scroll -padding-16 -space-v-16">
+    <div class="-layout-h -space-h-16">
+        <div class="-layout-h -space-h-4 -center-center">
+            <div class="icon -size-16 -color-green">
+                <div class="-layout-h -center"><svg width="12" height="14" viewBox="0 0 12 14"><path d="M6 2.28S4.02 4.672 0 6.99v2.647s4.5-2.875 6.01-4.764C7.56 6.778 12 9.637 12 9.637V6.991C7.98 4.608 6 2.28 6 2.28z"></path><path d="M6 5.643s-1.98 2.392-6 4.711V13s4.5-2.875 6.01-4.763C7.56 10.142 12 13 12 13v-2.646c-4.02-2.383-6-4.71-6-4.71v-.001z"></path></svg></div>
+            </div>
+            <p class="-bold -font-size-14 -capitalize">medium</p>
+        </div>
+        <div class="-layout-h -space-h-4 -center-center">
+            <div class="icon -size-16 -color-green">
+                <div class="-layout-h -center"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm-1.43-3c-1.642-.344-2.462-1.136-2.462-2.376V9.612c0-.688-.37-1.032-1.108-1.032V7.42c.739 0 1.108-.346 1.108-1.037V5.31c.013-.613.225-1.11.636-1.487.414-.378 1.023-.653 1.825-.823L7 3.9c-.574.163-.873.621-.896 1.374v1.109c0 .763-.421 1.301-1.265 1.615.844.313 1.265.853 1.265 1.62v1.103c.023.753.322 1.211.896 1.374L6.57 13zm2.86 0c1.642-.344 2.462-1.136 2.462-2.376V9.612c0-.688.37-1.032 1.108-1.032V7.42c-.739 0-1.108-.346-1.108-1.037V5.31c-.013-.613-.225-1.11-.636-1.487-.414-.378-1.023-.653-1.825-.823L9 3.9c.574.163.873.621.896 1.374v1.109c0 .763.421 1.301 1.265 1.615-.844.313-1.265.853-1.265 1.62v1.103c-.023.753-.322 1.211-.896 1.374l.43.905z"></path></svg></div>
+            </div>
+            <p class="-bold -font-size-14 -capitalize">codewriting</p>
+        </div>
+        <div class="-layout-h -space-h-4 -center-center">
+            <div class="icon -size-16 -color-green">
+                <div class="-layout-h -center"><svg width="16" height="16" viewBox="0 0 16 16"><path d="M13.33 6.1l-2.8.395-.477 1.58 2.004-.22L11.03 9.6l-1.476.13L8 14.876 6.425 9.73 4.948 9.6 3.923 7.854l2.003.22-.454-1.58-2.8-.396-1.318-2.075 5.53 1.01L8 9.548l1.117-4.51 5.53-1.012L13.33 6.1zM0 8c0 4.418 3.582 8 8 8 4.42 0 8-3.582 8-8 0-4.42-3.58-8-8-8-4.418 0-8 3.58-8 8z" fill-rule="evenodd"></path></svg></div>
+            </div>
+            <p class="-bold -font-size-14 -capitalize">300</p>
+        </div>
+    </div>
+    <div class="markdown -arial">
+        <p>At the end of every semester your professor for "Introduction to Databases" saves the exam results of every student in a simple database system. In the database table <strong>Grades</strong>, there are five columns:</p>
+        <ul>
+            <li><strong>Name</strong>: the name of the student;</li>
+            <li><strong>ID</strong>: the student's ID number (a 5 byte positive integer);</li>
+            <li><strong>Midterm1</strong>: the result of the first midterm out of 100 points;</li>
+            <li><strong>Midterm2</strong>: the result of the second midterm out of 100 points;</li>
+            <li><strong>Final</strong>: the result of the final exam, this time out of a possible 200 points.</li>
+        </ul>
+        <p>According to school policy, there are three possible ways to evaluate a grade:</p>
+        <ul>
+            <li>Option 1:
+                <ul>
+                    <li>Midterm 1: 25% of the grade</li>
+                    <li>Midterm 2: 25% of the grade</li>
+                    <li>Final exam: 50% of the grade</li>
+                </ul>
+            </li>
+            <li>Option 2:
+                <ul>
+                    <li>Midterm 1: 50% of the grade</li>
+                    <li>Midterm 2: 50% of the grade</li>
+                </ul>
+            </li>
+            <li>Option 3:
+                <ul>
+                    <li>Final exam: 100% of the grade.</li>
+                </ul>
+            </li>
+        </ul>
+        <p>Each student's final grade comes from the option that works the best for that student.</p>
+        <p>As a Teaching Assistant (TA), you need to <strong>query</strong> the <strong>name</strong> and <strong>id</strong> of all the students whose best grade comes from <strong>Option 3</strong>, sorted based on the first 3 characters of their name.
+            If the first 3 characters of two names are the same, then the student with the lower ID value comes first.</p>
+        <p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Example</span></p>
+        <p>For the following table <strong>Grades</strong></p>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>ID</td>
+                    <td>Midterm1</td>
+                    <td>Midterm2</td>
+                    <td>Final</td>
+                </tr>
+                <tr>
+                    <td>David</td>
+                    <td>42334</td>
+                    <td>34</td>
+                    <td>54</td>
+                    <td>124</td>
+                </tr>
+                <tr>
+                    <td>Anthony</td>
+                    <td>54528</td>
+                    <td>100</td>
+                    <td>10</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Jonathan</td>
+                    <td>58754</td>
+                    <td>49</td>
+                    <td>58</td>
+                    <td>121</td>
+                </tr>
+                <tr>
+                    <td>Jonty</td>
+                    <td>11000</td>
+                    <td>25</td>
+                    <td>30</td>
+                    <td>180</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Output should be</p>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>ID</td>
+                </tr>
+                <tr>
+                    <td>David</td>
+                    <td>42334</td>
+                </tr>
+                <tr>
+                    <td>Jonty</td>
+                    <td>11000</td>
+                </tr>
+                <tr>
+                    <td>Jonathan</td>
+                    <td>58754</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>For David, Jonty and Jonathan, the best option is number 3. But Anthony's best option is the second one, because <strong>Option1 = 25% of 100 + 25% of 10 +50% of 50 = 52.5</strong>, <strong>Option2 = 50% of 100 + 50% of 10 = 55</strong>, <strong>Option3 = 100% of 50 = 50</strong>.</p>
+        <ul>
+            <li><strong>[execution time limit] 10 seconds (mysql)</strong></li>
+        </ul>
+    </div>
+</div>
