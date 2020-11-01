@@ -56,7 +56,7 @@ hs_err_pid*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-*.code-workspace
+# *.code-workspace
 
 ### Csharp ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -1185,6 +1185,17 @@ DerivedData/
 
 # End of https://www.toptal.com/developers/gitignore/api/java,kotlin,scala,groovy,csharp,fsharp,python,ruby,go,code,visualstudio,visualstudiocode,openframeworks+visualstudio,intellij+all,pycharm+all,xcode,dart,flutter,database,powershell
 
-.metals/**
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+.fake
+.ionide
 .metals/metals.h2.db
 .metals/metals.lock.db
+.bloop/CodeSignTest.json
+.bloop/CodeSignTest-test.json
+
+
