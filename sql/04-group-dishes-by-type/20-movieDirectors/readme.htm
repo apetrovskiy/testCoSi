@@ -1,0 +1,103 @@
+<div class="-flex -scroll -padding-16 -space-v-16"><div class="-layout-h -space-h-16"><div class="-layout-h -space-h-4 -center-center"><div class="icon -size-16 -color-green"><div class="-layout-h -center"><svg width="12" height="14" viewBox="0 0 12 14"><path d="M6 2.28S4.02 4.672 0 6.99v2.647s4.5-2.875 6.01-4.764C7.56 6.778 12 9.637 12 9.637V6.991C7.98 4.608 6 2.28 6 2.28z"></path><path d="M6 5.643s-1.98 2.392-6 4.711V13s4.5-2.875 6.01-4.763C7.56 10.142 12 13 12 13v-2.646c-4.02-2.383-6-4.71-6-4.71v-.001z"></path></svg></div></div><p class="-bold -font-size-14 -capitalize">medium</p></div><div class="-layout-h -space-h-4 -center-center"><div class="icon -size-16 -color-green"><div class="-layout-h -center"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm-1.43-3c-1.642-.344-2.462-1.136-2.462-2.376V9.612c0-.688-.37-1.032-1.108-1.032V7.42c.739 0 1.108-.346 1.108-1.037V5.31c.013-.613.225-1.11.636-1.487.414-.378 1.023-.653 1.825-.823L7 3.9c-.574.163-.873.621-.896 1.374v1.109c0 .763-.421 1.301-1.265 1.615.844.313 1.265.853 1.265 1.62v1.103c.023.753.322 1.211.896 1.374L6.57 13zm2.86 0c1.642-.344 2.462-1.136 2.462-2.376V9.612c0-.688.37-1.032 1.108-1.032V7.42c-.739 0-1.108-.346-1.108-1.037V5.31c-.013-.613-.225-1.11-.636-1.487-.414-.378-1.023-.653-1.825-.823L9 3.9c.574.163.873.621.896 1.374v1.109c0 .763.421 1.301 1.265 1.615-.844.313-1.265.853-1.265 1.62v1.103c-.023.753-.322 1.211-.896 1.374l.43.905z"></path></svg></div></div><p class="-bold -font-size-14 -capitalize">codewriting</p></div><div class="-layout-h -space-h-4 -center-center"><div class="icon -size-16 -color-green"><div class="-layout-h -center"><svg width="16" height="16" viewBox="0 0 16 16"><path d="M13.33 6.1l-2.8.395-.477 1.58 2.004-.22L11.03 9.6l-1.476.13L8 14.876 6.425 9.73 4.948 9.6 3.923 7.854l2.003.22-.454-1.58-2.8-.396-1.318-2.075 5.53 1.01L8 9.548l1.117-4.51 5.53-1.012L13.33 6.1zM0 8c0 4.418 3.582 8 8 8 4.42 0 8-3.582 8-8 0-4.42-3.58-8-8-8-4.418 0-8 3.58-8 8z" fill-rule="evenodd"></path></svg></div></div><p class="-bold -font-size-14 -capitalize">300</p></div></div><div class="markdown -arial"><p>You want to expand your movie collection, but you don't really have any preferences so you're not sure where to start. After some consideration, you decide that you should start by finding more movies from award-winning directors whose movies you already own and who have shot a movie somewhat recently.</p>
+<p>To find the directors whose movies you might want to consider watching in the first place, you've created a database of all the films you already own and stored them in a <strong>moviesInfo</strong> table, which has the following structure:</p>
+<ul>
+<li><code>title</code>: the title of the movie;</li>
+<li><code>director</code>: the director of this movie;</li>
+<li><code>year</code>: the year the movie was released;</li>
+<li><code>oscars</code>: the number of the Academy Awards this movie received.</li>
+</ul>
+<p>Given the <strong>moviesInfo</strong> table, compose the list of directors you should consider watching more movies from. The resulting table should have a single <code>director</code> column and contain the names of film directors such that:</p>
+<ul>
+<li>they shot movies after the year <code>2000</code>;</li>
+<li>the total number of Oscar awards these movies received is more than <code>2</code>.</li>
+</ul>
+<p>The table should be sorted by the directors' names in <em>ascending</em> order.</p>
+<p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Example</span></p>
+<p>For the following table <strong>moviesInfo</strong></p>
+<table><tbody><tr>
+</tr><tr>
+<th>title</th>
+<th>director</th>
+<th>year</th>
+<th>oscars</th>
+</tr>
+<tr>
+<td>BoBoiBoy: The Movie</td>
+<td>Nizam Razak</td>
+<td>2016</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Inception</td>
+<td>Christopher Nolan</td>
+<td>2010</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Interstellar</td>
+<td>Christopher Nolan</td>
+<td>2014</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Munna Bhai M.B.B.S.</td>
+<td>Rajkumar Hirani</td>
+<td>2003</td>
+<td>0</td>
+</tr>
+<tr>
+<td>My Dear Brother</td>
+<td>Ertem Egilmez</td>
+<td>1973</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Rocky	John</td>
+<td>G. Avildsen</td>
+<td>1976</td>
+<td>3</td>
+</tr>
+<tr>
+<td>The Nights of Cabiria</td>
+<td>Federico Fellini</td>
+<td>1957</td>
+<td>1</td>
+</tr>
+<tr>
+<td>The Sixth Sense</td>
+<td>M. Night Shyamalan</td>
+<td>1999</td>
+<td>6</td>
+</tr>
+<tr>
+<td>The Sixth Sense</td>
+<td>M. Night Shyamalan</td>
+<td>1999</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Tokyo Story</td>
+<td>Yasujirô Ozu</td>
+<td>1953</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Yojimbo</td>
+<td>Akira Kurosawa</td>
+<td>1961</td>
+<td>1</td>
+</tr>
+</tbody></table>
+<p>the output should be</p>
+<table>
+<tbody><tr>
+<th>director</th>
+</tr>
+<tr>
+<td>Christopher Nolan</td>
+</tr>
+</tbody></table>
+<ul>
+<li><strong>[execution time limit] 10 seconds (mysql)</strong></li>
+</ul>
+</div></div>

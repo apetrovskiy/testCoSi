@@ -1,5 +1,25 @@
+<<<<<<< HEAD
 {
     "files.watcherExclude": {
         "**/target": true
     }
+=======
+{
+    "python.testing.pytestArgs": [
+        "src"
+    ],
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./src",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "files.watcherExclude": {
+        "**/target": true
+    }
+>>>>>>> develop
 }
