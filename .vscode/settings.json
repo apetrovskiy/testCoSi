@@ -1,6 +1,26 @@
+<<<<<<< HEAD
 {
     "files.watcherExclude": {
         "**/target": true
     },
     "python.pythonPath": "C:\\Users\\aleksandr_petrovskii\\.msvscode.hdinsight\\hdinsightJupyter\\Scripts\\python.exe"
+=======
+{
+    "python.testing.pytestArgs": [
+        "src"
+    ],
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./src",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "files.watcherExclude": {
+        "**/target": true
+    }
+>>>>>>> develop
 }
