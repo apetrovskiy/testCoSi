@@ -1,0 +1,86 @@
+<div class="-flex -scroll -padding-16 -space-v-16"><div class="-layout-h -space-h-16"><div class="-layout-h -space-h-4 -center-center"><div class="icon -size-16 -color-green"><div class="-layout-h -center"><svg width="12" height="14" viewBox="0 0 12 14"><path d="M6 2.28S4.02 4.672 0 6.99v2.647s4.5-2.875 6.01-4.764C7.56 6.778 12 9.637 12 9.637V6.991C7.98 4.608 6 2.28 6 2.28z"></path><path d="M6 5.643s-1.98 2.392-6 4.711V13s4.5-2.875 6.01-4.763C7.56 10.142 12 13 12 13v-2.646c-4.02-2.383-6-4.71-6-4.71v-.001z"></path></svg></div></div><p class="-bold -font-size-14 -capitalize">medium</p></div><div class="-layout-h -space-h-4 -center-center"><div class="icon -size-16 -color-green"><div class="-layout-h -center"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm-1.43-3c-1.642-.344-2.462-1.136-2.462-2.376V9.612c0-.688-.37-1.032-1.108-1.032V7.42c.739 0 1.108-.346 1.108-1.037V5.31c.013-.613.225-1.11.636-1.487.414-.378 1.023-.653 1.825-.823L7 3.9c-.574.163-.873.621-.896 1.374v1.109c0 .763-.421 1.301-1.265 1.615.844.313 1.265.853 1.265 1.62v1.103c.023.753.322 1.211.896 1.374L6.57 13zm2.86 0c1.642-.344 2.462-1.136 2.462-2.376V9.612c0-.688.37-1.032 1.108-1.032V7.42c-.739 0-1.108-.346-1.108-1.037V5.31c-.013-.613-.225-1.11-.636-1.487-.414-.378-1.023-.653-1.825-.823L9 3.9c.574.163.873.621.896 1.374v1.109c0 .763.421 1.301 1.265 1.615-.844.313-1.265.853-1.265 1.62v1.103c-.023.753-.322 1.211-.896 1.374l.43.905z"></path></svg></div></div><p class="-bold -font-size-14 -capitalize">codewriting</p></div><div class="-layout-h -space-h-4 -center-center"><div class="icon -size-16 -color-green"><div class="-layout-h -center"><svg width="16" height="16" viewBox="0 0 16 16"><path d="M13.33 6.1l-2.8.395-.477 1.58 2.004-.22L11.03 9.6l-1.476.13L8 14.876 6.425 9.73 4.948 9.6 3.923 7.854l2.003.22-.454-1.58-2.8-.396-1.318-2.075 5.53 1.01L8 9.548l1.117-4.51 5.53-1.012L13.33 6.1zM0 8c0 4.418 3.582 8 8 8 4.42 0 8-3.582 8-8 0-4.42-3.58-8-8-8-4.418 0-8 3.58-8 8z" fill-rule="evenodd"></path></svg></div></div><p class="-bold -font-size-14 -capitalize">300</p></div></div><div class="markdown -arial"><p>You have your very own library at home, and it's getting bigger and bigger with each passing month. You've decided to create a database in which to store information about your books, in the hope that it will help you remember which books you have in your library.</p>
+<p>Information about the books in your library is stored in the table <strong>catalogs</strong>, which contains the following columns:</p>
+<ul>
+<li><code>doc_id</code> - the unique ID of the catalog;</li>
+<li><code>xml_doc</code> - the catalog as an XML file in the following format:<pre><code>&lt;catalog&gt;
+  &lt;book id="..."&gt;
+    &lt;author&gt;...&lt;/author&gt;
+    &lt;title&gt;...&lt;/title&gt;
+  &lt;/book&gt;
+  &lt;book id="..."&gt;
+    &lt;author&gt;...&lt;/author&gt;
+    &lt;title&gt;...&lt;/title&gt;
+  &lt;/book&gt;
+  ...
+&lt;/catalog&gt;.
+</code></pre>
+</li>
+</ul>
+<p>Each catalog represents the work of one distinct <code>&lt;author&gt;</code> in your library. There is exactly one <code>&lt;catalog&gt;</code> element in each <code>xml_doc</code>, and the <code>id</code> for each book is unique.</p>
+<p>Given the <strong>catalogs</strong> table, you want to find out which authors you have represented in your library. Your task is to create a new table with the <code>author</code> column that will contain all the distinct authors, sorted by their names.</p>
+<p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Example</span></p>
+<p>For given table <strong>catalogs</strong></p>
+<table>
+<tbody><tr>
+<th>doc_id</th>
+<th>xml_doc</th>
+</tr>
+<tr>
+<td>1</td>
+<td><pre>&lt;catalog&gt;
+ &lt;book id="11"&gt;
+  &lt;author&gt;Chuck Palahniuk&lt;/author&gt;
+  &lt;title&gt;Fight Club&lt;/title&gt;
+ &lt;/book&gt;
+ &lt;book id="12"&gt;
+  &lt;author&gt;Chuck Palahniuk&lt;/author&gt;
+  &lt;title&gt;Survivor&lt;/title&gt;
+ &lt;/book&gt;
+&lt;/catalog&gt;</pre></td>
+</tr>
+<tr>
+<td>2</td>
+<td><pre>&lt;catalog&gt;
+ &lt;book id="21"&gt;
+  &lt;author&gt;Bernard Werber&lt;/author&gt;
+  &lt;title&gt;Les Thanatonautes&lt;/title&gt;
+ &lt;/book&gt;
+&lt;/catalog&gt;</pre></td>
+</tr>
+<tr>
+<td>3</td>
+<td><pre>&lt;catalog&gt;
+ &lt;book id="31"&gt;
+  &lt;author&gt;Boris Vian&lt;/author&gt;
+  &lt;title&gt;The Big Sleep&lt;/title&gt;
+ &lt;/book&gt;
+ &lt;book id="32"&gt;
+  &lt;author&gt;Boris Vian&lt;/author&gt;
+  &lt;title&gt;The Lady in the Lake&lt;/title&gt;
+ &lt;/book&gt;
+ &lt;book id="33"&gt;
+  &lt;author&gt;Boris Vian&lt;/author&gt;
+  &lt;title&gt;The World of Null-A&lt;/title&gt;
+ &lt;/book&gt;
+&lt;/catalog&gt;</pre></td>
+</tr>
+</tbody></table>
+<p>the output should be</p>
+<table>
+<tbody><tr>
+<th>author</th>
+</tr>
+<tr>
+<td>Bernard Werber</td>
+</tr>
+<tr>
+<td>Boris Vian</td>
+</tr>
+<tr>
+<td>Chuck Palahniuk</td>
+</tr>
+</tbody></table>
+<ul>
+<li><strong>[execution time limit] 10 seconds (mysql)</strong></li>
+</ul>
+</div></div>
