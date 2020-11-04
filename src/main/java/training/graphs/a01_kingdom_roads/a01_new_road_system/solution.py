@@ -6,4 +6,4 @@ def newRoadSystem(roadRegister):
 
 
 def countInArray(city_from: List[bool]):
-    pass
+    return len([x for x in city_from if x])
