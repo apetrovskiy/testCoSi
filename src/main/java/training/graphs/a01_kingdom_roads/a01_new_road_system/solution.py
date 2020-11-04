@@ -3,8 +3,15 @@ from typing import List
 
 def newRoadSystem(roadRegister):
     length = len(roadRegister)
-    return [(horiz, vert, i, horiz[i]) for i in range(0, length) for horiz in roadRegister for vert in horiz]
+    comparison = [count_in_row(horiz) == count_in_column(roadRegister, i) for i in range(0, length) for horiz in roadRegister for vert in horiz]
+    return 0 == len([x for x in comparison if not x])
 
+def count_in_array(array: List[bool]):
+    return len([x for x in array if x])
 
-def countInArray(city_from: List[bool]):
-    return len([x for x in city_from if x])
+def count_in_row(city_from: List[bool]):
+    return count_in_array(city_from)
+
+def count_in_column(road_register: List[List[bool]], index: int):
+    column = [horiz[index] for horiz in road_register]
+    return count_in_array(column)
