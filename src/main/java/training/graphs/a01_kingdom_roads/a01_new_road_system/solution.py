@@ -3,7 +3,6 @@ from typing import List
 
 def newRoadSystem(roadRegister):
     length = len(roadRegister)
-    # comparison = [count_in_row(horiz) == count_in_column(roadRegister, i) for i in range(0, length) for horiz in roadRegister for vert in horiz]
     comparison = [count_in_row(roadRegister[i]) == count_in_column(roadRegister, i) for i in range(0, length)]
     return 0 == len([x for x in comparison if not x])
 
