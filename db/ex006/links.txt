@@ -2,3 +2,7 @@ https://www.mycompiler.io/new/sql
 
 not absolutely good one is
 https://paiza.io/projects/LgpsN1cx5sFUGCrlGmVIxg?language=mysql
+
+should be the best:
+https://stackoverflow.com/questions/12810346/alternative-to-using-limit-keyword-in-a-subquery-in-mysql
+
