@@ -6,3 +6,5 @@ https://paiza.io/projects/LgpsN1cx5sFUGCrlGmVIxg?language=mysql
 should be the best:
 https://stackoverflow.com/questions/12810346/alternative-to-using-limit-keyword-in-a-subquery-in-mysql
 
+also check this:
+https://stackoverflow.com/questions/50109323/mysql-is-there-an-alternative-to-limit-in-subqueries?rq=1
