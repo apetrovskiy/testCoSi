@@ -3,9 +3,9 @@ drop table starring_actors;
 drop table actor_ages;
 */
 
-create table movies(movie nvarchar(100) not null unique, genre text not null);
-create table starring_actors(id int not null unique, movie_name text not null, actor nvarchar(100) not null unique);
-create table actor_ages(actor nvarchar(100) not null unique, age int not null);
+create table movies(movie varchar(100) not null unique, genre text not null);
+create table starring_actors(id int not null unique, movie_name text not null, actor varchar(100) not null unique);
+create table actor_ages(actor varchar(100) not null unique, age int not null);
 
 insert into movies(movie, genre) values ('Don''t Breathe', 'crime movie');
 insert into movies(movie, genre) values ('Drive', 'crime movie');
