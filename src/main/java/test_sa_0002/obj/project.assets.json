@@ -8,24 +8,33 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\aleksandr_petrovskii\\.nuget\\packages\\": {}
+    "C:\\Users\\Alexander Petrovskiy\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Projects\\Java\\CodeSignTest\\src\\main\\java\\test_sa_0002\\testSa0002Code.csproj",
+      "projectUniqueName": "d:\\Projects\\Java\\CodeSignTest\\src\\main\\java\\test_sa_0002\\testSa0002Code.csproj",
       "projectName": "testSa0002Code",
-      "projectPath": "c:\\Projects\\Java\\CodeSignTest\\src\\main\\java\\test_sa_0002\\testSa0002Code.csproj",
-      "packagesPath": "C:\\Users\\aleksandr_petrovskii\\.nuget\\packages\\",
-      "outputPath": "c:\\Projects\\Java\\CodeSignTest\\src\\main\\java\\test_sa_0002\\obj\\",
+      "projectPath": "d:\\Projects\\Java\\CodeSignTest\\src\\main\\java\\test_sa_0002\\testSa0002Code.csproj",
+      "packagesPath": "C:\\Users\\Alexander Petrovskiy\\.nuget\\packages\\",
+      "outputPath": "d:\\Projects\\Java\\CodeSignTest\\src\\main\\java\\test_sa_0002\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\aleksandr_petrovskii\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Alexander Petrovskiy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -56,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -7,3 +7,12 @@ C:\Projects\Java\CodeSignTest\src\main\java\test_sa_0002\obj\Debug\netcoreapp3.1
 C:\Projects\Java\CodeSignTest\src\main\java\test_sa_0002\obj\Debug\netcoreapp3.1\testSa0002Code.AssemblyInfo.cs
 C:\Projects\Java\CodeSignTest\src\main\java\test_sa_0002\obj\Debug\netcoreapp3.1\testSa0002Code.dll
 C:\Projects\Java\CodeSignTest\src\main\java\test_sa_0002\obj\Debug\netcoreapp3.1\testSa0002Code.pdb
+d:\Projects\Java\CodeSignTest\src\main\java\test_sa_0002\bin\Debug\netcoreapp3.1\testSa0002Code.deps.json
+d:\Projects\Java\CodeSignTest\src\main\java\test_sa_0002\bin\Debug\netcoreapp3.1\testSa0002Code.dll
+d:\Projects\Java\CodeSignTest\src\main\java\test_sa_0002\bin\Debug\netcoreapp3.1\testSa0002Code.pdb
+d:\Projects\Java\CodeSignTest\src\main\java\test_sa_0002\obj\Debug\netcoreapp3.1\testSa0002Code.csprojAssemblyReference.cache
+d:\Projects\Java\CodeSignTest\src\main\java\test_sa_0002\obj\Debug\netcoreapp3.1\testSa0002Code.AssemblyInfoInputs.cache
+d:\Projects\Java\CodeSignTest\src\main\java\test_sa_0002\obj\Debug\netcoreapp3.1\testSa0002Code.AssemblyInfo.cs
+d:\Projects\Java\CodeSignTest\src\main\java\test_sa_0002\obj\Debug\netcoreapp3.1\testSa0002Code.csproj.CoreCompileInputs.cache
+d:\Projects\Java\CodeSignTest\src\main\java\test_sa_0002\obj\Debug\netcoreapp3.1\testSa0002Code.dll
+d:\Projects\Java\CodeSignTest\src\main\java\test_sa_0002\obj\Debug\netcoreapp3.1\testSa0002Code.pdb
