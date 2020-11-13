@@ -14,5 +14,9 @@
     "python.testing.pytestEnabled": true,
     "files.watcherExclude": {
         "**/target": true
-    }
+    },
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true
 }
