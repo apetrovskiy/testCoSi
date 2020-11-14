@@ -2,17 +2,17 @@
     "version": "1.4.0",
     "project": {
         "name": "CodeSignTest-test",
-        "directory": "D:\\Projects\\Java\\CodeSignTest",
-        "workspaceDir": "D:\\Projects\\Java\\CodeSignTest",
+        "directory": "D:\\Projects\\code\\CodeSignTest",
+        "workspaceDir": "D:\\Projects\\code\\CodeSignTest",
         "sources": [
-            "D:\\Projects\\Java\\CodeSignTest\\src\\test\\java"
+            "D:\\Projects\\code\\CodeSignTest\\src\\test\\java"
         ],
         "dependencies": [
             "CodeSignTest"
         ],
         "classpath": [
-            "D:\\Projects\\Java\\CodeSignTest\\target\\test-classes",
-            "D:\\Projects\\Java\\CodeSignTest\\target\\classes",
+            "D:\\Projects\\code\\CodeSignTest\\target\\test-classes",
+            "D:\\Projects\\code\\CodeSignTest\\target\\classes",
             "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\plugins\\maven-resources-plugin\\3.1.0\\maven-resources-plugin-3.1.0.jar",
             "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\apache\\maven\\maven-plugin-api\\3.0\\maven-plugin-api-3.0.jar",
             "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\org\\sonatype\\sisu\\sisu-inject-plexus\\1.4.2\\sisu-inject-plexus-1.4.2.jar",
@@ -91,8 +91,8 @@
             "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-plugin\\6.4.0\\cucumber-plugin-6.4.0.jar",
             "C:\\Users\\Alexander Petrovskiy\\.m2\\repository\\io\\cucumber\\cucumber-gherkin-vintage\\5.7.0\\cucumber-gherkin-vintage-5.7.0.jar"
         ],
-        "out": "D:\\Projects\\Java\\CodeSignTest\\target",
-        "classesDir": "D:\\Projects\\Java\\CodeSignTest\\target\\test-classes",
+        "out": "D:\\Projects\\code\\CodeSignTest\\target",
+        "classesDir": "D:\\Projects\\code\\CodeSignTest\\target\\test-classes",
         "resources": [
             
         ],
