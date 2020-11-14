@@ -1,0 +1,7 @@
+CREATE PROCEDURE booksCatalogs()
+BEGIN
+	/* Write your SQL here. Terminate each statement with a semicolon. */
+    SELECT ExtractValue(xml_doc, '/catalog/book[1]/author[1]') AS author
+    FROM catalogs
+    ORDER BY author;
+END
