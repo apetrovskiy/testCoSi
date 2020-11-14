@@ -6,6 +6,7 @@ namespace coolFeature
     {
         public int[] coolFeature(int[] a, int[] b, int[][] query)
         {
+            /*
             var updatedB = Enumerable.Range(0, query.Length - 1)
             .Select(index => 3 == query[index].Length ? query[index][2] : b[index]).ToArray<int>();
             // updatedB.ToList().ForEach(item => Console.WriteLine(item));
@@ -18,7 +19,13 @@ namespace coolFeature
                     .Count())
                 .Count())
             .ToArray<int>();
-            return new int[] { 1 };
+            */
+            var result = query.Select(queryArrayElement => 3 == queryArrayElement.Length ? b[queryArrayElement[1]] = queryArrayElement[2] : calculateQuery(a, b, queryArrayElement)).ToArray<int>();
+            // return new int[] { 1 };
+            return result;
+        }
+        private int calculateQuery(int[] array1, int[] array2, int[] currentQuery){
+            return 1;
         }
     }
 }
