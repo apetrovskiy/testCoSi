@@ -1,6 +1,6 @@
 package test_sa_0002.a01_spiderMove;
 
-public class Task0001 {
+public class Task0001Java {
     public int spiderMove(int x, int y) {
 
         x = Math.abs(x);

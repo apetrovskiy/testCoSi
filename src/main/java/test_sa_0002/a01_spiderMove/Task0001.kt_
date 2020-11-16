@@ -1,8 +1,8 @@
-package test_sa_0002.a01_spiderMove
+package test_sa_0002.a01spiderMove
 
 import kotlin.math.abs
 
-class Task0001_ {
+class Task0001K {
     fun spiderMove(x1: Int, y1: Int): Int {
 
         var x = abs(x1)

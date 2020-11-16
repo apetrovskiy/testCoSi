@@ -12,14 +12,16 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <java.version>14</java.version>
+        <compiler.target.java.version>12</compiler.target.java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
         <maven.resources.plugin.version>3.1.0</maven.resources.plugin.version>
         <maven.jar.plugin.version>3.2.0</maven.jar.plugin.version>
         <maven.surefire.plugin.version>2.22.2</maven.surefire.plugin.version>
-        <jvmTarget>${java.version}</jvmTarget>
-        <kotlin.compiler.jvmTarget>14</kotlin.compiler.jvmTarget>
+        <jvmTarget>${compiler.target.java.version}</jvmTarget>
+        <kotlin.compiler.jvmTarget>${compiler.target.java.version}</kotlin.compiler.jvmTarget>
+<!--        <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>-->
         <apiVersion>1.4</apiVersion>
 
         <kotlin.version>1.4.10</kotlin.version>
@@ -30,43 +32,64 @@
         <!--        <scalatest.version>3.1.2</scalatest.version>-->
         <scalatest.version>3.3.0-SNAP2</scalatest.version>
         <scalatest-maven-plugin.version>2.0.0</scalatest-maven-plugin.version>
-        <junit.jupiter.version>5.6.2</junit.jupiter.version>
-        <junit-platform.version>1.6.2</junit-platform.version>
-        <!--        <junit-platform-surefire-provider.version>1.3.2</junit-platform-surefire-provider.version>-->
+        <junit.jupiter.version>5.7.0</junit.jupiter.version>
+        <junit-platform.version>1.7.0</junit-platform.version>
+<!--        <junit-platform-surefire-provider.version>1.3.2</junit-platform-surefire-provider.version>-->
         <cucumber.version>5.7.0</cucumber.version>
-        <cucumber.last.version>6.4.0</cucumber.last.version>
+        <cucumber.last.version>6.8.1</cucumber.last.version>
         <gherkin.version>14.2.0</gherkin.version>
-        <vividus.version>0.2.1</vividus.version>
-        <vividus.jbehave.version>4.6.2-alpha</vividus.jbehave.version>
-        <greenmail.version>1.5.14</greenmail.version>
+        <greenmail.version>1.6.0</greenmail.version>
         <jsoup.version>1.13.1</jsoup.version>
-        <commons-text.version>1.8</commons-text.version>
-        <commons-lang3.version>3.10</commons-lang3.version>
-        <commons-io.version>2.7</commons-io.version>
+        <commons-text.version>1.9</commons-text.version>
+        <commons-lang3.version>3.11</commons-lang3.version>
+        <commons-io.version>2.8.0</commons-io.version>
         <awaitility.version>4.0.3</awaitility.version>
         <hamcrest.version>2.2</hamcrest.version>
         <javafaker.version>1.0.2</javafaker.version>
         <rest-assured.version>4.3.1</rest-assured.version>
         <jackson.version>2.11.1</jackson.version>
-        <mongodb-driver.version>3.12.5</mongodb-driver.version>
+        <postgresql.version>42.2.12</postgresql.version>
+        <mongodb-driver.version>3.12.7</mongodb-driver.version>
         <jnosql.version>0.0.9</jnosql.version>
-        <jooq.version>3.13.4</jooq.version>
+        <jooq.version>3.13.5</jooq.version>
+        <jooq-postgresql-json.version>1.1.2</jooq-postgresql-json.version>
         <jool.version>0.9.14</jool.version>
         <kafka.version>2.6.0</kafka.version>
         <allure.version>2.10.0</allure.version>
-        <allure.deps.version>2.13.5</allure.deps.version>
+        <allure.deps.version>2.13.6</allure.deps.version>
         <aspectj.version>1.9.5</aspectj.version>
-        <!--        <exposed.version>0.25.1</exposed.version>-->
-        <ktlint.version>0.37.2</ktlint.version>
-        <checkstyle.version>8.35</checkstyle.version>
+<!--        <exposed.version>0.27.1</exposed.version>-->
+        <ktlint.version>0.39.0</ktlint.version>
+        <scalafix.version>0.9.21</scalafix.version>
+        <checkstyle.version>8.36.2</checkstyle.version>
         <checkstyle-plugin.version>3.1.1</checkstyle-plugin.version>
         <pmd-plugin.version>3.13.0</pmd-plugin.version>
         <pmd.version>6.26.0</pmd.version>
         <findbugs.version>3.0.5</findbugs.version>
         <sonarqube.version>3.7.0.1746</sonarqube.version>
-        <sonar-testing-harness.version>8.4.1.35646</sonar-testing-harness.version>
-        <spotbugs.version>4.1.1</spotbugs.version>
+        <sonar-testing-harness.version>8.5.0.37579</sonar-testing-harness.version>
+        <spotbugs.version>4.1.3</spotbugs.version>
     </properties>
+
+
+    <repositories>
+<!--        <repository>-->
+<!--            <id>jcenter</id>-->
+<!--            <name>JCenter</name>-->
+<!--            <url>https://jcenter.bintray.com/</url>-->
+<!--        </repository>-->
+<!--        <repository>-->
+<!--            <id>central</id>-->
+<!--            <name>Maven Central</name>-->
+<!--            <url>https://repo1.maven.org/maven2/</url>-->
+<!--        </repository>-->
+<!--    </repositories>-->
+        <repository>
+            <id>artima</id>
+            <name>Artima Maven Repository</name>
+            <url>http://repo.artima.com/releases</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
@@ -78,6 +101,42 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-jar-plugin</artifactId>
             <version>${maven.jar.plugin.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-maven-plugin</artifactId>
+            <version>${kotlin.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-maven-allopen</artifactId>
+            <version>${kotlin.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-stdlib</artifactId>
+            <version>${kotlin.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>${scala.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>net.alchim31.maven</groupId>
+            <artifactId>scala-maven-plugin</artifactId>
+            <version>${scala-maven-plugin.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.icegreen</groupId>
+            <artifactId>greenmail</artifactId>
+            <version>${greenmail.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>${jsoup.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -230,7 +289,38 @@
     </dependencies>
 
     <build>
+        <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
+        <testSourceDirectory>${project.basedir}/src/test/java</testSourceDirectory>
+
+        <finalName>${project.artifactId}</finalName>
+
+        <resources>
+            <resource>
+                <directory>src/test/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>${maven.jar.plugin.version}</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                        </manifest>
+                    </archive>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>test-jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
             <plugin>
                 <groupId>org.jetbrains.kotlin</groupId>
                 <artifactId>kotlin-maven-plugin</artifactId>
@@ -242,12 +332,61 @@
                         <goals>
                             <goal>compile</goal>
                         </goals>
+                        <configuration>
+                            <sourceDirs>
+                                <sourceDir>${project.basedir}/src/main/java</sourceDir>
+                            </sourceDirs>
+<!--                            <compilerPlugins>-->
+<!--                                &lt;!&ndash; Or "spring" for the Spring support &ndash;&gt;-->
+<!--                                <plugin>all-open</plugin>-->
+<!--                            </compilerPlugins>-->
+
+<!--                            <pluginOptions>-->
+<!--                                &lt;!&ndash; Each annotation is placed on its own line &ndash;&gt;-->
+<!--                                <option>all-open:annotation=com.my.Annotation</option>-->
+<!--                                <option>all-open:annotation=com.their.AnotherAnnotation</option>-->
+<!--                            </pluginOptions>-->
+                        </configuration>
                     </execution>
                     <execution>
                         <id>test-compile</id>
                         <phase>test-compile</phase>
                         <goals>
                             <goal>test-compile</goal>
+                        </goals>
+                        <configuration>
+                            <sourceDirs>
+                                <sourceDir>${project.basedir}/src/test/java</sourceDir>
+                            </sourceDirs>
+                        </configuration>
+                    </execution>
+                </executions>
+<!--                <dependencies>-->
+<!--                    <dependency>-->
+<!--                        <groupId>org.jetbrains.kotlin</groupId>-->
+<!--                        <artifactId>kotlin-maven-allopen</artifactId>-->
+<!--                        <version>${kotlin.version}</version>-->
+<!--                    </dependency>-->
+<!--                </dependencies>-->
+            </plugin>
+            <plugin>
+                <groupId>net.alchim31.maven</groupId>
+                <artifactId>scala-maven-plugin</artifactId>
+                <version>${scala-maven-plugin.version}</version>
+                <executions>
+                    <execution>
+                        <id>scala-compile-first</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>add-source</goal>
+                            <goal>compile</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>scala-test-compile</id>
+                        <phase>process-test-resources</phase>
+                        <goals>
+                            <goal>testCompile</goal>
                         </goals>
                     </execution>
                 </executions>
@@ -258,22 +397,245 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
                 <executions>
+                    <!-- Replacing default-compile as it is treated specially by maven -->
                     <execution>
-                        <id>compile</id>
+                        <id>default-compile</id>
+                        <phase>none</phase>
+                    </execution>
+                    <!-- Replacing default-testCompile as it is treated specially by maven -->
+                    <execution>
+                        <id>default-testCompile</id>
+                        <phase>none</phase>
+                    </execution>
+                    <execution>
+                        <id>java-compile</id>
                         <phase>compile</phase>
                         <goals>
                             <goal>compile</goal>
                         </goals>
                     </execution>
                     <execution>
-                        <id>testCompile</id>
+                        <id>java-test-compile</id>
                         <phase>test-compile</phase>
                         <goals>
                             <goal>testCompile</goal>
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven.surefire.plugin.version}</version>
+                <configuration>
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                        -Dcucumber.options="--plugin io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm"
+                    </argLine>
+                    <testFailureIgnore>false</testFailureIgnore>
+<!--                    <argLine>-->
+<!--                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"-->
+<!--                    </argLine>-->
+                    <systemProperties>
+
+                        <!-- experimentally -->
+<!--                        <property>-->
+<!--                            <name>junit.jupiter.extensions.autodetection.enabled</name>-->
+<!--                            <value>true</value>-->
+<!--                        </property>-->
+
+<!--                        <property>-->
+<!--                            <name>allure.results.directory</name>-->
+<!--                            <value>${basedir}/../../../allure-results</value>-->
+<!--                        </property>-->
+                    </systemProperties>
+                    <systemPropertyVariables>
+<!--                        <allure.results.directory>${project.build.directory}/../../../allure-results</allure.results.directory>-->
+                        <allure.results.directory>${project.build.directory}/../../allure-results</allure.results.directory>
+                    </systemPropertyVariables>
+                </configuration>
+                <dependencies>
+<!--                    <dependency>-->
+<!--                        <groupId>org.junit.platform</groupId>-->
+<!--                        <artifactId>junit-platform-surefire-provider</artifactId>-->
+<!--                        <version>${junit-platform-surefire-provider.version}</version>-->
+<!--                    </dependency>-->
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.junit.jupiter</groupId>
+                        <artifactId>junit-jupiter-engine</artifactId>
+                        <version>${junit.jupiter.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.8</version>
+                <executions>
+                    <execution>
+                        <id>ktlint</id>
+                        <phase>validate</phase>
+                        <configuration>
+                            <target name="ktlint">
+                                <java taskname="ktlint" dir="${basedir}" fork="true" failonerror="true"
+                                      classpathref="maven.plugin.classpath" classname="com.pinterest.ktlint.Main">
+                                    <arg value="src/**/*.kt"/>
+                                    <!-- to generate report in checkstyle format prepend following args: -->
+                                    <!-- <arg value= "- -reporter=plain" /> -->
+                                    <!-- <arg value= "- -reporter=checkstyle,output=${project.build.directory}/ktlint.xml"/> -->
+                                    <!-- see https://github.com/shyiko/ktlint#usage for more -->
+                                </java>
+                            </target>
+                        </configuration>
+                        <goals><goal>run</goal></goals>
+                    </execution>
+                    <execution>
+                        <id>ktlint-format</id>
+                        <configuration>
+                            <target name="ktlint">
+                                <java taskname="ktlint" dir="${basedir}" fork="true" failonerror="true"
+                                      classpathref="maven.plugin.classpath" classname="com.pinterest.ktlint.Main">
+                                    <arg value="-F"/>
+                                    <arg value="src/**/*.kt"/>
+                                </java>
+                            </target>
+                        </configuration>
+                        <goals><goal>run</goal></goals>
+                    </execution>
+<!--                    <execution>-->
+<!--                        &lt;!&ndash; Work around. Surefire does not use JUnits Test Engine discovery functionality.-->
+<!--                             Alternatively annotate a class with `io.cucumber.junit.platform.engine.Cucumber`-->
+<!--                             to mark its package for the discovery of feature files.  &ndash;&gt;-->
+<!--                        <id>CLI-test</id>-->
+<!--                        <phase>integration-test</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>run</goal>-->
+<!--                        </goals>-->
+<!--                        <configuration>-->
+<!--                            <target>-->
+<!--                                <echo message="Running JUnit Platform CLI" />-->
+<!--                                <java classname="org.junit.platform.console.ConsoleLauncher" fork="true" failonerror="true" newenvironment="true" maxmemory="512m" classpathref="maven.test.classpath">-->
+<!--                                    <arg value="&#45;&#45;include-engine" />-->
+<!--                                    <arg value="cucumber" />-->
+<!--                                    <arg value="&#45;&#45;scan-classpath" />-->
+<!--                                    <arg value="${project.build.testOutputDirectory}" />-->
+<!--                                    <arg value="&#45;&#45;reports-dir" />-->
+<!--                                    <arg value="${project.build.directory}/cucumber-reports" />-->
+<!--                                </java>-->
+<!--                            </target>-->
+<!--                        </configuration>-->
+<!--                    </execution>-->
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.pinterest</groupId>
+                        <artifactId>ktlint</artifactId>
+                        <version>${ktlint.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.pinterest.ktlint</groupId>
+                        <artifactId>ktlint-core</artifactId>
+                        <version>${ktlint.version}</version>
+                        <scope>runtime</scope>
+                    </dependency>
+
+                    <!-- additional 3rd party ruleset(s) can be specified here -->
+                </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.10.0</version>
+                <configuration>
+                    <reportVersion>2.4.1</reportVersion>
+                    <resultsDirectory>${project.build.directory}/../../allure-results</resultsDirectory>
+                    <reportDirectory>${project.build.directory}/../../allure-reports</reportDirectory>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>${checkstyle-plugin.version}</version>
+                <configuration>
+                    <configLocation>google_checks.xml</configLocation>
+                    <encoding>UTF-8</encoding>
+                    <consoleOutput>true</consoleOutput>
+                    <failsOnError>true</failsOnError>
+                    <linkXRef>false</linkXRef>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>validate</id>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>${pmd-plugin.version}</version>
+            </plugin>
+            <plugin>
+                <groupId>com.github.spotbugs</groupId>
+                <artifactId>spotbugs-maven-plugin</artifactId>
+                <version>4.0.4</version>
+                <dependencies>
+                    <!-- overwrite dependency on spotbugs if you want to specify the version of spotbugs -->
+                    <dependency>
+                        <groupId>com.github.spotbugs</groupId>
+                        <artifactId>spotbugs</artifactId>
+                        <version>${spotbugs.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>${sonarqube.version}</version>
+            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.scalatest</groupId>-->
+<!--                <artifactId>scalatest-maven-plugin</artifactId>-->
+<!--                <version>${scalatest-maven-plugin.version}</version>-->
+<!--                <configuration>-->
+<!--                    <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>-->
+<!--                    <junitxml>.</junitxml>-->
+<!--                    <filereports>WDF TestSuite.txt</filereports>-->
+<!--                </configuration>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>test</id>-->
+<!--                        <goals>-->
+<!--                            <goal>test</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
+            <plugin>
+                <groupId>net.alchim31.maven</groupId>
+                <artifactId>scala-maven-plugin</artifactId>
+                <configuration>
+                    <compilerPlugins>
+                        <compilerPlugin>
+                            <groupId>com.artima.supersafe</groupId>
+                            <artifactId>supersafe_2.13.3</artifactId>
+                            <version>1.1.10</version>
+                        </compilerPlugin>
+                    </compilerPlugins>
+                </configuration>
+<!--                <executions>-->
+<!--                    ...-->
+<!--                </executions>-->
             </plugin>
         </plugins>
     </build>
