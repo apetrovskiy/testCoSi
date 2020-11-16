@@ -1,36 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Projects\\Java\\CodeSignTest\\src\\main\\java\\test_sa_0002\\testSa0002Code.csproj": {}
+    "c:\\Projects\\code\\CodeSignTest\\src\\main\\java\\test_sa_0002\\testSa0002Code.csproj": {}
   },
   "projects": {
-    "d:\\Projects\\Java\\CodeSignTest\\src\\main\\java\\test_sa_0002\\testSa0002Code.csproj": {
+    "c:\\Projects\\code\\CodeSignTest\\src\\main\\java\\test_sa_0002\\testSa0002Code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Projects\\Java\\CodeSignTest\\src\\main\\java\\test_sa_0002\\testSa0002Code.csproj",
+        "projectUniqueName": "c:\\Projects\\code\\CodeSignTest\\src\\main\\java\\test_sa_0002\\testSa0002Code.csproj",
         "projectName": "testSa0002Code",
-        "projectPath": "d:\\Projects\\Java\\CodeSignTest\\src\\main\\java\\test_sa_0002\\testSa0002Code.csproj",
-        "packagesPath": "C:\\Users\\Alexander Petrovskiy\\.nuget\\packages\\",
-        "outputPath": "d:\\Projects\\Java\\CodeSignTest\\src\\main\\java\\test_sa_0002\\obj\\",
+        "projectPath": "c:\\Projects\\code\\CodeSignTest\\src\\main\\java\\test_sa_0002\\testSa0002Code.csproj",
+        "packagesPath": "C:\\Users\\aleksandr_petrovskii\\.nuget\\packages\\",
+        "outputPath": "c:\\Projects\\code\\CodeSignTest\\src\\main\\java\\test_sa_0002\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alexander Petrovskiy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\aleksandr_petrovskii\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,6 +36,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -52,12 +47,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.8, 3.1.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

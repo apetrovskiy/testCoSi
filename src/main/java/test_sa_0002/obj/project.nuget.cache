@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HaGBB3PWhb8ZQuRA56Ubvjqs0QClIDUysYmPpdIC0d3cNleeBrgozwXttXAt6vnX4ELVWcJruJHSWbjG0VTsGg==",
+  "dgSpecHash": "2qC8FTkNw8UE8ZNUEebvfjvxgyPnUI/PkcNygEGNIq+jAfCyuL6DvfvA6g53CL4lm1PM/mrAsnU5duydjIP0TA==",
   "success": true,
-  "projectFilePath": "d:\\Projects\\Java\\CodeSignTest\\src\\main\\java\\test_sa_0002\\testSa0002Code.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "c:\\Projects\\code\\CodeSignTest\\src\\main\\java\\test_sa_0002\\testSa0002Code.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aleksandr_petrovskii\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.8\\microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+  ],
   "logs": []
 }
