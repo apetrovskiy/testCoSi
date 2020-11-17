@@ -18,6 +18,6 @@ class Task0001K {
                 n[j] = n[j - 1] + n[j]
             }
         }
-        return n[x+1] + n[y]
+        return n[x + 1] + n[y]
     }
 }
