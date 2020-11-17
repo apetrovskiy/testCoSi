@@ -1,10 +1,11 @@
-﻿namespace addBinaryStrings {
-
-public class Task0002
+﻿namespace addBinaryStrings
 {
-    public string addBinaryStrings(string a, string b)
+
+    public class Task0002
     {
-        return "0";
+        public string addBinaryStrings(string a, string b)
+        {
+            return "0";
+        }
     }
-}
 }
