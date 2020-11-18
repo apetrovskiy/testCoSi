@@ -1,6 +1,5 @@
 namespace test_ssre_0003.a03_wordCount
 {
-
     using NUnit.Framework;
 
     public class SolutionTest
@@ -15,7 +14,86 @@ namespace test_ssre_0003.a03_wordCount
         [Test]
         public void Test0002()
         {
+            var actualResult = new Solution().wordCount(new char[][] { new char[] { 'a', 'a' }, new char[] { 'a', 'a' } }, "aa");
+            Assert.AreEqual(5, actualResult);
+        }
 
+        [Test]
+        public void Test0003()
+        {
+            var actualResult = new Solution().wordCount(new char[][] { new char[] { 'c', 'o', 'd', 'e', 's', 'i', 'g', 'n', 'a', 'l' } }, "codesignal");
+            Assert.AreEqual(1, actualResult);
+        }
+
+        [Test]
+        public void Test0004()
+        {
+            var actualResult = new Solution().wordCount(new char[][] {new char[]{'c'},
+ new char[]{'o'},
+ new char[]{'d'},
+ new char[]{'e'},
+new char[] {'s'},
+new char[] {'i'},
+ new char[]{'g'},
+new char[] {'n'},
+ new char[]{'a'},
+ new char[]{'l'}}, "codesignal");
+            Assert.AreEqual(1, actualResult);
+        }
+
+        [Test]
+        public void Test0005()
+        {
+            var actualResult = new Solution().wordCount(new char[][] { new char[] {'a','b','c'},
+new char[] {'a','b','c'}}, "codesignal");
+            Assert.AreEqual(2, actualResult);
+        }
+
+        [Test]
+        public void Test0006()
+        {
+            var actualResult = new Solution().wordCount(new char[][] { new char[] { 'z', 'z', 'z' }, new char[] { 'z', 'z', 'z' }, new char[] { 'z', 'z', 'z' } }, "zz");
+            Assert.AreEqual(16, actualResult);
+        }
+
+        [Test]
+        public void Test0007()
+        {
+            var actualResult = new Solution().wordCount(new char[][] { new char[] {'h','o','h','o','h','o'},
+ new char[] {'o','h','o','h','o','h'},
+ new char[] {'h','o','h','o','h','o'},
+ new char[] {'o','h','o','h','o','h'},
+ new char[] {'h','o','h','o','h','o'},
+ new char[] {'o','h','o','h','o','h'} }, "hohoho");
+            Assert.AreEqual(6, actualResult);
+        }
+
+        [Test]
+        public void Test0008()
+        {
+            var actualResult = new Solution().wordCount(new char[][] {  new char[] {'l','l','l','l','l'},
+  new char[] {'o','o','o','o','o'},
+  new char[] {'l','l','l','l','l'} }, "lol");
+            Assert.AreEqual(8, actualResult);
+        }
+
+        [Test]
+        public void Test0009()
+        {
+            var actualResult = new Solution().wordCount(new char[][] { new char[] { 'c', 'c', 'o', 'd', 'e'},
+new char[] { 'o', 'c', 'o', 'd', 'e' },
+new char[] { 'd', 't', 'o', 'd', 't' },
+new char[] { 'e', 't', 't', 'd', 'e' },
+new char[] { 'a', 'b', 'c', 'd', 'e' } }, "code");
+            Assert.AreEqual(5, actualResult);
+        }
+
+        [Test]
+        public void Test0010()
+        {
+            var actualResult = new Solution().wordCount(new char[][] {  new char[] {'l','l','l','l','l'},
+  new char[] {'x'} }, "oops");
+            Assert.AreEqual(0, actualResult);
         }
     }
 }
@@ -94,7 +172,8 @@ Output:
 undefined
 Expected Output:
 16
-
+*/
+/*
 007
 Input:
 board:
@@ -121,7 +200,8 @@ Output:
 undefined
 Expected Output:
 8
-
+*/
+/*
 009
 Input:
 board:
