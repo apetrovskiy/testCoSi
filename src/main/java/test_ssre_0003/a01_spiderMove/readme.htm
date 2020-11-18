@@ -1,0 +1,79 @@
+<div class="-flex -scroll -padding-16 -space-v-16">
+    <div class="-layout-h -space-h-16">
+        <div class="-layout-h -space-h-4 -center-center">
+            <div class="icon -size-16 -color-green">
+                <div class="-layout-h -center"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm-1.43-3c-1.642-.344-2.462-1.136-2.462-2.376V9.612c0-.688-.37-1.032-1.108-1.032V7.42c.739 0 1.108-.346 1.108-1.037V5.31c.013-.613.225-1.11.636-1.487.414-.378 1.023-.653 1.825-.823L7 3.9c-.574.163-.873.621-.896 1.374v1.109c0 .763-.421 1.301-1.265 1.615.844.313 1.265.853 1.265 1.62v1.103c.023.753.322 1.211.896 1.374L6.57 13zm2.86 0c1.642-.344 2.462-1.136 2.462-2.376V9.612c0-.688.37-1.032 1.108-1.032V7.42c-.739 0-1.108-.346-1.108-1.037V5.31c-.013-.613-.225-1.11-.636-1.487-.414-.378-1.023-.653-1.825-.823L9 3.9c.574.163.873.621.896 1.374v1.109c0 .763.421 1.301 1.265 1.615-.844.313-1.265.853-1.265 1.62v1.103c-.023.753-.322 1.211-.896 1.374l.43.905z"></path></svg></div>
+            </div>
+            <p class="-bold -font-size-14 -capitalize">recovery</p>
+        </div>
+    </div>
+    <div class="-italic">Implement the missing code, denoted by ellipses. You may not modify the pre-existing code.</div>
+    <div class="markdown -arial">
+        <p>A spider is standing at the origin <code>(0, 0)</code> of a Cartesian plane and wants to move to the point <code>(x, y)</code>. At each step, the spider can only move one square in two of the four directions: <code>U</code>(<em>up</em>), <code>D</code>(<em>down</em>,),
+            <code>L</code>(<em>left</em>), <code>R</code>(<em>right</em>), depending on where it is heading:</p>
+        <ul>
+            <li>if <code>x ≥ 0</code>, <code>y ≥ 0</code>. The spider can only go <code>U</code> or <code>R</code>.</li>
+            <li>if <code>x ≥ 0</code>, <code>y ≤ 0</code>. The spider can only go <code>D</code> or <code>R</code>.</li>
+            <li>if <code>x ≤ 0</code>, <code>y ≥ 0</code>. The spider can only go <code>U</code> or <code>L</code>.</li>
+            <li>if <code>x ≤ 0</code>, <code>y ≤ 0</code>. The spider can only go <code>D</code> or <code>L</code>.</li>
+        </ul>
+        <p>Find the number of ways for the spider to get to the given point <code>(x, y)</code>.</p>
+        <p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Example</span></p>
+        <ul>
+            <li>
+                <p>For <code>x = 2</code> and <code>y = -2</code>, the output should be<br>
+                    <code>spiderMove(x, y) = 6</code>.</p>
+                <p>There are only 6 ways:</p>
+                <ul>
+                    <li><code>RRDD</code>;</li>
+                    <li><code>RDRD</code>;</li>
+                    <li><code>RDDR</code>;</li>
+                    <li><code>DRRD</code>;</li>
+                    <li><code>DRDR</code>;</li>
+                    <li><code>DDRR</code>.</li>
+                </ul>
+            </li>
+            <li>
+                <p>For <code>x = -3</code> and <code>y = 0</code>, the output should be<br>
+                    <code>spiderMove(x, y) = 1</code>.</p>
+                <p>There is only one way:</p>
+                <ul>
+                    <li><code>LLL</code>.</li>
+                </ul>
+            </li>
+            <li>
+                <p>For <code>x = 0</code> and <code>y = 0</code>, the output should be<br>
+                    <code>spiderMove(x, y) = 1</code>.</p>
+            </li>
+        </ul>
+        <p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Input/Output</span></p>
+        <ul>
+            <li>
+                <p><strong>[execution time limit] 0.5 seconds (cpp)</strong></p>
+            </li>
+            <li>
+                <p><strong>[input] integer x</strong></p>
+                <p><em>Guaranteed constraints:</em><br>
+                    <code>-15 ≤ x ≤ 15</code>.</p>
+            </li>
+            <li>
+                <p><strong>[input] integer y</strong></p>
+                <p><em>Guaranteed constraints:</em><br>
+                    <code>-5 ≤ y ≤ 25</code>.</p>
+            </li>
+            <li>
+                <p><strong>[output] integer</strong></p>
+                <p>It is guaranteed that the answer is smaller than <code>2<sup>31</sup></code>.</p>
+            </li>
+        </ul>
+        <p><strong>[C++] Syntax Tips</strong></p>
+        <pre><code class="language-cpp"><span class="hljs-comment">// Prints help message to the console</span>
+    <span class="hljs-comment">// Returns a string</span>
+    <span class="hljs-function"><span class="hljs-built_in">std</span>::<span class="hljs-built_in">string</span> <span class="hljs-title">helloWorld</span><span class="hljs-params">(<span class="hljs-built_in">std</span>::<span class="hljs-built_in">string</span> name)</span> </span>{
+        <span class="hljs-built_in">std</span>::<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"This prints to the console when you Run Tests"</span> &lt;&lt; <span class="hljs-built_in">std</span>::<span class="hljs-built_in">endl</span>;
+        <span class="hljs-keyword">return</span> <span class="hljs-string">"Hello, "</span> + name;
+    }
+    
+    </code></pre>
+    </div>
+</div>
