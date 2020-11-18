@@ -1,4 +1,8 @@
-public class solution {
+package test_lea_0003.a01_evenDigitsNumber;
+
+import java.util.stream.IntStream;
+
+public class EvenDigitsNumber {
     public int evenDigitsNumber(int[] a) {
         return processArrayElements(a);
     }
