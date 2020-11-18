@@ -1,4 +1,9 @@
-public class solution {
+package test_lea_0003.a02_divisorSubstrings;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
     public int divisorSubstrings(int n, int k) {
         return sumOfDivisors(n, k);
     }
@@ -21,7 +26,7 @@ public class solution {
         for (int i = 0; i < inputString.length() - 1; i++) {
             System.out.println("input data " + inputData);
             System.out.println("iteration = " + i);
-            System.out.println("gorup length = " + groupLength);
+            System.out.println("group length = " + groupLength);
             System.out.println("substring = " + inputString.substring(i, groupLength));
             // resultList.add(Integer.valueOf(inputString.substring(i, groupLength)));
         }
