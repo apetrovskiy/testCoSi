@@ -1,4 +1,4 @@
-using NUnit.Framework;
+/*using NUnit.Framework;
 
 namespace test_ssre_0003.a01_spiderMove
 {
@@ -12,3 +12,4 @@ namespace test_ssre_0003.a01_spiderMove
         }
     }
 }
+*/
