@@ -1198,10 +1198,8 @@ build
 .bloop/CodeSignTest.json
 .bloop/CodeSignTest-test.json
 
-<<<<<<< Updated upstream
-
-=======
 allure-results/*
+allure-results/**
 !allure-results/categories.json
 allure-reports/*
 **/.allure/*
@@ -1211,4 +1209,5 @@ allure-reports/*
 
 null/*
 **/null/*
->>>>>>> Stashed changes
+
+.noseids
