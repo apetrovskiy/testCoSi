@@ -10,10 +10,17 @@ import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
 public class DivisorSubstringsTest {
+    private Solution cut;
+
+    @BeforeEach
+    void setUp() {
+        cut = new Solution();
+    }
+
     @ParameterizedTest
     @MethodSource("getInputData")
-    void test(int val1, int val2, int expectedResult) {
-
+    void test(int n, int k, int expectedResult) {
+        assertEquals(expectedResult, cut.divisorSubstrings(n, k));
     }
 
     static Stream<Arguments> getInputData() {
