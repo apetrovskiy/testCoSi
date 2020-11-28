@@ -1,2 +1,2 @@
 def marathonTaskScore(marathonLength, maxScore, submissions, successfulSubmissionTime):
-    pass
+    return 0

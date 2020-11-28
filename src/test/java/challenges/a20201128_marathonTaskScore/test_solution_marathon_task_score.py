@@ -1,15 +1,14 @@
 import pytest
-from typing import List
-from src.main.java.testCodi.a02CyclicRotation.solution import solution
+from src.main.java.challenges.a20201128_marathonTaskScore.solution3 import marathonTaskScore
 
 
 @pytest.mark.parametrize(
-    "input_array,shift,expected_result",
+    "marathon_length,max_score,submissions,successful_submission_time,expected_result",
     [
-        ([3, 8, 9, 7, 6], 3, [9, 7, 6, 3, 8]),
-        ([0, 0, 0], 1, [0, 0, 0]),
-        ([1, 2, 3, 4], 4, [1, 2, 3, 4]),
+        (100, 400, 4, 30, 310),
+        (100, 400, 95, 30, 200),
+        (100, 400, 95, -1, 0),
     ],
 )
-def test_solution_cyclic_rotation(input_array: List[int], shift: int, expected_result: List[int]):
-    assert expected_result == solution(input_array, shift)
+def test_solution_marathon_task_score(marathon_length: int, max_score: int, submissions: int, successful_submission_time: int, expected_result: int):
+    assert expected_result == marathonTaskScore(marathon_length, max_score, submissions, successful_submission_time)
