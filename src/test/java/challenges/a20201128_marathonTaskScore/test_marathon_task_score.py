@@ -1,5 +1,5 @@
-import pytest
 from src.main.java.challenges.a20201128_marathonTaskScore.solution3 import marathonTaskScore
+import pytest
 
 
 @pytest.mark.parametrize(
