@@ -1,2 +1,2 @@
 def fancyRide(l, fares):
-    pass
+    return ""
