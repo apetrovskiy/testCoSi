@@ -14,8 +14,8 @@ threshold = 0.5
 expected_result = [[83, 1500], [374, 1837, 1848]]
 
 
-class FancyRideTest(TestCase):
-    def test_fancy_ride(self):
+class SpamClusterizationTest(TestCase):
+    def test_spamClusterization(self):
         self.assertEqual(expected_result, spamClusterization(
             requests, ids, threshold))
 
