@@ -1,0 +1,3 @@
+fancyRide <- function(l, fares) {
+
+}
