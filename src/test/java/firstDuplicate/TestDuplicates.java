@@ -1,10 +1,10 @@
 package firstDuplicate;
 
+import firstDuplicate.Duplicates;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
-
-import firstDuplicate.Duplicates;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -31,6 +31,7 @@ public class TestDuplicates {
         return IntStream.generate(() -> 1).limit(length).toArray();
     }
 
+    @Disabled
     @ParameterizedTest
     @MethodSource("getInputData")
     void shouldReturnDuplicate(int[] input, int expectedResult) {

@@ -1212,3 +1212,4 @@ null/*
 allure-results/*-result.json
 allure-results/*-container.json
 !allure-results/categories.json
+.allure/*
