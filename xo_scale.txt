@@ -1,0 +1,21 @@
+CODING SCORE
+825-850
+Level 10
+800-824
+Level 9
+775-799
+Level 8
+750-774
+Level 7
+700-749
+Level 6
+650-699
+Level 5
+600-649
+Level 4
+500-599
+Level 3
+400-499
+Level 2
+300-399
+Level 1
