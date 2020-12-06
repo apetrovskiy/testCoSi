@@ -1,0 +1,1 @@
+fancyRide = (l, fares) ->
