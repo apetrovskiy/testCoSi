@@ -15,5 +15,6 @@
     ],
     "python.testing.nosetestArgs": [
         "src/test/java"
-    ]
+    ],
+    "python.formatting.provider": "black"
 }
