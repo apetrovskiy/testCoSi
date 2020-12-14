@@ -1,11 +1,11 @@
 input data 2124
 iteration = 0
-gorup length = 1
+group length = 1
 substring = 2
 input data 2124
 iteration = 1
-gorup length = 1
+group length = 1
 substring = 
 input data 2124
 iteration = 2
-gorup length = 1
+group length = 1

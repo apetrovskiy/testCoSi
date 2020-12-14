@@ -2,6 +2,7 @@ package test_lea_0003.a02_divisorSubstrings;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Solution {
     public int divisorSubstrings(int n, int k) {
@@ -14,21 +15,17 @@ public class Solution {
             return result;
         }
         List<Integer> divisors = getDivisorsToTry(inputData, groupLength);
-        for (int i = 0; i < divisors.size(); i++) {
-            
-        }
-        return result;
+        return divisors.stream().collect(Collectors.toSet()).size();
     }
     
     private List<Integer> getDivisorsToTry(int inputData, int groupLength) {
         final String inputString = String.valueOf(inputData);
         List<Integer> resultList = new ArrayList<>();
-        for (int i = 0; i < inputString.length() - 1; i++) {
-            System.out.println("input data " + inputData);
-            System.out.println("iteration = " + i);
-            System.out.println("group length = " + groupLength);
-            System.out.println("substring = " + inputString.substring(i, groupLength));
-            // resultList.add(Integer.valueOf(inputString.substring(i, groupLength)));
+        for (int i = 0; i <= inputString.length() - groupLength; i++) {
+            final String group = inputString.substring(i, i + groupLength);
+            final int potentialDivisor = Integer.parseInt(group);
+            if (0 == inputData % potentialDivisor)
+                resultList.add(potentialDivisor);
         }
         return resultList;
     }
