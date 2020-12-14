@@ -5,7 +5,7 @@ namespace test_lea_0003.a01_evenDigitsNumber
     public class EvenDigitsNumberTest
     {
         [Test]
-        public void test()
+        public void Test()
         {
             var actualResult = new EvenDigitsNumber().evenDigitsNumber(new int[] { 12, 134, 111, 1111, 10 });
             Assert.AreEqual(3, actualResult);

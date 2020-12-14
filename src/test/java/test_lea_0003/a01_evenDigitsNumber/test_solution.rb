@@ -1,4 +1,4 @@
-require 'test/unit'
+# require 'test/unit'
 require 'test/unit/assertions'
 include Test::Unit::Assertions
 require 'test/unit/ui/console/testrunner'
