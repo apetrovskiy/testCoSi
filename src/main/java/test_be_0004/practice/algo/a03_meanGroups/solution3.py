@@ -1,0 +1,2 @@
+def meanGroups(a):
+    pass

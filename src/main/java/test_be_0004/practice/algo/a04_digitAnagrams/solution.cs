@@ -1,0 +1,3 @@
+long digitAnagrams(int[] a) {
+
+}
