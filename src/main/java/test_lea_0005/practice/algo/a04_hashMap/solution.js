@@ -1,0 +1,1 @@
+function hashMap(queryType, query) {}

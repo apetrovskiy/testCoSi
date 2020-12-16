@@ -1,0 +1,84 @@
+<div class="-flex -scroll -padding-16 -space-v-16">
+    <div class="-layout-h -space-h-16">
+        <div class="-layout-h -space-h-4 -center-center">
+            <div class="icon -size-16 -color-green">
+                <div class="-layout-h -center"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm-1.43-3c-1.642-.344-2.462-1.136-2.462-2.376V9.612c0-.688-.37-1.032-1.108-1.032V7.42c.739 0 1.108-.346 1.108-1.037V5.31c.013-.613.225-1.11.636-1.487.414-.378 1.023-.653 1.825-.823L7 3.9c-.574.163-.873.621-.896 1.374v1.109c0 .763-.421 1.301-1.265 1.615.844.313 1.265.853 1.265 1.62v1.103c.023.753.322 1.211.896 1.374L6.57 13zm2.86 0c1.642-.344 2.462-1.136 2.462-2.376V9.612c0-.688.37-1.032 1.108-1.032V7.42c-.739 0-1.108-.346-1.108-1.037V5.31c-.013-.613-.225-1.11-.636-1.487-.414-.378-1.023-.653-1.825-.823L9 3.9c.574.163.873.621.896 1.374v1.109c0 .763.421 1.301 1.265 1.615-.844.313-1.265.853-1.265 1.62v1.103c-.023.753-.322 1.211-.896 1.374l.43.905z"></path></svg></div>
+            </div>
+            <p class="-bold -font-size-14 -capitalize">codewriting</p>
+        </div>
+    </div>
+    <div class="markdown -arial">
+        <p>You've created a new programming language, and now you've decided to add hashmap support to it. Actually you are quite disappointed that in common programming languages it's impossible to add a number to all hashmap keys, or all its values. So
+            you've decided to take matters into your own hands and implement your own hashmap in your new language that has the following operations:</p>
+        <ul>
+            <li><code>insert x y</code> - insert an object with key <code>x</code> and value <code>y</code>.</li>
+            <li><code>get x</code> - return the value of an object with key <code>x</code>.</li>
+            <li><code>addToKey x</code> - add <code>x</code> to all keys in map.</li>
+            <li><code>addToValue y</code> - add <code>y</code> to all values in map.</li>
+        </ul>
+        <p>To test out your new hashmap, you have a list of queries in the form of two arrays: <code>queryTypes</code> contains the names of the methods to be called (eg: <code>insert</code>, <code>get</code>, etc), and <code>queries</code> contains the
+            arguments for those methods (the <code>x</code> and <code>y</code> values).</p>
+        <p>Your task is to implement this hashmap, apply the given queries, and to find the <strong>sum</strong> of all the results for <code>get</code> operations.</p>
+        <p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Example</span></p>
+        <ul>
+            <li>
+                <p>For <code>queryType = ["insert", "insert", "addToValue", "addToKey", "get"]</code> and <code>query = [[1, 2], [2, 3], [2], [1], [3]]</code>, the output should be <code>hashMap(queryType, query) = 5</code>.</p>
+                <p>The hashmap looks like this after each query:</p>
+                <ul>
+                    <li>1 query: {1: 2}</li>
+                    <li>2 query: {1: 2, 2: 3}</li>
+                    <li>3 query: {1: 4, 2: 5}</li>
+                    <li>4 query: {2: 4, 3: 5}</li>
+                    <li>5 query: answer is <code>5</code></li>
+                </ul>
+                <p>The result of the last <code>get</code> query for <code>3</code> is <code>5</code> in the resulting hashmap.</p>
+                <p><img src="https://codesignal.s3.amazonaws.com/tasks/hashMap/img/example1.jpg?_tm=1600703171524" alt=""></p>
+            </li>
+            <li>
+                <p>For <code>queryType = ["insert", "addToValue", "get", "insert", "addToKey", "addToValue", "get"]</code> and <code>query = [[1, 2], [2], [1], [2, 3], [1], [-1], [3]]</code>, the output should be <code>hashMap(queryType, query) = 6</code>.</p>
+                <p>The hashmap looks like this after each query:</p>
+                <ul>
+                    <li>1 query: {1: 2}</li>
+                    <li>2 query: {1: 4}</li>
+                    <li>3 query: answer is <code>4</code></li>
+                    <li>4 query: {1: 4, 2: 3}</li>
+                    <li>5 query: {2: 4, 3: 3}</li>
+                    <li>6 query: {2: 3, 3: 2}</li>
+                    <li>7 query: answer is <code>2</code></li>
+                </ul>
+                <p>The sum of the results for all the <code>get</code> queries is equal to <code>4 + 2 = 6</code>.</p>
+            </li>
+        </ul>
+        <p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Input/Output</span></p>
+        <ul>
+            <li>
+                <p><strong>[execution time limit] 4 seconds (py3)</strong></p>
+            </li>
+            <li>
+                <p><strong>[input] array.string queryType</strong></p>
+                <p>Array of query types. It is guaranteed that each <code>queryType[i]</code> is either <code>"addToKey"</code>, <code>"addToValue"</code>, <code>"get"</code>, or <code>"insert"</code>.</p>
+                <p><em>Guaranteed constraints:</em><br>
+                    <code>1 ≤ queryType.length ≤ 10<sup>5</sup></code>.</p>
+            </li>
+            <li>
+                <p><strong>[input] array.array.integer query</strong></p>
+                <p>Array of queries, where each query is represented either by two numbers for <code>insert</code> query or by one number for other queries. It is guaranteed that during all queries all keys and values are in the range <code>[-10<sup>9</sup>, 10<sup>9</sup>]</code>.</p>
+                <p><em>Guaranteed constraints:</em><br>
+                    <code>query.length = queryType.length</code>,<br>
+                    <code>1 ≤ query[i].length ≤ 2</code>.</p>
+            </li>
+            <li>
+                <p><strong>[output] integer64</strong></p>
+                <p>The sum of the results for all <code>get</code> queries.</p>
+            </li>
+        </ul>
+        <p><strong>[Python 3] Syntax Tips</strong></p>
+        <pre><code class="language-python"><span class="hljs-comment"># Prints help message to the console</span>
+<span class="hljs-comment"># Returns a string</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">helloWorld</span>(<span class="hljs-params">name</span>):</span>
+    print(<span class="hljs-string">"This prints to the console when you Run Tests"</span>)
+    <span class="hljs-keyword">return</span> <span class="hljs-string">"Hello, "</span> + name
+
+</code></pre>
+    </div>
+</div>
