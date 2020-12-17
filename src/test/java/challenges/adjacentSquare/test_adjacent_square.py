@@ -17,6 +17,6 @@ test_data = [
 ]
 
 
-@pytest.mark.parameterize("input_array,expected_result", test_data)
+@pytest.mark.parametrize("input_array,expected_result", test_data)
 def test_adjacent_square(input_array: List[int], expected_result: List[int]):
     assert expected_result == adjacentSquare(input_array)
