@@ -1,2 +1,2 @@
 def runningWater(cap, volume):
-    pass
+    return False

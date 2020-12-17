@@ -1,3 +1,8 @@
+from src.main.java.challenges.a20201217_runningWater.solution3 import runningWater
+import pytest
+from typing import List
+
+
 test_data = [
     ([1, 1, 1], 2, True),
 ]
