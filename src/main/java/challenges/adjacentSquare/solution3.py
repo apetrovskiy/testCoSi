@@ -1,2 +1,2 @@
 def adjacentSquare(a):
-    pass
+    return []

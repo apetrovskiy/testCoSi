@@ -1,3 +1,4 @@
+from src.main.java.challenges.adjacentSquare.solution3 import adjacentSquare
 from typing import List
 import pytest
 
