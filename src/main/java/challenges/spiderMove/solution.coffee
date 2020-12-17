@@ -1,0 +1,1 @@
+spiderMove = (x, y) ->
