@@ -16,7 +16,16 @@ public class Solution {
         }
         int[] elements = new int[leftmost.length];
 
+//        System.out.println("before sorting");
+//        Arrays.stream(resultArray)
+//                .forEach(item -> System.out.println(item[0] + " " + item[1]));
+
         Arrays.sort(resultArray, Comparator.comparingInt(elt -> elt[0]));
+
+//        System.out.println("after sorting");
+//        Arrays.stream(resultArray)
+//                .forEach(item -> System.out.println(item[0] + " " + item[1]));
+
         for (int i = 0; i < leftmost.length; i++) {
             elements[i] = resultArray[i][1];
         }
@@ -26,11 +35,13 @@ public class Solution {
     private int getAscendingDiagonalSum(int[][] matrix, int elementStartIndex) {
         int result = 0;
         if (0 == elementStartIndex) {
+//            System.out.println("ascending = " + result);
             return result;
         }
         for (int hor = 0, vert = elementStartIndex; hor <= elementStartIndex; hor++, vert--) {
             result += matrix[hor][vert];
         }
+//        System.out.println("ascending = " + result);
         return result;
     }
 
@@ -38,14 +49,18 @@ public class Solution {
     private int getDescendingDiagonalSum(int[][] matrix, int elementStartIndex) {
         int result = 0;
         if (matrix.length - 1 == elementStartIndex) {
+//            System.out.println("descending = " + result);
             return result;
         }
-        for (int hor = elementStartIndex, vert = 0; hor < elementStartIndex; hor++, vert++) {
-            if (0 != elementStartIndex && 0 == vert) {
+        for (int vert = elementStartIndex, hor = 0; vert < matrix.length; vert++, hor++) {
+            if (0 != elementStartIndex && 0 == hor) {
+//                System.out.println("vert = " + vert + " hor = " + hor + " value' = " + matrix[hor][vert]);
                 continue;
             }
+//            System.out.println("vert = " + vert + " hor = " + hor + " value = " + matrix[hor][vert]);
             result += matrix[hor][vert];
         }
+//        System.out.println("descending = " + result);
         return result;
     }
 }
