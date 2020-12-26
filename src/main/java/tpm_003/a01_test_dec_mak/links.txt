@@ -1,0 +1,22 @@
+before:
+https://d1.awsstatic.com/whitepapers/aws-overview.pdf
+https://aws.amazon.com/s3/
+https://aws.amazon.com/cloudfront/
+https://aws.amazon.com/lambda/
+https://aws.amazon.com/lambda/edge/
+
+in between:
+https://docs.google.com/document/d/1erTqqt87mXd7tLOt94AqzV41sg8DeofkZXz7qhrODZM/edit#
+https://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html
+https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html
+https://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-auth-workflow-object-operation.html
+https://docs.google.com/document/d/1erTqqt87mXd7tLOt94AqzV41sg8DeofkZXz7qhrODZM/edit#
+https://aws.amazon.com/rds/aurora/faqs/#Hardware_and_Scaling
+https://aws.amazon.com/rds/aurora/faqs/#Parallel_Query
+https://blog.shikisoft.com/why-choose-aurora-over-regular-rds/
+
+https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-choosing-signed-urls-cookies.html
+https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.html
+https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-choosing-signed-urls-cookies.html
+https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-choosing-signed-urls-cookies.html
+https://aws.amazon.com/blogs/networking-and-content-delivery/authorizationedge-how-to-use-lambdaedge-and-json-web-tokens-to-enhance-web-application-security/
