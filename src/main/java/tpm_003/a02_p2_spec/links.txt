@@ -74,3 +74,6 @@ https://aws.amazon.com/batch/
 
 
 
+
+QuickSight Q
+https://docs.aws.amazon.com/quicksight/latest/user/amazon-quicksight-user.pdf
