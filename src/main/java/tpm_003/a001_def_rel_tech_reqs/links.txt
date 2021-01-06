@@ -1,0 +1,6 @@
+https://docs.google.com/document/d/1JdvY71oRCK2PS13SOTICHzV-3zhNg5NCWBOH2YIwz_w/edit
+https://docs.google.com/document/d/1LkPmgGFsOPXf-hOypkaXrc0pChJe1t3AtuP1dVf3c3c/edit
+https://aws.amazon.com/sns/
+https://aws.amazon.com/sqs/
+https://aws.amazon.com/fargate
+https://aws.amazon.com/aws-transfer-family
