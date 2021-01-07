@@ -1,0 +1,13 @@
+https://www.crossover.com/catalog/realwork/Technical/a1E2j000000fxUOEAY/a082j000000PcvMAAS
+
+https://docs.google.com/document/d/1JdvY71oRCK2PS13SOTICHzV-3zhNg5NCWBOH2YIwz_w/edit
+https://docs.google.com/document/d/1JdvY71oRCK2PS13SOTICHzV-3zhNg5NCWBOH2YIwz_w/edit#heading=h.zafsoor0m6f2
+
+https://aws.amazon.com/s3/
+https://aws.amazon.com/cloudwatch/
+https://aws.amazon.com/lambda/
+https://aws.amazon.com/rds/aurora
+https://aws.amazon.com/kinesis/data-streams
+https://aws.amazon.com/quicksight/
+https://aws.amazon.com/api-gateway/
+https://aws.amazon.com/appsync/
