@@ -58,6 +58,7 @@ java {
     }
 }*/
 
+/*
 tasks.withType<JavaCompile>().configureEach {
     javaCompiler.set(javaToolchains.compilerFor {
         languageVersion.set(JavaLanguageVersion.of(11))
@@ -69,6 +70,7 @@ tasks.withType<Test>().configureEach {
         languageVersion.set(JavaLanguageVersion.of(14))
     })
 }
+*/
 
 sourceSets.main {
     java.srcDirs("src/main/java")
@@ -150,6 +152,8 @@ dependencies {
     testImplementation("junit:junit:4.12")
     testImplementation("org.scalatest:scalatest_2.13:3.2.0")
     testImplementation("org.scalatestplus:junit-4-12_2.13:3.2.0.0")
+    testImplementation("org.scalatest:scalatest-freespec_2.13:3.2.0")
+    testImplementation("org.scalatest:scalatest-funsuite_2.13:3.2.0")
 
     // Need scala-xml at test runtime
     testRuntimeOnly("org.scala-lang.modules:scala-xml_2.13:1.2.0")
