@@ -1,0 +1,3 @@
+def antiPrimes(n)
+
+end
