@@ -17,6 +17,7 @@ test_data = [
     ([57, 30, 11], 65, True),
 ]
 
+
 @pytest.mark.skip(reason="TODO: no way of currently testing this")
 @pytest.mark.parametrize("cap,volume,expected_result", test_data)
 def test_running_water(cap: List[int], volume: int, expected_result: bool):
