@@ -5,4 +5,4 @@ def spiderMove(x, y):
     for current_x in range(1, abs(x) + 1):
         m *= (current_x + abs(y))
         d *= current_x
-    return m /d
+    return m / d

@@ -1,4 +1,5 @@
-from src.main.java.challenges.a20201217_runningWater.solution3 import runningWater
+from src.main.java.challenges.a20201217_runningWater.solution3 \
+    import runningWater
 import pytest
 from typing import List
 

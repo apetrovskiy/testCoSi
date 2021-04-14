@@ -4,9 +4,11 @@ import pytest
 
 test_data = [(2, -2, 6), (-3, 0, 1), (0, 0, 1), (0, 10, 1), (5, 7, 792), ]
 
+
 @pytest.mark.parametrize("x,y,expected_result", test_data)
 def test_spider_move(x: int, y: int, expected_result: int):
     assert expected_result == spiderMove(x, y)
+
 
 '''
 Test 1
