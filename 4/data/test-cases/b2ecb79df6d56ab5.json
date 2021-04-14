@@ -1,0 +1,88 @@
+{
+  "uid" : "b2ecb79df6d56ab5",
+  "name" : "test_running_water[cap8-51-True]",
+  "fullName" : "src.test.java.challenges.a20201217_runningWater.test_running_water#test_running_water",
+  "historyId" : "aa6bf365efcf7dd5a7eb5cd121e928a4",
+  "time" : {
+    "start" : 1618441554861,
+    "stop" : 1618441554861,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: TODO: no way of currently testing this",
+  "statusTrace" : "('/home/runner/work/codeSignTest/codeSignTest/src/test/java/challenges/a20201217_runningWater/test_running_water.py', 21, 'Skipped: TODO: no way of currently testing this')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='TODO: no way of currently testing this')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.a20201217_runningWater"
+  }, {
+    "name" : "suite",
+    "value" : "test_running_water"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-155"
+  }, {
+    "name" : "thread",
+    "value" : "3010-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.a20201217_runningWater.test_running_water"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cap",
+    "value" : "[31, 46, 61]"
+  }, {
+    "name" : "expected_result",
+    "value" : "True"
+  }, {
+    "name" : "volume",
+    "value" : "51"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "2b62d106a365cb8e",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/2//#testresult/2b62d106a365cb8e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([31, 46, 61], 51)",
+        "time" : {
+          "start" : 1618440184338,
+          "stop" : 1618440184339,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skip(reason='TODO: no way of currently testing this')" ]
+  },
+  "source" : "b2ecb79df6d56ab5.json",
+  "parameterValues" : [ "[31, 46, 61]", "True", "51" ]
+}
