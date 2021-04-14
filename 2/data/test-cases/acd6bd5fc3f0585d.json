@@ -1,0 +1,62 @@
+{
+  "uid" : "acd6bd5fc3f0585d",
+  "name" : "test_spider_move[5-7-792]",
+  "fullName" : "src.test.java.challenges.spiderMove.test_spider_move#test_spider_move",
+  "historyId" : "8209178643ba8b5970adf2706e55e8d7",
+  "time" : {
+    "start" : 1618440184399,
+    "stop" : 1618440184399,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.spiderMove"
+  }, {
+    "name" : "suite",
+    "value" : "test_spider_move"
+  }, {
+    "name" : "host",
+    "value" : "fv-az193-370"
+  }, {
+    "name" : "thread",
+    "value" : "3212-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.spiderMove.test_spider_move"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "792"
+  }, {
+    "name" : "x",
+    "value" : "5"
+  }, {
+    "name" : "y",
+    "value" : "7"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "acd6bd5fc3f0585d.json",
+  "parameterValues" : [ "792", "5", "7" ]
+}
