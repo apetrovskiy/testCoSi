@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Product defects" : 14
+  }
+}, {
   "buildOrder" : 11,
   "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/11/",
   "reportName" : "Allure Report with history",

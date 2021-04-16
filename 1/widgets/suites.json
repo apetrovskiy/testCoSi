@@ -1,4 +1,59 @@
 {
-  "total" : 0,
-  "items" : [ ]
+  "total" : 5,
+  "items" : [ {
+    "uid" : "900bc3a13250308496f653e5fe64c1cb",
+    "name" : "src.test.java.challenges.adjacentSquare",
+    "statistic" : {
+      "failed" : 8,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "68d3f3fd7df714799b45a891c5617c28",
+    "name" : "src.test.java.challenges.a20201217_runningWater",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "76c3c6f86a44ec989ffdc5a2b6635259",
+    "name" : "src.test.java.challenges.a20201126_marathonTaskScore",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "be9b61c4913298288cd0b2758642d4e0",
+    "name" : "src.test.java.challenges.spiderMove",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "c1c170d9be5c510b8423b1b24f381b30",
+    "name" : "src.test.java.challenges.a20201123_fancyRide",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
 }
