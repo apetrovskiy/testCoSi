@@ -1,3 +1,5 @@
-func runningWater(cap []int, volume int) bool {
+package runningWater
 
+func runningWater(cap []int, volume int) bool {
+    return false
 }

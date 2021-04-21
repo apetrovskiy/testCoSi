@@ -1,3 +1,5 @@
-func spiderMove(x int, y int) int {
+package spiderMove
 
+func spiderMove(x int, y int) int {
+    return 0
 }
