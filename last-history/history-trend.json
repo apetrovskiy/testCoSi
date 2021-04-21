@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 3,
+  "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/3/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 14,
+    "broken" : 0,
+    "skipped" : 2,
+    "passed" : 26,
+    "unknown" : 0,
+    "total" : 42
+  }
+}, {
   "buildOrder" : 2,
   "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/2/",
   "reportName" : "Allure Report with history",
