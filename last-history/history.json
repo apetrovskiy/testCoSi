@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "f2f83a44b70972e5",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/f2f83a44b70972e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619388060722,
+        "stop" : 1619388060723,
+        "duration" : 1
+      }
+    }, {
       "uid" : "e4610cb9176abdb6",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/e4610cb9176abdb6",
       "status" : "passed",
@@ -87,11 +96,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "9b175f77f047e547",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/9b175f77f047e547",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619388060713,
+        "stop" : 1619388060714,
+        "duration" : 1
+      }
+    }, {
       "uid" : "c926a134bcc330d5",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/c926a134bcc330d5",
       "status" : "passed",
@@ -167,14 +185,24 @@
   },
   "f1e1c50fe89950e525999002baf5e7c8" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 16,
       "broken" : 0,
       "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "2d3a708cdee06be4",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/2d3a708cdee06be4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1619387967599,
+        "stop" : 1619387967600,
+        "duration" : 1
+      }
+    }, {
       "uid" : "4f220285ddef5a20",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/4f220285ddef5a20",
       "status" : "failed",
@@ -361,11 +389,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "692642150329a898",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/692642150329a898",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619388060644,
+        "stop" : 1619388060645,
+        "duration" : 1
+      }
+    }, {
       "uid" : "1cbd7d06a12af2c4",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/1cbd7d06a12af2c4",
       "status" : "passed",
@@ -441,14 +478,24 @@
   },
   "b0eb9f8b49ce93ebef9dec0b319fb3dc" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 16,
       "broken" : 0,
       "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "3d84992bd98b926d",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/3d84992bd98b926d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+      "time" : {
+        "start" : 1619387967545,
+        "stop" : 1619387967545,
+        "duration" : 0
+      }
+    }, {
       "uid" : "8ab7cdf428641a47",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/8ab7cdf428641a47",
       "status" : "failed",
@@ -635,11 +682,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "78d09686dbdfcf0c",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/78d09686dbdfcf0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619388060717,
+        "stop" : 1619388060717,
+        "duration" : 0
+      }
+    }, {
       "uid" : "17d7993b1b88264f",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/17d7993b1b88264f",
       "status" : "passed",
@@ -715,14 +771,24 @@
   },
   "9ea00842818d71b101f2a8799928a7cb" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 16,
       "broken" : 0,
       "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "b49a04dc039cc444",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/b49a04dc039cc444",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert [1, 15, 10] == []\n  Left contains 3 more items, first extra item: 1\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1619387967603,
+        "stop" : 1619387967604,
+        "duration" : 1
+      }
+    }, {
       "uid" : "b2e2e0bf07547fcd",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/b2e2e0bf07547fcd",
       "status" : "failed",
@@ -909,11 +975,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "19dff7b9148c9a0d",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/19dff7b9148c9a0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619387967495,
+        "stop" : 1619387967496,
+        "duration" : 1
+      }
+    }, {
       "uid" : "e2145a825f4973ef",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/e2145a825f4973ef",
       "status" : "passed",
@@ -1082,11 +1157,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 3,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "8260f6d33563ac02",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/8260f6d33563ac02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619387967552,
+        "stop" : 1619387967553,
+        "duration" : 1
+      }
+    }, {
       "uid" : "604429b172675be9",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/604429b172675be9",
       "status" : "passed",
@@ -1258,11 +1342,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "e18f4ec6391421cf",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/e18f4ec6391421cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619387967506,
+        "stop" : 1619387967506,
+        "duration" : 0
+      }
+    }, {
       "uid" : "a4ab37a9e7a43252",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/a4ab37a9e7a43252",
       "status" : "passed",
@@ -1431,11 +1524,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "9feef28229c4d36a",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/9feef28229c4d36a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619387967499,
+        "stop" : 1619387967499,
+        "duration" : 0
+      }
+    }, {
       "uid" : "567ed251594ba6a5",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/567ed251594ba6a5",
       "status" : "passed",
@@ -1601,14 +1703,24 @@
   },
   "8d8eebb266268f81897050c8bb0bfb16" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 16,
       "broken" : 0,
       "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "31be28b305ed1c29",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/31be28b305ed1c29",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([8, 5, 3], 10)",
+      "time" : {
+        "start" : 1619387967555,
+        "stop" : 1619387967555,
+        "duration" : 0
+      }
+    }, {
       "uid" : "ae1322eb99a4aaf4",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/ae1322eb99a4aaf4",
       "status" : "failed",
@@ -1792,14 +1904,24 @@
   },
   "bb94d2e7de88f73e917303e5c5828ccc" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 16,
       "broken" : 0,
       "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "978a57515a4caef2",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/978a57515a4caef2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1619387967578,
+        "stop" : 1619387967579,
+        "duration" : 1
+      }
+    }, {
       "uid" : "99163c4e6f6ca6fd",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/99163c4e6f6ca6fd",
       "status" : "failed",
@@ -1986,11 +2108,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "ee5b0d9538873c07",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/ee5b0d9538873c07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619387967619,
+        "stop" : 1619387967620,
+        "duration" : 1
+      }
+    }, {
       "uid" : "5bd4d44d3e1f9ac4",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/5bd4d44d3e1f9ac4",
       "status" : "passed",
@@ -2159,11 +2290,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "55fbf427c1530562",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/55fbf427c1530562",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619387967617,
+        "stop" : 1619387967617,
+        "duration" : 0
+      }
+    }, {
       "uid" : "cfaea081bba2316",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/cfaea081bba2316",
       "status" : "passed",
@@ -2332,11 +2472,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "37760eb91b285a82",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/37760eb91b285a82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619388060358,
+        "stop" : 1619388060381,
+        "duration" : 23
+      }
+    }, {
       "uid" : "ab0bdbf1841ae7bc",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/ab0bdbf1841ae7bc",
       "status" : "passed",
@@ -2412,14 +2561,24 @@
   },
   "d4e6dbdc944e84c1da86a6e42f3cf5a4" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 16,
       "broken" : 0,
       "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "244770338bb7c399",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/244770338bb7c399",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([80, 61, 76], 80)",
+      "time" : {
+        "start" : 1619387967541,
+        "stop" : 1619387967541,
+        "duration" : 0
+      }
+    }, {
       "uid" : "3c453669edf14706",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/3c453669edf14706",
       "status" : "failed",
@@ -2606,11 +2765,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "526f4f5439455972",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/526f4f5439455972",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619388060666,
+        "stop" : 1619388060682,
+        "duration" : 16
+      }
+    }, {
       "uid" : "92cee69217fda955",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/92cee69217fda955",
       "status" : "passed",
@@ -2689,11 +2857,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "baec28238b85fcd1",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/baec28238b85fcd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619387967503,
+        "stop" : 1619387967503,
+        "duration" : 0
+      }
+    }, {
       "uid" : "c59e64294ed7e63a",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/c59e64294ed7e63a",
       "status" : "passed",
@@ -2862,11 +3039,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "8378b22366b1430f",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/8378b22366b1430f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619387967509,
+        "stop" : 1619387967509,
+        "duration" : 0
+      }
+    }, {
       "uid" : "fa00224cd205ec88",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/fa00224cd205ec88",
       "status" : "passed",
@@ -3035,11 +3221,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 3,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "aa29c9472dce609f",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/aa29c9472dce609f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619387967559,
+        "stop" : 1619387967559,
+        "duration" : 0
+      }
+    }, {
       "uid" : "630602a523092f2f",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/630602a523092f2f",
       "status" : "passed",
@@ -3211,11 +3406,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "f1c48f66f1725fa9",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/f1c48f66f1725fa9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619387967622,
+        "stop" : 1619387967622,
+        "duration" : 0
+      }
+    }, {
       "uid" : "5a4626507e7c0e21",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/5a4626507e7c0e21",
       "status" : "passed",
@@ -3384,11 +3588,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "9cb4db3589d1c968",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/9cb4db3589d1c968",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619388060704,
+        "stop" : 1619388060705,
+        "duration" : 1
+      }
+    }, {
       "uid" : "88a92741a42c4257",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/88a92741a42c4257",
       "status" : "passed",
@@ -3464,14 +3677,24 @@
   },
   "f1db67065cbf31f3d13e6b48b21731d4" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 16,
       "broken" : 0,
       "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "3479c7f9b48b7e1c",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/3479c7f9b48b7e1c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert [0, 16, 9, 7, 2, 14] == []\n  Left contains 6 more items, first extra item: 0\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1619387967607,
+        "stop" : 1619387967607,
+        "duration" : 0
+      }
+    }, {
       "uid" : "2e8304a613e3574d",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/2e8304a613e3574d",
       "status" : "failed",
@@ -3658,11 +3881,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "ea16244eed30d47d",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/ea16244eed30d47d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619388060696,
+        "stop" : 1619388060698,
+        "duration" : 2
+      }
+    }, {
       "uid" : "2c5975f14eab8d0c",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/2c5975f14eab8d0c",
       "status" : "passed",
@@ -3738,14 +3970,24 @@
   },
   "5f049dd7a1adeed2abdd7a996d8ac7eb" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 16,
       "broken" : 0,
       "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "ab22bdfffcc2caf1",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/ab22bdfffcc2caf1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert [5, 4, 12, 13] == []\n  Left contains 4 more items, first extra item: 5\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1619387967571,
+        "stop" : 1619387967572,
+        "duration" : 1
+      }
+    }, {
       "uid" : "1c4e8ef877d927f3",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/1c4e8ef877d927f3",
       "status" : "failed",
@@ -3929,14 +4171,24 @@
   },
   "aa6bf365efcf7dd5a7eb5cd121e928a4" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 16,
       "broken" : 0,
       "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "15bcb455c262712c",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/15bcb455c262712c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([31, 46, 61], 51)",
+      "time" : {
+        "start" : 1619387967562,
+        "stop" : 1619387967563,
+        "duration" : 1
+      }
+    }, {
       "uid" : "bd764184de9befb",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/bd764184de9befb",
       "status" : "failed",
@@ -4123,11 +4375,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "114c3aa1e566920d",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/114c3aa1e566920d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619387967512,
+        "stop" : 1619387967513,
+        "duration" : 1
+      }
+    }, {
       "uid" : "795c8befa31be3f6",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/795c8befa31be3f6",
       "status" : "passed",
@@ -4296,11 +4557,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 3,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "97548785d25ea68e",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/97548785d25ea68e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619387967576,
+        "stop" : 1619387967576,
+        "duration" : 0
+      }
+    }, {
       "uid" : "cf100e9b28d852aa",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/cf100e9b28d852aa",
       "status" : "passed",
@@ -4471,12 +4741,22 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 8,
+      "skipped" : 9,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "eae272abfa197eba",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/eae272abfa197eba",
+      "status" : "skipped",
+      "statusDetails" : "void meanValueGroups.GroupCalculatorTest.shouldReturnMeanGroups() is @Disabled",
+      "time" : {
+        "start" : 1619388060512,
+        "stop" : 1619388060512,
+        "duration" : 0
+      }
+    }, {
       "uid" : "17b9316bee028ec4",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/17b9316bee028ec4",
       "status" : "skipped",
@@ -4560,14 +4840,24 @@
   },
   "3d97a82246a9a01d6f3c7ae4bc5b3a9b" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 16,
       "broken" : 0,
       "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "fa39cfd1d8e0d909",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/fa39cfd1d8e0d909",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert [6, 3, 1, 8] == []\n  Left contains 4 more items, first extra item: 6\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1619387967588,
+        "stop" : 1619387967588,
+        "duration" : 0
+      }
+    }, {
       "uid" : "ee8faa3563bcbe3f",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/ee8faa3563bcbe3f",
       "status" : "failed",
@@ -4753,12 +5043,22 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 8,
+      "skipped" : 9,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "1fd3c361eb851445",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/1fd3c361eb851445",
+      "status" : "skipped",
+      "statusDetails" : "void firstDuplicate.TestDuplicates.shouldReturnDuplicate(int[],int) is @Disabled",
+      "time" : {
+        "start" : 1619388060728,
+        "stop" : 1619388060728,
+        "duration" : 0
+      }
+    }, {
       "uid" : "db58e21c143c16e0",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/db58e21c143c16e0",
       "status" : "skipped",
@@ -4845,11 +5145,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 3,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "e4d99dedf770557b",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/e4d99dedf770557b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619387967550,
+        "stop" : 1619387967550,
+        "duration" : 0
+      }
+    }, {
       "uid" : "cdd5073c28db2d98",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/cdd5073c28db2d98",
       "status" : "passed",
@@ -5018,14 +5327,24 @@
   },
   "59b6ef36342d9d906ce244a42d93faae" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 16,
       "broken" : 0,
       "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "1e9a12d5a83a9866",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/1e9a12d5a83a9866",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert [6, 3, 1, 15] == []\n  Left contains 4 more items, first extra item: 6\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1619387967583,
+        "stop" : 1619387967583,
+        "duration" : 0
+      }
+    }, {
       "uid" : "76f78560ecda5a42",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/76f78560ecda5a42",
       "status" : "failed",
@@ -5212,11 +5531,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 3,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "deed5444ad289472",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/deed5444ad289472",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619387967592,
+        "stop" : 1619387967592,
+        "duration" : 0
+      }
+    }, {
       "uid" : "290ff3ec8f91c487",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/290ff3ec8f91c487",
       "status" : "passed",
@@ -5385,14 +5713,24 @@
   },
   "7a03f97f9ec75d3ab8dc4f3cb23c5d18" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 16,
       "broken" : 0,
       "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "9f3da1ebff25bea2",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/9f3da1ebff25bea2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 1, 1], 2)",
+      "time" : {
+        "start" : 1619387967516,
+        "stop" : 1619387967516,
+        "duration" : 0
+      }
+    }, {
       "uid" : "f9fcdab98c61194",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/f9fcdab98c61194",
       "status" : "failed",
@@ -5579,11 +5917,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "891d15e523cb7be6",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/891d15e523cb7be6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619388060581,
+        "stop" : 1619388060632,
+        "duration" : 51
+      }
+    }, {
       "uid" : "9c19fab62ec3e065",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/9c19fab62ec3e065",
       "status" : "passed",
@@ -5662,11 +6009,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "6d01cb631653d56b",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/6d01cb631653d56b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619387967614,
+        "stop" : 1619387967615,
+        "duration" : 1
+      }
+    }, {
       "uid" : "cb4c194ac6bb11b3",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/cb4c194ac6bb11b3",
       "status" : "passed",
@@ -5835,11 +6191,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "69a05b0d15ec8d26",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/69a05b0d15ec8d26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619387967612,
+        "stop" : 1619387967612,
+        "duration" : 0
+      }
+    }, {
       "uid" : "2129eed7af9c4f23",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/2129eed7af9c4f23",
       "status" : "passed",
@@ -6008,11 +6373,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 3,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "e58092f524c86063",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/e58092f524c86063",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619387967538,
+        "stop" : 1619387967538,
+        "duration" : 0
+      }
+    }, {
       "uid" : "f0e8390328e705e8",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/f0e8390328e705e8",
       "status" : "passed",
@@ -6181,14 +6555,24 @@
   },
   "f08559f0d164a7f39a3a903af50b2a6b" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 16,
       "broken" : 0,
       "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "3dec307cbcdae510",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/3dec307cbcdae510",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert [3, 1, 0, 4, 5] == []\n  Left contains 5 more items, first extra item: 3\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1619387967595,
+        "stop" : 1619387967595,
+        "duration" : 0
+      }
+    }, {
       "uid" : "b815c8a3ed68564d",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/b815c8a3ed68564d",
       "status" : "failed",
@@ -6372,14 +6756,24 @@
   },
   "d28e714a3dc980a17e01a69f9a9f98cc" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 16,
       "broken" : 0,
       "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "f01156374f9b74f",
+      "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10//#testresult/f01156374f9b74f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([57, 30, 11], 65)",
+      "time" : {
+        "start" : 1619387967566,
+        "stop" : 1619387967566,
+        "duration" : 0
+      }
+    }, {
       "uid" : "fc60993c505c522",
       "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9//#testresult/fc60993c505c522",
       "status" : "failed",
