@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 8,
+  "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/8/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 113359
+  }
+}, {
   "buildOrder" : 6,
   "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/6/",
   "reportName" : "Allure Report with history",
