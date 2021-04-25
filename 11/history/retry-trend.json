@@ -3,6 +3,94 @@
   "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/11/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "run" : 42,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 10,
+  "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/10/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 42,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/9/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 42,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/7/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 42,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/8/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 42,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/6/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 42,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/5/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 42,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/4/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 42,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/3/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 42,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/2/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 42,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 31,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 11,
+  "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/11/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "run" : 31,
     "retry" : 0
   }
@@ -65,22 +153,6 @@
 }, {
   "buildOrder" : 3,
   "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/3/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 0,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 2,
-  "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/2/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 31,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 1,
-  "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/1/",
   "reportName" : "Allure Report with history",
   "data" : {
     "run" : 0,
