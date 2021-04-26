@@ -53,6 +53,7 @@ allure-pytest = "*"
 pytest-xdist = "*"
 #allure-behave = "*"
 #allure-pytest-bdd = "*"
+nose = "*"
 
 [dev-packages]
 #pytest = "*"
