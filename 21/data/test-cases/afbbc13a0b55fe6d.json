@@ -1,0 +1,62 @@
+{
+  "uid" : "afbbc13a0b55fe6d",
+  "name" : "test_combinationSum[input_array26-4-Empty]",
+  "fullName" : "src.test.java.challenges.a20200530_combinationSum.test_combinationSum#test_combinationSum",
+  "historyId" : "1905fd5439e232b93079fdc28ea237dc",
+  "time" : {
+    "start" : 1620405205189,
+    "stop" : 1620405205189,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.a20200530_combinationSum"
+  }, {
+    "name" : "suite",
+    "value" : "test_combinationSum"
+  }, {
+    "name" : "host",
+    "value" : "fv-az173-805"
+  }, {
+    "name" : "thread",
+    "value" : "2371-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.a20200530_combinationSum.test_combinationSum"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'Empty'"
+  }, {
+    "name" : "input_array",
+    "value" : "[8, 5]"
+  }, {
+    "name" : "sum",
+    "value" : "4"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "afbbc13a0b55fe6d.json",
+  "parameterValues" : [ "'Empty'", "[8, 5]", "4" ]
+}

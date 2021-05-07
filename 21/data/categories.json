@@ -1,0 +1,672 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '(2 2 2 3)(2 2 5)(3 3 3)(9)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 3)(2 2 5)(3 3 3)(9)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array0-9-(2 2 2 3)(2 2 5)(3 3 3)(9)]",
+        "uid" : "6c5fc7041c110c08",
+        "parentUid" : "3ebef1bae17968eae6b36a74e9f4cae6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405204971,
+          "stop" : 1620405204972,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(2 2 2 3)(2 2 5)(3 3 3)(9)'", "[2, 3, 5, 9]", "9" ]
+      } ],
+      "uid" : "3ebef1bae17968eae6b36a74e9f4cae6"
+    }, {
+      "name" : "AssertionError: assert '(2 2 2 2)(2 ...(2 6)(4 4)(8)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2)(2 2 4)(2 6)(4 4)(8)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array1-8-(2 2 2 2)(2 2 4)(2 6)(4 4)(8)]",
+        "uid" : "c5402cbc16103d33",
+        "parentUid" : "97c9798d27444529cdac89f235ac3687",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405204999,
+          "stop" : 1620405204999,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(2 2 2 2)(2 2 4)(2 6)(4 4)(8)'", "[2, 4, 6, 8]", "8" ]
+      } ],
+      "uid" : "97c9798d27444529cdac89f235ac3687"
+    }, {
+      "name" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(6 6)' == '(1 1)(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 6)(1 1 1 1 8)(6 6)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array2-12-(1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 6)(1 1 1 1 8)(6 6)]",
+        "uid" : "24de2094fc400227",
+        "parentUid" : "39efcdf6bfbd7b38518cf0937426a2c9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205005,
+          "stop" : 1620405205006,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 6)(1 1 1 1 8)(6 6)'", "[8, 1, 8, 6, 8]", "12" ]
+      } ],
+      "uid" : "39efcdf6bfbd7b38518cf0937426a2c9"
+    }, {
+      "name" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array3-16-(2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)]",
+        "uid" : "f75f71d13f97f080",
+        "parentUid" : "917df929f8a5e380c0c64b297bd6aa6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205012,
+          "stop" : 1620405205013,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)'", "[7, 2, 6, 5]", "16" ]
+      } ],
+      "uid" : "917df929f8a5e380c0c64b297bd6aa6d"
+    }, {
+      "name" : "AssertionError: assert '(1 1 1 1 1 1... 5)(2 2 2)(6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (1 1 1 1 1 1)(1 1 1 1 2)(1 1 2 2)(1 5)(2 2 2)(6)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array4-6-(1 1 1 1 1 1)(1 1 1 1 2)(1 1 2 2)(1 5)(2 2 2)(6)]",
+        "uid" : "f21b75cbb420e622",
+        "parentUid" : "d116a17e64705c6d178010b1d550e474",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205020,
+          "stop" : 1620405205020,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(1 1 1 1 1 1)(1 1 1 1 2)(1 1 2 2)(1 5)(2 2 2)(6)'", "[6, 5, 7, 1, 8, 2, 9, 9, 7, 7, 9]", "6" ]
+      } ],
+      "uid" : "d116a17e64705c6d178010b1d550e474"
+    }, {
+      "name" : "AssertionError: assert 'Empty' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + Empty",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array5-3-Empty]",
+        "uid" : "e92b7f4ef554b1de",
+        "parentUid" : "2cdd968ea049748c276474bac729591a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205036,
+          "stop" : 1620405205037,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Empty'", "[5, 2, 2, 6]", "3" ]
+      } ],
+      "uid" : "2cdd968ea049748c276474bac729591a"
+    }, {
+      "name" : "AssertionError: assert 'Empty' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + Empty",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array6-7-Empty]",
+        "uid" : "594155fdda4575bc",
+        "parentUid" : "05b713a2804d504b3e28e0637d5bc62f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205045,
+          "stop" : 1620405205045,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Empty'", "[4, 6, 4, 2]", "7" ]
+      } ],
+      "uid" : "05b713a2804d504b3e28e0637d5bc62f"
+    }, {
+      "name" : "AssertionError: assert '(1 1 1 1 1 1...7 7 7)(7 7 8)' == '(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 8)(1 1 1 1 1 1 1 1 7 7)(1 1 1 1 1 1 1 7 8)(1 1 1 1 1 1 8 8)(1 7 7 7)(7 7 8)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array7-22-(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 8)(1 1 1 1 1 1 1 1 7 7)(1 1 1 1 1 1 1 7 8)(1 1 1 1 1 1 8 8)(1 7 7 7)(7 7 8)]",
+        "uid" : "43950ee5e0ff56a9",
+        "parentUid" : "2647287ebd2df48a38e09d00568e98b0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205052,
+          "stop" : 1620405205052,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 8)(1 1 1 1 1 1 1 1 7 7)(1 1 1 1 1 1 1 7 8)(1 1 1 1 1 1 8 8)(1 7 7 7)(7 7 8)'", "[8, 7, 1]", "22" ]
+      } ],
+      "uid" : "2647287ebd2df48a38e09d00568e98b0"
+    }, {
+      "name" : "AssertionError: assert '(2 2 2 2 2 2...3 5 5)(2 3...' == '(1 1)(1 1)(1... 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)(1 1)(1 1)(1 1)(1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2 2 2 2 2)(2 2 2 2 2 2 2 2 2 2 4)(2 2 2 2 2 2 2 2 2 3 3)(2 2 2 2 2 2 2 2 2 6)(2 2 2 2 2 2 2 2 3 5)(2 2 2 2 2 2 2 2 4 4)(2 2 2 2 2 2 2 3 3 4)(2 2 2 2 2 2 2 4 6)(2 2 2 2 2 2 2 5 5)(2 2 2 2 2 2 3 3 3 3)(2 2 2 2 2 2 3 3 6)(2 2 2 2 2 2 3 4 5)(2 2 2 2 2 2 3 9)(2 2 2 2 2 2 4 4 4)(2 2 2 2 2 2 6 6)(2 2 2 2 2 3 3 3 5)(2 2 2 2 2 3 3 4 4)(2 2 2 2 2 3 5 6)(2 2 2 2 2 4 4 6)(2 2 2 2 2 4 5 5)(2 2 2 2 2 5 9)(2 2 2 2 3 3 3 3 4)(2 2 2 2 3 3 4 6)(2 2 2 2 3 3 5 5)(2 2 2 2 3 4 4 5)(2 2 2 2 3 4 9)(2 2 2 2 4 4 4 4)(2 2 2 2 4 6 6)(2 2 2 2 5 5 6)(2 2 2 3 3 3 3 3 3)(2 2 2 3 3 3 3 6)(2 2 2 3 3 3 4 5)(2 2 2 3 3 3 9)(2 2 2 3 3 4 4 4)(2 2 2 3 3 6 6)(2 2 2 3 4 5 6)(2 2 2 3 5 5 5)(2 2 2 3 6 9)(2 2 2 4 4 4 6)(2 2 2 4 4 5 5)(2 2 2 4 5 9)(2 2 2 6 6 6)(2 2 2 9 9)(2 2 3 3 3 3 3 5)(2 2 3 3 3 3 4 4)(2 2 3 3 3 5 6)(2 2 3 3 4 4 6)(2 2 3 3 4 5 5)(2 2 3 3 5 9)(2 2 3 4 4 4 5)(2 2 3 4 4 9)(2 2 3 5 6 6)(2 2 4 4 4 4 4)(2 2 4 4 6 6)(2 2 4 5 5 6)(2 2 5 5 5 5)(2 2 5 6 9)(2 3 3 3 3 3 3 4)(2 3 3 3 3 4 6)(2 3 3 3 3 5 5)(2 3...",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array8-24-(2 2 2 2 2 2 2 2 2 2 2 2)(2 2 2 2 2 2 2 2 2 2 4)(2 2 2 2 2 2 2 2 2 3 3)(2 2 2 2 2 2 2 2 2 6)(2 2 2 2 2 2 2 2 3 5)(2 2 2 2 2 2 2 2 4 4)(2 2 2 2 2 2 2 3 3 4)(2 2 2 2 2 2 2 4 6)(2 2 2 2 2 2 2 5 5)(2 2 2 2 2 2 3 3 3 3)(2 2 2 2 2 2 3 3 6)(2 2 2 2 2 2 3 4 5)(2 2 2 2 2 2 3 9)(2 2 2 2 2 2 4 4 4)(2 2 2 2 2 2 6 6)(2 2 2 2 2 3 3 3 5)(2 2 2 2 2 3 3 4 4)(2 2 2 2 2 3 5 6)(2 2 2 2 2 4 4 6)(2 2 2 2 2 4 5 5)(2 2 2 2 2 5 9)(2 2 2 2 3 3 3 3 4)(2 2 2 2 3 3 4 6)(2 2 2 2 3 3 5 5)(2 2 2 2 3 4 4 5)(2 2 2 2 3 4 9)(2 2 2 2 4 4 4 4)(2 2 2 2 4 6 6)(2 2 2 2 5 5 6)(2 2 2 3 3 3 3 3 3)(2 2 2 3 3 3 3 6)(2 2 2 3 3 3 4 5)(2 2 2 3 3 3 9)(2 2 2 3 3 4 4 4)(2 2 2 3 3 6 6)(2 2 2 3 4 5 6)(2 2 2 3 5 5 5)(2 2 2 3 6 9)(2 2 2 4 4 4 6)(2 2 2 4 4 5 5)(2 2 2 4 5 9)(2 2 2 6 6 6)(2 2 2 9 9)(2 2 3 3 3 3 3 5)(2 2 3 3 3 3 4 4)(2 2 3 3 3 5 6)(2 2 3 3 4 4 6)(2 2 3 3 4 5 5)(2 2 3 3 5 9)(2 2 3 4 4 4 5)(2 2 3 4 4 9)(2 2 3 5 6 6)(2 2 4 4 4 4 4)(2 2 4 4 6 6)(2 2 4 5 5 6)(2 2 5 5 5 5)(2 2 5 6 9)(2 3 3 3 3 3 3 4)(2 3 3 3 3 4 6)(2 3 3 3 3 5 5)(2 3...]",
+        "uid" : "f7905eb0f3892f8f",
+        "parentUid" : "dd494f0b57272fff4607c3eb57f42af8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205061,
+          "stop" : 1620405205061,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(2 2 2 2 2 2 2 2 2 2 2 2)(2 2 2 2 2 2 2 2 2 2 4)(2 2 2 2 2 2 2 2 2 3 3)(2 2 2 2 2 2 2 2 2 6)(2 2 2 2 2 2 2 2 3 5)(2 2 2 2 2 2 2 2 4 4)(2 2 2 2 2 2 2 3 3 4)(2 2 2 2 2 2 2 4 6)(2 2 2 2 2 2 2 5 5)(2 2 2 2 2 2 3 3 3 3)(2 2 2 2 2 2 3 3 6)(2 2 2 2 2 2 3 4 5)(2 2 2 2 2 2 3 9)(2 2 2 2 2 2 4 4 4)(2 2 2 2 2 2 6 6)(2 2 2 2 2 3 3 3 5)(2 2 2 2 2 3 3 4 4)(2 2 2 2 2 3 5 6)(2 2 2 2 2 4 4 6)(2 2 2 2 2 4 5 5)(2 2 2 2 2 5 9)(2 2 2 2 3 3 3 3 4)(2 2 2 2 3 3 4 6)(2 2 2 2 3 3 5 5)(2 2 2 2 3 4 4 5)(2 2 2 2 3 4 9)(2 2 2 2 4 4 4 4)(2 2 2 2 4 6 6)(2 2 2 2 5 5 6)(2 2 2 3 3 3 3 3 3)(2 2 2 3 3 3 3 6)(2 2 2 3 3 3 4 5)(2 2 2 3 3 3 9)(2 2 2 3 3 4 4 4)(2 2 2 3 3 6 6)(2 2 2 3 4 5 6)(2 2 2 3 5 5 5)(2 2 2 3 6 9)(2 2 2 4 4 4 6)(2 2 2 4 4 5 5)(2 2 2 4 5 9)(2 2 2 6 6 6)(2 2 2 9 9)(2 2 3 3 3 3 3 5)(2 2 3 3 3 3 4 4)(2 2 3 3 3 5 6)(2 2 3 3 4 4 6)(2 2 3 3 4 5 5)(2 2 3 3 5 9)(2 2 3 4 4 4 5)(2 2 3 4 4 9)(2 2 3 5 6 6)(2 2 4 4 4 4 4)(2 2 4 4 6 6)(2 2 4 5 5 6)(2 2 5 5 5 5)(2 2 5 6 9)(2 3 3 3 3 3 3 4)(2 3 3 3 3 4 6)(2 3 3 3 3 5 5)(2 3...'", "[6, 5, 6, 3, 3, 4, 3, 2, 2, 9, 9]", "24" ]
+      } ],
+      "uid" : "dd494f0b57272fff4607c3eb57f42af8"
+    }, {
+      "name" : "AssertionError: assert '(3 5)(4 4)(8)' == '(1 1)(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)(1 1)\n  + (3 5)(4 4)(8)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array10-8-(3 5)(4 4)(8)]",
+        "uid" : "c4d3ea217aa1bde1",
+        "parentUid" : "61c7b56770f59c31cfff9e75512006c5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205073,
+          "stop" : 1620405205073,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(3 5)(4 4)(8)'", "[7, 3, 9, 8, 4, 5]", "8" ]
+      } ],
+      "uid" : "61c7b56770f59c31cfff9e75512006c5"
+    }, {
+      "name" : "AssertionError: assert '(1 1 1 1 1 1...7)(3 3 3 3 3)' == '(1 1)(1 1)(1... 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)(1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 3 3 3)(1 1 1 1 1 3 7)(1 1 1 3 3 3 3)(1 1 3 3 7)(1 7 7)(3 3 3 3 3)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array11-15-(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 3 3 3)(1 1 1 1 1 3 7)(1 1 1 3 3 3 3)(1 1 3 3 7)(1 7 7)(3 3 3 3 3)]",
+        "uid" : "f99c2dfa243c9729",
+        "parentUid" : "c3d5eaa61221d3ec34690f086a11f7c1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205081,
+          "stop" : 1620405205081,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 3 3 3)(1 1 1 1 1 3 7)(1 1 1 3 3 3 3)(1 1 3 3 7)(1 7 7)(3 3 3 3 3)'", "[1, 1, 1, 3, 7, 3]", "15" ]
+      } ],
+      "uid" : "c3d5eaa61221d3ec34690f086a11f7c1"
+    }, {
+      "name" : "AssertionError: assert '(6 8)(7 7)' == '(1 1)(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)(1 1)\n  + (6 8)(7 7)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array12-14-(6 8)(7 7)]",
+        "uid" : "c9862736d24f0385",
+        "parentUid" : "f6d38842ff0787b55cc3a50a0d0c0402",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205088,
+          "stop" : 1620405205088,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(6 8)(7 7)'", "[6, 8, 7, 7, 9]", "14" ]
+      } ],
+      "uid" : "f6d38842ff0787b55cc3a50a0d0c0402"
+    }, {
+      "name" : "AssertionError: assert '(2)' == '(1 1)'\n  - (1 1)\n  + (2)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array13-2-(2)]",
+        "uid" : "4232c1f36370f631",
+        "parentUid" : "ce06b0421ae3c8f489d1b633e2eab1d9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205095,
+          "stop" : 1620405205095,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(2)'", "[7, 3, 9, 2, 7, 7]", "2" ]
+      } ],
+      "uid" : "ce06b0421ae3c8f489d1b633e2eab1d9"
+    }, {
+      "name" : "AssertionError: assert '(3 3 3 3 3 3...3 6 6)(6 6 6)' == '(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)\n  + (3 3 3 3 3 3)(3 3 3 3 6)(3 3 6 6)(6 6 6)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array14-18-(3 3 3 3 3 3)(3 3 3 3 6)(3 3 6 6)(6 6 6)]",
+        "uid" : "3696452e8c42dc71",
+        "parentUid" : "e43dcb1f9aadd5c6670be1af73abf60a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205103,
+          "stop" : 1620405205104,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(3 3 3 3 3 3)(3 3 3 3 6)(3 3 6 6)(6 6 6)'", "[6, 3, 7]", "18" ]
+      } ],
+      "uid" : "e43dcb1f9aadd5c6670be1af73abf60a"
+    }, {
+      "name" : "AssertionError: assert '(3 3 3 8)(8 9)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (3 3 3 8)(8 9)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array15-17-(3 3 3 8)(8 9)]",
+        "uid" : "83c8163e6962972a",
+        "parentUid" : "ae6e43a294eda4a126897aeeb26ed9de",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205111,
+          "stop" : 1620405205111,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(3 3 3 8)(8 9)'", "[3, 8, 3, 9]", "17" ]
+      } ],
+      "uid" : "ae6e43a294eda4a126897aeeb26ed9de"
+    }, {
+      "name" : "AssertionError: assert '(1 1 1)(3)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1)(3)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array16-3-(1 1 1)(3)]",
+        "uid" : "ccac6db386741ac7",
+        "parentUid" : "dc6b6cffaf671272bff2e151701d57c9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205118,
+          "stop" : 1620405205118,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(1 1 1)(3)'", "[4, 3, 1]", "3" ]
+      } ],
+      "uid" : "dc6b6cffaf671272bff2e151701d57c9"
+    }, {
+      "name" : "AssertionError: assert '(4)' == '(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)\n  + (4)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array17-4-(4)]",
+        "uid" : "10c1b3ad66e37553",
+        "parentUid" : "c4debe641c99e9100d30df2c0c5c078e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205124,
+          "stop" : 1620405205125,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(4)'", "[8, 6, 4, 7, 6, 5, 3, 6, 3]", "4" ]
+      } ],
+      "uid" : "c4debe641c99e9100d30df2c0c5c078e"
+    }, {
+      "name" : "AssertionError: assert '(3 3 3 3 4 4...9)(4 4 4 4 4)' == '(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)\n  + (3 3 3 3 4 4)(3 4 4 9)(4 4 4 4 4)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array18-20-(3 3 3 3 4 4)(3 4 4 9)(4 4 4 4 4)]",
+        "uid" : "aca43c324892cbcb",
+        "parentUid" : "3c8ae69f955e60e5bb1a73d72f096109",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205133,
+          "stop" : 1620405205133,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(3 3 3 3 4 4)(3 4 4 9)(4 4 4 4 4)'", "[3, 9, 4]", "20" ]
+      } ],
+      "uid" : "3c8ae69f955e60e5bb1a73d72f096109"
+    }, {
+      "name" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array19-16-(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)]",
+        "uid" : "3091d6203e5c52ea",
+        "parentUid" : "61ede25e267d2adeab7efa34720297ff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205141,
+          "stop" : 1620405205141,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)'", "[1, 8]", "16" ]
+      } ],
+      "uid" : "61ede25e267d2adeab7efa34720297ff"
+    }, {
+      "name" : "AssertionError: assert '(4 4 4 4 4 4)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (4 4 4 4 4 4)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array20-24-(4 4 4 4 4 4)]",
+        "uid" : "e1218efbd5d1674d",
+        "parentUid" : "b49702e392f5675bd3c7e5f87333bb74",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205148,
+          "stop" : 1620405205148,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(4 4 4 4 4 4)'", "[4, 7]", "24" ]
+      } ],
+      "uid" : "b49702e392f5675bd3c7e5f87333bb74"
+    }, {
+      "name" : "AssertionError: assert '(5 8)' == '(1 1)(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)(1 1)\n  + (5 8)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array22-13-(5 8)]",
+        "uid" : "3d1d9a1865ba0048",
+        "parentUid" : "8489897618111ad198fc052d64e92790",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205158,
+          "stop" : 1620405205158,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(5 8)'", "[5, 9, 5, 7, 8]", "13" ]
+      } ],
+      "uid" : "8489897618111ad198fc052d64e92790"
+    }, {
+      "name" : "AssertionError: assert '(1 1 1 1 1 1...)(3 5 5)(5 8)' == '(1 1)(1 1)(1... 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)(1 1)(1 1)(1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 5)(1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 7)(1 1 1 1 1 3 5)(1 1 1 1 1 8)(1 1 1 1 3 3 3)(1 1 1 1 9)(1 1 1 3 7)(1 1 1 5 5)(1 1 3 3 5)(1 1 3 8)(1 3 3 3 3)(1 3 9)(1 5 7)(3 3 7)(3 5 5)(5 8)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array23-13-(1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 5)(1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 7)(1 1 1 1 1 3 5)(1 1 1 1 1 8)(1 1 1 1 3 3 3)(1 1 1 1 9)(1 1 1 3 7)(1 1 1 5 5)(1 1 3 3 5)(1 1 3 8)(1 3 3 3 3)(1 3 9)(1 5 7)(3 3 7)(3 5 5)(5 8)]",
+        "uid" : "9feba237f686352e",
+        "parentUid" : "41aea04ab8bf4ba67a4c81706335e1ef",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205167,
+          "stop" : 1620405205167,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 5)(1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 7)(1 1 1 1 1 3 5)(1 1 1 1 1 8)(1 1 1 1 3 3 3)(1 1 1 1 9)(1 1 1 3 7)(1 1 1 5 5)(1 1 3 3 5)(1 1 3 8)(1 3 3 3 3)(1 3 9)(1 5 7)(3 3 7)(3 5 5)(5 8)'", "[7, 1, 9, 5, 1, 8, 5, 3]", "13" ]
+      } ],
+      "uid" : "41aea04ab8bf4ba67a4c81706335e1ef"
+    }, {
+      "name" : "AssertionError: assert '(2 2 2 2 2 2...3 8 8)(4 6 9)' == '(1 1)(1 1)(1... 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)(1 1)(1 1)(1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2 3)(2 2 2 2 2 2 3 4)(2 2 2 2 2 3 3 3)(2 2 2 2 2 3 6)(2 2 2 2 2 9)(2 2 2 2 3 4 4)(2 2 2 2 3 8)(2 2 2 3 3 3 4)(2 2 2 3 4 6)(2 2 2 4 9)(2 2 3 3 3 3 3)(2 2 3 3 3 6)(2 2 3 3 9)(2 2 3 4 4 4)(2 2 3 4 8)(2 2 3 6 6)(2 2 6 9)(2 3 3 3 4 4)(2 3 3 3 8)(2 3 4 4 6)(2 3 6 8)(2 4 4 9)(2 8 9)(3 3 3 3 3 4)(3 3 3 4 6)(3 3 4 9)(3 4 4 4 4)(3 4 4 8)(3 4 6 6)(3 8 8)(4 6 9)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array24-19-(2 2 2 2 2 2 2 2 3)(2 2 2 2 2 2 3 4)(2 2 2 2 2 3 3 3)(2 2 2 2 2 3 6)(2 2 2 2 2 9)(2 2 2 2 3 4 4)(2 2 2 2 3 8)(2 2 2 3 3 3 4)(2 2 2 3 4 6)(2 2 2 4 9)(2 2 3 3 3 3 3)(2 2 3 3 3 6)(2 2 3 3 9)(2 2 3 4 4 4)(2 2 3 4 8)(2 2 3 6 6)(2 2 6 9)(2 3 3 3 4 4)(2 3 3 3 8)(2 3 4 4 6)(2 3 6 8)(2 4 4 9)(2 8 9)(3 3 3 3 3 4)(3 3 3 4 6)(3 3 4 9)(3 4 4 4 4)(3 4 4 8)(3 4 6 6)(3 8 8)(4 6 9)]",
+        "uid" : "adb56ba0c284cacc",
+        "parentUid" : "93b073c55a3a88a3e9f2a71dbee5af44",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205175,
+          "stop" : 1620405205175,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(2 2 2 2 2 2 2 2 3)(2 2 2 2 2 2 3 4)(2 2 2 2 2 3 3 3)(2 2 2 2 2 3 6)(2 2 2 2 2 9)(2 2 2 2 3 4 4)(2 2 2 2 3 8)(2 2 2 3 3 3 4)(2 2 2 3 4 6)(2 2 2 4 9)(2 2 3 3 3 3 3)(2 2 3 3 3 6)(2 2 3 3 9)(2 2 3 4 4 4)(2 2 3 4 8)(2 2 3 6 6)(2 2 6 9)(2 3 3 3 4 4)(2 3 3 3 8)(2 3 4 4 6)(2 3 6 8)(2 4 4 9)(2 8 9)(3 3 3 3 3 4)(3 3 3 4 6)(3 3 4 9)(3 4 4 4 4)(3 4 4 8)(3 4 6 6)(3 8 8)(4 6 9)'", "[6, 3, 4, 8, 9, 8, 9, 2, 4, 8]", "19" ]
+      } ],
+      "uid" : "93b073c55a3a88a3e9f2a71dbee5af44"
+    }, {
+      "name" : "AssertionError: assert '(1 1 1 1 1 1... 2 3)(3 4)(7)' == '(1 1)(1 1)(1... 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)(1 1)(1 1)(1 1)\n  + (1 1 1 1 1 1 1)(1 1 1 1 1 2)(1 1 1 1 3)(1 1 1 2 2)(1 1 1 4)(1 1 2 3)(1 2 2 2)(1 2 4)(1 3 3)(2 2 3)(3 4)(7)",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array25-7-(1 1 1 1 1 1 1)(1 1 1 1 1 2)(1 1 1 1 3)(1 1 1 2 2)(1 1 1 4)(1 1 2 3)(1 2 2 2)(1 2 4)(1 3 3)(2 2 3)(3 4)(7)]",
+        "uid" : "fd2caccfcc60106c",
+        "parentUid" : "9633c8bb400b1c90aa420e911b478fe4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205182,
+          "stop" : 1620405205183,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(1 1 1 1 1 1 1)(1 1 1 1 1 2)(1 1 1 1 3)(1 1 1 2 2)(1 1 1 4)(1 1 2 3)(1 2 2 2)(1 2 4)(1 3 3)(2 2 3)(3 4)(7)'", "[4, 7, 7, 1, 3, 2, 8, 8, 9, 3]", "7" ]
+      } ],
+      "uid" : "9633c8bb400b1c90aa420e911b478fe4"
+    }, {
+      "name" : "AssertionError: assert '(1 1 1 1 1 1...3 3 6)(1 1...' == '(1 1)(1 1)(1... 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)(1 1)(1 1)(1 1)(1 1)(1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 6)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 6)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 9)(1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 3 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 4 6)(1 1 1 1 1 1 1 1 1 1 1 1 3 4 4)(1 1 1 1 1 1 1 1 1 1 1 1 4 7)(1 1 1 1 1 1 1 1 1 1 1 3 3 3 3)(1 1 1 1 1 1 1 1 1 1 1 3 3 6)(1 1 1 1 1 1 1 1 1 1 1 3 9)(1 1 1 1 1 1 1 1 1 1 1 4 4 4)(1 1 1 1 1 1 1 1 1 1 1 6 6)(1 1 1 1 1 1 1 1 1 1 3 3 3 4)(1 1 1 1 1 1 1 1 1 1 3 3 7)(1 1 1 1 1 1 1 1 1 1 3 4 6)(1 1 1 1 1 1 1 1 1 1 4 9)(1 1 1 1 1 1 1 1 1 1 6 7)(1 1 1 1 1 1 1 1 1 3 3 4 4)(1 1 1 1 1 1 1 1 1 3 4 7)(1 1 1 1 1 1 1 1 1 4 4 6)(1 1 1 1 1 1 1 1 1 7 7)(1 1 1 1 1 1 1 1 3 3 3 3 3)(1 1 1 1 1 1 1 1 3 3 3 6)(1 1...",
+      "children" : [ {
+        "name" : "test_combinationSum[input_array27-23-(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 6)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 6)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 9)(1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 3 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 4 6)(1 1 1 1 1 1 1 1 1 1 1 1 3 4 4)(1 1 1 1 1 1 1 1 1 1 1 1 4 7)(1 1 1 1 1 1 1 1 1 1 1 3 3 3 3)(1 1 1 1 1 1 1 1 1 1 1 3 3 6)(1 1 1 1 1 1 1 1 1 1 1 3 9)(1 1 1 1 1 1 1 1 1 1 1 4 4 4)(1 1 1 1 1 1 1 1 1 1 1 6 6)(1 1 1 1 1 1 1 1 1 1 3 3 3 4)(1 1 1 1 1 1 1 1 1 1 3 3 7)(1 1 1 1 1 1 1 1 1 1 3 4 6)(1 1 1 1 1 1 1 1 1 1 4 9)(1 1 1 1 1 1 1 1 1 1 6 7)(1 1 1 1 1 1 1 1 1 3 3 4 4)(1 1 1 1 1 1 1 1 1 3 4 7)(1 1 1 1 1 1 1 1 1 4 4 6)(1 1 1 1 1 1 1 1 1 7 7)(1 1 1 1 1 1 1 1 3 3 3 3 3)(1 1 1 1 1 1 1 1 3 3 3 6)(1 1...]",
+        "uid" : "531727040176ba9",
+        "parentUid" : "443272db08fcda973f6ebee1a4a774ac",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205192,
+          "stop" : 1620405205192,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 6)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 6)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 9)(1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 3 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 4 6)(1 1 1 1 1 1 1 1 1 1 1 1 3 4 4)(1 1 1 1 1 1 1 1 1 1 1 1 4 7)(1 1 1 1 1 1 1 1 1 1 1 3 3 3 3)(1 1 1 1 1 1 1 1 1 1 1 3 3 6)(1 1 1 1 1 1 1 1 1 1 1 3 9)(1 1 1 1 1 1 1 1 1 1 1 4 4 4)(1 1 1 1 1 1 1 1 1 1 1 6 6)(1 1 1 1 1 1 1 1 1 1 3 3 3 4)(1 1 1 1 1 1 1 1 1 1 3 3 7)(1 1 1 1 1 1 1 1 1 1 3 4 6)(1 1 1 1 1 1 1 1 1 1 4 9)(1 1 1 1 1 1 1 1 1 1 6 7)(1 1 1 1 1 1 1 1 1 3 3 4 4)(1 1 1 1 1 1 1 1 1 3 4 7)(1 1 1 1 1 1 1 1 1 4 4 6)(1 1 1 1 1 1 1 1 1 7 7)(1 1 1 1 1 1 1 1 3 3 3 3 3)(1 1 1 1 1 1 1 1 3 3 3 6)(1 1...'", "[7, 1, 3, 1, 3, 4, 7, 3, 9, 6]", "23" ]
+      } ],
+      "uid" : "443272db08fcda973f6ebee1a4a774ac"
+    }, {
+      "name" : "AssertionError: assert True == False\n +  where False = runningWater([1, 1, 1], 2)",
+      "children" : [ {
+        "name" : "test_running_water[cap0-2-True]",
+        "uid" : "5d6f307fe27747af",
+        "parentUid" : "7c5b03fdb9086034bc5d76155962614c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205224,
+          "stop" : 1620405205224,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, 1, 1]", "True", "2" ]
+      } ],
+      "uid" : "7c5b03fdb9086034bc5d76155962614c"
+    }, {
+      "name" : "AssertionError: assert True == False\n +  where False = runningWater([80, 61, 76], 80)",
+      "children" : [ {
+        "name" : "test_running_water[cap2-80-True]",
+        "uid" : "21a98ba333416f12",
+        "parentUid" : "d23982a903f9b5ba36cab04cad767665",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205232,
+          "stop" : 1620405205232,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[80, 61, 76]", "True", "80" ]
+      } ],
+      "uid" : "d23982a903f9b5ba36cab04cad767665"
+    }, {
+      "name" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+      "children" : [ {
+        "name" : "test_running_water[cap3-144-True]",
+        "uid" : "739ecd26e647283b",
+        "parentUid" : "439763d65f3b98a2f165d55aa8d3e3b3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205236,
+          "stop" : 1620405205236,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, 50, 100]", "True", "144" ]
+      } ],
+      "uid" : "439763d65f3b98a2f165d55aa8d3e3b3"
+    }, {
+      "name" : "AssertionError: assert True == False\n +  where False = runningWater([8, 5, 3], 10)",
+      "children" : [ {
+        "name" : "test_running_water[cap6-10-True]",
+        "uid" : "daedfc7b960ccfa6",
+        "parentUid" : "10cde48ba5758e8fe7a8c7f0f86a05f1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205248,
+          "stop" : 1620405205248,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[8, 5, 3]", "True", "10" ]
+      } ],
+      "uid" : "10cde48ba5758e8fe7a8c7f0f86a05f1"
+    }, {
+      "name" : "AssertionError: assert True == False\n +  where False = runningWater([31, 46, 61], 51)",
+      "children" : [ {
+        "name" : "test_running_water[cap8-51-True]",
+        "uid" : "94ea157ee9a9b1f5",
+        "parentUid" : "bc7105d7d67f411c9583dcdf6c7895e3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205255,
+          "stop" : 1620405205255,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[31, 46, 61]", "True", "51" ]
+      } ],
+      "uid" : "bc7105d7d67f411c9583dcdf6c7895e3"
+    }, {
+      "name" : "AssertionError: assert True == False\n +  where False = runningWater([57, 30, 11], 65)",
+      "children" : [ {
+        "name" : "test_running_water[cap9-65-True]",
+        "uid" : "7cb61c694c360b0b",
+        "parentUid" : "34874413317c4776d80b35a79fa6004a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205261,
+          "stop" : 1620405205261,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[57, 30, 11]", "True", "65" ]
+      } ],
+      "uid" : "34874413317c4776d80b35a79fa6004a"
+    }, {
+      "name" : "AssertionError: assert [5, 4, 12, 13] == []\n  Left contains 4 more items, first extra item: 5\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_adjacent_square[input_array0-expected_result0]",
+        "uid" : "78429079cd2218ee",
+        "parentUid" : "674eaa93ca1f6bcfb73d279c8832b2d8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205266,
+          "stop" : 1620405205266,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[5, 4, 12, 13]", "[12, 5, 4, 13]" ]
+      } ],
+      "uid" : "674eaa93ca1f6bcfb73d279c8832b2d8"
+    }, {
+      "name" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_adjacent_square[input_array2-expected_result2]",
+        "uid" : "1ff7b8f7e982ace2",
+        "parentUid" : "80dc7ff179b7ef1fe8b7a1d3a07515f3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205276,
+          "stop" : 1620405205276,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, 3, 1, 3, 1, 3]", "[1, 1, 1, 3, 3, 3]" ]
+      } ],
+      "uid" : "80dc7ff179b7ef1fe8b7a1d3a07515f3"
+    }, {
+      "name" : "AssertionError: assert [6, 3, 1, 15] == []\n  Left contains 4 more items, first extra item: 6\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_adjacent_square[input_array3-expected_result3]",
+        "uid" : "7552a5783a523356",
+        "parentUid" : "2179026e95047bc90457894756fc6f92",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205281,
+          "stop" : 1620405205281,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[6, 3, 1, 15]", "[1, 3, 6, 15]" ]
+      } ],
+      "uid" : "2179026e95047bc90457894756fc6f92"
+    }, {
+      "name" : "AssertionError: assert [6, 3, 1, 8] == []\n  Left contains 4 more items, first extra item: 6\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_adjacent_square[input_array4-expected_result4]",
+        "uid" : "26cdc57ba4c8f8ed",
+        "parentUid" : "19847baff009f10f470ffb03300bc6b2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205285,
+          "stop" : 1620405205285,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[6, 3, 1, 8]", "[1, 3, 6, 8]" ]
+      } ],
+      "uid" : "19847baff009f10f470ffb03300bc6b2"
+    }, {
+      "name" : "AssertionError: assert [3, 1, 0, 4, 5] == []\n  Left contains 5 more items, first extra item: 3\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_adjacent_square[input_array6-expected_result6]",
+        "uid" : "d78e2d00e4b4d95e",
+        "parentUid" : "f0c41aa485f7553c94ce19f6a4fb004c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205292,
+          "stop" : 1620405205292,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, 1, 0, 4, 5]", "[5, 4, 3, 1, 0]" ]
+      } ],
+      "uid" : "f0c41aa485f7553c94ce19f6a4fb004c"
+    }, {
+      "name" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_adjacent_square[input_array7-expected_result7]",
+        "uid" : "47fde233038344a4",
+        "parentUid" : "01e3b8fe3295aef3f3af5ce83b781b19",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205297,
+          "stop" : 1620405205298,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0, 0, 0, 1]", "[1, 0, 0, 0]" ]
+      } ],
+      "uid" : "01e3b8fe3295aef3f3af5ce83b781b19"
+    }, {
+      "name" : "AssertionError: assert [1, 15, 10] == []\n  Left contains 3 more items, first extra item: 1\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_adjacent_square[input_array8-expected_result8]",
+        "uid" : "ffad70528ec22f04",
+        "parentUid" : "fa318e4b52575be4b4e5565e3bea8948",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205303,
+          "stop" : 1620405205304,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, 15, 10]", "[10, 15, 1]" ]
+      } ],
+      "uid" : "fa318e4b52575be4b4e5565e3bea8948"
+    }, {
+      "name" : "AssertionError: assert [0, 16, 9, 7, 2, 14] == []\n  Left contains 6 more items, first extra item: 0\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_adjacent_square[input_array9-expected_result9]",
+        "uid" : "8abec6b0f314a0a",
+        "parentUid" : "d48b912bca95d9a1f3d3ff17f9ab9419",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620405205309,
+          "stop" : 1620405205310,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0, 16, 9, 7, 2, 14]", "[2, 7, 9, 0, 16, 14]" ]
+      } ],
+      "uid" : "d48b912bca95d9a1f3d3ff17f9ab9419"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
