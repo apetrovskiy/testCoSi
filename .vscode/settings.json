@@ -15,5 +15,6 @@
     ],
     "python.testing.nosetestArgs": [
         "src/test/java"
-    ]
+    ],
+    "python.pythonPath": "C:\\Users\\Alexander Petrovskiy\\.virtualenvs\\CodeSignTest-XEUW1cCt\\Scripts\\python.exe"
 }
