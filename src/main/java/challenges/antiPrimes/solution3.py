@@ -1,0 +1,2 @@
+def antiPrimes(n):
+    pass
