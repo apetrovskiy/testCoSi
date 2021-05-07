@@ -1,0 +1,57 @@
+{
+  "uid" : "a67977dd41150f81",
+  "name" : "[3] 0, 0, 1",
+  "fullName" : "test_ssre_0003.a01_spiderMove.SolutionTest.test",
+  "historyId" : "9ad4dc23169a2fd7fb951ccc6942b69c",
+  "time" : {
+    "start" : 1620405568457,
+    "stop" : 1620405568461,
+    "duration" : 4
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az193-470"
+  }, {
+    "name" : "thread",
+    "value" : "3481@fv-az193-470.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test_ssre_0003.a01_spiderMove.SolutionTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test_ssre_0003.a01_spiderMove.SolutionTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_ssre_0003.a01_spiderMove.SolutionTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a67977dd41150f81.json",
+  "parameterValues" : [ ]
+}
