@@ -1,0 +1,79 @@
+<div class="-flex -scroll -padding-16 -space-v-16">
+    <div class="-layout-h -space-h-16">
+        <div class="-layout-h -space-h-4 -center-center">
+            <div class="icon -size-16 -color-green">
+                <div class="-layout-h -center"><svg width="12" height="14" viewBox="0 0 12 14"><path d="M6 2.28S4.02 4.672 0 6.99v2.647s4.5-2.875 6.01-4.764C7.56 6.778 12 9.637 12 9.637V6.991C7.98 4.608 6 2.28 6 2.28z"></path><path d="M6 5.643s-1.98 2.392-6 4.711V13s4.5-2.875 6.01-4.763C7.56 10.142 12 13 12 13v-2.646c-4.02-2.383-6-4.71-6-4.71v-.001z"></path></svg></div>
+            </div>
+            <p class="-bold -font-size-14 -capitalize">medium</p>
+        </div>
+        <div class="-layout-h -space-h-4 -center-center">
+            <div class="icon -size-16 -color-green">
+                <div class="-layout-h -center"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm-1.43-3c-1.642-.344-2.462-1.136-2.462-2.376V9.612c0-.688-.37-1.032-1.108-1.032V7.42c.739 0 1.108-.346 1.108-1.037V5.31c.013-.613.225-1.11.636-1.487.414-.378 1.023-.653 1.825-.823L7 3.9c-.574.163-.873.621-.896 1.374v1.109c0 .763-.421 1.301-1.265 1.615.844.313 1.265.853 1.265 1.62v1.103c.023.753.322 1.211.896 1.374L6.57 13zm2.86 0c1.642-.344 2.462-1.136 2.462-2.376V9.612c0-.688.37-1.032 1.108-1.032V7.42c-.739 0-1.108-.346-1.108-1.037V5.31c-.013-.613-.225-1.11-.636-1.487-.414-.378-1.023-.653-1.825-.823L9 3.9c.574.163.873.621.896 1.374v1.109c0 .763.421 1.301 1.265 1.615-.844.313-1.265.853-1.265 1.62v1.103c-.023.753-.322 1.211-.896 1.374l.43.905z"></path></svg></div>
+            </div>
+            <p class="-bold -font-size-14 -capitalize">codewriting</p>
+        </div>
+        <div class="-layout-h -space-h-4 -center-center">
+            <div class="icon -size-16 -color-green">
+                <div class="-layout-h -center"><svg width="16" height="16" viewBox="0 0 16 16"><path d="M13.33 6.1l-2.8.395-.477 1.58 2.004-.22L11.03 9.6l-1.476.13L8 14.876 6.425 9.73 4.948 9.6 3.923 7.854l2.003.22-.454-1.58-2.8-.396-1.318-2.075 5.53 1.01L8 9.548l1.117-4.51 5.53-1.012L13.33 6.1zM0 8c0 4.418 3.582 8 8 8 4.42 0 8-3.582 8-8 0-4.42-3.58-8-8-8-4.418 0-8 3.58-8 8z" fill-rule="evenodd"></path></svg></div>
+            </div>
+            <p class="-bold -font-size-14 -capitalize">2000</p>
+        </div>
+    </div>
+    <div class="markdown -arial">
+        <p>After long years of sharpening your programming skills and honing your physique you finally made it: as a member of the ProProgrammers team you've entered <a href="https://en.wikipedia.org/wiki/Fort_Boyard_(TV_series)" target="_blank">Fort Boyard</a>!</p>
+        <p>It's your turn to show who's the boss: you're the one who will be participating in the next challenge. Here are the rules of this challenge.</p>
+        <p>There's a treadmill hanging from the ceiling and going up. At its very top there are three buckets containing water. You can jog up the treadmill and perform one of the following operations:</p>
+        <ul>
+            <li>empty one of the buckets entirely and pour out all water from it;</li>
+            <li>pour water from one bucket into another until either the first one is empty or the second one is full.</li>
+        </ul>
+        <p>The buckets are connected to one arm of the scales, and the key that your team should reach is hanging from another. The key will be reachable only when the total amount of water in all three buckets is equal to the given <code>volume</code>.</p>
+        <p>The capacities (volumes) of all the buckets are stored in an array <code>cap</code>. Initially all three buckets are full, i.e. for each valid <code>i</code> the <code>i<sup>th</sup></code> bucket has <code>cap[i]</code> units of water. You want
+            to make sure that your efforts won't be vain and calculate in advance if it is possible to get the key. Given the <code>cap</code> array and the <code>volume</code>, determine if it is possible to obtain the <code>volume</code> amount of water
+            in all three buckets performing only the allowed operations.</p>
+        <p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Example</span></p>
+        <ul>
+            <li>For <code>cap = [1, 1, 1]</code> and <code>volume = 2</code>, the output should be<br>
+                <code>runningWater(cap, volume) = true</code>.</li>
+        </ul>
+        <p>Initially there are <code>3</code> units of water in all the buckets. The only action you can perform is to empty the water from one of the buckets, which will leave you with <code>2</code> units. At this point, pouring water from one bucket to
+            another won't produce a different total amount of water, so the only remaining option is emptying one of the remaining buckets, which will leave you with <code>1</code> final unit of water. Now the total amount of the poured water is equal
+            to the given <code>volume</code>, so the answer is <code>true</code>.</p>
+        <ul>
+            <li>For <code>cap = [16, 5, 3]</code> and <code>volume = 20</code>, the output should be<br>
+                <code>runningWater(cap, volume) = false</code>.</li>
+        </ul>
+        <p>Here is the list of all possible amounts of water across all three buckets: <code>1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 24</code>. As you can see, you can't obtain the given <code>volume</code>.</p>
+        <p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Input/Output</span></p>
+        <ul>
+            <li>
+                <p><strong>[execution time limit] 4 seconds (py3)</strong></p>
+            </li>
+            <li>
+                <p><strong>[input] array.integer cap</strong></p>
+                <p>Individual capacity of each bucket (their volume), listed as three positive integers.</p>
+                <p><em>Guaranteed constraints:</em><br>
+                    <code>cap.length = 3</code>,<br>
+                    <code>1 ≤ cap[i] ≤ 100</code>.</p>
+            </li>
+            <li>
+                <p><strong>[input] integer volume</strong></p>
+                <p>The required volume.</p>
+                <p><em>Guaranteed constraints:</em><br>
+                    <code>1 ≤ volume ≤ sum(cap[i])</code>.</p>
+            </li>
+            <li>
+                <p><strong>[output] boolean</strong></p>
+                <p><code>true</code> if the given <code>volume</code> can be obtained using the allowed operations and <code>false</code> otherwise.</p>
+            </li>
+        </ul>
+        <p><strong>[Python 3] Syntax Tips</strong></p>
+        <pre><code class="language-python"><span class="hljs-comment"># Prints help message to the console</span>
+<span class="hljs-comment"># Returns a string</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">helloWorld</span>(<span class="hljs-params">name</span>):</span>
+    print(<span class="hljs-string">"This prints to the console when you Run Tests"</span>)
+    <span class="hljs-keyword">return</span> <span class="hljs-string">"Hello, "</span> + name
+
+</code></pre>
+    </div>
+</div>
