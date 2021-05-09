@@ -43,7 +43,7 @@ plugins {
     id("io.qameta.allure") version "2.8.1"
 
     // checkstyle
-    pmd
+    // pmd
     id("org.jlleitschuh.gradle.ktlint") version ("10.0.0")
 }
 
@@ -200,12 +200,12 @@ tasks.withType<Checkstyle>().configureEach {
     }
 }
 
-tasks.withType<Pmd>() {
+/*tasks.withType<Pmd>() {
     isConsoleOutput = true
     // toolVersion = Version.PMD.id
     rulesMinimumPriority.set(5)
     ruleSets = listOf("category/java/errorprone.xml", "category/java/bestpractices.xml")
-}
+}*/
 
 tasks.named<Wrapper>("wrapper") {
     gradleVersion = Version.GRADLE.id
