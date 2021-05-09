@@ -1,0 +1,66 @@
+<div class="-flex -scroll -padding-16 -space-v-16">
+    <div class="-layout-h -space-h-16">
+        <div class="-layout-h -space-h-4 -center-center">
+            <div class="icon -size-16 -color-green">
+                <div class="-layout-h -center"><svg width="12" height="14" viewBox="0 0 12 14"><path d="M6 2.28S4.02 4.672 0 6.99v2.647s4.5-2.875 6.01-4.764C7.56 6.778 12 9.637 12 9.637V6.991C7.98 4.608 6 2.28 6 2.28z"></path><path d="M6 5.643s-1.98 2.392-6 4.711V13s4.5-2.875 6.01-4.763C7.56 10.142 12 13 12 13v-2.646c-4.02-2.383-6-4.71-6-4.71v-.001z"></path></svg></div>
+            </div>
+            <p class="-bold -font-size-14 -capitalize">medium</p>
+        </div>
+        <div class="-layout-h -space-h-4 -center-center">
+            <div class="icon -size-16 -color-green">
+                <div class="-layout-h -center"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm-1.43-3c-1.642-.344-2.462-1.136-2.462-2.376V9.612c0-.688-.37-1.032-1.108-1.032V7.42c.739 0 1.108-.346 1.108-1.037V5.31c.013-.613.225-1.11.636-1.487.414-.378 1.023-.653 1.825-.823L7 3.9c-.574.163-.873.621-.896 1.374v1.109c0 .763-.421 1.301-1.265 1.615.844.313 1.265.853 1.265 1.62v1.103c.023.753.322 1.211.896 1.374L6.57 13zm2.86 0c1.642-.344 2.462-1.136 2.462-2.376V9.612c0-.688.37-1.032 1.108-1.032V7.42c-.739 0-1.108-.346-1.108-1.037V5.31c-.013-.613-.225-1.11-.636-1.487-.414-.378-1.023-.653-1.825-.823L9 3.9c.574.163.873.621.896 1.374v1.109c0 .763.421 1.301 1.265 1.615-.844.313-1.265.853-1.265 1.62v1.103c-.023.753-.322 1.211-.896 1.374l.43.905z"></path></svg></div>
+            </div>
+            <p class="-bold -font-size-14 -capitalize">codewriting</p>
+        </div>
+        <div class="-layout-h -space-h-4 -center-center">
+            <div class="icon -size-16 -color-green">
+                <div class="-layout-h -center"><svg width="16" height="16" viewBox="0 0 16 16"><path d="M13.33 6.1l-2.8.395-.477 1.58 2.004-.22L11.03 9.6l-1.476.13L8 14.876 6.425 9.73 4.948 9.6 3.923 7.854l2.003.22-.454-1.58-2.8-.396-1.318-2.075 5.53 1.01L8 9.548l1.117-4.51 5.53-1.012L13.33 6.1zM0 8c0 4.418 3.582 8 8 8 4.42 0 8-3.582 8-8 0-4.42-3.58-8-8-8-4.418 0-8 3.58-8 8z" fill-rule="evenodd"></path></svg></div>
+            </div>
+            <p class="-bold -font-size-14 -capitalize">2000</p>
+        </div>
+    </div>
+    <div class="markdown -arial">
+        <p>You decided to create an automatic image recognizer that will determine the object in the image based on its contours. The main recognition system is already implemented, and now you need to start the teaching process.</p>
+        <p>Today you want to teach your program to recognize <em>bull</em> patterns, which means that you need to implement a function that, given the <a href="keyword://adjacency-matrix-unweighted" target="_blank">adjacency matrix</a> representing the contour,
+            will determine whether it's a <em>bull</em> or not.</p>
+        <p>You noticed that although all <em>bull</em> heads are similar there is some variation in the shapes of their horns, so there are several possible bull contours. The image below shows <em>all</em> such contours.</p>
+        <p><img src="https://codesignal.s3.amazonaws.com/tasks/isBull/img/bulls.png?_tm=1582028203839" alt="Bulls"></p>
+        <p>Given the object's contour as an undirected graph represented by adjacency matrix <code>adj</code> determine whether it's a <em>bull</em> or not.</p>
+        <p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Example</span></p>
+        <p>For</p>
+        <pre><code>adj = [[false, true, false, false, false],
+       [true, false, true, true, false],
+       [false, true, false, true, false],
+       [false, true, true, false, true],
+       [false, false, false, true, false]]
+</code></pre>
+        <p>the output should be<br>
+            <code>isBull(adj) = true</code>.</p>
+        <p>Here's how the given graph looks like:</p>
+        <p><img src="https://codesignal.s3.amazonaws.com/tasks/isBull/img/example1.png?_tm=1582028204270" alt="Example"></p>
+        <p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Input/Output</span></p>
+        <ul>
+            <li>
+                <p><strong>[execution time limit] 5 seconds (coffee)</strong></p>
+            </li>
+            <li>
+                <p><strong>[input] array.array.boolean adj</strong></p>
+                <p>An adjacency matrix of an undirected graph.</p>
+                <p><em>Guaranteed constraints:</em><br>
+                    <code>adj.length == 5</code>,<br>
+                    <code>adj[i].length == 5</code>.</p>
+            </li>
+            <li>
+                <p><strong>[output] boolean</strong></p>
+                <p><code>true</code> if the given contour is a bull, <code>false</code> otherwise.</p>
+            </li>
+        </ul>
+        <p><strong>[CoffeeScript] Syntax Tips</strong></p>
+        <pre><code class="language-coffeescript"><span class="hljs-comment"># Prints help message to the console</span>
+<span class="hljs-comment"># Returns a string</span>
+<span class="hljs-function"><span class="hljs-title">helloWorld</span> = <span class="hljs-params">(name)</span> -&gt;</span>
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"This prints to the console when you Run Tests"</span>);
+    <span class="hljs-string">"Hello, "</span> + name;
+</code></pre>
+    </div>
+</div>
