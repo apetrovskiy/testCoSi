@@ -235,7 +235,7 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       if: always()
-      run: ./gradlew build
+      run: ./gradlew build --warning-mode all
 
     - name: Look at Allure
       if: always()
