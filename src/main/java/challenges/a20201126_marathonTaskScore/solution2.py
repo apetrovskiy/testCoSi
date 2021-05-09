@@ -1,2 +1,3 @@
-def marathonTaskScore(marathonLength, maxScore, submissions, successfulSubmissionTime):
+def marathonTaskScore(
+        marathonLength, maxScore, submissions, successfulSubmissionTime):
     pass
