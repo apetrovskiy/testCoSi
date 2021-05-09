@@ -1,0 +1,294 @@
+{
+  "uid" : "9f2f731ec6a02495",
+  "name" : "test_adjacent_square[input_array7-expected_result7]",
+  "fullName" : "src.test.java.challenges.adjacentSquare.test_adjacent_square#test_adjacent_square",
+  "historyId" : "f1e1c50fe89950e525999002baf5e7c8",
+  "time" : {
+    "start" : 1620558706482,
+    "stop" : 1620558706482,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+  "statusTrace" : "input_array = [1, 0, 0, 0], expected_result = [0, 0, 0, 1]\n\n    @pytest.mark.parametrize(\"input_array,expected_result\", test_data)\n    def test_adjacent_square(input_array: List[int], expected_result: List[int]):\n>       assert expected_result == adjacentSquare(input_array)\nE       assert [0, 0, 0, 1] == []\nE         Left contains 4 more items, first extra item: 0\nE         Use -v to get the full diff\n\nsrc/test/java/challenges/adjacentSquare/test_adjacent_square.py:23: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+    "statusTrace" : "input_array = [1, 0, 0, 0], expected_result = [0, 0, 0, 1]\n\n    @pytest.mark.parametrize(\"input_array,expected_result\", test_data)\n    def test_adjacent_square(input_array: List[int], expected_result: List[int]):\n>       assert expected_result == adjacentSquare(input_array)\nE       assert [0, 0, 0, 1] == []\nE         Left contains 4 more items, first extra item: 0\nE         Use -v to get the full diff\n\nsrc/test/java/challenges/adjacentSquare/test_adjacent_square.py:23: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "167f03625ead5e5d",
+      "name" : "stdout",
+      "source" : "167f03625ead5e5d.txt",
+      "type" : "text/plain",
+      "size" : 17
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.adjacentSquare"
+  }, {
+    "name" : "suite",
+    "value" : "test_adjacent_square"
+  }, {
+    "name" : "host",
+    "value" : "fv-az278-801"
+  }, {
+    "name" : "thread",
+    "value" : "2417-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.adjacentSquare.test_adjacent_square"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "[0, 0, 0, 1]"
+  }, {
+    "name" : "input_array",
+    "value" : "[1, 0, 0, 0]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 44,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 47
+      },
+      "items" : [ {
+        "uid" : "11aa982b5bf062f8",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/46//#testresult/11aa982b5bf062f8",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620558424940,
+          "stop" : 1620558424940,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8d7e3af509b159c5",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/45//#testresult/8d7e3af509b159c5",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620558405623,
+          "stop" : 1620558405623,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d07b45a90f1c5122",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/44//#testresult/d07b45a90f1c5122",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620558362635,
+          "stop" : 1620558362636,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b2b68c7456c81220",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/43//#testresult/b2b68c7456c81220",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620558346719,
+          "stop" : 1620558346720,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "772546d95785b60",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/42//#testresult/772546d95785b60",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620558320474,
+          "stop" : 1620558320474,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3c0c570b4f960984",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/41//#testresult/3c0c570b4f960984",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620558262180,
+          "stop" : 1620558262180,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4c649d9d10a54bc4",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/39//#testresult/4c649d9d10a54bc4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620558228185,
+          "stop" : 1620558228185,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6d9f2cd339a0fbc8",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/37//#testresult/6d9f2cd339a0fbc8",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620558170686,
+          "stop" : 1620558170687,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "67e57f38a1705502",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/35//#testresult/67e57f38a1705502",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620427467455,
+          "stop" : 1620427467455,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b9e09ad364dcb683",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/34//#testresult/b9e09ad364dcb683",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620413380911,
+          "stop" : 1620413380911,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b02c5f78d0566856",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/33//#testresult/b02c5f78d0566856",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620412551666,
+          "stop" : 1620412551667,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9646f49d9bb457a5",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/32//#testresult/9646f49d9bb457a5",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620405565131,
+          "stop" : 1620405565131,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "19f7af94912c28b3",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/31//#testresult/19f7af94912c28b3",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620405503946,
+          "stop" : 1620405503946,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f3d3d5c9378734a8",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/29//#testresult/f3d3d5c9378734a8",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620405454769,
+          "stop" : 1620405454770,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d5faa18e157c0a96",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/28//#testresult/d5faa18e157c0a96",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620405421991,
+          "stop" : 1620405421992,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "4301c68180e6b632",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/27//#testresult/4301c68180e6b632",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620405379972,
+          "stop" : 1620405379972,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ce606f67100b842a",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/25//#testresult/ce606f67100b842a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620405321502,
+          "stop" : 1620405321502,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "73a4eb9c9734e9e4",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/23//#testresult/73a4eb9c9734e9e4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620405269844,
+          "stop" : 1620405269844,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "47fde233038344a4",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/21//#testresult/47fde233038344a4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620405205297,
+          "stop" : 1620405205298,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "eba049d06d2b3e2",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/18//#testresult/eba049d06d2b3e2",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [0, 0, 0, 1] == []\n  Left contains 4 more items, first extra item: 0\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620405140253,
+          "stop" : 1620405140253,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9f2f731ec6a02495.json",
+  "parameterValues" : [ "[0, 0, 0, 1]", "[1, 0, 0, 0]" ]
+}
