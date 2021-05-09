@@ -1,0 +1,59 @@
+{
+  "uid" : "86f4bbdab8e89e5",
+  "name" : "test_digit_anagrams[input_array7-10]",
+  "fullName" : "src.test.java.test_be_0004.practice.algo.a04_digitAnagrams.test_digit_anagrams#test_digit_anagrams",
+  "historyId" : "94967de00819351d3e11dd259922dc21",
+  "time" : {
+    "start" : 1620559595219,
+    "stop" : 1620559595220,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.test_be_0004.practice.algo.a04_digitAnagrams"
+  }, {
+    "name" : "suite",
+    "value" : "test_digit_anagrams"
+  }, {
+    "name" : "host",
+    "value" : "fv-az196-409"
+  }, {
+    "name" : "thread",
+    "value" : "2456-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.test_be_0004.practice.algo.a04_digitAnagrams.test_digit_anagrams"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "10"
+  }, {
+    "name" : "input_array",
+    "value" : "[823791560, 680325179, 739021586, 596666851, 592314847, 185033681, 449872513, 586695616, 901387526, 665156968]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "86f4bbdab8e89e5.json",
+  "parameterValues" : [ "10", "[823791560, 680325179, 739021586, 596666851, 592314847, 185033681, 449872513, 586695616, 901387526, 665156968]" ]
+}
