@@ -3,6 +3,7 @@ package firstDuplicate;
 import java.util.Arrays;
 import java.util.Comparator;
 
+@SuppressWarnings("PMD")
 public class Duplicates {
     public int findFirstValidDuplicate(int[] a) {
         if (null == a || 0 == a.length) {

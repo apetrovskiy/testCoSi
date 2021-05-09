@@ -1,0 +1,3 @@
+isBull <- function(adj) {
+
+}
