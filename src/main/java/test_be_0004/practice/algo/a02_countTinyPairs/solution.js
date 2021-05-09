@@ -1,0 +1,1 @@
+function countTinyPairs(a, b, k) {}
