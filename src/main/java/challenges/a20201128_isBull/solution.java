@@ -1,0 +1,3 @@
+boolean isBull(boolean[][] adj) {
+
+}
