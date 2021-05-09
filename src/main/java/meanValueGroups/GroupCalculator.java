@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
 
 @SuppressWarnings("PMD")
 public class GroupCalculator {
-    int[][] calculate(int[][] a) {
+    public int[][] calculate(int[][] a) {
         final Map<Integer, Double> result =
 //        return
                 IntStream.range(0, a.length)
@@ -39,7 +39,7 @@ public class GroupCalculator {
 //        .toArray(item -> new int[][]{item})
     }
 
-    int[] calculate1(int[][] a) {
+    public int[] calculate1(int[][] a) {
         // final Map<Integer, Long> result =
         // final Map<Integer, Map<Object, Object>> result =
         final Map<Integer, Integer> result =
