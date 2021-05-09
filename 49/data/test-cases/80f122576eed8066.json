@@ -1,0 +1,113 @@
+{
+  "uid" : "80f122576eed8066",
+  "name" : "test_roads_building",
+  "fullName" : "src.test.java.training.graphs.a02_roads_building.test_solution.RoadsBuildingTest#test_roads_building",
+  "historyId" : "3293fded4669312b57e3a47fc8a9c852",
+  "time" : {
+    "start" : 1620559233360,
+    "stop" : 1620559233361,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: True != None",
+  "statusTrace" : "self = <src.test.java.training.graphs.a02_roads_building.test_solution.RoadsBuildingTest testMethod=test_roads_building>\n\n    def test_roads_building(self):\n>       self.assertEqual(True, roadsBuilding(None, None))\nE       AssertionError: True != None\n\nsrc/test/java/training/graphs/a02_roads_building/test_solution.py:8: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_RoadsBuildingTest",
+    "time" : {
+      "start" : 1620559233360,
+      "stop" : 1620559233360,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_RoadsBuildingTest::0",
+    "time" : {
+      "start" : 1620559233366,
+      "stop" : 1620559233366,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.graphs.a02_roads_building"
+  }, {
+    "name" : "suite",
+    "value" : "test_solution"
+  }, {
+    "name" : "subSuite",
+    "value" : "RoadsBuildingTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-381"
+  }, {
+    "name" : "thread",
+    "value" : "2378-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.graphs.a02_roads_building.test_solution"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "49e544b146e8bf94",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/23//#testresult/49e544b146e8bf94",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: True != None",
+        "time" : {
+          "start" : 1620405269879,
+          "stop" : 1620405269879,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "80f122576eed8066.json",
+  "parameterValues" : [ ]
+}
