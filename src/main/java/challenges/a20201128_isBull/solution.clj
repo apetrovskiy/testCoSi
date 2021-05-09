@@ -1,0 +1,1 @@
+(defn isBull [adj] )

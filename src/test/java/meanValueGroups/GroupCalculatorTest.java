@@ -6,6 +6,7 @@ import java.util.Arrays;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
+@SuppressWarnings("PMD")
 public class GroupCalculatorTest {
     @Disabled
     @Test

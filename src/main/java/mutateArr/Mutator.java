@@ -2,6 +2,7 @@ package mutateArr;
 
 import java.util.stream.IntStream;
 
+@SuppressWarnings("PMD")
 public class Mutator {
     public int[] mutate(int n, int[] a) {
         if (0 == n || n > a.length || null == a || 0 == a.length) {
