@@ -4,7 +4,7 @@ namespace challenges.a20201121_dailyOHLC
     {
         string[][] dailyOHLC(int[] timestamp, string[] instrument, string[] side, double[] price, int[] size)
         {
-
+            return new string[][] { };
         }
 
     }
