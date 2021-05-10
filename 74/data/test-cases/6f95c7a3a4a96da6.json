@@ -1,0 +1,253 @@
+{
+  "uid" : "6f95c7a3a4a96da6",
+  "name" : "test_running_water[cap1-20-False]",
+  "fullName" : "src.test.java.challenges.a20201217_runningWater.test_running_water#test_running_water",
+  "historyId" : "81d80c4a0f6092b55fa0fdb5367ab72e",
+  "time" : {
+    "start" : 1620632837663,
+    "stop" : 1620632837663,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.a20201217_runningWater"
+  }, {
+    "name" : "suite",
+    "value" : "test_running_water"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-381"
+  }, {
+    "name" : "thread",
+    "value" : "2386-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.a20201217_runningWater.test_running_water"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cap",
+    "value" : "[16, 5, 3]"
+  }, {
+    "name" : "expected_result",
+    "value" : "False"
+  }, {
+    "name" : "volume",
+    "value" : "20"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 65,
+        "unknown" : 0,
+        "total" : 68
+      },
+      "items" : [ {
+        "uid" : "6ca9b9b58c90a8ed",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/73//#testresult/6ca9b9b58c90a8ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620588771611,
+          "stop" : 1620588771612,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "8bf36b7814536799",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/72//#testresult/8bf36b7814536799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620587343785,
+          "stop" : 1620587343785,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "781accf00f9d494f",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/71//#testresult/781accf00f9d494f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620582483420,
+          "stop" : 1620582483421,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "2ff65f5005e2f7a4",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/70//#testresult/2ff65f5005e2f7a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620582063515,
+          "stop" : 1620582063515,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cc39a34683b9b622",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/69//#testresult/cc39a34683b9b622",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620581514429,
+          "stop" : 1620581514429,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "60f83bfb3ab9502c",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/68//#testresult/60f83bfb3ab9502c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620581310281,
+          "stop" : 1620581310281,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c62b975b0715fd62",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/67//#testresult/c62b975b0715fd62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620580993647,
+          "stop" : 1620580993648,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "451ab32a58abf7ad",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/66//#testresult/451ab32a58abf7ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620580708262,
+          "stop" : 1620580708262,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "15c0fdb733d72a0d",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/65//#testresult/15c0fdb733d72a0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620580025113,
+          "stop" : 1620580025113,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "953aaf761f20576a",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/64//#testresult/953aaf761f20576a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620579335609,
+          "stop" : 1620579335609,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "efcce44e64401f2",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/63//#testresult/efcce44e64401f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620559739887,
+          "stop" : 1620559739887,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "344b93243e11b5f1",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/62//#testresult/344b93243e11b5f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620559704923,
+          "stop" : 1620559704923,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "70d95bc459a5ec50",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/59//#testresult/70d95bc459a5ec50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620559616938,
+          "stop" : 1620559616938,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b104a1452ed992db",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/57//#testresult/b104a1452ed992db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620559551796,
+          "stop" : 1620559551796,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8924602122d151ea",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/56//#testresult/8924602122d151ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620559533977,
+          "stop" : 1620559533978,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "cf0df42ed4b723b9",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/55//#testresult/cf0df42ed4b723b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620559475227,
+          "stop" : 1620559475227,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bf41d5244ed78bf7",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/53//#testresult/bf41d5244ed78bf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620559421083,
+          "stop" : 1620559421083,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6ccd48f42cb29399",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/51//#testresult/6ccd48f42cb29399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620559356262,
+          "stop" : 1620559356262,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2d8844e120a30f05",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/48//#testresult/2d8844e120a30f05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620559147710,
+          "stop" : 1620559147710,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c0a2ff4df0f45e83",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/49//#testresult/c0a2ff4df0f45e83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620559233256,
+          "stop" : 1620559233256,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6f95c7a3a4a96da6.json",
+  "parameterValues" : [ "[16, 5, 3]", "False", "20" ]
+}

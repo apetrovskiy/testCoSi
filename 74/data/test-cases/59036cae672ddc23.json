@@ -1,0 +1,279 @@
+{
+  "uid" : "59036cae672ddc23",
+  "name" : "test_running_water[cap3-144-True]",
+  "fullName" : "src.test.java.challenges.a20201217_runningWater.test_running_water#test_running_water",
+  "historyId" : "b0eb9f8b49ce93ebef9dec0b319fb3dc",
+  "time" : {
+    "start" : 1620632837670,
+    "stop" : 1620632837670,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+  "statusTrace" : "cap = [1, 50, 100], volume = 144, expected_result = True\n\n    @pytest.mark.parametrize(\"cap,volume,expected_result\", test_data)\n    def test_running_water(cap: List[int], volume: int, expected_result: bool):\n>       assert expected_result == runningWater(cap, volume)\nE       assert True == False\nE        +  where False = runningWater([1, 50, 100], 144)\n\nsrc/test/java/challenges/a20201217_runningWater/test_running_water.py:24: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.a20201217_runningWater"
+  }, {
+    "name" : "suite",
+    "value" : "test_running_water"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-381"
+  }, {
+    "name" : "thread",
+    "value" : "2386-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.a20201217_runningWater.test_running_water"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cap",
+    "value" : "[1, 50, 100]"
+  }, {
+    "name" : "expected_result",
+    "value" : "True"
+  }, {
+    "name" : "volume",
+    "value" : "144"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 65,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 68
+      },
+      "items" : [ {
+        "uid" : "d15c49b140d0ca02",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/73//#testresult/d15c49b140d0ca02",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620588771618,
+          "stop" : 1620588771618,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fe18f8d4cf5d7129",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/72//#testresult/fe18f8d4cf5d7129",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620587343793,
+          "stop" : 1620587343793,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "389cb5c3457694c3",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/71//#testresult/389cb5c3457694c3",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620582483428,
+          "stop" : 1620582483428,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1ece2715cbbd32f5",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/70//#testresult/1ece2715cbbd32f5",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620582063523,
+          "stop" : 1620582063523,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f053b4839ee05214",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/69//#testresult/f053b4839ee05214",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620581514436,
+          "stop" : 1620581514436,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3f43e1ce5aafdb8b",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/68//#testresult/3f43e1ce5aafdb8b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620581310287,
+          "stop" : 1620581310287,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "53a6e2a05891d667",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/67//#testresult/53a6e2a05891d667",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620580993655,
+          "stop" : 1620580993655,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b0518f269323e3d6",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/66//#testresult/b0518f269323e3d6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620580708269,
+          "stop" : 1620580708270,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3710c99e751379d5",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/65//#testresult/3710c99e751379d5",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620580025120,
+          "stop" : 1620580025120,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e9a466ff70579588",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/64//#testresult/e9a466ff70579588",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620579335617,
+          "stop" : 1620579335618,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "54f14a3aa2a4886d",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/63//#testresult/54f14a3aa2a4886d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620559739893,
+          "stop" : 1620559739893,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9fd04f7989aca895",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/62//#testresult/9fd04f7989aca895",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620559704930,
+          "stop" : 1620559704931,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9151ff53345bcec7",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/59//#testresult/9151ff53345bcec7",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620559616945,
+          "stop" : 1620559616946,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "902cc4a1dd9df579",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/57//#testresult/902cc4a1dd9df579",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620559551802,
+          "stop" : 1620559551803,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "8ab122a1aae23a95",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/56//#testresult/8ab122a1aae23a95",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620559533985,
+          "stop" : 1620559533986,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "f3a13466112d5972",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/55//#testresult/f3a13466112d5972",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620559475235,
+          "stop" : 1620559475235,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f4d4653fa0a22546",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/53//#testresult/f4d4653fa0a22546",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620559421091,
+          "stop" : 1620559421091,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3a6b92f96cb19845",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/51//#testresult/3a6b92f96cb19845",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620559356268,
+          "stop" : 1620559356269,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "7a86a56d3350ed26",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/48//#testresult/7a86a56d3350ed26",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620559147717,
+          "stop" : 1620559147717,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d6cad3a9286af3ff",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/49//#testresult/d6cad3a9286af3ff",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert True == False\n +  where False = runningWater([1, 50, 100], 144)",
+        "time" : {
+          "start" : 1620559233264,
+          "stop" : 1620559233264,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "59036cae672ddc23.json",
+  "parameterValues" : [ "[1, 50, 100]", "True", "144" ]
+}
