@@ -20,7 +20,7 @@ plugins {
 
     // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
     // kotlin("multiplatform") version "1.5.0"
-    kotlin("jvm") version "1.5.0"
+    kotlin("jvm") version "1.4.32"
 
     // Apply the scala Plugin to add support for Scala.
     scala
@@ -64,6 +64,9 @@ java {
         languageVersion.set(JavaLanguageVersion.of(Version.JAVA.id.toInt()))
     }
 }
+tasks.compileJava {
+    options.release.set(Version.JAVA.id.toInt())
+}
 
 sourceSets.main {
     java.srcDirs("src/main/java", "src/main/kotlin", "src/main/scala", "src/main/groovy")
@@ -76,7 +79,7 @@ sourceSets.test {
 repositories {
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.
-    jcenter()
+    // jcenter()
     mavenCentral()
     /*maven {
         url = uri("https://mvnrepository.com")
@@ -110,17 +113,11 @@ dependencies {
     implementation("org.codehaus.groovy:groovy-all:2.5.12")
 
     // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
-    testImplementation("org.junit.jupiter:junit-jupiter:${Version.JUNIT_JUPITER.id}")
-
-    // Use JUnit Jupiter API for testing.
-    testImplementation("org.junit.jupiter:junit-jupiter-api:${Version.JUNIT_JUPITER.id}")
+    // ?? testImplementation("org.junit.jupiter:junit-jupiter:${Version.JUNIT_JUPITER.id}")
 
     // Use JUnit Jupiter Engine for testing.
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${Version.JUNIT_JUPITER.id}")
+    // testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${Version.JUNIT_JUPITER.id}")
     // testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
-
-    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params
-    testImplementation("org.junit.jupiter:junit-jupiter-params:${Version.JUNIT_JUPITER.id}")
 
     // Use the Kotlin test library.
     testImplementation("org.jetbrains.kotlin:kotlin-test:${Version.KOTLIN.id}")
@@ -130,18 +127,26 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${Version.JUNIT_JUPITER.id}")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:${Version.JUNIT_JUPITER.id}")
+    // testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${Version.JUNIT_JUPITER.id}")
     testImplementation("org.junit.jupiter:junit-jupiter-params:${Version.JUNIT_JUPITER.id}")
+    testImplementation("org.junit.vintage:junit-vintage-engine:${Version.JUNIT_JUPITER.id}")
     testImplementation("org.junit.platform:junit-platform-launcher:${Version.JUNIT_PLATFORM.id}")
     testImplementation("org.junit.platform:junit-platform-runner:${Version.JUNIT_PLATFORM.id}")
     testImplementation("org.junit.platform:junit-platform-engine:${Version.JUNIT_PLATFORM.id}")
     testImplementation("org.junit.platform:junit-platform-suite-api:${Version.JUNIT_PLATFORM.id}")
 
-    // https://mvnrepository.com/artifact/junit/junit
-    // testImplementation("junit:junit:4.13.1")
+    implementation("io.cucumber:cucumber-core:${Version.CUCUMBER.id}")
+    implementation("io.cucumber:cucumber-java:${Version.CUCUMBER.id}")
+    implementation("io.cucumber:cucumber-gherkin:${Version.CUCUMBER.id}")
+    implementation("io.cucumber:gherkin:18.1.0")
+
+    testImplementation("io.cucumber:cucumber-junit:${Version.CUCUMBER.id}")
+    implementation("io.cucumber:cucumber-junit-platform-engine:${Version.CUCUMBER.id}")
+    implementation("io.cucumber:cucumber-java8:${Version.CUCUMBER.id}")
 
     // Use the awesome Spock testing and specification framework even with Java
     testImplementation("org.spockframework:spock-core:1.3-groovy-2.5")
-    // testImplementation("junit:junit:4.13")
+    // testImplementation("junit:junit:${Version.JUNIT4.id}")
 
     // Use Scalatest for testing our library
     // testImplementation("junit:junit:4.12")
@@ -153,23 +158,28 @@ dependencies {
     // Need scala-xml at test runtime
     testRuntimeOnly("org.scala-lang.modules:scala-xml_2.13:1.2.0")
 
-    testImplementation("io.qameta.allure:allure-java-commons:${Version.ALLURE.id}")
+    // testImplementation("io.qameta.allure:allure-java-commons:${Version.ALLURE.id}")
+    implementation("io.qameta.allure:allure-java-commons:${Version.ALLURE.id}")
+    implementation("io.qameta.allure:allure-cucumber6-jvm:${Version.ALLURE.id}")
+    testImplementation("io.qameta.allure:allure-junit4:${Version.ALLURE.id}")
+
+    implementation("io.qameta.allure:allure-attachments:${Version.ALLURE.id}")
 
     runtimeOnly("com.pinterest.ktlint:ktlint-core:${Version.KTLINT.id}")
     runtimeOnly("com.pinterest.ktlint:ktlint-ruleset-standard:${Version.KTLINT.id}")
     runtimeOnly("com.pinterest.ktlint:ktlint-reporter-plain:${Version.KTLINT.id}")
 }
-
+      /*
 val testCompile: Configuration by configurations.creating
 configurations {
     testCompile.extendsFrom(testImplementation.get())
-}
+}   */
 
 configure<AllureExtension> {
     autoconfigure = true
     aspectjweaver = true
     version = Version.ALLURE.id
-    allureJavaVersion = Version.JAVA.id
+    // allureJavaVersion = Version.JAVA.id
 
     clean = true
 
@@ -181,11 +191,23 @@ configure<AllureExtension> {
     }
 }
 
+tasks.test {
+    filter {
+        exclude("/e2e/**")
+        exclude("com/test/j4test/e2e/**")
+        excludeTestsMatching("com/test/j4test/e2e/**")
+        exclude("TestRunner")
+        useJUnitPlatform()
+        // TODO: remove this one if not needed
+        testLogging.showStandardStreams = true
+    }
+    maxParallelForks = 3
+/*
 val test by tasks.getting(Test::class) {
     ignoreFailures = true
     // Use junit platform for unit tests
     useJUnitPlatform()
-    testLogging.showStandardStreams = true
+    testLogging.showStandardStreams = true */
     systemProperty("junit.jupiter.execution.parallel.enabled", "true")
     systemProperty("junit.jupiter.execution.parallel.config.strategy", "dynamic")
     systemProperty("junit.jupiter.extensions.autodetection.enabled", "true")
@@ -216,6 +238,7 @@ enum class Version(val id: String) {
     GATLING("3.5.1"),
     JUNIT_JUPITER("5.7.1"),
     JUNIT_PLATFORM("1.7.1"),
+    JUNIT4("4.13.2"),
     SCALA_TEST("3.2.0"),
     SCALA_TEST_PLUS("3.2.0.0"),
     JACKSON("2.12.2"),
@@ -231,7 +254,7 @@ enum class Version(val id: String) {
     ALLURE("2.13.9"),
     ALLURE_GRADLE("2.8.1"),
     JAVA("15"),
-    KOTLIN("1.5.0"),
+    KOTLIN("1.4.32"),
     GRADLE("7.0"),
     PMD("6.21.0"),
     KTLINT_GRADLE_PLUGIN("10.0.0"),
