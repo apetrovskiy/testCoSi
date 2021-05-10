@@ -139,7 +139,7 @@ dependencies {
 
     // Use the awesome Spock testing and specification framework even with Java
     testImplementation("org.spockframework:spock-core:1.3-groovy-2.5")
-    // testImplementation("junit:junit:${Version.JUNIT4.id}")
+    testImplementation("junit:junit:${Version.JUNIT4.id}")
 
     // Use Scalatest for testing our library
     // testImplementation("junit:junit:4.12")
@@ -172,7 +172,7 @@ configure<AllureExtension> {
     autoconfigure = true
     aspectjweaver = true
     version = Version.ALLURE.id
-    // allureJavaVersion = Version.JAVA.id
+    allureJavaVersion = Version.JAVA.id
 
     clean = true
 
