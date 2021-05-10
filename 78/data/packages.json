@@ -1,0 +1,1061 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "src.test.java",
+    "children" : [ {
+      "name" : "challenges",
+      "children" : [ {
+        "name" : "a20200530_combinationSum.test_combinationSum",
+        "children" : [ {
+          "name" : "test_combinationSum[input_array0-9-(2 2 2 3)(2 2 5)(3 3 3)(9)]",
+          "uid" : "3f81ef4f6d211ea1",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373425,
+            "stop" : 1620660373426,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(2 2 2 3)(2 2 5)(3 3 3)(9)'", "[2, 3, 5, 9]", "9" ]
+        }, {
+          "name" : "test_combinationSum[input_array1-8-(2 2 2 2)(2 2 4)(2 6)(4 4)(8)]",
+          "uid" : "911b51d1605584cb",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373457,
+            "stop" : 1620660373457,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(2 2 2 2)(2 2 4)(2 6)(4 4)(8)'", "[2, 4, 6, 8]", "8" ]
+        }, {
+          "name" : "test_combinationSum[input_array2-12-(1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 6)(1 1 1 1 8)(6 6)]",
+          "uid" : "819c38e76f280d2a",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373464,
+            "stop" : 1620660373464,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 6)(1 1 1 1 8)(6 6)'", "[8, 1, 8, 6, 8]", "12" ]
+        }, {
+          "name" : "test_combinationSum[input_array3-16-(2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)]",
+          "uid" : "9359565b9a4f845e",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373471,
+            "stop" : 1620660373471,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)'", "[7, 2, 6, 5]", "16" ]
+        }, {
+          "name" : "test_combinationSum[input_array4-6-(1 1 1 1 1 1)(1 1 1 1 2)(1 1 2 2)(1 5)(2 2 2)(6)]",
+          "uid" : "4a6fe366e136da09",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373478,
+            "stop" : 1620660373478,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(1 1 1 1 1 1)(1 1 1 1 2)(1 1 2 2)(1 5)(2 2 2)(6)'", "[6, 5, 7, 1, 8, 2, 9, 9, 7, 7, 9]", "6" ]
+        }, {
+          "name" : "test_combinationSum[input_array5-3-Empty]",
+          "uid" : "640c2e25bfc72c6a",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373484,
+            "stop" : 1620660373485,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'Empty'", "[5, 2, 2, 6]", "3" ]
+        }, {
+          "name" : "test_combinationSum[input_array6-7-Empty]",
+          "uid" : "dbf871476e7e1e8f",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373491,
+            "stop" : 1620660373491,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'Empty'", "[4, 6, 4, 2]", "7" ]
+        }, {
+          "name" : "test_combinationSum[input_array7-22-(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 8)(1 1 1 1 1 1 1 1 7 7)(1 1 1 1 1 1 1 7 8)(1 1 1 1 1 1 8 8)(1 7 7 7)(7 7 8)]",
+          "uid" : "e81af9af086085ce",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373499,
+            "stop" : 1620660373499,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 8)(1 1 1 1 1 1 1 1 7 7)(1 1 1 1 1 1 1 7 8)(1 1 1 1 1 1 8 8)(1 7 7 7)(7 7 8)'", "[8, 7, 1]", "22" ]
+        }, {
+          "name" : "test_combinationSum[input_array8-24-(2 2 2 2 2 2 2 2 2 2 2 2)(2 2 2 2 2 2 2 2 2 2 4)(2 2 2 2 2 2 2 2 2 3 3)(2 2 2 2 2 2 2 2 2 6)(2 2 2 2 2 2 2 2 3 5)(2 2 2 2 2 2 2 2 4 4)(2 2 2 2 2 2 2 3 3 4)(2 2 2 2 2 2 2 4 6)(2 2 2 2 2 2 2 5 5)(2 2 2 2 2 2 3 3 3 3)(2 2 2 2 2 2 3 3 6)(2 2 2 2 2 2 3 4 5)(2 2 2 2 2 2 3 9)(2 2 2 2 2 2 4 4 4)(2 2 2 2 2 2 6 6)(2 2 2 2 2 3 3 3 5)(2 2 2 2 2 3 3 4 4)(2 2 2 2 2 3 5 6)(2 2 2 2 2 4 4 6)(2 2 2 2 2 4 5 5)(2 2 2 2 2 5 9)(2 2 2 2 3 3 3 3 4)(2 2 2 2 3 3 4 6)(2 2 2 2 3 3 5 5)(2 2 2 2 3 4 4 5)(2 2 2 2 3 4 9)(2 2 2 2 4 4 4 4)(2 2 2 2 4 6 6)(2 2 2 2 5 5 6)(2 2 2 3 3 3 3 3 3)(2 2 2 3 3 3 3 6)(2 2 2 3 3 3 4 5)(2 2 2 3 3 3 9)(2 2 2 3 3 4 4 4)(2 2 2 3 3 6 6)(2 2 2 3 4 5 6)(2 2 2 3 5 5 5)(2 2 2 3 6 9)(2 2 2 4 4 4 6)(2 2 2 4 4 5 5)(2 2 2 4 5 9)(2 2 2 6 6 6)(2 2 2 9 9)(2 2 3 3 3 3 3 5)(2 2 3 3 3 3 4 4)(2 2 3 3 3 5 6)(2 2 3 3 4 4 6)(2 2 3 3 4 5 5)(2 2 3 3 5 9)(2 2 3 4 4 4 5)(2 2 3 4 4 9)(2 2 3 5 6 6)(2 2 4 4 4 4 4)(2 2 4 4 6 6)(2 2 4 5 5 6)(2 2 5 5 5 5)(2 2 5 6 9)(2 3 3 3 3 3 3 4)(2 3 3 3 3 4 6)(2 3 3 3 3 5 5)(2 3...]",
+          "uid" : "3ad79acc83975a2c",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373506,
+            "stop" : 1620660373507,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(2 2 2 2 2 2 2 2 2 2 2 2)(2 2 2 2 2 2 2 2 2 2 4)(2 2 2 2 2 2 2 2 2 3 3)(2 2 2 2 2 2 2 2 2 6)(2 2 2 2 2 2 2 2 3 5)(2 2 2 2 2 2 2 2 4 4)(2 2 2 2 2 2 2 3 3 4)(2 2 2 2 2 2 2 4 6)(2 2 2 2 2 2 2 5 5)(2 2 2 2 2 2 3 3 3 3)(2 2 2 2 2 2 3 3 6)(2 2 2 2 2 2 3 4 5)(2 2 2 2 2 2 3 9)(2 2 2 2 2 2 4 4 4)(2 2 2 2 2 2 6 6)(2 2 2 2 2 3 3 3 5)(2 2 2 2 2 3 3 4 4)(2 2 2 2 2 3 5 6)(2 2 2 2 2 4 4 6)(2 2 2 2 2 4 5 5)(2 2 2 2 2 5 9)(2 2 2 2 3 3 3 3 4)(2 2 2 2 3 3 4 6)(2 2 2 2 3 3 5 5)(2 2 2 2 3 4 4 5)(2 2 2 2 3 4 9)(2 2 2 2 4 4 4 4)(2 2 2 2 4 6 6)(2 2 2 2 5 5 6)(2 2 2 3 3 3 3 3 3)(2 2 2 3 3 3 3 6)(2 2 2 3 3 3 4 5)(2 2 2 3 3 3 9)(2 2 2 3 3 4 4 4)(2 2 2 3 3 6 6)(2 2 2 3 4 5 6)(2 2 2 3 5 5 5)(2 2 2 3 6 9)(2 2 2 4 4 4 6)(2 2 2 4 4 5 5)(2 2 2 4 5 9)(2 2 2 6 6 6)(2 2 2 9 9)(2 2 3 3 3 3 3 5)(2 2 3 3 3 3 4 4)(2 2 3 3 3 5 6)(2 2 3 3 4 4 6)(2 2 3 3 4 5 5)(2 2 3 3 5 9)(2 2 3 4 4 4 5)(2 2 3 4 4 9)(2 2 3 5 6 6)(2 2 4 4 4 4 4)(2 2 4 4 6 6)(2 2 4 5 5 6)(2 2 5 5 5 5)(2 2 5 6 9)(2 3 3 3 3 3 3 4)(2 3 3 3 3 4 6)(2 3 3 3 3 5 5)(2 3...'", "[6, 5, 6, 3, 3, 4, 3, 2, 2, 9, 9]", "24" ]
+        }, {
+          "name" : "test_combinationSum[input_array9-1-Empty]",
+          "uid" : "edfc03da1ec3218e",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373513,
+            "stop" : 1620660373513,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'Empty'", "[6, 5, 5, 7]", "1" ]
+        }, {
+          "name" : "test_combinationSum[input_array10-8-(3 5)(4 4)(8)]",
+          "uid" : "bc6c6de71c090422",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373516,
+            "stop" : 1620660373517,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(3 5)(4 4)(8)'", "[7, 3, 9, 8, 4, 5]", "8" ]
+        }, {
+          "name" : "test_combinationSum[input_array11-15-(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 3 3 3)(1 1 1 1 1 3 7)(1 1 1 3 3 3 3)(1 1 3 3 7)(1 7 7)(3 3 3 3 3)]",
+          "uid" : "7d070edd3563c275",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373523,
+            "stop" : 1620660373524,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 3 3 3)(1 1 1 1 1 3 7)(1 1 1 3 3 3 3)(1 1 3 3 7)(1 7 7)(3 3 3 3 3)'", "[1, 1, 1, 3, 7, 3]", "15" ]
+        }, {
+          "name" : "test_combinationSum[input_array12-14-(6 8)(7 7)]",
+          "uid" : "6beff8f449a33156",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373530,
+            "stop" : 1620660373531,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(6 8)(7 7)'", "[6, 8, 7, 7, 9]", "14" ]
+        }, {
+          "name" : "test_combinationSum[input_array13-2-(2)]",
+          "uid" : "d4da2f9d9b7ff838",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373538,
+            "stop" : 1620660373539,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(2)'", "[7, 3, 9, 2, 7, 7]", "2" ]
+        }, {
+          "name" : "test_combinationSum[input_array14-18-(3 3 3 3 3 3)(3 3 3 3 6)(3 3 6 6)(6 6 6)]",
+          "uid" : "44d35e79a605374c",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373545,
+            "stop" : 1620660373545,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(3 3 3 3 3 3)(3 3 3 3 6)(3 3 6 6)(6 6 6)'", "[6, 3, 7]", "18" ]
+        }, {
+          "name" : "test_combinationSum[input_array15-17-(3 3 3 8)(8 9)]",
+          "uid" : "fe248aa78908d488",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373551,
+            "stop" : 1620660373552,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(3 3 3 8)(8 9)'", "[3, 8, 3, 9]", "17" ]
+        }, {
+          "name" : "test_combinationSum[input_array16-3-(1 1 1)(3)]",
+          "uid" : "84c6f8c357d061bf",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373560,
+            "stop" : 1620660373560,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(1 1 1)(3)'", "[4, 3, 1]", "3" ]
+        }, {
+          "name" : "test_combinationSum[input_array17-4-(4)]",
+          "uid" : "190fe355ebddd770",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373567,
+            "stop" : 1620660373567,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(4)'", "[8, 6, 4, 7, 6, 5, 3, 6, 3]", "4" ]
+        }, {
+          "name" : "test_combinationSum[input_array18-20-(3 3 3 3 4 4)(3 4 4 9)(4 4 4 4 4)]",
+          "uid" : "3b4e149ad7eabee1",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373574,
+            "stop" : 1620660373574,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(3 3 3 3 4 4)(3 4 4 9)(4 4 4 4 4)'", "[3, 9, 4]", "20" ]
+        }, {
+          "name" : "test_combinationSum[input_array19-16-(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)]",
+          "uid" : "f556460a11056b48",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373581,
+            "stop" : 1620660373581,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)'", "[1, 8]", "16" ]
+        }, {
+          "name" : "test_combinationSum[input_array20-24-(4 4 4 4 4 4)]",
+          "uid" : "bb48144ded1dc36c",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373587,
+            "stop" : 1620660373588,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(4 4 4 4 4 4)'", "[4, 7]", "24" ]
+        }, {
+          "name" : "test_combinationSum[input_array21-1-Empty]",
+          "uid" : "2b04714ae5b87064",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373594,
+            "stop" : 1620660373594,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'Empty'", "[2, 3, 7, 5, 3, 3, 8, 9, 6, 2]", "1" ]
+        }, {
+          "name" : "test_combinationSum[input_array22-13-(5 8)]",
+          "uid" : "5858c800196df9f9",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373600,
+            "stop" : 1620660373601,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(5 8)'", "[5, 9, 5, 7, 8]", "13" ]
+        }, {
+          "name" : "test_combinationSum[input_array23-13-(1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 5)(1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 7)(1 1 1 1 1 3 5)(1 1 1 1 1 8)(1 1 1 1 3 3 3)(1 1 1 1 9)(1 1 1 3 7)(1 1 1 5 5)(1 1 3 3 5)(1 1 3 8)(1 3 3 3 3)(1 3 9)(1 5 7)(3 3 7)(3 5 5)(5 8)]",
+          "uid" : "55d7c3d3a77c4d1d",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373608,
+            "stop" : 1620660373608,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 5)(1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 7)(1 1 1 1 1 3 5)(1 1 1 1 1 8)(1 1 1 1 3 3 3)(1 1 1 1 9)(1 1 1 3 7)(1 1 1 5 5)(1 1 3 3 5)(1 1 3 8)(1 3 3 3 3)(1 3 9)(1 5 7)(3 3 7)(3 5 5)(5 8)'", "[7, 1, 9, 5, 1, 8, 5, 3]", "13" ]
+        }, {
+          "name" : "test_combinationSum[input_array24-19-(2 2 2 2 2 2 2 2 3)(2 2 2 2 2 2 3 4)(2 2 2 2 2 3 3 3)(2 2 2 2 2 3 6)(2 2 2 2 2 9)(2 2 2 2 3 4 4)(2 2 2 2 3 8)(2 2 2 3 3 3 4)(2 2 2 3 4 6)(2 2 2 4 9)(2 2 3 3 3 3 3)(2 2 3 3 3 6)(2 2 3 3 9)(2 2 3 4 4 4)(2 2 3 4 8)(2 2 3 6 6)(2 2 6 9)(2 3 3 3 4 4)(2 3 3 3 8)(2 3 4 4 6)(2 3 6 8)(2 4 4 9)(2 8 9)(3 3 3 3 3 4)(3 3 3 4 6)(3 3 4 9)(3 4 4 4 4)(3 4 4 8)(3 4 6 6)(3 8 8)(4 6 9)]",
+          "uid" : "9273ae0cc5332112",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373615,
+            "stop" : 1620660373615,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(2 2 2 2 2 2 2 2 3)(2 2 2 2 2 2 3 4)(2 2 2 2 2 3 3 3)(2 2 2 2 2 3 6)(2 2 2 2 2 9)(2 2 2 2 3 4 4)(2 2 2 2 3 8)(2 2 2 3 3 3 4)(2 2 2 3 4 6)(2 2 2 4 9)(2 2 3 3 3 3 3)(2 2 3 3 3 6)(2 2 3 3 9)(2 2 3 4 4 4)(2 2 3 4 8)(2 2 3 6 6)(2 2 6 9)(2 3 3 3 4 4)(2 3 3 3 8)(2 3 4 4 6)(2 3 6 8)(2 4 4 9)(2 8 9)(3 3 3 3 3 4)(3 3 3 4 6)(3 3 4 9)(3 4 4 4 4)(3 4 4 8)(3 4 6 6)(3 8 8)(4 6 9)'", "[6, 3, 4, 8, 9, 8, 9, 2, 4, 8]", "19" ]
+        }, {
+          "name" : "test_combinationSum[input_array25-7-(1 1 1 1 1 1 1)(1 1 1 1 1 2)(1 1 1 1 3)(1 1 1 2 2)(1 1 1 4)(1 1 2 3)(1 2 2 2)(1 2 4)(1 3 3)(2 2 3)(3 4)(7)]",
+          "uid" : "7c046300ad4fea64",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373622,
+            "stop" : 1620660373622,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(1 1 1 1 1 1 1)(1 1 1 1 1 2)(1 1 1 1 3)(1 1 1 2 2)(1 1 1 4)(1 1 2 3)(1 2 2 2)(1 2 4)(1 3 3)(2 2 3)(3 4)(7)'", "[4, 7, 7, 1, 3, 2, 8, 8, 9, 3]", "7" ]
+        }, {
+          "name" : "test_combinationSum[input_array26-4-Empty]",
+          "uid" : "cbd419007face2b6",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373628,
+            "stop" : 1620660373628,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'Empty'", "[8, 5]", "4" ]
+        }, {
+          "name" : "test_combinationSum[input_array27-23-(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 6)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 6)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 9)(1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 3 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 4 6)(1 1 1 1 1 1 1 1 1 1 1 1 3 4 4)(1 1 1 1 1 1 1 1 1 1 1 1 4 7)(1 1 1 1 1 1 1 1 1 1 1 3 3 3 3)(1 1 1 1 1 1 1 1 1 1 1 3 3 6)(1 1 1 1 1 1 1 1 1 1 1 3 9)(1 1 1 1 1 1 1 1 1 1 1 4 4 4)(1 1 1 1 1 1 1 1 1 1 1 6 6)(1 1 1 1 1 1 1 1 1 1 3 3 3 4)(1 1 1 1 1 1 1 1 1 1 3 3 7)(1 1 1 1 1 1 1 1 1 1 3 4 6)(1 1 1 1 1 1 1 1 1 1 4 9)(1 1 1 1 1 1 1 1 1 1 6 7)(1 1 1 1 1 1 1 1 1 3 3 4 4)(1 1 1 1 1 1 1 1 1 3 4 7)(1 1 1 1 1 1 1 1 1 4 4 6)(1 1 1 1 1 1 1 1 1 7 7)(1 1 1 1 1 1 1 1 3 3 3 3 3)(1 1 1 1 1 1 1 1 3 3 3 6)(1 1...]",
+          "uid" : "d1af9f9032d4f898",
+          "parentUid" : "4f9c75e2a21b3293db29d0e3073f5db7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373631,
+            "stop" : 1620660373632,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 6)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 6)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 9)(1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 3 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 4 6)(1 1 1 1 1 1 1 1 1 1 1 1 3 4 4)(1 1 1 1 1 1 1 1 1 1 1 1 4 7)(1 1 1 1 1 1 1 1 1 1 1 3 3 3 3)(1 1 1 1 1 1 1 1 1 1 1 3 3 6)(1 1 1 1 1 1 1 1 1 1 1 3 9)(1 1 1 1 1 1 1 1 1 1 1 4 4 4)(1 1 1 1 1 1 1 1 1 1 1 6 6)(1 1 1 1 1 1 1 1 1 1 3 3 3 4)(1 1 1 1 1 1 1 1 1 1 3 3 7)(1 1 1 1 1 1 1 1 1 1 3 4 6)(1 1 1 1 1 1 1 1 1 1 4 9)(1 1 1 1 1 1 1 1 1 1 6 7)(1 1 1 1 1 1 1 1 1 3 3 4 4)(1 1 1 1 1 1 1 1 1 3 4 7)(1 1 1 1 1 1 1 1 1 4 4 6)(1 1 1 1 1 1 1 1 1 7 7)(1 1 1 1 1 1 1 1 3 3 3 3 3)(1 1 1 1 1 1 1 1 3 3 3 6)(1 1...'", "[7, 1, 3, 1, 3, 4, 7, 3, 9, 6]", "23" ]
+        } ],
+        "uid" : "a20200530_combinationSum.test_combinationSum"
+      }, {
+        "name" : "a20201115_spamClusterization.test_spamClusterization",
+        "children" : [ {
+          "name" : "test_spamClusterization",
+          "uid" : "6998ec4473d21dab",
+          "parentUid" : "b8afc324f79a6e5b116ff6cd5331a8c5",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373640,
+            "stop" : 1620660373640,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a20201115_spamClusterization.test_spamClusterization"
+      }, {
+        "name" : "a20201121_dailyOHLC.test_dailyOHLC",
+        "children" : [ {
+          "name" : "test_dailyOHLC",
+          "uid" : "7d2729980c7e57bf",
+          "parentUid" : "189f95c4e5b6b660f5581cc3cb1c429c",
+          "status" : "broken",
+          "time" : {
+            "start" : 1620660373649,
+            "stop" : 1620660373649,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a20201121_dailyOHLC.test_dailyOHLC"
+      }, {
+        "name" : "a20201123_fancyRide.test_fancy_ride",
+        "children" : [ {
+          "name" : "test_fancy_ride",
+          "uid" : "21df8b1520e9e829",
+          "parentUid" : "0a7b071eaea3176641bd52696010bbcb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373655,
+            "stop" : 1620660373655,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a20201123_fancyRide.test_fancy_ride"
+      }, {
+        "name" : "a20201126_marathonTaskScore.test_marathon_task_score",
+        "children" : [ {
+          "name" : "test_solution_marathon_task_score[100-400-4-30-310]",
+          "uid" : "b8cf76d869c1661",
+          "parentUid" : "1dcba116da54db8fe80354f4ba005af3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373660,
+            "stop" : 1620660373660,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "310", "100", "400", "4", "30" ]
+        }, {
+          "name" : "test_solution_marathon_task_score[100-400-95-30-200]",
+          "uid" : "4fac6f2ee4aecdf9",
+          "parentUid" : "1dcba116da54db8fe80354f4ba005af3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373664,
+            "stop" : 1620660373664,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "200", "100", "400", "95", "30" ]
+        }, {
+          "name" : "test_solution_marathon_task_score[100-400-95--1-0]",
+          "uid" : "2c4bc91d1d69a024",
+          "parentUid" : "1dcba116da54db8fe80354f4ba005af3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373668,
+            "stop" : 1620660373668,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "0", "100", "400", "95", "-1" ]
+        }, {
+          "name" : "test_solution_marathon_task_score[100-1000-1-99-505]",
+          "uid" : "3eee0e64ce0e6d43",
+          "parentUid" : "1dcba116da54db8fe80354f4ba005af3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373672,
+            "stop" : 1620660373672,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "505", "100", "1000", "1", "99" ]
+        }, {
+          "name" : "test_solution_marathon_task_score[100-1000-2-99-500]",
+          "uid" : "2ba54a307657c89a",
+          "parentUid" : "1dcba116da54db8fe80354f4ba005af3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373675,
+            "stop" : 1620660373676,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "500", "100", "1000", "2", "99" ]
+        } ],
+        "uid" : "a20201126_marathonTaskScore.test_marathon_task_score"
+      }, {
+        "name" : "a20201217_runningWater.test_running_water",
+        "children" : [ {
+          "name" : "test_running_water[cap0-2-True]",
+          "uid" : "2060eafcb92aad88",
+          "parentUid" : "07195484474ee836569f4a65ac7db96b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373680,
+            "stop" : 1620660373680,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[1, 1, 1]", "True", "2" ]
+        }, {
+          "name" : "test_running_water[cap1-20-False]",
+          "uid" : "4026a5639c8b34f1",
+          "parentUid" : "07195484474ee836569f4a65ac7db96b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373685,
+            "stop" : 1620660373685,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[16, 5, 3]", "False", "20" ]
+        }, {
+          "name" : "test_running_water[cap2-80-True]",
+          "uid" : "2d4e682269280706",
+          "parentUid" : "07195484474ee836569f4a65ac7db96b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373688,
+            "stop" : 1620660373688,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[80, 61, 76]", "True", "80" ]
+        }, {
+          "name" : "test_running_water[cap3-144-True]",
+          "uid" : "8c1efb9ce41f1c94",
+          "parentUid" : "07195484474ee836569f4a65ac7db96b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373692,
+            "stop" : 1620660373693,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[1, 50, 100]", "True", "144" ]
+        }, {
+          "name" : "test_running_water[cap4-15-False]",
+          "uid" : "38d73073c27bd569",
+          "parentUid" : "07195484474ee836569f4a65ac7db96b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373697,
+            "stop" : 1620660373697,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[7, 4, 7]", "False", "15" ]
+        }, {
+          "name" : "test_running_water[cap5-113-False]",
+          "uid" : "d7c4fd3172c96839",
+          "parentUid" : "07195484474ee836569f4a65ac7db96b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373700,
+            "stop" : 1620660373700,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[19, 44, 67]", "False", "113" ]
+        }, {
+          "name" : "test_running_water[cap6-10-True]",
+          "uid" : "5889324fc7fd5c93",
+          "parentUid" : "07195484474ee836569f4a65ac7db96b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373703,
+            "stop" : 1620660373703,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[8, 5, 3]", "True", "10" ]
+        }, {
+          "name" : "test_running_water[cap7-13-False]",
+          "uid" : "d5807a33b7338690",
+          "parentUid" : "07195484474ee836569f4a65ac7db96b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373708,
+            "stop" : 1620660373708,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[2, 4, 8]", "False", "13" ]
+        }, {
+          "name" : "test_running_water[cap8-51-True]",
+          "uid" : "e3bf502e97fab092",
+          "parentUid" : "07195484474ee836569f4a65ac7db96b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373711,
+            "stop" : 1620660373712,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[31, 46, 61]", "True", "51" ]
+        }, {
+          "name" : "test_running_water[cap9-65-True]",
+          "uid" : "dce13568f8b56813",
+          "parentUid" : "07195484474ee836569f4a65ac7db96b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373716,
+            "stop" : 1620660373716,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[57, 30, 11]", "True", "65" ]
+        } ],
+        "uid" : "a20201217_runningWater.test_running_water"
+      }, {
+        "name" : "adjacentSquare.test_adjacent_square",
+        "children" : [ {
+          "name" : "test_adjacent_square[input_array0-expected_result0]",
+          "uid" : "3e149f13dac219bd",
+          "parentUid" : "43d2df898438c348e2a6bd8f6df735fb",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373721,
+            "stop" : 1620660373721,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[5, 4, 12, 13]", "[12, 5, 4, 13]" ]
+        }, {
+          "name" : "test_adjacent_square[input_array1-expected_result1]",
+          "uid" : "1ad3bc8fa543ac25",
+          "parentUid" : "43d2df898438c348e2a6bd8f6df735fb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373726,
+            "stop" : 1620660373726,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[]", "[1, 2, 3]" ]
+        }, {
+          "name" : "test_adjacent_square[input_array2-expected_result2]",
+          "uid" : "6521e2e48019827e",
+          "parentUid" : "43d2df898438c348e2a6bd8f6df735fb",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373729,
+            "stop" : 1620660373729,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[1, 3, 1, 3, 1, 3]", "[1, 1, 1, 3, 3, 3]" ]
+        }, {
+          "name" : "test_adjacent_square[input_array3-expected_result3]",
+          "uid" : "b3d64ea8fe3f951e",
+          "parentUid" : "43d2df898438c348e2a6bd8f6df735fb",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373733,
+            "stop" : 1620660373733,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[6, 3, 1, 15]", "[1, 3, 6, 15]" ]
+        }, {
+          "name" : "test_adjacent_square[input_array4-expected_result4]",
+          "uid" : "9662b9db7709fedf",
+          "parentUid" : "43d2df898438c348e2a6bd8f6df735fb",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373738,
+            "stop" : 1620660373739,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[6, 3, 1, 8]", "[1, 3, 6, 8]" ]
+        }, {
+          "name" : "test_adjacent_square[input_array5-expected_result5]",
+          "uid" : "a72597e3e765ae5e",
+          "parentUid" : "43d2df898438c348e2a6bd8f6df735fb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373743,
+            "stop" : 1620660373743,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[]", "[1, 3, 6, 8, 24]" ]
+        }, {
+          "name" : "test_adjacent_square[input_array6-expected_result6]",
+          "uid" : "334ba49f40bee0ed",
+          "parentUid" : "43d2df898438c348e2a6bd8f6df735fb",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373745,
+            "stop" : 1620660373746,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[3, 1, 0, 4, 5]", "[5, 4, 3, 1, 0]" ]
+        }, {
+          "name" : "test_adjacent_square[input_array7-expected_result7]",
+          "uid" : "ed73b1a7f60509df",
+          "parentUid" : "43d2df898438c348e2a6bd8f6df735fb",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373750,
+            "stop" : 1620660373751,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[0, 0, 0, 1]", "[1, 0, 0, 0]" ]
+        }, {
+          "name" : "test_adjacent_square[input_array8-expected_result8]",
+          "uid" : "c96508cfb572c5ba",
+          "parentUid" : "43d2df898438c348e2a6bd8f6df735fb",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373755,
+            "stop" : 1620660373755,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[1, 15, 10]", "[10, 15, 1]" ]
+        }, {
+          "name" : "test_adjacent_square[input_array9-expected_result9]",
+          "uid" : "4412d919b3ef2b77",
+          "parentUid" : "43d2df898438c348e2a6bd8f6df735fb",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373760,
+            "stop" : 1620660373761,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[0, 16, 9, 7, 2, 14]", "[2, 7, 9, 0, 16, 14]" ]
+        } ],
+        "uid" : "adjacentSquare.test_adjacent_square"
+      }, {
+        "name" : "spiderMove.test_spider_move",
+        "children" : [ {
+          "name" : "test_spider_move[2--2-6]",
+          "uid" : "e111ed071d3817e7",
+          "parentUid" : "fa8751a4207a7d8c65ce23c62e832fd0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373766,
+            "stop" : 1620660373766,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "6", "2", "-2" ]
+        }, {
+          "name" : "test_spider_move[-3-0-1]",
+          "uid" : "df8557cff37a4005",
+          "parentUid" : "fa8751a4207a7d8c65ce23c62e832fd0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373769,
+            "stop" : 1620660373769,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "1", "-3", "0" ]
+        }, {
+          "name" : "test_spider_move[0-0-1]",
+          "uid" : "f46323ca269d99e2",
+          "parentUid" : "fa8751a4207a7d8c65ce23c62e832fd0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373772,
+            "stop" : 1620660373772,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "1", "0", "0" ]
+        }, {
+          "name" : "test_spider_move[0-10-1]",
+          "uid" : "febaf7407603fb72",
+          "parentUid" : "fa8751a4207a7d8c65ce23c62e832fd0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373775,
+            "stop" : 1620660373775,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "1", "0", "10" ]
+        }, {
+          "name" : "test_spider_move[5-7-792]",
+          "uid" : "d30191f6a848a75e",
+          "parentUid" : "fa8751a4207a7d8c65ce23c62e832fd0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373778,
+            "stop" : 1620660373778,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "792", "5", "7" ]
+        } ],
+        "uid" : "spiderMove.test_spider_move"
+      } ],
+      "uid" : "8d982aac5bb721b65632a408ac2a99b0"
+    }, {
+      "name" : "training.graphs",
+      "children" : [ {
+        "name" : "a01_kingdom_roads.a01_new_road_system.test_solution",
+        "children" : [ {
+          "name" : "test_new_road_system_case_01",
+          "uid" : "6db1b64b470dd593",
+          "parentUid" : "e982715219ea6559d2122d7084d3c28c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373781,
+            "stop" : 1620660373781,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_new_road_system_case_02",
+          "uid" : "d3048b47d9dc352d",
+          "parentUid" : "e982715219ea6559d2122d7084d3c28c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373783,
+            "stop" : 1620660373783,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_new_road_system_case_03",
+          "uid" : "626401a95851fe0a",
+          "parentUid" : "e982715219ea6559d2122d7084d3c28c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620660373785,
+            "stop" : 1620660373785,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a01_kingdom_roads.a01_new_road_system.test_solution"
+      }, {
+        "name" : "a02_roads_building.test_solution",
+        "children" : [ {
+          "name" : "test_roads_building",
+          "uid" : "7111f58b8b82e61a",
+          "parentUid" : "12a4b931243ffb642880d84f0f2e26b4",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620660373789,
+            "stop" : 1620660373789,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a02_roads_building.test_solution"
+      } ],
+      "uid" : "training.graphs"
+    } ],
+    "uid" : "src.test.java"
+  }, {
+    "name" : "firstDuplicate.TestDuplicates",
+    "children" : [ {
+      "name" : "shouldReturnDuplicate",
+      "uid" : "c247e84b6f971677",
+      "parentUid" : "fc046a9c0a1f6a1e0d3c54d9dc5ad861",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1620660501655,
+        "stop" : 1620660501656,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "firstDuplicate.TestDuplicates"
+  }, {
+    "name" : "meanValueGroups.GroupCalculatorTest",
+    "children" : [ {
+      "name" : "shouldReturnMeanGroups",
+      "uid" : "eb9467dc924920ba",
+      "parentUid" : "6225c70bd62860b16ab0714a9580189d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1620660501655,
+        "stop" : 1620660501656,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "show",
+      "uid" : "c96d1d30ba254ae2",
+      "parentUid" : "6225c70bd62860b16ab0714a9580189d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620660501927,
+        "stop" : 1620660502001,
+        "duration" : 74
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "meanValueGroups.GroupCalculatorTest"
+  }, {
+    "name" : "countPairs.CounterTest",
+    "children" : [ {
+      "name" : "shouldCounbtPairs",
+      "uid" : "dad49e96bd972b6e",
+      "parentUid" : "20458cedda1c824dc6a01cd56e302e94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620660501717,
+        "stop" : 1620660501839,
+        "duration" : 122
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldCounbtPairs",
+      "uid" : "a4518657a11419ef",
+      "parentUid" : "20458cedda1c824dc6a01cd56e302e94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620660502051,
+        "stop" : 1620660502052,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "countPairs.CounterTest"
+  }, {
+    "name" : "mutateArr.TestMutator",
+    "children" : [ {
+      "name" : "shouldMutateArray",
+      "uid" : "a32a0f592eb5f9b6",
+      "parentUid" : "479a65bf3b669fd322706bc77d34f25a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620660501719,
+        "stop" : 1620660501832,
+        "duration" : 113
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldMutateArray",
+      "uid" : "d1bbb64e02ad2cbb",
+      "parentUid" : "479a65bf3b669fd322706bc77d34f25a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620660502063,
+        "stop" : 1620660502064,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldMutateArray",
+      "uid" : "bbb11cc487204a5a",
+      "parentUid" : "479a65bf3b669fd322706bc77d34f25a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620660502068,
+        "stop" : 1620660502069,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldMutateArray",
+      "uid" : "ce14a7ba49f63d8d",
+      "parentUid" : "479a65bf3b669fd322706bc77d34f25a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620660502069,
+        "stop" : 1620660502070,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldMutateArray",
+      "uid" : "8ed242ee99515593",
+      "parentUid" : "479a65bf3b669fd322706bc77d34f25a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620660502078,
+        "stop" : 1620660502081,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldMutateArray",
+      "uid" : "5f07aba01911d6ad",
+      "parentUid" : "479a65bf3b669fd322706bc77d34f25a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620660502084,
+        "stop" : 1620660502086,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "mutateArr.TestMutator"
+  } ],
+  "name" : "packages"
+}
