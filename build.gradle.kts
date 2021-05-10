@@ -162,11 +162,14 @@ dependencies {
     runtimeOnly("com.pinterest.ktlint:ktlint-ruleset-standard:${Version.KTLINT.id}")
     runtimeOnly("com.pinterest.ktlint:ktlint-reporter-plain:${Version.KTLINT.id}")
 }
-      /*
+
+// TODO: needed for Kotlin and kotlin.test 1.5.0
+/*
 val testCompile: Configuration by configurations.creating
 configurations {
     testCompile.extendsFrom(testImplementation.get())
-}   */
+}
+*/
 
 configure<AllureExtension> {
     autoconfigure = true
@@ -244,7 +247,7 @@ enum class Version(val id: String) {
     CUCUMBER_JUNIT("6.10.2"),
     ALLURE("2.13.9"),
     ALLURE_GRADLE("2.8.1"),
-    JAVA("15"),
+    JAVA("16"),
     KOTLIN("1.4.32"),
     GRADLE("7.0"),
     PMD("6.21.0"),
