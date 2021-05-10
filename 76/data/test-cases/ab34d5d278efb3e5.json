@@ -1,0 +1,303 @@
+{
+  "uid" : "ab34d5d278efb3e5",
+  "name" : "test_dailyOHLC",
+  "fullName" : "src.test.java.challenges.a20201121_dailyOHLC.test_dailyOHLC.DailyOHLCTest#test_dailyOHLC",
+  "historyId" : "e36e3c002d0bd96950721b12f55599fb",
+  "time" : {
+    "start" : 1620634246541,
+    "stop" : 1620634246541,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+  "statusTrace" : "self = <src.test.java.challenges.a20201121_dailyOHLC.test_dailyOHLC.DailyOHLCTest testMethod=test_dailyOHLC>\n\n    def test_dailyOHLC(self):\n>       self.assertEqual(\"UberXL\", dailyOHLC(\n            [1450625399, 1450625400, 1450625500, 1450625550,\n                1451644200, 1451690100, 1451691000],\n            [\"HPQ\", \"HPQ\", \"HPQ\", \"HPQ\", \"AAPL\", \"HPQ\", \"GOOG\"],\n            [\"sell\", \"buy\", \"buy\", \"sell\", \"buy\", \"buy\", \"buy\"],\n            [10, 20.3, 35.5, 8.65, 20, 10, 100.35],\n            [10, 1, 2, 3, 5, 1, 10],\n            [[\"2015-12-20\", \"HPQ\", \"10.00\", \"35.50\", \"8.65\", \"8.65\"],\n             [\"2016-01-01\", \"AAPL\", \"20.00\", \"20.00\", \"20.00\", \"20.00\"],\n                [\"2016-01-01\", \"GOOG\", \"100.35\", \"100.35\", \"100.35\", \"100.35\"],\n                [\"2016-01-01\", \"HPQ\", \"10.00\", \"10.00\", \"10.00\", \"10.00\"]]))\nE       TypeError: dailyOHLC() takes 5 positional arguments but 6 were given\n\nsrc/test/java/challenges/a20201121_dailyOHLC/test_dailyOHLC.py:8: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_DailyOHLCTest",
+    "time" : {
+      "start" : 1620634246540,
+      "stop" : 1620634246540,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_DailyOHLCTest::0",
+    "time" : {
+      "start" : 1620634246545,
+      "stop" : 1620634246545,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.a20201121_dailyOHLC"
+  }, {
+    "name" : "suite",
+    "value" : "test_dailyOHLC"
+  }, {
+    "name" : "subSuite",
+    "value" : "DailyOHLCTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az193-470"
+  }, {
+    "name" : "thread",
+    "value" : "2400-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.a20201121_dailyOHLC.test_dailyOHLC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 22,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 22
+      },
+      "items" : [ {
+        "uid" : "22c5548b7339684c",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/75//#testresult/22c5548b7339684c",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620633862442,
+          "stop" : 1620633862443,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "6b74557555444a08",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/74//#testresult/6b74557555444a08",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620632837632,
+          "stop" : 1620632837632,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2aed7cf44cb34006",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/73//#testresult/2aed7cf44cb34006",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620588771583,
+          "stop" : 1620588771583,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "31b4a9c7211eeed8",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/72//#testresult/31b4a9c7211eeed8",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620587343751,
+          "stop" : 1620587343751,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1cece8a3d639477f",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/71//#testresult/1cece8a3d639477f",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620582483386,
+          "stop" : 1620582483386,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "71b0cc15ef2ae5fb",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/70//#testresult/71b0cc15ef2ae5fb",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620582063483,
+          "stop" : 1620582063483,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "925c7e70192708c4",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/69//#testresult/925c7e70192708c4",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620581514399,
+          "stop" : 1620581514399,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4444f154ecacc291",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/68//#testresult/4444f154ecacc291",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620581310256,
+          "stop" : 1620581310257,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ca8200b8f4a8685e",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/67//#testresult/ca8200b8f4a8685e",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620580993607,
+          "stop" : 1620580993607,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "44624f625cc20ed",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/66//#testresult/44624f625cc20ed",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620580708229,
+          "stop" : 1620580708229,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "14934af1813a6ef6",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/65//#testresult/14934af1813a6ef6",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620580025083,
+          "stop" : 1620580025083,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "57ae903d19db7919",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/64//#testresult/57ae903d19db7919",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620579335575,
+          "stop" : 1620579335575,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5c4f8cd1fee78a23",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/63//#testresult/5c4f8cd1fee78a23",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620559739860,
+          "stop" : 1620559739860,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "91e913171271d921",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/62//#testresult/91e913171271d921",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620559704891,
+          "stop" : 1620559704891,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "836548ba35482893",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/59//#testresult/836548ba35482893",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620559616907,
+          "stop" : 1620559616908,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "5c834bc394c0f240",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/57//#testresult/5c834bc394c0f240",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620559551766,
+          "stop" : 1620559551767,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "152b289c38f43b34",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/56//#testresult/152b289c38f43b34",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620559533947,
+          "stop" : 1620559533947,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1f01b07cfa468b51",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/55//#testresult/1f01b07cfa468b51",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620559475192,
+          "stop" : 1620559475192,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ff46a0787a75d194",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/53//#testresult/ff46a0787a75d194",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620559421046,
+          "stop" : 1620559421047,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "7af29b0a8ae3ef99",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/51//#testresult/7af29b0a8ae3ef99",
+        "status" : "broken",
+        "statusDetails" : "TypeError: dailyOHLC() takes 5 positional arguments but 6 were given",
+        "time" : {
+          "start" : 1620559356206,
+          "stop" : 1620559356207,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ab34d5d278efb3e5.json",
+  "parameterValues" : [ ]
+}
