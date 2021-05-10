@@ -59,6 +59,7 @@ library {
 }
 */
 
+// TODO: check which one is legacy
 java {
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(Version.JAVA.id.toInt()))
@@ -112,22 +113,14 @@ dependencies {
     // Use the latest Groovy version for building this library
     implementation("org.codehaus.groovy:groovy-all:2.5.12")
 
-    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
-    // ?? testImplementation("org.junit.jupiter:junit-jupiter:${Version.JUNIT_JUPITER.id}")
-
-    // Use JUnit Jupiter Engine for testing.
-    // testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${Version.JUNIT_JUPITER.id}")
-    // testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
-
     // Use the Kotlin test library.
     testImplementation("org.jetbrains.kotlin:kotlin-test:${Version.KOTLIN.id}")
 
     // Use the Kotlin JUnit integration.
-    // testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${Version.KOTLIN.id}")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${Version.KOTLIN.id}")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${Version.JUNIT_JUPITER.id}")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:${Version.JUNIT_JUPITER.id}")
-    // testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${Version.JUNIT_JUPITER.id}")
     testImplementation("org.junit.jupiter:junit-jupiter-params:${Version.JUNIT_JUPITER.id}")
     testImplementation("org.junit.vintage:junit-vintage-engine:${Version.JUNIT_JUPITER.id}")
     testImplementation("org.junit.platform:junit-platform-launcher:${Version.JUNIT_PLATFORM.id}")
@@ -194,8 +187,6 @@ configure<AllureExtension> {
 tasks.test {
     filter {
         exclude("/e2e/**")
-        exclude("com/test/j4test/e2e/**")
-        excludeTestsMatching("com/test/j4test/e2e/**")
         exclude("TestRunner")
         useJUnitPlatform()
         // TODO: remove this one if not needed
