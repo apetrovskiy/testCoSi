@@ -132,6 +132,7 @@ jobs:
       if: always()
       with:
         node-version: ${{ matrix.node-version }}
+    - run: rm package-lock.json
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
