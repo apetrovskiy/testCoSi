@@ -1,0 +1,57 @@
+{
+  "uid" : "c55c7afd13a6a214",
+  "name" : "[4] 9, 999999999",
+  "fullName" : "training.core.LargestNumber.LargestNumberTest.shouldCalculateNumber",
+  "historyId" : "931d395b3459564975975dc1c292ae88",
+  "time" : {
+    "start" : 1621532144914,
+    "stop" : 1621532144923,
+    "duration" : 9
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az193-263"
+  }, {
+    "name" : "thread",
+    "value" : "3091@fv-az193-263.ForkJoinPool-1-worker-1(18)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "training.core.LargestNumber.LargestNumberTest"
+  }, {
+    "name" : "testClass",
+    "value" : "training.core.LargestNumber.LargestNumberTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCalculateNumber"
+  }, {
+    "name" : "suite",
+    "value" : "training.core.LargestNumber.LargestNumberTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c55c7afd13a6a214.json",
+  "parameterValues" : [ ]
+}
