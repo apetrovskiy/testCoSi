@@ -1,0 +1,95 @@
+{
+  "uid" : "6e0ab7acc24868c0",
+  "name" : "[4] 9, 999999999",
+  "fullName" : "training.core.LargestNumber.LargestNumberKtTest.shouldCalculateNumber",
+  "historyId" : "f1a215d22f764103ee2ec13b86186bf1",
+  "time" : {
+    "start" : 1621953393656,
+    "stop" : 1621953393659,
+    "duration" : 3
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az272-558"
+  }, {
+    "name" : "thread",
+    "value" : "3017@fv-az272-558.ForkJoinPool-1-worker-3(17)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "training.core.LargestNumber.LargestNumberKtTest"
+  }, {
+    "name" : "testClass",
+    "value" : "training.core.LargestNumber.LargestNumberKtTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCalculateNumber"
+  }, {
+    "name" : "suite",
+    "value" : "training.core.LargestNumber.LargestNumberKtTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "ebc4416451f4f722",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/98//#testresult/ebc4416451f4f722",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621950926930,
+          "stop" : 1621950926932,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "cfec87a881803bea",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/96//#testresult/cfec87a881803bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621949586348,
+          "stop" : 1621949586350,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "523773c8ad0f026d",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/95//#testresult/523773c8ad0f026d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621532144972,
+          "stop" : 1621532144979,
+          "duration" : 7
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6e0ab7acc24868c0.json",
+  "parameterValues" : [ ]
+}

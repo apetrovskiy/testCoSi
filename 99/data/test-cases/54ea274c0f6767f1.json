@@ -1,0 +1,79 @@
+{
+  "uid" : "54ea274c0f6767f1",
+  "name" : "test_largest_number[9-999999999]",
+  "fullName" : "src.test.java.training.core.LargestNumber.test_largest_number#test_largest_number",
+  "historyId" : "02af2d29b4cd5a4c4263ed01ee981fb6",
+  "time" : {
+    "start" : 1621953168007,
+    "stop" : 1621953168007,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.core.LargestNumber"
+  }, {
+    "name" : "suite",
+    "value" : "test_largest_number"
+  }, {
+    "name" : "host",
+    "value" : "fv-az272-558"
+  }, {
+    "name" : "thread",
+    "value" : "1818-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.core.LargestNumber.test_largest_number"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "999999999"
+  }, {
+    "name" : "input",
+    "value" : "9"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a723bf2ffb9573a5",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/98//#testresult/a723bf2ffb9573a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621950735260,
+          "stop" : 1621950735260,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "54ea274c0f6767f1.json",
+  "parameterValues" : [ "999999999", "9" ]
+}
