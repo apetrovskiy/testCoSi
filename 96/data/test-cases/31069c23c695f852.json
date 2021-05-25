@@ -1,0 +1,77 @@
+{
+  "uid" : "31069c23c695f852",
+  "name" : "[2] input=2, expectedResult=99",
+  "fullName" : "training.core.LargestNumber.LargestNumberScalaTest.shouldCalculateNumber",
+  "historyId" : "e904375d69e167f2b1e707e20748bc94",
+  "time" : {
+    "start" : 1621949585911,
+    "stop" : 1621949585920,
+    "duration" : 9
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az275-192"
+  }, {
+    "name" : "thread",
+    "value" : "3004@fv-az275-192.ForkJoinPool-1-worker-3(17)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "training.core.LargestNumber.LargestNumberScalaTest"
+  }, {
+    "name" : "testClass",
+    "value" : "training.core.LargestNumber.LargestNumberScalaTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCalculateNumber"
+  }, {
+    "name" : "suite",
+    "value" : "training.core.LargestNumber.LargestNumberScalaTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a620849a3e907619",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/95//#testresult/a620849a3e907619",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621532145356,
+          "stop" : 1621532145361,
+          "duration" : 5
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "31069c23c695f852.json",
+  "parameterValues" : [ ]
+}
