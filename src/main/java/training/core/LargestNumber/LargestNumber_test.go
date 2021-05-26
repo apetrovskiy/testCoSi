@@ -46,8 +46,14 @@ func TestSteplargestNumber(t *testing.T) {
 	goDotEnvVariable("ALLURE_RESULTS_PATH")
 	allure.Test(t, allure.Action(func() {
 		Expect(largestNumber(1)).To(Equal(9))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(largestNumber(2)).To(Equal(99))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(largestNumber(3)).To(Equal(999))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(largestNumber(9)).To(Equal(999999999))
 	}))
 }
