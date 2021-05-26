@@ -1,0 +1,53 @@
+{
+  "uid" : "2f9048c28a317c5d",
+  "name" : "Steplargest Number",
+  "fullName" : "/home/runner/work/codeSignTest/codeSignTest/src/main/java/training/core/LargestNumber/LargestNumber_test.go:TestSteplargestNumber",
+  "time" : {
+    "start" : 1622041018824,
+    "stop" : 1622041018824,
+    "duration" : 0
+  },
+  "description" : "TestSteplargestNumber",
+  "descriptionHtml" : "<p>TestSteplargestNumber</p>\n",
+  "status" : "failed",
+  "statusMessage" : "You are trying to make an assertion, but Gomega's fail handler is nil.\nIf you're using Ginkgo then you probably forgot to put your assertion in an It().\nAlternatively, you may have forgotten to register a fail handler with RegisterFailHandler() or RegisterTestingT().\nDepending on your vendoring solution you may be inadvertently importing gomega and subpackages (e.g. ghhtp, gexec,...) from different locations.\n",
+  "statusTrace" : "goroutine 19 [running]:\nruntime/debug.Stack(0x643655, 0x3, 0xc000151960)\n\t/opt/hostedtoolcache/go/1.16.4/x64/src/runtime/debug/stack.go:24 +0x9f\npanic(0x5f76c0, 0x68d3a0)\n\t/opt/hostedtoolcache/go/1.16.4/x64/src/runtime/panic.go:965 +0x1b9\ngithub.com/onsi/gomega.ExpectWithOffset(...)\n\t/home/runner/work/codeSignTest/codeSignTest/vendor/github.com/onsi/gomega/gomega_dsl.go:165\ngithub.com/onsi/gomega.Expect(...)\n\t/home/runner/work/codeSignTest/codeSignTest/vendor/github.com/onsi/gomega/gomega_dsl.go:151\ngithub.com/apetrovskiy/codeSignTest/src/main/java/training/core/LargestNumber.TestSteplargestNumber.func4()\n\t/home/runner/work/codeSignTest/codeSignTest/src/main/java/training/core/LargestNumber/LargestNumber_test.go:57 +0xfb\ngithub.com/jtolds/gls.(*ContextManager).SetValues.func1(0x0)\n\t/home/runner/work/codeSignTest/codeSignTest/vendor/github.com/jtolds/gls/context.go:97 +0x462\ngithub.com/jtolds/gls.EnsureGoroutineId.func1()\n\t/home/runner/work/codeSignTest/codeSignTest/vendor/github.com/jtolds/gls/gid.go:24 +0x2e\ngithub.com/jtolds/gls._m(0x0, 0xc0000baa20)\n\t/home/runner/work/codeSignTest/codeSignTest/vendor/github.com/jtolds/gls/stack_tags.go:108 +0x31\ngithub.com/jtolds/gls.github_com_jtolds_gls_markS(0x0, 0xc0000baa20)\n\t/home/runner/work/codeSignTest/codeSignTest/vendor/github.com/jtolds/gls/stack_tags.go:56 +0x35\ngithub.com/jtolds/gls.addStackTag(...)\n\t/home/runner/work/codeSignTest/codeSignTest/vendor/github.com/jtolds/gls/stack_tags.go:49\ngithub.com/jtolds/gls.EnsureGoroutineId(0xc00018a450)\n\t/home/runner/work/codeSignTest/codeSignTest/vendor/github.com/jtolds/gls/gid.go:24 +0xfd\ngithub.com/jtolds/gls.(*ContextManager).SetValues(0xc000092530, 0xc00018a3c0, 0x65fb48)\n\t/home/runner/work/codeSignTest/codeSignTest/vendor/github.com/jtolds/gls/context.go:63 +0x153\ngithub.com/apetrovskiy/codeSignTest/src/main/java/training/core/LargestNumber.TestSteplargestNumber(0xc000086600)\n\t/home/runner/work/codeSignTest/codeSignTest/src/main/java/training/core/LargestNumber/LargestNumber_test.go:56 +0x172\ntesting.tRunner(0xc000086600, 0x65fb50)\n\t/opt/hostedtoolcache/go/1.16.4/x64/src/testing/testing.go:1193 +0xef\ncreated by testing.(*T).Run\n\t/opt/hostedtoolcache/go/1.16.4/x64/src/testing/testing.go:1238 +0x2b3\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "home.runner.work.codeSignTest.codeSignTest.src.main.java.training.core.LargestNumber.LargestNumber_test"
+  }, {
+    "name" : "testClass",
+    "value" : "home.runner.work.codeSignTest.codeSignTest.src.main.java.training.core.LargestNumber.LargestNumber_test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestSteplargestNumber"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-211"
+  }, {
+    "name" : "language",
+    "value" : "golang"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2f9048c28a317c5d.json",
+  "parameterValues" : [ ]
+}
