@@ -1,0 +1,140 @@
+{
+  "uid" : "6009cb2a24c2fe0f",
+  "name" : "[4] input=9, expectedResult=999999999",
+  "fullName" : "training.core.LargestNumber.LargestNumberScalaTest.shouldCalculateNumber",
+  "historyId" : "2a3730d4e1bc2239452fcf0c37d948c5",
+  "time" : {
+    "start" : 1622015465754,
+    "stop" : 1622015465755,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az231-806"
+  }, {
+    "name" : "thread",
+    "value" : "3135@fv-az231-806.ForkJoinPool-1-worker-3(17)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "training.core.LargestNumber.LargestNumberScalaTest"
+  }, {
+    "name" : "testClass",
+    "value" : "training.core.LargestNumber.LargestNumberScalaTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCalculateNumber"
+  }, {
+    "name" : "suite",
+    "value" : "training.core.LargestNumber.LargestNumberScalaTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "6c4d9cdf698dadbd",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/102//#testresult/6c4d9cdf698dadbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622011551316,
+          "stop" : 1622011551317,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "463628476d71868d",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/101//#testresult/463628476d71868d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622011000710,
+          "stop" : 1622011000711,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "72e3b30996f463f2",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/100//#testresult/72e3b30996f463f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622009787435,
+          "stop" : 1622009787446,
+          "duration" : 11
+        }
+      }, {
+        "uid" : "cdc5f713854ef623",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/97//#testresult/cdc5f713854ef623",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621950614974,
+          "stop" : 1621950614980,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "f72e9c0a38d9066d",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/99//#testresult/f72e9c0a38d9066d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953393377,
+          "stop" : 1621953393389,
+          "duration" : 12
+        }
+      }, {
+        "uid" : "4a4c7b16ae183b83",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/98//#testresult/4a4c7b16ae183b83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621950927177,
+          "stop" : 1621950927178,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d251360c31f49326",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/96//#testresult/d251360c31f49326",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621949585951,
+          "stop" : 1621949585961,
+          "duration" : 10
+        }
+      }, {
+        "uid" : "9ab8af5e72414cdb",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/95//#testresult/9ab8af5e72414cdb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621532145389,
+          "stop" : 1621532145400,
+          "duration" : 11
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6009cb2a24c2fe0f.json",
+  "parameterValues" : [ ]
+}
