@@ -1,0 +1,142 @@
+{
+  "uid" : "cb95c2e64617a67e",
+  "name" : "test_largest_number[3-999]",
+  "fullName" : "src.test.java.training.core.LargestNumber.test_largest_number#test_largest_number",
+  "historyId" : "d212f68e6ea93c85edd67e10ce6589cb",
+  "time" : {
+    "start" : 1625858122831,
+    "stop" : 1625858122831,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.core.LargestNumber"
+  }, {
+    "name" : "suite",
+    "value" : "test_largest_number"
+  }, {
+    "name" : "host",
+    "value" : "fv-az272-673"
+  }, {
+    "name" : "thread",
+    "value" : "1861-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.core.LargestNumber.test_largest_number"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "999"
+  }, {
+    "name" : "input",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "7eb617a938758bbc",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/105//#testresult/7eb617a938758bbc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622041025626,
+          "stop" : 1622041025626,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1294b0eaab6461fa",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/104//#testresult/1294b0eaab6461fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622036133159,
+          "stop" : 1622036133159,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "30c9ed0dbe1c4395",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/103//#testresult/30c9ed0dbe1c4395",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622015220656,
+          "stop" : 1622015220656,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2cebaed1cc17dfc9",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/102//#testresult/2cebaed1cc17dfc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622011372179,
+          "stop" : 1622011372179,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "40143ff1cfc0271e",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/101//#testresult/40143ff1cfc0271e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622010789268,
+          "stop" : 1622010789268,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "57ffc978adb09b62",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/100//#testresult/57ffc978adb09b62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622009563157,
+          "stop" : 1622009563157,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "86a8fe5b693678b9",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/99//#testresult/86a8fe5b693678b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953168004,
+          "stop" : 1621953168004,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "597e1003403cfa24",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/98//#testresult/597e1003403cfa24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621950735257,
+          "stop" : 1621950735257,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cb95c2e64617a67e.json",
+  "parameterValues" : [ "999", "3" ]
+}

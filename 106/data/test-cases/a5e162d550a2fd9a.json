@@ -1,0 +1,46 @@
+{
+  "uid" : "a5e162d550a2fd9a",
+  "name" : "children = 8, pieces = 2, returns 0",
+  "fullName" : "candies(8, 2) should equal 0.children = 8, pieces = 2, returns 0",
+  "historyId" : "6c5fd1841144764505d88cbabfd1d0ab",
+  "time" : {
+    "start" : 1625858137339,
+    "stop" : 1625858137340,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "candies(8, 2) should equal 0"
+  }, {
+    "name" : "testClass",
+    "value" : "candies(8, 2) should equal 0"
+  }, {
+    "name" : "testMethod",
+    "value" : "children = 8, pieces = 2, returns 0"
+  }, {
+    "name" : "package",
+    "value" : "candies(8, 2) should equal 0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a5e162d550a2fd9a.json",
+  "parameterValues" : [ ]
+}

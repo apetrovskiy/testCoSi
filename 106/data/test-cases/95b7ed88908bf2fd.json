@@ -1,0 +1,46 @@
+{
+  "uid" : "95b7ed88908bf2fd",
+  "name" : "children = 9, pieces = 100, returns 99",
+  "fullName" : "candies(9, 100) should equal 99.children = 9, pieces = 100, returns 99",
+  "historyId" : "2c8665c416a8728d00ddf98530cc7192",
+  "time" : {
+    "start" : 1625858137337,
+    "stop" : 1625858137338,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "candies(9, 100) should equal 99"
+  }, {
+    "name" : "testClass",
+    "value" : "candies(9, 100) should equal 99"
+  }, {
+    "name" : "testMethod",
+    "value" : "children = 9, pieces = 100, returns 99"
+  }, {
+    "name" : "package",
+    "value" : "candies(9, 100) should equal 99"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "95b7ed88908bf2fd.json",
+  "parameterValues" : [ ]
+}

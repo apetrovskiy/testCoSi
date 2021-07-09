@@ -1,0 +1,142 @@
+{
+  "uid" : "ca586fd8c4405914",
+  "name" : "test_largest_number[1-9]",
+  "fullName" : "src.test.java.training.core.LargestNumber.test_largest_number#test_largest_number",
+  "historyId" : "8391d307a4daf69fee40a8e88dbb0e47",
+  "time" : {
+    "start" : 1625858122825,
+    "stop" : 1625858122825,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.core.LargestNumber"
+  }, {
+    "name" : "suite",
+    "value" : "test_largest_number"
+  }, {
+    "name" : "host",
+    "value" : "fv-az272-673"
+  }, {
+    "name" : "thread",
+    "value" : "1861-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.core.LargestNumber.test_largest_number"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "9"
+  }, {
+    "name" : "input",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "2ca0e7f7563e2d91",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/105//#testresult/2ca0e7f7563e2d91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622041025621,
+          "stop" : 1622041025621,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "dcd5ab3a5dcc7dd9",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/104//#testresult/dcd5ab3a5dcc7dd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622036133154,
+          "stop" : 1622036133154,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7e8087cb4d097d14",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/103//#testresult/7e8087cb4d097d14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622015220651,
+          "stop" : 1622015220651,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fe0c98833579a443",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/102//#testresult/fe0c98833579a443",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622011372174,
+          "stop" : 1622011372175,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "eaac6ec552902d14",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/101//#testresult/eaac6ec552902d14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622010789263,
+          "stop" : 1622010789263,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1f6dde3e6627733a",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/100//#testresult/1f6dde3e6627733a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622009563153,
+          "stop" : 1622009563153,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4c88ff7daeaf5eee",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/99//#testresult/4c88ff7daeaf5eee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953167999,
+          "stop" : 1621953167999,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "15d7ad9b97f5e58c",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/98//#testresult/15d7ad9b97f5e58c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621950735250,
+          "stop" : 1621950735250,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ca586fd8c4405914.json",
+  "parameterValues" : [ "9", "1" ]
+}

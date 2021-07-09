@@ -1,0 +1,46 @@
+{
+  "uid" : "30e72e1c51e40550",
+  "name" : "children = 3, pieces = 23, returns 21",
+  "fullName" : "candies(3, 23) should equal 21.children = 3, pieces = 23, returns 21",
+  "historyId" : "633d7d88c990051a3faa38ecb2e3431a",
+  "time" : {
+    "start" : 1625858137345,
+    "stop" : 1625858137346,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "candies(3, 23) should equal 21"
+  }, {
+    "name" : "testClass",
+    "value" : "candies(3, 23) should equal 21"
+  }, {
+    "name" : "testMethod",
+    "value" : "children = 3, pieces = 23, returns 21"
+  }, {
+    "name" : "package",
+    "value" : "candies(3, 23) should equal 21"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "30e72e1c51e40550.json",
+  "parameterValues" : [ ]
+}
