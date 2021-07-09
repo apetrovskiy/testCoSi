@@ -1,0 +1,279 @@
+{
+  "uid" : "1e44e1b29f5de582",
+  "name" : "test_combinationSum[input_array19-16-(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)]",
+  "fullName" : "src.test.java.challenges.a20200530_combinationSum.test_combinationSum#test_combinationSum",
+  "historyId" : "50d155d197d117806158b4470aad5ba3",
+  "time" : {
+    "start" : 1625858287285,
+    "stop" : 1625858287285,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+  "statusTrace" : "input_array = [1, 8], sum = 16\nexpected_result = '(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)'\n\n    @pytest.mark.parametrize(\n        \"input_array,sum,expected_result\",\n        [\n            ([2, 3, 5, 9], 9, \"(2 2 2 3)(2 2 5)(3 3 3)(9)\"),\n            ([2, 4, 6, 8], 8, \"(2 2 2 2)(2 2 4)(2 6)(4 4)(8)\"),\n            ([8, 1, 8, 6, 8\n              ], 12, \"(1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 6)(1 1 1 1 8)(6 6)\"),\n            ([7, 2, 6, 5], 16,\n             \"(2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)\"\n             ),\n            # 5\n            ([6, 5, 7, 1, 8, 2, 9, 9, 7, 7, 9\n              ], 6, \"(1 1 1 1 1 1)(1 1 1 1 2)(1 1 2 2)(1 5)(2 2 2)(6)\"),\n            ([5, 2, 2, 6], 3, \"Empty\"),\n            ([4, 6, 4, 2], 7, \"Empty\"),\n            ([8, 7, 1], 22,\n             \"(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 8)(1 1 1 1 1 1 1 1 7 7)(1 1 1 1 1 1 1 7 8)(1 1 1 1 1 1 8 8)(1 7 7 7)(7 7 8)\"\n             ),\n            # 9\n            ([6, 5, 6, 3, 3, 4, 3, 2, 2, 9, 9], 24,\n             \"(2 2 2 2 2 2 2 2 2 2 2 2)(2 2 2 2 2 2 2 2 2 2 4)(2 2 2 2 2 2 2 2 2 3 3)(2 2 2 2 2 2 2 2 2 6)(2 2 2 2 2 2 2 2 3 5)(2 2 2 2 2 2 2 2 4 4)(2 2 2 2 2 2 2 3 3 4)(2 2 2 2 2 2 2 4 6)(2 2 2 2 2 2 2 5 5)(2 2 2 2 2 2 3 3 3 3)(2 2 2 2 2 2 3 3 6)(2 2 2 2 2 2 3 4 5)(2 2 2 2 2 2 3 9)(2 2 2 2 2 2 4 4 4)(2 2 2 2 2 2 6 6)(2 2 2 2 2 3 3 3 5)(2 2 2 2 2 3 3 4 4)(2 2 2 2 2 3 5 6)(2 2 2 2 2 4 4 6)(2 2 2 2 2 4 5 5)(2 2 2 2 2 5 9)(2 2 2 2 3 3 3 3 4)(2 2 2 2 3 3 4 6)(2 2 2 2 3 3 5 5)(2 2 2 2 3 4 4 5)(2 2 2 2 3 4 9)(2 2 2 2 4 4 4 4)(2 2 2 2 4 6 6)(2 2 2 2 5 5 6)(2 2 2 3 3 3 3 3 3)(2 2 2 3 3 3 3 6)(2 2 2 3 3 3 4 5)(2 2 2 3 3 3 9)(2 2 2 3 3 4 4 4)(2 2 2 3 3 6 6)(2 2 2 3 4 5 6)(2 2 2 3 5 5 5)(2 2 2 3 6 9)(2 2 2 4 4 4 6)(2 2 2 4 4 5 5)(2 2 2 4 5 9)(2 2 2 6 6 6)(2 2 2 9 9)(2 2 3 3 3 3 3 5)(2 2 3 3 3 3 4 4)(2 2 3 3 3 5 6)(2 2 3 3 4 4 6)(2 2 3 3 4 5 5)(2 2 3 3 5 9)(2 2 3 4 4 4 5)(2 2 3 4 4 9)(2 2 3 5 6 6)(2 2 4 4 4 4 4)(2 2 4 4 6 6)(2 2 4 5 5 6)(2 2 5 5 5 5)(2 2 5 6 9)(2 3 3 3 3 3 3 4)(2 3 3 3 3 4 6)(2 3 3 3 3 5 5)(2 3...\"\n             ),\n            ([6, 5, 5, 7], 1, \"Empty\"),\n            ([7, 3, 9, 8, 4, 5], 8, \"(3 5)(4 4)(8)\"),\n            ([1, 1, 1, 3, 7, 3], 15,\n             \"(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 3 3 3)(1 1 1 1 1 3 7)(1 1 1 3 3 3 3)(1 1 3 3 7)(1 7 7)(3 3 3 3 3)\"\n             ),\n            # 13\n            ([6, 8, 7, 7, 9], 14, \"(6 8)(7 7)\"),\n            ([7, 3, 9, 2, 7, 7], 2, \"(2)\"),\n            ([6, 3, 7], 18, \"(3 3 3 3 3 3)(3 3 3 3 6)(3 3 6 6)(6 6 6)\"),\n            ([3, 8, 3, 9], 17, \"(3 3 3 8)(8 9)\"),\n            # 17\n            ([4, 3, 1], 3, \"(1 1 1)(3)\"),\n            ([8, 6, 4, 7, 6, 5, 3, 6, 3], 4, \"(4)\"),\n            ([3, 9, 4], 20, \"(3 3 3 3 4 4)(3 4 4 9)(4 4 4 4 4)\"),\n            ([1, 8\n              ], 16, \"(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)\"),\n            # 21\n            ([4, 7], 24, \"(4 4 4 4 4 4)\"),\n            ([2, 3, 7, 5, 3, 3, 8, 9, 6, 2], 1, \"Empty\"),\n            ([5, 9, 5, 7, 8], 13, \"(5 8)\"),\n            ([7, 1, 9, 5, 1, 8, 5, 3], 13,\n             \"(1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 5)(1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 7)(1 1 1 1 1 3 5)(1 1 1 1 1 8)(1 1 1 1 3 3 3)(1 1 1 1 9)(1 1 1 3 7)(1 1 1 5 5)(1 1 3 3 5)(1 1 3 8)(1 3 3 3 3)(1 3 9)(1 5 7)(3 3 7)(3 5 5)(5 8)\"\n             ),\n            # 25\n            ([6, 3, 4, 8, 9, 8, 9, 2, 4, 8], 19,\n             \"(2 2 2 2 2 2 2 2 3)(2 2 2 2 2 2 3 4)(2 2 2 2 2 3 3 3)(2 2 2 2 2 3 6)(2 2 2 2 2 9)(2 2 2 2 3 4 4)(2 2 2 2 3 8)(2 2 2 3 3 3 4)(2 2 2 3 4 6)(2 2 2 4 9)(2 2 3 3 3 3 3)(2 2 3 3 3 6)(2 2 3 3 9)(2 2 3 4 4 4)(2 2 3 4 8)(2 2 3 6 6)(2 2 6 9)(2 3 3 3 4 4)(2 3 3 3 8)(2 3 4 4 6)(2 3 6 8)(2 4 4 9)(2 8 9)(3 3 3 3 3 4)(3 3 3 4 6)(3 3 4 9)(3 4 4 4 4)(3 4 4 8)(3 4 6 6)(3 8 8)(4 6 9)\"\n             ),\n            ([4, 7, 7, 1, 3, 2, 8, 8, 9, 3], 7,\n             \"(1 1 1 1 1 1 1)(1 1 1 1 1 2)(1 1 1 1 3)(1 1 1 2 2)(1 1 1 4)(1 1 2 3)(1 2 2 2)(1 2 4)(1 3 3)(2 2 3)(3 4)(7)\"\n             ),\n            ([8, 5], 4, \"Empty\"),\n            ([7, 1, 3, 1, 3, 4, 7, 3, 9, 6], 23,\n             \"(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 6)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 6)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 9)(1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 3 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 4 6)(1 1 1 1 1 1 1 1 1 1 1 1 3 4 4)(1 1 1 1 1 1 1 1 1 1 1 1 4 7)(1 1 1 1 1 1 1 1 1 1 1 3 3 3 3)(1 1 1 1 1 1 1 1 1 1 1 3 3 6)(1 1 1 1 1 1 1 1 1 1 1 3 9)(1 1 1 1 1 1 1 1 1 1 1 4 4 4)(1 1 1 1 1 1 1 1 1 1 1 6 6)(1 1 1 1 1 1 1 1 1 1 3 3 3 4)(1 1 1 1 1 1 1 1 1 1 3 3 7)(1 1 1 1 1 1 1 1 1 1 3 4 6)(1 1 1 1 1 1 1 1 1 1 4 9)(1 1 1 1 1 1 1 1 1 1 6 7)(1 1 1 1 1 1 1 1 1 3 3 4 4)(1 1 1 1 1 1 1 1 1 3 4 7)(1 1 1 1 1 1 1 1 1 4 4 6)(1 1 1 1 1 1 1 1 1 7 7)(1 1 1 1 1 1 1 1 3 3 3 3 3)(1 1 1 1 1 1 1 1 3 3 3 6)(1 1...\"\n             ),\n        ],\n    )\n    def test_combinationSum(input_array: List[int], sum: int,\n                            expected_result: str):\n>       assert expected_result == combinationSum(input_array, sum)\nE       AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\nE         - (1 1)(1 1)\nE         + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)\n\nsrc/test/java/challenges/a20200530_combinationSum/test_combinationSum.py:66: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.a20200530_combinationSum"
+  }, {
+    "name" : "suite",
+    "value" : "test_combinationSum"
+  }, {
+    "name" : "host",
+    "value" : "fv-az196-976"
+  }, {
+    "name" : "thread",
+    "value" : "1875-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.a20200530_combinationSum.test_combinationSum"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)'"
+  }, {
+    "name" : "input_array",
+    "value" : "[1, 8]"
+  }, {
+    "name" : "sum",
+    "value" : "16"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 49,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 49
+      },
+      "items" : [ {
+        "uid" : "cc81f236e7e6f5ba",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/106//#testresult/cc81f236e7e6f5ba",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1625858122629,
+          "stop" : 1625858122629,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a9b9d7505e9885ad",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/105//#testresult/a9b9d7505e9885ad",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1622041025428,
+          "stop" : 1622041025428,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ac67175380d7b00c",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/104//#testresult/ac67175380d7b00c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1622036132976,
+          "stop" : 1622036132977,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "f5d9054773b63985",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/103//#testresult/f5d9054773b63985",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1622015220423,
+          "stop" : 1622015220423,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "76aa7814eb090fd6",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/102//#testresult/76aa7814eb090fd6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1622011371993,
+          "stop" : 1622011371993,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8dcbd278b5e511e2",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/101//#testresult/8dcbd278b5e511e2",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1622010789061,
+          "stop" : 1622010789061,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c25a4200379fc7ea",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/100//#testresult/c25a4200379fc7ea",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1622009562976,
+          "stop" : 1622009562977,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ae6fb68d225f05f8",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/99//#testresult/ae6fb68d225f05f8",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1621953167806,
+          "stop" : 1621953167806,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1269663f365167d7",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/98//#testresult/1269663f365167d7",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1621950735034,
+          "stop" : 1621950735035,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "c0fa12f84c6c6cb",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/96//#testresult/c0fa12f84c6c6cb",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1621949362586,
+          "stop" : 1621949362586,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ba8ad716867e6df9",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/95//#testresult/ba8ad716867e6df9",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1621531932278,
+          "stop" : 1621531932278,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c32b2a7936f25d43",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/94//#testresult/c32b2a7936f25d43",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1620951308902,
+          "stop" : 1620951308902,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1fe7428d65c0598e",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/92//#testresult/1fe7428d65c0598e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1620951226690,
+          "stop" : 1620951226690,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "49e78551cae25e4a",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/91//#testresult/49e78551cae25e4a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1620951214514,
+          "stop" : 1620951214517,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "af18cce6021db012",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/90//#testresult/af18cce6021db012",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1620951121926,
+          "stop" : 1620951121926,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9e7f8ef5ccd38047",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/89//#testresult/9e7f8ef5ccd38047",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1620950096806,
+          "stop" : 1620950096807,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ef6521bbccca7c1b",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/88//#testresult/ef6521bbccca7c1b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1620933877489,
+          "stop" : 1620933877489,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "952a4aa0c8767e93",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/87//#testresult/952a4aa0c8767e93",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1620917155532,
+          "stop" : 1620917155533,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b1b12175a13cf0dd",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/86//#testresult/b1b12175a13cf0dd",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1620892762968,
+          "stop" : 1620892762968,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ef5d326ab516a6cf",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/85//#testresult/ef5d326ab516a6cf",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(1 1 1 1 1 1...1 1 1 8)(8 8)' == '(1 1)(1 1)'\n  - (1 1)(1 1)\n  + (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)",
+        "time" : {
+          "start" : 1620888190041,
+          "stop" : 1620888190041,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1e44e1b29f5de582.json",
+  "parameterValues" : [ "'(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)'", "[1, 8]", "16" ]
+}

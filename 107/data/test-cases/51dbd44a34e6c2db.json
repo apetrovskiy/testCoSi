@@ -1,0 +1,46 @@
+{
+  "uid" : "51dbd44a34e6c2db",
+  "name" : "nCol = 1000, nRows = 1000, col = 1000, row = 1000, returns 0",
+  "fullName" : "candies(1000, 1000) should equal 1000.nCol = 1000, nRows = 1000, col = 1000, row = 1000, returns 0",
+  "historyId" : "f77f9dc6ebee08fbee03dc19810ab5e9",
+  "time" : {
+    "start" : 1625858297150,
+    "stop" : 1625858297151,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "candies(1000, 1000) should equal 1000"
+  }, {
+    "name" : "testClass",
+    "value" : "candies(1000, 1000) should equal 1000"
+  }, {
+    "name" : "testMethod",
+    "value" : "nCol = 1000, nRows = 1000, col = 1000, row = 1000, returns 0"
+  }, {
+    "name" : "package",
+    "value" : "candies(1000, 1000) should equal 1000"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "51dbd44a34e6c2db.json",
+  "parameterValues" : [ ]
+}

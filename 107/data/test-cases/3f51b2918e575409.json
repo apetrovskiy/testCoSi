@@ -1,0 +1,46 @@
+{
+  "uid" : "3f51b2918e575409",
+  "name" : "nCol = 60, nRows = 100, col = 60, row = 1, returns 99",
+  "fullName" : "candies(60, 100) should equal 60.nCol = 60, nRows = 100, col = 60, row = 1, returns 99",
+  "historyId" : "80458b848f367cf3ee5bf38f3b63dfd0",
+  "time" : {
+    "start" : 1625858297148,
+    "stop" : 1625858297149,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "candies(60, 100) should equal 60"
+  }, {
+    "name" : "testClass",
+    "value" : "candies(60, 100) should equal 60"
+  }, {
+    "name" : "testMethod",
+    "value" : "nCol = 60, nRows = 100, col = 60, row = 1, returns 99"
+  }, {
+    "name" : "package",
+    "value" : "candies(60, 100) should equal 60"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f51b2918e575409.json",
+  "parameterValues" : [ ]
+}
