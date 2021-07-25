@@ -1,0 +1,75 @@
+{
+  "uid" : "ea839866aa9ca17d",
+  "name" : "children = 4, pieces = 15, returns 12",
+  "fullName" : "candies(4, 15) should equal 12.children = 4, pieces = 15, returns 12",
+  "historyId" : "de1eff72c8f8eb1afd09193a4c828a89",
+  "time" : {
+    "start" : 1627191138203,
+    "stop" : 1627191138203,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "candies(4, 15) should equal 12"
+  }, {
+    "name" : "testClass",
+    "value" : "candies(4, 15) should equal 12"
+  }, {
+    "name" : "testMethod",
+    "value" : "children = 4, pieces = 15, returns 12"
+  }, {
+    "name" : "package",
+    "value" : "candies(4, 15) should equal 12"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "733040f54135a4a5",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/107//#testresult/733040f54135a4a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625858297370,
+          "stop" : 1625858297370,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "354bacb509f16e82",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/106//#testresult/354bacb509f16e82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625858137335,
+          "stop" : 1625858137336,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ea839866aa9ca17d.json",
+  "parameterValues" : [ ]
+}

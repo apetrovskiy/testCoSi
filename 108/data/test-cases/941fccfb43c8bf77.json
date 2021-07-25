@@ -1,0 +1,75 @@
+{
+  "uid" : "941fccfb43c8bf77",
+  "name" : "nCol = 16, nRows = 11, col = 5, row = 3, returns 96",
+  "fullName" : "candies(16, 11) should equal 5.nCol = 16, nRows = 11, col = 5, row = 3, returns 96",
+  "historyId" : "79ac0e24ab7c12176871291bb78ab41b",
+  "time" : {
+    "start" : 1627191137985,
+    "stop" : 1627191137988,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "candies(16, 11) should equal 5"
+  }, {
+    "name" : "testClass",
+    "value" : "candies(16, 11) should equal 5"
+  }, {
+    "name" : "testMethod",
+    "value" : "nCol = 16, nRows = 11, col = 5, row = 3, returns 96"
+  }, {
+    "name" : "package",
+    "value" : "candies(16, 11) should equal 5"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "780073bbe4f85aec",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/107//#testresult/780073bbe4f85aec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625858297134,
+          "stop" : 1625858297137,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "85dc6031f58a3ff3",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/106//#testresult/85dc6031f58a3ff3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625858137555,
+          "stop" : 1625858137556,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "941fccfb43c8bf77.json",
+  "parameterValues" : [ ]
+}

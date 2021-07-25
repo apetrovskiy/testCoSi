@@ -1,0 +1,66 @@
+{
+  "uid" : "78bf34b09b34fa46",
+  "name" : "nCol = 60, nRows = 100, col = 60, row = 1, returns 99",
+  "fullName" : "candies(60, 100) should equal 60.nCol = 60, nRows = 100, col = 60, row = 1, returns 99",
+  "historyId" : "80458b848f367cf3ee5bf38f3b63dfd0",
+  "time" : {
+    "start" : 1627191137997,
+    "stop" : 1627191137999,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "candies(60, 100) should equal 60"
+  }, {
+    "name" : "testClass",
+    "value" : "candies(60, 100) should equal 60"
+  }, {
+    "name" : "testMethod",
+    "value" : "nCol = 60, nRows = 100, col = 60, row = 1, returns 99"
+  }, {
+    "name" : "package",
+    "value" : "candies(60, 100) should equal 60"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3f51b2918e575409",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/107//#testresult/3f51b2918e575409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625858297148,
+          "stop" : 1625858297149,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "78bf34b09b34fa46.json",
+  "parameterValues" : [ ]
+}

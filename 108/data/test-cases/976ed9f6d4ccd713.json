@@ -1,0 +1,66 @@
+{
+  "uid" : "976ed9f6d4ccd713",
+  "name" : "nCol = 13, nRows = 6, col = 8, row = 3, returns 18",
+  "fullName" : "candies(13, 6) should equal 8.nCol = 13, nRows = 6, col = 8, row = 3, returns 18",
+  "historyId" : "cf6f31aa801828f3ad16c5f9604047a3",
+  "time" : {
+    "start" : 1627191137995,
+    "stop" : 1627191137996,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "candies(13, 6) should equal 8"
+  }, {
+    "name" : "testClass",
+    "value" : "candies(13, 6) should equal 8"
+  }, {
+    "name" : "testMethod",
+    "value" : "nCol = 13, nRows = 6, col = 8, row = 3, returns 18"
+  }, {
+    "name" : "package",
+    "value" : "candies(13, 6) should equal 8"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "5d4f02ea7b071c49",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/107//#testresult/5d4f02ea7b071c49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625858297146,
+          "stop" : 1625858297147,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "976ed9f6d4ccd713.json",
+  "parameterValues" : [ ]
+}
