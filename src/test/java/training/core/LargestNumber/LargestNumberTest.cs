@@ -2,6 +2,8 @@ namespace training.core.LargestNumber
 {
     using System;
     using NUnit.Framework;
+
+    [TestFixture]
     class LargestNumberTest
     {
         private Solution cut;
