@@ -1,11 +1,8 @@
 namespace challenges.a20201121_dailyOHLC
 {
-    public class DailyOHLC
-    {
-        string[][] dailyOHLC(int[] timestamp, string[] instrument, string[] side, double[] price, int[] size)
-        {
-            return new string[][] { };
-        }
+	public class DailyOHLC
+	{
+		private string[][] dailyOHLC(int[] timestamp, string[] instrument, string[] side, double[] price, int[] size) => new string[][] { };
 
-    }
+	}
 }
