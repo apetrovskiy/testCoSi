@@ -1,9 +1,11 @@
 namespace training.core.LargestNumber
 {
     using System;
+    using NUnit.Allure.Core;
     using NUnit.Framework;
 
     [TestFixture]
+    [AllureNUnit]
     class LargestNumberTest
     {
         private Solution cut;
