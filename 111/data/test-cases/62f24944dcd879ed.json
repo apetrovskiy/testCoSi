@@ -1,0 +1,99 @@
+{
+  "uid" : "62f24944dcd879ed",
+  "name" : "ShouldCalculateTheLargestNumber(3,999)",
+  "fullName" : "training.core.LargestNumber.LargestNumberTest.ShouldCalculateTheLargestNumber(3,999)",
+  "historyId" : "training.core.LargestNumber.LargestNumberTest.ShouldCalculateTheLargestNumber(3,999)",
+  "time" : {
+    "start" : 1668267375378,
+    "stop" : 1668267375378,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1668267375378,
+      "stop" : 1668267375378,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "ShouldCalculateTheLargestNumber(3,999)",
+      "time" : {
+        "start" : 1668267375378,
+        "stop" : 1668267375378,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4cc07c54b268848a",
+        "name" : "Console Output",
+        "source" : "4cc07c54b268848a.txt",
+        "type" : "text/plain",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az489-837"
+  }, {
+    "name" : "testClass",
+    "value" : "training.core.LargestNumber.LargestNumberTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ShouldCalculateTheLargestNumber"
+  }, {
+    "name" : "package",
+    "value" : "training.core.LargestNumber.LargestNumberTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Param #0",
+    "value" : "3"
+  }, {
+    "name" : "Param #1",
+    "value" : "999"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62f24944dcd879ed.json",
+  "parameterValues" : [ "3", "999" ]
+}
