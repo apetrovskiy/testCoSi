@@ -1,9 +1,9 @@
-package challenges.a20201121_dailyOHLC;
+package challenges.a20201121DailyOHLC;
 
 class Solution {
-  @SuppressWarnings("PMD")
-  String[][] dailyOHLC(
-      int[] timestamp, String[] instrument, String[] side, double[] price, int[] size) {
-    return new String[][] {};
-  }
+    @SuppressWarnings("PMD")
+    String[][] dailyOHLC(
+            int[] timestamp, String[] instrument, String[] side, double[] price, int[] size) {
+        return new String[][] {};
+    }
 }

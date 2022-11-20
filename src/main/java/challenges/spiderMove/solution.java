@@ -1,7 +1,7 @@
 package challenges.spiderMove;
 
 class Solution {
-  int spiderMove(int x, int y) {
-    return 0;
-  }
+    int spiderMove(int x, int y) {
+        return 0;
+    }
 }

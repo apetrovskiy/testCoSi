@@ -1,4 +1,4 @@
-package challenges.a20201123_fancyRide
+package challenges.a20201123FancyRide
 object SolutionScala {
   def fancyRide(l: Int, fares: Array[Double]): String = {
     ""

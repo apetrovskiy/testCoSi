@@ -1,4 +1,4 @@
-package challenges.a20201121_dailyOHLC
+package challenges.a20201121DailyOHLC
 object SolutionScala {
   def dailyOHLC(
       timestamp: Array[Int],
