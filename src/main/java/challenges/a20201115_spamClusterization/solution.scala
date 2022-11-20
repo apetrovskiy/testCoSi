@@ -1,4 +1,4 @@
-package challenges.a20201115_spamClusterization
+package challenges.a20201115SpamClusterization
 object SolutionScala {
   def spamClusterization(
       requests: Array[String],

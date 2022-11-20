@@ -1,4 +1,4 @@
-package challenges.a20201126_marathonTaskScore
+package challenges.a20201126MarathonTaskScore
 object SolutionScala {
   def marathonTaskScore(
       marathonLength: Int,

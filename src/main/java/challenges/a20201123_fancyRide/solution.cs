@@ -1,10 +1,7 @@
 namespace challenges.a20201123_fancyRide
 {
-    public class FancyRide
-    {
-        string fancyRide(int l, double[] fares)
-        {
-            return "";
-        }
-    }
+	public class FancyRide
+	{
+		private string fancyRide(int l, double[] fares) => "";
+	}
 }

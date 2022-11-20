@@ -16,5 +16,6 @@
     "python.testing.nosetestArgs": [
         "src/test/java"
     ],
-    "python.formatting.provider": "yapf"
+    "python.formatting.provider": "yapf",
+    "omnisharp.useModernNet": true
 }

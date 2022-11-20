@@ -1,28 +1,29 @@
 namespace training.core.LargestNumber
 {
-    using System;
-    using NUnit.Framework;
-    class LargestNumberTest
-    {
-        private Solution cut;
-        [SetUp]
-        public void SetUp()
-        {
-            cut = new Solution();
-        }
+	using System;
+	using NUnit.Allure.Core;
+	using NUnit.Framework;
 
-        [TestCaseSource(nameof(GetInputData))]
-        public void ShouldCalculateTheLargestNumber(int input, int expectedResult)
-        {
-            Console.WriteLine(cut.largestNumber(input));
-            Assert.AreEqual(expectedResult, cut.largestNumber(input));
-        }
+	[TestFixture]
+	[AllureNUnit]
+	internal class LargestNumberTest
+	{
+		private Solution cut;
+		[SetUp]
+		public void SetUp() => cut = new Solution();
 
-        static object[] GetInputData = {
-            new object[] {      1, 9},
-    new object[] {2, 99},
-      new object[] {3, 999},
-     new object[] {9, 999_999_999}
-        };
-    }
+		[TestCaseSource(nameof(GetInputData))]
+		public void ShouldCalculateTheLargestNumber(int input, int expectedResult)
+		{
+			Console.WriteLine(cut.largestNumber(input));
+			Assert.AreEqual(expectedResult, cut.largestNumber(input));
+		}
+
+		private static readonly object[] GetInputData = {
+			new object[] {      1, 9},
+	new object[] {2, 99},
+	  new object[] {3, 999},
+	 new object[] {9, 999_999_999}
+		};
+	}
 }
