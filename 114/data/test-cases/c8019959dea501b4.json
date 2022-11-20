@@ -1,0 +1,137 @@
+{
+  "uid" : "c8019959dea501b4",
+  "name" : "ShouldCalculateTheLargestNumber(9,999999999)",
+  "fullName" : "training.core.LargestNumber.LargestNumberTest.ShouldCalculateTheLargestNumber(9,999999999)",
+  "historyId" : "training.core.LargestNumber.LargestNumberTest.ShouldCalculateTheLargestNumber(9,999999999)",
+  "time" : {
+    "start" : 1668968770802,
+    "stop" : 1668968770803,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1668968770802,
+      "stop" : 1668968770802,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "ShouldCalculateTheLargestNumber(9,999999999)",
+      "time" : {
+        "start" : 1668968770802,
+        "stop" : 1668968770803,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f337aca3f9ab8f57",
+        "name" : "Console Output",
+        "source" : "f337aca3f9ab8f57.txt",
+        "type" : "text/plain",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az243-58"
+  }, {
+    "name" : "testClass",
+    "value" : "training.core.LargestNumber.LargestNumberTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ShouldCalculateTheLargestNumber"
+  }, {
+    "name" : "package",
+    "value" : "training.core.LargestNumber.LargestNumberTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Param #0",
+    "value" : "9"
+  }, {
+    "name" : "Param #1",
+    "value" : "999999999"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "7f01454c021f88aa",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/113//#testresult/7f01454c021f88aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668944146707,
+          "stop" : 1668944146707,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f411aa924673de76",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/112//#testresult/f411aa924673de76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668278380351,
+          "stop" : 1668278380351,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e4e0f84757f13ad3",
+        "reportUrl" : "https://apetrovskiy.github.io/codeSignTest/111//#testresult/e4e0f84757f13ad3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668267375379,
+          "stop" : 1668267375379,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c8019959dea501b4.json",
+  "parameterValues" : [ "9", "999999999" ]
+}
