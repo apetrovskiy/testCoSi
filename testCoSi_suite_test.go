@@ -1,4 +1,4 @@
-package codeSignTest_test
+package testCoSi_test
 
 import (
 	"testing"

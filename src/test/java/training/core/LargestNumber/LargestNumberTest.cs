@@ -15,7 +15,7 @@ namespace training.core.LargestNumber
         public void ShouldCalculateTheLargestNumber(int input, int expectedResult)
         {
             Console.WriteLine(cut.largestNumber(input));
-            Assert.AreEqual(expectedResult, cut.largestNumber(input));
+            Assert.That(cut.largestNumber(input), Is.EqualTo(expectedResult));
         }
 
         static object[] GetInputData = {
