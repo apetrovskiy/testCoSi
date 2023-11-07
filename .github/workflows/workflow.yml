@@ -273,6 +273,7 @@ jobs:
       - name: Run dotnet format
         uses: xt0rted/dotnet-format@v1
         with:
+          version: 7
           repo-token: ${{ secrets.GITHUB_TOKEN }}
   dotnet:
     runs-on: ubuntu-latest
