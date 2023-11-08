@@ -4,11 +4,10 @@ namespace training.core.LargestNumber
     using NUnit.Framework;
     using NUnit.Allure.Attributes;
     using NUnit.Allure.Core;
-    using NUnit.Framework;
+
 
     [TestFixture]
-    [NUnit.Allure.Core.AllureNUnit]
-
+    [AllureNUnit]
     [AllureEpic("Training")]
     [AllureFeature("Core")]
     [AllureStory("C#")]
