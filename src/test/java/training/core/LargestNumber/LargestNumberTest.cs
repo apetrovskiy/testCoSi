@@ -8,11 +8,11 @@ namespace training.core.LargestNumber
 
     [TestFixture]
     [AllureNUnit]
-    [AllureEpic("Training")]
-    [AllureFeature("Core")]
-    [AllureStory("Largest number")]
-    [AllureSuite("C#")]
-    [AllureTag("C#")]
+    [AllureEpic("epic Training")]
+    [AllureFeature("feature Core")]
+    [AllureStory("story Largest number")]
+    [AllureSuite("suite C#")]
+    [AllureTag("tag C#")]
     class LargestNumberTest
     {
         private Solution cut;

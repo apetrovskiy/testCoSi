@@ -78,20 +78,25 @@
         },
         {
             "label": "Python: formatting",
-            "command": "black",
+            "command": "pipenv",
             "type": "process",
-            "group": "format",
+            "group": "build",
             "args": [
+                "run",
+                "black",
                 "."
             ],
         },
         {
             "label": "Python: pytest test",
-            "command": "pytest",
+            "command": "pipenv",
             "type": "process",
             "group": "test",
             "args": [
-                "."
+                "run",
+                "pytest",
+                ".",
+                "--alluredir=allure-results"
             ],
         },
     ]

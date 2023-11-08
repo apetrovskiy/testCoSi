@@ -4,11 +4,11 @@ from typing import List
 from src.main.java.challenges.a20200530_combinationSum.solution3 import combinationSum
 
 
-@allure.epic("Challenges")
-@allure.feature("Challenges")
-@allure.story("Combination sum")
-@allure.title("Python")
-@allure.tag("Python")
+@allure.epic("epic Challenges")
+@allure.feature("feature Challenges by date")
+@allure.story("story Combination sum")
+@allure.title("test Python")
+@allure.tag("tag Python")
 @pytest.mark.parametrize(
     "input_array,sum,expected_result",
     [

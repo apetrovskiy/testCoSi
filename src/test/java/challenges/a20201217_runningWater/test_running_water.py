@@ -18,11 +18,11 @@ test_data = [
 ]
 
 
-@allure.epic("Challenges")
-@allure.feature("Challenges")
-@allure.story("Running water")
-@allure.title("Python")
-@allure.tag("Python")
+@allure.epic("epic Challenges")
+@allure.feature("feature Challenges by date")
+@allure.story("story Running water")
+@allure.title("test Python")
+@allure.tag("tag Python")
 # @pytest.mark.skip(reason="TODO: no way of currently testing this")
 @pytest.mark.parametrize("cap,volume,expected_result", test_data)
 def test_running_water(cap: List[int], volume: int, expected_result: bool):

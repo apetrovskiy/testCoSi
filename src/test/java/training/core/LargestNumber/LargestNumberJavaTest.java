@@ -13,11 +13,11 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-@Epic("Training")
-@Feature("Core")
-@Story("Java")
-@DisplayName("Largest number")
-@Tag("Java")
+@Epic("epic Training")
+@Feature("feature Core")
+@Story("story Largest number")
+@DisplayName("suite Largest number")
+@Tag("tag Java")
 class LargestNumberJavaTest {
     @ParameterizedTest
     @MethodSource("getInputData")

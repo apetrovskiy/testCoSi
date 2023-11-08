@@ -12,11 +12,11 @@ test_data = [
 ]
 
 
-@allure.epic("Challenges")
-@allure.feature("Challenges")
-@allure.story("Spider move")
-@allure.title("Python")
-@allure.tag("Python")
+@allure.epic("epic Challenges")
+@allure.feature("feature Challenges by date")
+@allure.story("story Spider move")
+@allure.title("test Python")
+@allure.tag("tag Python")
 @pytest.mark.parametrize("x,y,expected_result", test_data)
 def test_spider_move(x: int, y: int, expected_result: int):
     assert expected_result == spiderMove(x, y)

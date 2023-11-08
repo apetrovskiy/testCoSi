@@ -4,12 +4,12 @@ from unittest import TestCase
 from src.main.java.challenges.a20201121_dailyOHLC.solution3 import dailyOHLC
 
 
-@allure.epic("Challenges")
-@allure.feature("Challenges")
-@allure.story("Daily OHLC")
-@allure.tag("Python")
+@allure.epic("epic Challenges")
+@allure.feature("feature Challenges by date")
+@allure.story("story Daily OHLC")
+@allure.tag("tag Python")
 class DailyOHLCTest(TestCase):
-    @allure.title("Daily OHLC")
+    @allure.title("test Daily OHLC")
     def test_dailyOHLC(self):
         self.assertEqual(
             "UberXL",

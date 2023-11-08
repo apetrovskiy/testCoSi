@@ -6,12 +6,12 @@ from src.main.java.training.graphs.a01_kingdom_roads.a02_roads_building.solution
 )
 
 
-@allure.epic("Challenges")
-@allure.feature("Challenges")
-@allure.story("Road building")
-@allure.tag("Python")
+@allure.epic("epic Challenges")
+@allure.feature("feature Challenges by date")
+@allure.story("story Road building")
+@allure.tag("tag Python")
 class RoadsBuildingTest(TestCase):
-    @allure.title("road building")
+    @allure.title("test road building")
     def test_roads_building(self):
         self.assertEqual(True, roadsBuilding(None, None))
 

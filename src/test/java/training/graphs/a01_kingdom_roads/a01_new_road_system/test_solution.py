@@ -28,20 +28,20 @@ ROAD_REGISTER_03 = [[False, True, False], [False, False, False], [True, False, F
 EXPECTED_RESULT_03 = False
 
 
-@allure.epic("Challenges")
-@allure.feature("Challenges")
-@allure.story("New road system")
-@allure.tag("Python")
+@allure.epic("epic Challenges")
+@allure.feature("feature Challenges by date")
+@allure.story("story New road system")
+@allure.tag("tag Python")
 class NewRoadSystemTest(TestCase):
-    @allure.title("Case 01")
+    @allure.title("test Case 01")
     def test_new_road_system_case_01(self):
         self.assertEqual(EXPECTED_RESULT_01, newRoadSystem(ROAD_REGISTER_01))
 
-    @allure.title("Case 02")
+    @allure.title("test Case 02")
     def test_new_road_system_case_02(self):
         self.assertEqual(EXPECTED_RESULT_02, newRoadSystem(ROAD_REGISTER_02))
 
-    @allure.title("Case 03")
+    @allure.title("test Case 03")
     def test_new_road_system_case_03(self):
         self.assertEqual(EXPECTED_RESULT_03, newRoadSystem(ROAD_REGISTER_03))
 

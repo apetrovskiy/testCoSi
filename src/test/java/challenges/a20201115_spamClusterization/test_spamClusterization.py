@@ -18,12 +18,12 @@ threshold = 0.5
 expected_result = [[83, 1500], [374, 1837, 1848]]
 
 
-@allure.epic("Challenges")
-@allure.feature("Challenges")
-@allure.story("Spam clusterization")
-@allure.tag("Python")
+@allure.epic("epic Challenges")
+@allure.feature("feature Challenges by date")
+@allure.story("story Spam clusterization")
+@allure.tag("tag Python")
 class SpamClusterizationTest(TestCase):
-    @allure.title("Spam clusterization")
+    @allure.title("test Spam clusterization")
     def test_spamClusterization(self):
         self.assertEqual(expected_result, spamClusterization(requests, ids, threshold))
 

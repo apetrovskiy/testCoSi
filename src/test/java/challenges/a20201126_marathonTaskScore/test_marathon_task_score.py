@@ -5,11 +5,11 @@ import allure
 import pytest
 
 
-@allure.epic("Challenges")
-@allure.feature("Challenges")
-@allure.story("Marathon task score")
-@allure.title("Python")
-@allure.tag("Python")
+@allure.epic("epic Challenges")
+@allure.feature("feature Challenges by date")
+@allure.story("story Marathon task score")
+@allure.title("test Python")
+@allure.tag("tag Python")
 @pytest.mark.parametrize(
     "marathon_length,max_score,submissions, \
         successful_submission_time,expected_result",
