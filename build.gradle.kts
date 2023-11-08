@@ -284,14 +284,6 @@ val test by tasks.getting(Test::class) {
     systemProperty("allure.results.directory", "./allure-results")
 }
 
-tasks.withType<Checkstyle>().configureEach {
-    reports {
-        xml.isEnabled = false
-        html.isEnabled = true
-        // html.stylesheet = resources.text.fromFile("config/xsl/checkstyle-custom.xsl")
-    }
-}
-
 tasks.withType<Pmd> {
     isConsoleOutput = true
     // toolVersion = Version.PMD.id
