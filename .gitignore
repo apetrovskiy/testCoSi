@@ -931,7 +931,7 @@ dmypy.json
 ### Ruby ###
 *.gem
 *.rbc
-/.config
+# /.config
 /coverage/
 /InstalledFiles
 /pkg/
