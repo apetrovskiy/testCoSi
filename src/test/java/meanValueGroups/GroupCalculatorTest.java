@@ -10,14 +10,16 @@ import java.util.Arrays;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 
+@Tags({@Tag("tag Java")})
 @Epic("epic Training")
 @Feature("feature Core")
 @Story("story Group calculator")
 @DisplayName("suite Java")
-@Tag("tag Java")
+@Tags({@Tag("tag Java")})
 @TestInstance(PER_CLASS)
 @SuppressWarnings("PMD")
 public class GroupCalculatorTest {

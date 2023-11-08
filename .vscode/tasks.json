@@ -99,5 +99,15 @@
                 "--alluredir=allure-results"
             ],
         },
+        {
+            "label": "Allure: report",
+            "command": "allure",
+            "type": "process",
+            "group": "test",
+            "args": [
+                "serve",
+                "allure-results"
+            ],
+        },
     ]
 }

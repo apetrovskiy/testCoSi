@@ -5,8 +5,8 @@ from src.main.java.training.core.LargestNumber.largest_number import largestNumb
 test_data = [(1, 9), (2, 99), (3, 999), (9, 999999999)]
 
 
-@allure.epic("epic Challenges")
-@allure.feature("feature Challenges by date")
+@allure.epic("epic Training")
+@allure.feature("feature Core")
 @allure.story("story Largest number")
 @allure.title("test Python")
 @allure.tag("tag Python")

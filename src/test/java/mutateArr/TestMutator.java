@@ -11,16 +11,18 @@ import io.qameta.allure.Story;
 import java.util.stream.Stream;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
+@Tags({@Tag("tag Java")})
 @Epic("epic Tasks")
 @Feature("feature Various tasks")
 @Story("story Test mutatorr")
 @DisplayName("suite Java")
-@Tag("tag Java")
+@Tags({@Tag("tag Java")})
 @TestInstance(PER_CLASS)
 @SuppressWarnings("PMD")
 public class TestMutator {

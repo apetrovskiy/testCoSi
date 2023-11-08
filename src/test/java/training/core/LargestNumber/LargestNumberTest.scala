@@ -18,15 +18,16 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
+import org.junit.jupiter.api.Tags;
 
 @Epic("epic Training")
 @Feature("feature Core")
 @Story("story Largest number")
 @DisplayName("suite Largest number")
-@Tag("tag Scala")
 class LargestNumberScalaTest {
   @ParameterizedTest
   @MethodSource(Array("getInputData"))
+  @Tags(Array(Tag("tag Scala")))
   @DisplayName("Largest number test")
   def shouldCalculateNumber(input: Int, expectedResult: Int) = {
     assertEquals(expectedResult, SolutionScala.largestNumber(input))
