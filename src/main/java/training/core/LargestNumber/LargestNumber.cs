@@ -1,6 +1,7 @@
 namespace training.core.LargestNumber
 {
     using System;
+
     public class Solution
     {
         public int largestNumber(int n)

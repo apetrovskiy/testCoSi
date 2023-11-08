@@ -1,7 +1,7 @@
 import XCTest
 
-import codeSignTestTests
+import testCoSiTests
 
 var tests = [XCTestCaseEntry]()
-tests += codeSignTestTests.allTests()
+tests += testCoSiTests.allTests()
 XCTMain(tests)

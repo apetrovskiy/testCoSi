@@ -2,6 +2,18 @@ namespace training.core.LargestNumber
 {
     using System;
     using NUnit.Framework;
+    using NUnit.Allure.Attributes;
+    using NUnit.Allure.Core;
+    using NUnit.Framework;
+
+    [TestFixture]
+    [NUnit.Allure.Core.AllureNUnit]
+
+    [AllureEpic("Training")]
+    [AllureFeature("Core")]
+    [AllureStory("C#")]
+    [AllureSuite("C#")]
+    [AllureTag("C#")]
     class LargestNumberTest
     {
         private Solution cut;
@@ -12,6 +24,7 @@ namespace training.core.LargestNumber
         }
 
         [TestCaseSource(nameof(GetInputData))]
+        [AllureName("LargestNumber")]
         public void ShouldCalculateTheLargestNumber(int input, int expectedResult)
         {
             Console.WriteLine(cut.largestNumber(input));
