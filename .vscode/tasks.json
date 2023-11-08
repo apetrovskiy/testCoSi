@@ -76,5 +76,23 @@
                 "$gradle"
             ],
         },
+        {
+            "label": "Python: formatting",
+            "command": "black",
+            "type": "process",
+            "group": "format",
+            "args": [
+                "."
+            ],
+        },
+        {
+            "label": "Python: pytest test",
+            "command": "pytest",
+            "type": "process",
+            "group": "test",
+            "args": [
+                "."
+            ],
+        },
     ]
 }

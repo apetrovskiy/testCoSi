@@ -10,7 +10,7 @@ namespace training.core.LargestNumber
     [AllureNUnit]
     [AllureEpic("Training")]
     [AllureFeature("Core")]
-    [AllureStory("C#")]
+    [AllureStory("Largest number")]
     [AllureSuite("C#")]
     [AllureTag("C#")]
     class LargestNumberTest

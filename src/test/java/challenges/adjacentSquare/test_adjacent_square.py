@@ -1,5 +1,6 @@
 from src.main.java.challenges.adjacentSquare.solution3 import adjacentSquare
 from typing import List
+import allure
 import pytest
 
 
@@ -17,6 +18,11 @@ test_data = [
 ]
 
 
+@allure.epic("Challenges")
+@allure.feature("Challenges")
+@allure.story("Adjacent square")
+@allure.title("Python")
+@allure.tag("Python")
 # @pytest.mark.skip(reason="TODO: no way of currently testing this")
 @pytest.mark.parametrize("input_array,expected_result", test_data)
 def test_adjacent_square(input_array: List[int], expected_result: List[int]):

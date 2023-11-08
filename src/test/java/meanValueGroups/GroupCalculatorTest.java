@@ -15,7 +15,7 @@ import org.junit.jupiter.api.TestInstance;
 
 @Epic("Training")
 @Feature("Core")
-@Story("Java")
+@Story("Group calculator")
 @DisplayName("Java")
 @Tag("Java")
 @TestInstance(PER_CLASS)

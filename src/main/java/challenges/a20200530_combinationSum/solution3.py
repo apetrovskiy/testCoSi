@@ -3,7 +3,7 @@ def combinationSum(a, sum):
     for current_element in a:
         sections.extend(build_sections(current_element, a, sum))
     sections.sort()
-    return ''.join(sections) if len(sections) > 0 else "Empty"
+    return "".join(sections) if len(sections) > 0 else "Empty"
 
 
 def build_sections(element, input_array, target):
