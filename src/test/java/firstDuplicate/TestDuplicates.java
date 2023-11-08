@@ -8,7 +8,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-public class TestDuplicates {
+class TestDuplicates {
     static Stream getInputData() {
         return Stream.of(
                 Arguments.of(new int[] {2, 1, 3, 5, 3, 2}, 3),
