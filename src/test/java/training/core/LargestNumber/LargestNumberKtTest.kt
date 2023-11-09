@@ -21,7 +21,7 @@ class LargestNumberKtTest {
     @ParameterizedTest
     @MethodSource("getInputData")
     @Tags(Tag("tag Kotlin"))
-    @DisplayName("Largest number test")
+    @DisplayName("test Largest number")
     fun shouldCalculateNumber(input: Int, expectedResult: Int) {
         assertEquals(expectedResult, LargestNumberKt().largestNumber(input))
     }

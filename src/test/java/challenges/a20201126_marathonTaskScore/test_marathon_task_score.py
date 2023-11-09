@@ -8,6 +8,7 @@ import pytest
 @allure.epic("epic Challenges")
 @allure.feature("feature Challenges by date")
 @allure.story("story Marathon task score")
+@allure.suite("suite Python")
 @allure.title("test Python")
 @allure.tag("tag Python")
 @pytest.mark.parametrize(

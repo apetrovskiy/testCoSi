@@ -22,7 +22,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 class LargestNumberJavaTest {
     @ParameterizedTest
     @MethodSource("getInputData")
-    @DisplayName("Largest number test")
+    @DisplayName("test Largest number")
     void shouldCalculateNumber(int input, int expectedResult) {
         assertEquals(expectedResult, new Solution().largestNumber(input));
     }

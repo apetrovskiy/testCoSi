@@ -7,6 +7,7 @@ from src.main.java.challenges.a20200530_combinationSum.solution3 import combinat
 @allure.epic("epic Challenges")
 @allure.feature("feature Challenges by date")
 @allure.story("story Combination sum")
+@allure.suite("suite Python")
 @allure.title("test Python")
 @allure.tag("tag Python")
 @pytest.mark.parametrize(

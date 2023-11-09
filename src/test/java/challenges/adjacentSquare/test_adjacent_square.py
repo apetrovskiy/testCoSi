@@ -21,6 +21,7 @@ test_data = [
 @allure.epic("epic Challenges")
 @allure.feature("feature Challenges by date")
 @allure.story("story Adjacent square")
+@allure.suite("suite Python")
 @allure.title("test Python")
 @allure.tag("tag Python")
 # @pytest.mark.skip(reason="TODO: no way of currently testing this")

@@ -28,7 +28,7 @@ class LargestNumberScalaTest {
   @ParameterizedTest
   @MethodSource(Array("getInputData"))
   @Tags(Array(Tag("tag Scala")))
-  @DisplayName("Largest number test")
+  @DisplayName("test Largest number")
   def shouldCalculateNumber(input: Int, expectedResult: Int) = {
     assertEquals(expectedResult, SolutionScala.largestNumber(input))
   }

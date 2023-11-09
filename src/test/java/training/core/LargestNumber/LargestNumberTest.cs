@@ -23,7 +23,7 @@ namespace training.core.LargestNumber
         }
 
         [TestCaseSource(nameof(GetInputData))]
-        [AllureName("LargestNumber")]
+        [AllureName("test Largest number")]
         public void ShouldCalculateTheLargestNumber(int input, int expectedResult)
         {
             Console.WriteLine(cut.largestNumber(input));
