@@ -1,5 +1,7 @@
 package countPairs;
 
+import static org.junit.jupiter.params.provider.Arguments.of;
+
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
@@ -9,7 +11,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
 @Tags({@Tag("tag Java")})
@@ -20,8 +21,8 @@ import org.junit.jupiter.params.provider.MethodSource;
 class CounterTest {
     static Stream getInputData() {
         return Stream.of(
-                Arguments.of(new int[] {1, 2, 3}, new int[] {1, 2, 3}, 31, 2),
-                Arguments.of(new int[] {16, 1, 4, 2, 14}, new int[] {7, 11, 2, 0, 15}, 743, 4));
+                of(new int[] {1, 2, 3}, new int[] {1, 2, 3}, 31, 2),
+                of(new int[] {16, 1, 4, 2, 14}, new int[] {7, 11, 2, 0, 15}, 743, 4));
     }
 
     @ParameterizedTest

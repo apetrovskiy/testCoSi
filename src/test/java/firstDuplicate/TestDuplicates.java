@@ -1,5 +1,7 @@
 package firstDuplicate;
 
+import static org.junit.jupiter.params.provider.Arguments.of;
+
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
@@ -11,7 +13,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
 @Tags({@Tag("tag Java")})
@@ -19,22 +20,21 @@ import org.junit.jupiter.params.provider.MethodSource;
 @Feature("feature Various tasks")
 @Story("story First duplicate")
 @DisplayName("suite Java")
-@Tags({@Tag("tag Java")})
 class TestDuplicates {
     static Stream getInputData() {
         return Stream.of(
-                Arguments.of(new int[] {2, 1, 3, 5, 3, 2}, 3),
-                Arguments.of(new int[] {2, 2}, 2),
-                Arguments.of(new int[] {2, 4, 3, 5, 1}, -1),
-                Arguments.of(new int[] {1, 1, 2, 2, 1}, 1),
-                Arguments.of(
+                of(new int[] {2, 1, 3, 5, 3, 2}, 3),
+                of(new int[] {2, 2}, 2),
+                of(new int[] {2, 4, 3, 5, 1}, -1),
+                of(new int[] {1, 1, 2, 2, 1}, 1),
+                of(
                         new int[] {
                             1, 1, 2, 2, 1, 1, 1, 2, 2, 1, 1, 1, 2, 2, 1, 1, 1, 2, 2, 11, 1, 2, 2,
                             11, 1, 2, 2, 11, 1, 2, 2, 1
                         },
                         1),
-                Arguments.of(getOneMillionOfIntegers(), 3),
-                Arguments.of(generateArrayOfSame(10000000), 1));
+                of(getOneMillionOfIntegers(), 3),
+                of(generateArrayOfSame(10000000), 1));
     }
 
     private static int[] getOneMillionOfIntegers() {

@@ -19,7 +19,6 @@ import org.junit.jupiter.api.TestInstance;
 @Feature("feature Core")
 @Story("story Group calculator")
 @DisplayName("suite Java")
-@Tags({@Tag("tag Java")})
 @TestInstance(PER_CLASS)
 @SuppressWarnings("PMD")
 public class GroupCalculatorTest {

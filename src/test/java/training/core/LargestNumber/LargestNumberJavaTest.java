@@ -19,7 +19,6 @@ import org.junit.jupiter.params.provider.MethodSource;
 @Feature("feature Core")
 @Story("story Largest number")
 @DisplayName("suite Largest number")
-@Tags({@Tag("tag Java")})
 class LargestNumberJavaTest {
     @ParameterizedTest
     @MethodSource("getInputData")
