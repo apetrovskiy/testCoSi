@@ -7,6 +7,7 @@ from src.main.java.challenges.a20201123_fancyRide.solution3 import fancyRide
 @allure.epic("epic Challenges")
 @allure.feature("feature Challenges by date")
 @allure.story("story Fancy ride")
+@allure.suite("suite Python")
 @allure.tag("tag Python")
 class FancyRideTest(TestCase):
     @allure.title("test Fancy ride")

@@ -21,6 +21,7 @@ expected_result = [[83, 1500], [374, 1837, 1848]]
 @allure.epic("epic Challenges")
 @allure.feature("feature Challenges by date")
 @allure.story("story Spam clusterization")
+@allure.suite("suite Python")
 @allure.tag("tag Python")
 class SpamClusterizationTest(TestCase):
     @allure.title("test Spam clusterization")
