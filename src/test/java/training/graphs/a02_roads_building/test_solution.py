@@ -9,7 +9,7 @@ from src.main.java.training.graphs.a01_kingdom_roads.a02_roads_building.solution
 @allure.epic("epic Challenges")
 @allure.feature("feature Challenges by date")
 @allure.story("story Road building")
-@allure.suite("suite Python")
+@allure.parent_suite("suite Python")
 @allure.tag("tag Python")
 class RoadsBuildingTest(TestCase):
     @allure.title("test road building")

@@ -31,7 +31,7 @@ EXPECTED_RESULT_03 = False
 @allure.epic("epic Challenges")
 @allure.feature("feature Challenges by date")
 @allure.story("story New road system")
-@allure.suite("suite Python")
+@allure.parent_suite("suite Python")
 @allure.tag("tag Python")
 class NewRoadSystemTest(TestCase):
     @allure.title("test Case 01")

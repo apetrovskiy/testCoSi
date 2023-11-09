@@ -7,7 +7,7 @@ from src.main.java.challenges.a20201121_dailyOHLC.solution3 import dailyOHLC
 @allure.epic("epic Challenges")
 @allure.feature("feature Challenges by date")
 @allure.story("story Daily OHLC")
-@allure.suite("suite Python")
+@allure.parent_suite("suite Python")
 @allure.tag("tag Python")
 class DailyOHLCTest(TestCase):
     @allure.title("test Daily OHLC")

@@ -16,7 +16,7 @@ import java.util.stream.Stream
 @Epic("epic Training")
 @Feature("feature Core")
 @Story("story Largest number")
-@DisplayName("suite Largest number")
+@DisplayName("suite Kotlin")
 class LargestNumberKtTest {
     @ParameterizedTest
     @MethodSource("getInputData")

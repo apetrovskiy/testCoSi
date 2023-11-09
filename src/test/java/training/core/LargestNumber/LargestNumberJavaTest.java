@@ -18,7 +18,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 @Epic("epic Training")
 @Feature("feature Core")
 @Story("story Largest number")
-@DisplayName("suite Largest number")
+@DisplayName("suite Java")
 class LargestNumberJavaTest {
     @ParameterizedTest
     @MethodSource("getInputData")

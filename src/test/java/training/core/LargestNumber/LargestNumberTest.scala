@@ -23,7 +23,7 @@ import org.junit.jupiter.api.Tags;
 @Epic("epic Training")
 @Feature("feature Core")
 @Story("story Largest number")
-@DisplayName("suite Largest number")
+@DisplayName("suite Scala")
 class LargestNumberScalaTest {
   @ParameterizedTest
   @MethodSource(Array("getInputData"))
