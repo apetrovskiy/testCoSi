@@ -1,8 +1,12 @@
-namespace challenges.a20201126_marathonTaskScore
+// <copyright file="solution.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace Challenges.A20201126_marathonTaskScore
 {
     public class SolutionCs
     {
-        int marathonTaskScore(int marathonLength, int maxScore, int submissions, int successfulSubmissionTime)
+        private int MarathonTaskScore(int marathonLength, int maxScore, int submissions, int successfulSubmissionTime)
         {
             return 0;
         }

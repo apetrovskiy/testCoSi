@@ -1195,8 +1195,8 @@ build
 .ionide
 .metals/metals.h2.db
 .metals/metals.lock.db
-.bloop/CodeSignTest.json
-.bloop/CodeSignTest-test.json
+.bloop/testCoSi.json
+.bloop/testCoSi-test.json
 
 allure-reports/*
 allure-results/*

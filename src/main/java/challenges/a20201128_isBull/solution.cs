@@ -1,8 +1,12 @@
-namespace challenges.a20201128_isbull
+// <copyright file="solution.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace Challenges.A20201128_isbull
 {
-    class Solution
+    internal class Solution
     {
-        bool isBull(bool[][] adj)
+        private bool IsBull(bool[][] adj)
         {
             return false;
         }

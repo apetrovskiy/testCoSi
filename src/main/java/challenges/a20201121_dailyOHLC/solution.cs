@@ -1,11 +1,14 @@
-namespace challenges.a20201121_dailyOHLC
+// <copyright file="solution.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace Challenges.A20201121_dailyOHLC
 {
     public class DailyOHLC
     {
-        string[][] dailyOHLC(int[] timestamp, string[] instrument, string[] side, double[] price, int[] size)
+        private string[][] DailyOHLC1(int[] timestamp, string[] instrument, string[] side, double[] price, int[] size)
         {
             return new string[][] { };
         }
-
     }
 }

@@ -1,8 +1,12 @@
-namespace challenges.a20201217_runningWater
+// <copyright file="solution.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace Challenges.A20201217_runningWater
 {
-    class Solution
+    internal class Solution
     {
-        bool runningWater(int[] cap, int volume)
+        private bool RunningWater(int[] cap, int volume)
         {
             return false;
         }

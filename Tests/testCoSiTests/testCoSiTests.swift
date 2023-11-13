@@ -12,7 +12,7 @@ final class testCoSiTests: XCTestCase {
             return
         }
 
-        let fooBinary = productsDirectory.appendingPathComponent("codeSignTest")
+        let fooBinary = productsDirectory.appendingPathComponent("testCoSi")
 
         let process = Process()
         process.executableURL = fooBinary

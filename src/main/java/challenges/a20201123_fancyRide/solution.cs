@@ -1,10 +1,14 @@
-namespace challenges.a20201123_fancyRide
+// <copyright file="solution.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace Challenges.A20201123_fancyRide
 {
     public class FancyRide
     {
-        string fancyRide(int l, double[] fares)
+        private string FancyRide1(int l, double[] fares)
         {
-            return "";
+            return string.Empty;
         }
     }
 }

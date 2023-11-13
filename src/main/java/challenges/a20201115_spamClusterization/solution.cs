@@ -1,11 +1,14 @@
-namespace challenges.a20201115_spamClusterization
+// <copyright file="solution.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace Challenges.A20201115_spamClusterization
 {
     public class SpamClusterization
     {
-        int[][] spamClusterization(string[] requests, int[] ids, double threshold)
+        private int[][] SpamClusterization1(string[] requests, int[] ids, double threshold)
         {
             return new int[][] { };
         }
-
     }
 }
