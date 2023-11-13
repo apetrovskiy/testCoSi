@@ -26,12 +26,12 @@ namespace Training.Core.LargestNumber
             new object[] { 9, 999_999_999 },
         };
 
-        private Solution cut;
+        private LargestNumberSolution cut;
 
         [SetUp]
         public void SetUp()
         {
-            this.cut = new Solution();
+            this.cut = new LargestNumberSolution();
         }
 
         [TestCaseSource(nameof(getInputData))]

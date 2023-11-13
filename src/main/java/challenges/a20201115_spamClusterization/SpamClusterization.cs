@@ -1,4 +1,4 @@
-// <copyright file="solution.cs" company="PlaceholderCompany">
+// <copyright file="SpamClusterization.cs" company="PlaceholderCompany">
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
