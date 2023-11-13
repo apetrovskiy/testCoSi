@@ -1,0 +1,289 @@
+{
+  "uid" : "bf8c975490a54b8e",
+  "name" : "test Case 01",
+  "fullName" : "src.test.java.training.graphs.a01_kingdom_roads.a01_new_road_system.test_solution.NewRoadSystemTest#test_new_road_system_case_01",
+  "historyId" : "9d07efcfd084fd14a4ce731b5abc6b04",
+  "time" : {
+    "start" : 1699884948395,
+    "stop" : 1699884948395,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_NewRoadSystemTest",
+    "time" : {
+      "start" : 1699884948395,
+      "stop" : 1699884948395,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_NewRoadSystemTest::0",
+    "time" : {
+      "start" : 1699884948398,
+      "stop" : 1699884948398,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "feature",
+    "value" : "feature Challenges by date"
+  }, {
+    "name" : "story",
+    "value" : "story New road system"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "epic",
+    "value" : "epic Challenges"
+  }, {
+    "name" : "suite",
+    "value" : "test_solution"
+  }, {
+    "name" : "subSuite",
+    "value" : "NewRoadSystemTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1153-970"
+  }, {
+    "name" : "thread",
+    "value" : "2217-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.graphs.a01_kingdom_roads.a01_new_road_system.test_solution"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 83,
+        "unknown" : 0,
+        "total" : 83
+      },
+      "items" : [ {
+        "uid" : "b69b3c4633b55e6c",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/137//#testresult/b69b3c4633b55e6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699884922673,
+          "stop" : 1699884922674,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b7ef4d48850edc75",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/136//#testresult/b7ef4d48850edc75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699563854776,
+          "stop" : 1699563854776,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "785b9ecf3632774a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/135//#testresult/785b9ecf3632774a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699550001218,
+          "stop" : 1699550001218,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "14b22ee17d60e4bf",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/133//#testresult/14b22ee17d60e4bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699518512719,
+          "stop" : 1699518512719,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4dd5e3dac7ffea46",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/134//#testresult/4dd5e3dac7ffea46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699517732705,
+          "stop" : 1699517732705,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ce2594358cdabe71",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/132//#testresult/ce2594358cdabe71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699465982109,
+          "stop" : 1699465982109,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "56331430018b43d4",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/131//#testresult/56331430018b43d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699463230764,
+          "stop" : 1699463230764,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8b05876d83794438",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/130//#testresult/8b05876d83794438",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699462400601,
+          "stop" : 1699462400601,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "65e4090e5f1bff71",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/129//#testresult/65e4090e5f1bff71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699458213499,
+          "stop" : 1699458213499,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "247e920f067e5c0d",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/128//#testresult/247e920f067e5c0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699454632292,
+          "stop" : 1699454632292,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4f2fa16c8b919da6",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/127//#testresult/4f2fa16c8b919da6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699448606434,
+          "stop" : 1699448606434,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1291c98559a31ff8",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/126//#testresult/1291c98559a31ff8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699406742580,
+          "stop" : 1699406742580,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b85b3dacea65472f",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/125//#testresult/b85b3dacea65472f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699406580693,
+          "stop" : 1699406580693,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "be2e3aff343e9ef4",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/124//#testresult/be2e3aff343e9ef4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699405681852,
+          "stop" : 1699405681853,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "4f700244c8680aa1",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/123//#testresult/4f700244c8680aa1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699405244384,
+          "stop" : 1699405244385,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "2f9d28ae4bf883fe",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/122//#testresult/2f9d28ae4bf883fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699404883848,
+          "stop" : 1699404883849,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "20cde92461f4e3af",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/121//#testresult/20cde92461f4e3af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699401792186,
+          "stop" : 1699401792186,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "11c887b207c54387",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/120//#testresult/11c887b207c54387",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699401092174,
+          "stop" : 1699401092174,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "24435f2abd0107a9",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/118//#testresult/24435f2abd0107a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699400359600,
+          "stop" : 1699400359600,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "498d7aabecd2a8ec",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/119//#testresult/498d7aabecd2a8ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699400395361,
+          "stop" : 1699400395362,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "bf8c975490a54b8e.json",
+  "parameterValues" : [ ]
+}
