@@ -21,8 +21,7 @@ ALLURE_CONFIG_FILE_NAME=allureConfig.json
 ALLURE_CONFIG_FILE_PATH=${TEST_PRJ_FOLDER}/${ALLURE_CONFIG_FILE_NAME}
 ALLURE_CONFIG_CONTENT="{\n  \"allure\": {\n    \"directory\": \"../../../../../allure-results\"\n  }\n}\n"
 ALLURE_ITEM_GROUP="\n  <ItemGroup>\n    <Content Include=\"allureConfig.json\">\n      <CopyToOutputDirectory>Always</CopyToOutputDirectory>\n    </Content>\n  </ItemGroup>\n"
-# stylecop # $(SolutionDir)
-# STYLECOP_PROJECT_GROUP="  <PropertyGroup>\n    <CodeAnalysisRuleSet>$(pwd)/src/stylecop.json</CodeAnalysisRuleSet>\n  </PropertyGroup>\n"
+# stylecop
 STYLECOP_ITEM_GROUP="  <ItemGroup>\n    <AdditionalFiles Include=\"../stylecop.json\" />\n  </ItemGroup>\n"
 PROJECT_TAG="</Project>"
 
@@ -66,10 +65,7 @@ dotnet add "${TEST_PRJ_FOLDER}" package NUnit.Analyzers
 #
 dotnet add "${TEST_PRJ_FOLDER}" package FluentAssertions
 dotnet add "${TEST_PRJ_FOLDER}" package Shouldly
-
-# json
-# dotnet add "${MAIN_PRJ_FOLDER}" package Newtonsoft.Json
-# dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow.Plus.LivingDocPlugin
+#
 ##########
 
 echo "${ALLURE_CONFIG_CONTENT}" >"${ALLURE_CONFIG_FILE_PATH}"
