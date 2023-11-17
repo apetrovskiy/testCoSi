@@ -1,28 +1,45 @@
-namespace training.core.LargestNumber
+// <copyright file="LargestNumberTest.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace Training.Core.LargestNumber
 {
     using System;
+    using NUnit.Allure.Attributes;
+    using NUnit.Allure.Core;
     using NUnit.Framework;
-    class LargestNumberTest
+
+    [TestFixture]
+    [AllureNUnit]
+    [AllureEpic("epic Training")]
+    [AllureFeature("feature Core")]
+    [AllureStory("story Largest number")]
+    [AllureSuite("suite C#")]
+    [AllureTag("tag C#")]
+    internal class LargestNumberTest
     {
-        private Solution cut;
+        private static object[] getInputData =
+        {
+            new object[] { 1, 9 },
+            new object[] { 2, 99 },
+            new object[] { 3, 999 },
+            new object[] { 9, 999_999_999 },
+        };
+
+        private LargestNumberSolution cut;
+
         [SetUp]
         public void SetUp()
         {
-            cut = new Solution();
+            this.cut = new LargestNumberSolution();
         }
 
-        [TestCaseSource(nameof(GetInputData))]
+        [TestCaseSource(nameof(getInputData))]
+        [AllureName("test Largest number")]
         public void ShouldCalculateTheLargestNumber(int input, int expectedResult)
         {
-            Console.WriteLine(cut.largestNumber(input));
-            Assert.AreEqual(expectedResult, cut.largestNumber(input));
+            Console.WriteLine(this.cut.LargestNumber(input));
+            Assert.That(this.cut.LargestNumber(input), Is.EqualTo(expectedResult));
         }
-
-        static object[] GetInputData = {
-            new object[] {      1, 9},
-    new object[] {2, 99},
-      new object[] {3, 999},
-     new object[] {9, 999_999_999}
-        };
     }
 }

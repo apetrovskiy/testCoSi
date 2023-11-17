@@ -1,5 +1,5 @@
-from src.main.java.challenges.a20201217_runningWater.solution3 \
-    import runningWater
+from src.main.java.challenges.a20201217_runningWater.solution3 import runningWater
+import allure
 import pytest
 from typing import List
 
@@ -18,6 +18,12 @@ test_data = [
 ]
 
 
+@allure.epic("epic Challenges")
+@allure.feature("feature Challenges by date")
+@allure.story("story Running water")
+@allure.parent_suite("suite Python")
+@allure.title("test Python")
+@allure.tag("tag Python")
 # @pytest.mark.skip(reason="TODO: no way of currently testing this")
 @pytest.mark.parametrize("cap,volume,expected_result", test_data)
 def test_running_water(cap: List[int], volume: int, expected_result: bool):

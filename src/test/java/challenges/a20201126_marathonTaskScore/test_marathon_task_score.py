@@ -1,8 +1,16 @@
-from src.main.java.challenges.a20201126_marathonTaskScore.solution3 \
-    import marathonTaskScore
+from src.main.java.challenges.a20201126_marathonTaskScore.solution3 import (
+    marathonTaskScore,
+)
+import allure
 import pytest
 
 
+@allure.epic("epic Challenges")
+@allure.feature("feature Challenges by date")
+@allure.story("story Marathon task score")
+@allure.parent_suite("suite Python")
+@allure.title("test Python")
+@allure.tag("tag Python")
 @pytest.mark.parametrize(
     "marathon_length,max_score,submissions, \
         successful_submission_time,expected_result",
@@ -15,7 +23,12 @@ import pytest
     ],
 )
 def test_solution_marathon_task_score(
-        marathon_length: int, max_score: int, submissions: int,
-        successful_submission_time: int, expected_result: int):
+    marathon_length: int,
+    max_score: int,
+    submissions: int,
+    successful_submission_time: int,
+    expected_result: int,
+):
     assert expected_result == marathonTaskScore(
-        marathon_length, max_score, submissions, successful_submission_time)
+        marathon_length, max_score, submissions, successful_submission_time
+    )

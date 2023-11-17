@@ -1,8 +1,12 @@
-namespace challenges.spiderMove
+// <copyright file="solution.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace Challenges.SpiderMove
 {
-    class Solution
+    internal class Solution
     {
-        int spiderMove(int x, int y)
+        private int SpiderMove(int x, int y)
         {
             return 0;
         }

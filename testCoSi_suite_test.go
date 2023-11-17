@@ -1,4 +1,4 @@
-package codeSignTest_test
+package testCoSi_test
 
 import (
 	"testing"
@@ -9,5 +9,5 @@ import (
 
 func TestTestCoWa(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "CodeSignTest Suite")
+	RunSpecs(t, "testCoSi Suite")
 }
