@@ -1195,6 +1195,7 @@ build
 .ionide
 .metals/metals.h2.db
 .metals/metals.lock.db
+./metals/.reports
 .bloop/testCoSi.json
 .bloop/testCoSi-test.json
 

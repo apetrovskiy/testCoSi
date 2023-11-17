@@ -22,7 +22,7 @@ test_data = [
 @allure.feature("feature Challenges by date")
 @allure.story("story Adjacent square")
 @allure.parent_suite("suite Python")
-@allure.title("test Python")
+@allure.title("test Adjacent square")
 @allure.tag("tag Python")
 # @pytest.mark.skip(reason="TODO: no way of currently testing this")
 @pytest.mark.parametrize("input_array,expected_result", test_data)

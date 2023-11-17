@@ -16,7 +16,7 @@ test_data = [
 @allure.feature("feature Challenges by date")
 @allure.story("story Spider move")
 @allure.parent_suite("suite Python")
-@allure.title("test Python")
+@allure.title("test Spider move")
 @allure.tag("tag Python")
 @pytest.mark.parametrize("x,y,expected_result", test_data)
 def test_spider_move(x: int, y: int, expected_result: int):

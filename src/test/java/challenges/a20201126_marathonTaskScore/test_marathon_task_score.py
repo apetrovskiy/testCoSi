@@ -9,7 +9,7 @@ import pytest
 @allure.feature("feature Challenges by date")
 @allure.story("story Marathon task score")
 @allure.parent_suite("suite Python")
-@allure.title("test Python")
+@allure.title("test Marathon task score")
 @allure.tag("tag Python")
 @pytest.mark.parametrize(
     "marathon_length,max_score,submissions, \

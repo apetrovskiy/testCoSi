@@ -8,7 +8,7 @@ from src.main.java.challenges.a20200530_combinationSum.solution3 import combinat
 @allure.feature("feature Challenges by date")
 @allure.story("story Combination sum")
 @allure.parent_suite("suite Python")
-@allure.title("test Python")
+@allure.title("test Combination sum")
 @allure.tag("tag Python")
 @pytest.mark.parametrize(
     "input_array,sum,expected_result",
