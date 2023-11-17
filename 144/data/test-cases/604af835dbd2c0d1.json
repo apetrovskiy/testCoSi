@@ -1,0 +1,306 @@
+{
+  "uid" : "604af835dbd2c0d1",
+  "name" : "test Adjacent square",
+  "fullName" : "src.test.java.challenges.adjacentSquare.test_adjacent_square#test_adjacent_square",
+  "historyId" : "bb94d2e7de88f73e917303e5c5828ccc",
+  "time" : {
+    "start" : 1700264448176,
+    "stop" : 1700264448176,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+  "statusTrace" : "input_array = [1, 1, 1, 3, 3, 3], expected_result = [1, 3, 1, 3, 1, 3]\n\n    @allure.epic(\"epic Challenges\")\n    @allure.feature(\"feature Challenges by date\")\n    @allure.story(\"story Adjacent square\")\n    @allure.parent_suite(\"suite Python\")\n    @allure.title(\"test Adjacent square\")\n    @allure.tag(\"tag Python\")\n    # @pytest.mark.skip(reason=\"TODO: no way of currently testing this\")\n    @pytest.mark.parametrize(\"input_array,expected_result\", test_data)\n    def test_adjacent_square(input_array: List[int], expected_result: List[int]):\n>       assert expected_result == adjacentSquare(input_array)\nE       assert [1, 3, 1, 3, 1, 3] == []\nE         Left contains 6 more items, first extra item: 1\nE         Use -v to get the full diff\n\nsrc/test/java/challenges/adjacentSquare/test_adjacent_square.py:30: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+    "statusTrace" : "input_array = [1, 1, 1, 3, 3, 3], expected_result = [1, 3, 1, 3, 1, 3]\n\n    @allure.epic(\"epic Challenges\")\n    @allure.feature(\"feature Challenges by date\")\n    @allure.story(\"story Adjacent square\")\n    @allure.parent_suite(\"suite Python\")\n    @allure.title(\"test Adjacent square\")\n    @allure.tag(\"tag Python\")\n    # @pytest.mark.skip(reason=\"TODO: no way of currently testing this\")\n    @pytest.mark.parametrize(\"input_array,expected_result\", test_data)\n    def test_adjacent_square(input_array: List[int], expected_result: List[int]):\n>       assert expected_result == adjacentSquare(input_array)\nE       assert [1, 3, 1, 3, 1, 3] == []\nE         Left contains 6 more items, first extra item: 1\nE         Use -v to get the full diff\n\nsrc/test/java/challenges/adjacentSquare/test_adjacent_square.py:30: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1948b7383a6f8fee",
+      "name" : "stdout",
+      "source" : "1948b7383a6f8fee.txt",
+      "type" : "text/plain",
+      "size" : 9
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "story Adjacent square"
+  }, {
+    "name" : "feature",
+    "value" : "feature Challenges by date"
+  }, {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "epic",
+    "value" : "epic Challenges"
+  }, {
+    "name" : "suite",
+    "value" : "test_adjacent_square"
+  }, {
+    "name" : "host",
+    "value" : "fv-az985-217"
+  }, {
+    "name" : "thread",
+    "value" : "2269-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.adjacentSquare.test_adjacent_square"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "[1, 3, 1, 3, 1, 3]"
+  }, {
+    "name" : "input_array",
+    "value" : "[1, 1, 1, 3, 3, 3]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 133,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 136
+      },
+      "items" : [ {
+        "uid" : "dd73a4bacc32ccff",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/143//#testresult/dd73a4bacc32ccff",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1700256347298,
+          "stop" : 1700256347298,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "730ae69c10be989c",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/142//#testresult/730ae69c10be989c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1700255324902,
+          "stop" : 1700255324902,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3454a7f0d2f6a5e0",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/141//#testresult/3454a7f0d2f6a5e0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1700254470610,
+          "stop" : 1700254470611,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "1b15120e830ba866",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/140//#testresult/1b15120e830ba866",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1700246467855,
+          "stop" : 1700246467855,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8a632a2a9430238a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/139//#testresult/8a632a2a9430238a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1699886397669,
+          "stop" : 1699886397670,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ddb9929e93d7c19b",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/138//#testresult/ddb9929e93d7c19b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1699884948351,
+          "stop" : 1699884948351,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "115258704b284fa",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/137//#testresult/115258704b284fa",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1699884922623,
+          "stop" : 1699884922624,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "54033690ebec5806",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/136//#testresult/54033690ebec5806",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1699563854732,
+          "stop" : 1699563854732,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5512f7598be17780",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/135//#testresult/5512f7598be17780",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1699550001165,
+          "stop" : 1699550001165,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9208e31f711e1d52",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/133//#testresult/9208e31f711e1d52",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1699518512675,
+          "stop" : 1699518512675,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a36e135c2075e415",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/134//#testresult/a36e135c2075e415",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1699517732661,
+          "stop" : 1699517732661,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "220e48a726574009",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/132//#testresult/220e48a726574009",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1699465982065,
+          "stop" : 1699465982065,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "61111ac3e3888b84",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/131//#testresult/61111ac3e3888b84",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1699463230713,
+          "stop" : 1699463230713,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e1ca97b513296afd",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/130//#testresult/e1ca97b513296afd",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1699462400545,
+          "stop" : 1699462400546,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "5a42357cf9b366b8",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/129//#testresult/5a42357cf9b366b8",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1699458213438,
+          "stop" : 1699458213438,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ca3120f81a1cff8d",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/128//#testresult/ca3120f81a1cff8d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1699454632251,
+          "stop" : 1699454632251,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3e668d66bb5a759f",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/127//#testresult/3e668d66bb5a759f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1699448606392,
+          "stop" : 1699448606392,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3cde923c6f37fb52",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/126//#testresult/3cde923c6f37fb52",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1699406742514,
+          "stop" : 1699406742514,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9f5227742fc688bd",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/125//#testresult/9f5227742fc688bd",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1699406580627,
+          "stop" : 1699406580627,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d378849084de4b98",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/124//#testresult/d378849084de4b98",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [1, 3, 1, 3, 1, 3] == []\n  Left contains 6 more items, first extra item: 1\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1699405681811,
+          "stop" : 1699405681811,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "604af835dbd2c0d1.json",
+  "parameterValues" : [ "[1, 3, 1, 3, 1, 3]", "[1, 1, 1, 3, 3, 3]" ]
+}

@@ -1,0 +1,291 @@
+{
+  "uid" : "a82c865ba5e444ea",
+  "name" : "test Combination sum",
+  "fullName" : "src.test.java.challenges.a20200530_combinationSum.test_combinationSum#test_combinationSum",
+  "historyId" : "bc45ef0283299869262fecf08d8f8255",
+  "time" : {
+    "start" : 1700264447994,
+    "stop" : 1700264447994,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+  "statusTrace" : "input_array = [7, 2, 6, 5], sum = 16\nexpected_result = '(2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)'\n\n    @allure.epic(\"epic Challenges\")\n    @allure.feature(\"feature Challenges by date\")\n    @allure.story(\"story Combination sum\")\n    @allure.parent_suite(\"suite Python\")\n    @allure.title(\"test Combination sum\")\n    @allure.tag(\"tag Python\")\n    @pytest.mark.parametrize(\n        \"input_array,sum,expected_result\",\n        [\n            ([2, 3, 5, 9], 9, \"(2 2 2 3)(2 2 5)(3 3 3)(9)\"),\n            ([2, 4, 6, 8], 8, \"(2 2 2 2)(2 2 4)(2 6)(4 4)(8)\"),\n            (\n                [8, 1, 8, 6, 8],\n                12,\n                \"(1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 6)(1 1 1 1 8)(6 6)\",\n            ),\n            (\n                [7, 2, 6, 5],\n                16,\n                \"(2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)\",\n            ),\n            # 5\n            (\n                [6, 5, 7, 1, 8, 2, 9, 9, 7, 7, 9],\n                6,\n                \"(1 1 1 1 1 1)(1 1 1 1 2)(1 1 2 2)(1 5)(2 2 2)(6)\",\n            ),\n            ([5, 2, 2, 6], 3, \"Empty\"),\n            ([4, 6, 4, 2], 7, \"Empty\"),\n            (\n                [8, 7, 1],\n                22,\n                \"(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 8)(1 1 1 1 1 1 1 1 7 7)(1 1 1 1 1 1 1 7 8)(1 1 1 1 1 1 8 8)(1 7 7 7)(7 7 8)\",\n            ),\n            # 9\n            (\n                [6, 5, 6, 3, 3, 4, 3, 2, 2, 9, 9],\n                24,\n                \"(2 2 2 2 2 2 2 2 2 2 2 2)(2 2 2 2 2 2 2 2 2 2 4)(2 2 2 2 2 2 2 2 2 3 3)(2 2 2 2 2 2 2 2 2 6)(2 2 2 2 2 2 2 2 3 5)(2 2 2 2 2 2 2 2 4 4)(2 2 2 2 2 2 2 3 3 4)(2 2 2 2 2 2 2 4 6)(2 2 2 2 2 2 2 5 5)(2 2 2 2 2 2 3 3 3 3)(2 2 2 2 2 2 3 3 6)(2 2 2 2 2 2 3 4 5)(2 2 2 2 2 2 3 9)(2 2 2 2 2 2 4 4 4)(2 2 2 2 2 2 6 6)(2 2 2 2 2 3 3 3 5)(2 2 2 2 2 3 3 4 4)(2 2 2 2 2 3 5 6)(2 2 2 2 2 4 4 6)(2 2 2 2 2 4 5 5)(2 2 2 2 2 5 9)(2 2 2 2 3 3 3 3 4)(2 2 2 2 3 3 4 6)(2 2 2 2 3 3 5 5)(2 2 2 2 3 4 4 5)(2 2 2 2 3 4 9)(2 2 2 2 4 4 4 4)(2 2 2 2 4 6 6)(2 2 2 2 5 5 6)(2 2 2 3 3 3 3 3 3)(2 2 2 3 3 3 3 6)(2 2 2 3 3 3 4 5)(2 2 2 3 3 3 9)(2 2 2 3 3 4 4 4)(2 2 2 3 3 6 6)(2 2 2 3 4 5 6)(2 2 2 3 5 5 5)(2 2 2 3 6 9)(2 2 2 4 4 4 6)(2 2 2 4 4 5 5)(2 2 2 4 5 9)(2 2 2 6 6 6)(2 2 2 9 9)(2 2 3 3 3 3 3 5)(2 2 3 3 3 3 4 4)(2 2 3 3 3 5 6)(2 2 3 3 4 4 6)(2 2 3 3 4 5 5)(2 2 3 3 5 9)(2 2 3 4 4 4 5)(2 2 3 4 4 9)(2 2 3 5 6 6)(2 2 4 4 4 4 4)(2 2 4 4 6 6)(2 2 4 5 5 6)(2 2 5 5 5 5)(2 2 5 6 9)(2 3 3 3 3 3 3 4)(2 3 3 3 3 4 6)(2 3 3 3 3 5 5)(2 3...\",\n            ),\n            ([6, 5, 5, 7], 1, \"Empty\"),\n            ([7, 3, 9, 8, 4, 5], 8, \"(3 5)(4 4)(8)\"),\n            (\n                [1, 1, 1, 3, 7, 3],\n                15,\n                \"(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 3 3 3)(1 1 1 1 1 3 7)(1 1 1 3 3 3 3)(1 1 3 3 7)(1 7 7)(3 3 3 3 3)\",\n            ),\n            # 13\n            ([6, 8, 7, 7, 9], 14, \"(6 8)(7 7)\"),\n            ([7, 3, 9, 2, 7, 7], 2, \"(2)\"),\n            ([6, 3, 7], 18, \"(3 3 3 3 3 3)(3 3 3 3 6)(3 3 6 6)(6 6 6)\"),\n            ([3, 8, 3, 9], 17, \"(3 3 3 8)(8 9)\"),\n            # 17\n            ([4, 3, 1], 3, \"(1 1 1)(3)\"),\n            ([8, 6, 4, 7, 6, 5, 3, 6, 3], 4, \"(4)\"),\n            ([3, 9, 4], 20, \"(3 3 3 3 4 4)(3 4 4 9)(4 4 4 4 4)\"),\n            ([1, 8], 16, \"(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 8)(8 8)\"),\n            # 21\n            ([4, 7], 24, \"(4 4 4 4 4 4)\"),\n            ([2, 3, 7, 5, 3, 3, 8, 9, 6, 2], 1, \"Empty\"),\n            ([5, 9, 5, 7, 8], 13, \"(5 8)\"),\n            (\n                [7, 1, 9, 5, 1, 8, 5, 3],\n                13,\n                \"(1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 5)(1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 7)(1 1 1 1 1 3 5)(1 1 1 1 1 8)(1 1 1 1 3 3 3)(1 1 1 1 9)(1 1 1 3 7)(1 1 1 5 5)(1 1 3 3 5)(1 1 3 8)(1 3 3 3 3)(1 3 9)(1 5 7)(3 3 7)(3 5 5)(5 8)\",\n            ),\n            # 25\n            (\n                [6, 3, 4, 8, 9, 8, 9, 2, 4, 8],\n                19,\n                \"(2 2 2 2 2 2 2 2 3)(2 2 2 2 2 2 3 4)(2 2 2 2 2 3 3 3)(2 2 2 2 2 3 6)(2 2 2 2 2 9)(2 2 2 2 3 4 4)(2 2 2 2 3 8)(2 2 2 3 3 3 4)(2 2 2 3 4 6)(2 2 2 4 9)(2 2 3 3 3 3 3)(2 2 3 3 3 6)(2 2 3 3 9)(2 2 3 4 4 4)(2 2 3 4 8)(2 2 3 6 6)(2 2 6 9)(2 3 3 3 4 4)(2 3 3 3 8)(2 3 4 4 6)(2 3 6 8)(2 4 4 9)(2 8 9)(3 3 3 3 3 4)(3 3 3 4 6)(3 3 4 9)(3 4 4 4 4)(3 4 4 8)(3 4 6 6)(3 8 8)(4 6 9)\",\n            ),\n            (\n                [4, 7, 7, 1, 3, 2, 8, 8, 9, 3],\n                7,\n                \"(1 1 1 1 1 1 1)(1 1 1 1 1 2)(1 1 1 1 3)(1 1 1 2 2)(1 1 1 4)(1 1 2 3)(1 2 2 2)(1 2 4)(1 3 3)(2 2 3)(3 4)(7)\",\n            ),\n            ([8, 5], 4, \"Empty\"),\n            (\n                [7, 1, 3, 1, 3, 4, 7, 3, 9, 6],\n                23,\n                \"(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 6)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 6)(1 1 1 1 1 1 1 1 1 1 1 1 1 1 9)(1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 4)(1 1 1 1 1 1 1 1 1 1 1 1 1 3 7)(1 1 1 1 1 1 1 1 1 1 1 1 1 4 6)(1 1 1 1 1 1 1 1 1 1 1 1 3 4 4)(1 1 1 1 1 1 1 1 1 1 1 1 4 7)(1 1 1 1 1 1 1 1 1 1 1 3 3 3 3)(1 1 1 1 1 1 1 1 1 1 1 3 3 6)(1 1 1 1 1 1 1 1 1 1 1 3 9)(1 1 1 1 1 1 1 1 1 1 1 4 4 4)(1 1 1 1 1 1 1 1 1 1 1 6 6)(1 1 1 1 1 1 1 1 1 1 3 3 3 4)(1 1 1 1 1 1 1 1 1 1 3 3 7)(1 1 1 1 1 1 1 1 1 1 3 4 6)(1 1 1 1 1 1 1 1 1 1 4 9)(1 1 1 1 1 1 1 1 1 1 6 7)(1 1 1 1 1 1 1 1 1 3 3 4 4)(1 1 1 1 1 1 1 1 1 3 4 7)(1 1 1 1 1 1 1 1 1 4 4 6)(1 1 1 1 1 1 1 1 1 7 7)(1 1 1 1 1 1 1 1 3 3 3 3 3)(1 1 1 1 1 1 1 1 3 3 3 6)(1 1...\",\n            ),\n        ],\n    )\n    def test_combinationSum(input_array: List[int], sum: int, expected_result: str):\n>       assert expected_result == combinationSum(input_array, sum)\nE       AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\nE         - (1 1)(1 1)(1 1)(1 1)\nE         + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)\n\nsrc/test/java/challenges/a20200530_combinationSum/test_combinationSum.py:93: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "feature Challenges by date"
+  }, {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "story",
+    "value" : "story Combination sum"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "epic",
+    "value" : "epic Challenges"
+  }, {
+    "name" : "suite",
+    "value" : "test_combinationSum"
+  }, {
+    "name" : "host",
+    "value" : "fv-az985-217"
+  }, {
+    "name" : "thread",
+    "value" : "2269-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.a20200530_combinationSum.test_combinationSum"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'(2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)'"
+  }, {
+    "name" : "input_array",
+    "value" : "[7, 2, 6, 5]"
+  }, {
+    "name" : "sum",
+    "value" : "16"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 86,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 86
+      },
+      "items" : [ {
+        "uid" : "1bce8060a7b8f649",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/143//#testresult/1bce8060a7b8f649",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1700256347114,
+          "stop" : 1700256347115,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "28ea1360cd3a9b6",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/142//#testresult/28ea1360cd3a9b6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1700255324720,
+          "stop" : 1700255324720,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3de012bf897cacd1",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/141//#testresult/3de012bf897cacd1",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1700254470429,
+          "stop" : 1700254470429,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "235417af96586796",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/140//#testresult/235417af96586796",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1700246467671,
+          "stop" : 1700246467671,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ba82b18e2590b8df",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/139//#testresult/ba82b18e2590b8df",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1699886397397,
+          "stop" : 1699886397397,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "46b52573b2aee6eb",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/138//#testresult/46b52573b2aee6eb",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1699884948169,
+          "stop" : 1699884948170,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "4a22a15ac3e82b79",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/137//#testresult/4a22a15ac3e82b79",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1699884922409,
+          "stop" : 1699884922409,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "eb14aaa14a2b3d40",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/136//#testresult/eb14aaa14a2b3d40",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1699563854537,
+          "stop" : 1699563854537,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e887625325143fa5",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/135//#testresult/e887625325143fa5",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1699550000937,
+          "stop" : 1699550000937,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a8882840d8de7880",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/133//#testresult/a8882840d8de7880",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1699518512491,
+          "stop" : 1699518512491,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "11402684de4d44a6",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/134//#testresult/11402684de4d44a6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1699517732472,
+          "stop" : 1699517732472,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "79d42d3b249525f3",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/132//#testresult/79d42d3b249525f3",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1699465981878,
+          "stop" : 1699465981879,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "bd057feec4a8d494",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/131//#testresult/bd057feec4a8d494",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1699463230495,
+          "stop" : 1699463230496,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "1eae1733219494d6",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/130//#testresult/1eae1733219494d6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1699462400307,
+          "stop" : 1699462400307,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "77824630913f83a8",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/129//#testresult/77824630913f83a8",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1699458213161,
+          "stop" : 1699458213162,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ea5a37a79c28d891",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/128//#testresult/ea5a37a79c28d891",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1699454632078,
+          "stop" : 1699454632078,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ac451a597a853f9e",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/127//#testresult/ac451a597a853f9e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1699448606217,
+          "stop" : 1699448606217,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1212a61d32f4ff79",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/126//#testresult/1212a61d32f4ff79",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1699406742228,
+          "stop" : 1699406742228,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ec06319d95b66988",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/125//#testresult/ec06319d95b66988",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1699406580366,
+          "stop" : 1699406580366,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "522bbd4fe9203b1d",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoSi/124//#testresult/522bbd4fe9203b1d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '(2 2 2 2 2 2...2 7 7)(5 5 6)' == '(1 1)(1 1)(1 1)(1 1)'\n  - (1 1)(1 1)(1 1)(1 1)\n  + (2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)",
+        "time" : {
+          "start" : 1699405681620,
+          "stop" : 1699405681621,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "a82c865ba5e444ea.json",
+  "parameterValues" : [ "'(2 2 2 2 2 2 2 2)(2 2 2 2 2 6)(2 2 2 5 5)(2 2 5 7)(2 2 6 6)(2 7 7)(5 5 6)'", "[7, 2, 6, 5]", "16" ]
+}
