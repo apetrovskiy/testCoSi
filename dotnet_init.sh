@@ -13,8 +13,8 @@ rm -f src/main/Class1.cs
 rm -f testCoSi.sln
 
 dotnet new sln --name testCoSi
-dotnet new classlib --name main --framework net7.0 --output src/main
-dotnet new classlib --name test --framework net7.0 --output src/test
+dotnet new classlib --name main --framework net8.0 --output src/main
+dotnet new classlib --name test --framework net8.0 --output src/test
 dotnet sln add "${MAIN_PRJ_FILE}"
 dotnet sln add "${TEST_PRJ_FILE}"
 dotnet add "${TEST_PRJ_FILE}" reference "${MAIN_PRJ_FILE}"
