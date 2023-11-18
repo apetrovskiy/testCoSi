@@ -1,0 +1,71 @@
+{
+  "uid" : "7980fe4e30ddd087",
+  "name" : "test Largest numbern",
+  "fullName" : "src.test.java.training.core.LargestNumber.test_largest_number#test_largest_number",
+  "historyId" : "03e34f8f4fdf4b0bab5410bfb2fa4282",
+  "time" : {
+    "start" : 1700323772342,
+    "stop" : 1700323772342,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "epic",
+    "value" : "epic Training"
+  }, {
+    "name" : "story",
+    "value" : "story Largest number"
+  }, {
+    "name" : "feature",
+    "value" : "feature Core"
+  }, {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "suite",
+    "value" : "test_largest_number"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1538-777"
+  }, {
+    "name" : "thread",
+    "value" : "2236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.core.LargestNumber.test_largest_number"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "999999999"
+  }, {
+    "name" : "input",
+    "value" : "9"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "7980fe4e30ddd087.json",
+  "parameterValues" : [ "999999999", "9" ]
+}

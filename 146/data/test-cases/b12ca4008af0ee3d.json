@@ -1,0 +1,80 @@
+{
+  "uid" : "b12ca4008af0ee3d",
+  "name" : "test Marathon task score",
+  "fullName" : "src.test.java.challenges.a20201126_marathonTaskScore.test_marathon_task_score#test_solution_marathon_task_score",
+  "historyId" : "96608098e7856f9d0e0caa6c961e8fb6",
+  "time" : {
+    "start" : 1700323772245,
+    "stop" : 1700323772246,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "feature Challenges by date"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "epic",
+    "value" : "epic Challenges"
+  }, {
+    "name" : "story",
+    "value" : "story Marathon task score"
+  }, {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "suite",
+    "value" : "test_marathon_task_score"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1538-777"
+  }, {
+    "name" : "thread",
+    "value" : "2236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.a20201126_marathonTaskScore.test_marathon_task_score"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "0"
+  }, {
+    "name" : "marathon_length",
+    "value" : "100"
+  }, {
+    "name" : "max_score",
+    "value" : "400"
+  }, {
+    "name" : "submissions",
+    "value" : "95"
+  }, {
+    "name" : "successful_submission_time",
+    "value" : "-1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "b12ca4008af0ee3d.json",
+  "parameterValues" : [ "0", "100", "400", "95", "-1" ]
+}

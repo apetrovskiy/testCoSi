@@ -1,0 +1,74 @@
+{
+  "uid" : "13abb66e2f9b837",
+  "name" : "test Spider move",
+  "fullName" : "src.test.java.challenges.spiderMove.test_spider_move#test_spider_move",
+  "historyId" : "a5cd165ea8520d641bff6f5b2a52d538",
+  "time" : {
+    "start" : 1700323772325,
+    "stop" : 1700323772325,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "feature Challenges by date"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "story",
+    "value" : "story Spider move"
+  }, {
+    "name" : "epic",
+    "value" : "epic Challenges"
+  }, {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "suite",
+    "value" : "test_spider_move"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1538-777"
+  }, {
+    "name" : "thread",
+    "value" : "2236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.spiderMove.test_spider_move"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "6"
+  }, {
+    "name" : "x",
+    "value" : "2"
+  }, {
+    "name" : "y",
+    "value" : "-2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "13abb66e2f9b837.json",
+  "parameterValues" : [ "6", "2", "-2" ]
+}
